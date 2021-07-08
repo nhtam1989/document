@@ -34,7 +34,7 @@ WORKDIR /Users/user/Documents/Source_demo/demo
 COPY . .
 
 # thực thi lệnh
-RUN npm install
+RUN npm install # có thể npm install package ...
 RUN npm run build
 ```
 
@@ -45,5 +45,5 @@ docker build -t 'name image'  'path folder'
 
 - Step 2: Build Image => Container
 ```bash
-docker run --name 'Name Container' 'Name Image'
+docker run --name 'Name Container' -p 8888:3000 'Name Image' # 8888 là port của local , 3000 là port cua Docker 
 ```

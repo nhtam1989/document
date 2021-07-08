@@ -7664,17 +7664,6 @@ var index = (function (_ref) {
 
 /***/ }),
 
-/***/ "./node_modules/@theme-ui/prism/presets/dracula.json":
-/*!***********************************************************!*\
-  !*** ./node_modules/@theme-ui/prism/presets/dracula.json ***!
-  \***********************************************************/
-/*! exports provided: color, backgroundColor, .prolog,.constant,.builtin, .inserted,.function, .deleted, .changed, .punctuation,.symbol, .string,.char,.tag,.selector, .keyword,.variable, .comment, .attr-name, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"color\":\"#F8F8F2\",\"backgroundColor\":\"#282A36\",\".prolog,.constant,.builtin\":{\"color\":\"rgb(189, 147, 249)\"},\".inserted,.function\":{\"color\":\"rgb(80, 250, 123)\"},\".deleted\":{\"color\":\"rgb(255, 85, 85)\"},\".changed\":{\"color\":\"rgb(255, 184, 108)\"},\".punctuation,.symbol\":{\"color\":\"rgb(248, 248, 242)\"},\".string,.char,.tag,.selector\":{\"color\":\"rgb(255, 121, 198)\"},\".keyword,.variable\":{\"color\":\"rgb(189, 147, 249)\",\"fontStyle\":\"italic\"},\".comment\":{\"color\":\"rgb(98, 114, 164)\"},\".attr-name\":{\"color\":\"rgb(241, 250, 140)\"}}");
-
-/***/ }),
-
 /***/ "./node_modules/@theme-ui/prism/presets/night-owl.json":
 /*!*************************************************************!*\
   !*** ./node_modules/@theme-ui/prism/presets/night-owl.json ***!
@@ -40678,14 +40667,11 @@ __webpack_require__.r(__webpack_exports__);
 var _theme_ui_prism_presets_night_owl_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @theme-ui/prism/presets/night-owl.json */ "./node_modules/@theme-ui/prism/presets/night-owl.json", 1);
 /* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colors */ "./src/gatsby-plugin-theme-ui/colors.js");
 /* harmony import */ var _headings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./headings */ "./src/gatsby-plugin-theme-ui/headings.js");
-/* harmony import */ var _theme_ui_prism_presets_dracula_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @theme-ui/prism/presets/dracula.json */ "./node_modules/@theme-ui/prism/presets/dracula.json");
-var _theme_ui_prism_presets_dracula_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @theme-ui/prism/presets/dracula.json */ "./node_modules/@theme-ui/prism/presets/dracula.json", 1);
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
 
 
 
@@ -40717,12 +40703,15 @@ const systemFonts = "-apple-system, BlinkMacSystemFont, San Francisco, Helvetica
   breakpoints: [["phone_small", 320], ["phone", 376], ["phablet", 540], ["tablet", 735], ["desktop", 1070], ["desktop_medium", 1280], ["desktop_large", 1440]],
   transition,
   styles: _objectSpread(_objectSpread({
-    pre: _objectSpread({}, _theme_ui_prism_presets_dracula_json__WEBPACK_IMPORTED_MODULE_4__),
-    root: _objectSpread({
+    root: _objectSpread(_objectSpread({
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body"
-    }, _headings__WEBPACK_IMPORTED_MODULE_3__["default"])
+    }, _headings__WEBPACK_IMPORTED_MODULE_3__["default"]), {}, {
+      main: {
+        maxWidth: "unset"
+      }
+    })
   }, _headings__WEBPACK_IMPORTED_MODULE_3__["default"]), {}, {
     p: {
       my: 1
