@@ -1,7 +1,0 @@
-.link {
-    color: lightblue;
-    /** if --primary-color isn't defined in your CSS,
-      * browsers that support custom properties
-      * won't fall back to lightblue
-      */
-  }

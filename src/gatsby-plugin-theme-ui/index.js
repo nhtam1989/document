@@ -1,11 +1,6 @@
 import nightOwl from "@theme-ui/prism/presets/night-owl.json";
 import colors from "./colors";
 import headings from "./headings";
-import styles from './style.css'
-
-console.log(styles.link) // '_23_aKvs-b8bW2Vg3fwHozO'
-
-
 
 const transition = "0.2s ease-out";
 const systemFonts =
@@ -48,7 +43,10 @@ export default {
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body",
-      ...headings
+      ...headings,
+      main:{
+        maxWidth: "unset",
+      },
     },
     ...headings,
     p: {

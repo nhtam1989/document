@@ -3,7 +3,47 @@ title: 'Docker'
 description: 'This is the meta description for this page'
 ---
 
-Setup Dockerfile
+### Docker Basic
+CLI Search Images Docker
 ```bash
-docker build -t ‘name container’  ‘path folder’
+docker search 'Image Name' # search image trên hub
+docker pull 'Image Name' # pull image về dùng
+docker images # list image đang có
+docker container ls --all #list all container 
+```
+
+CLI Remove Docker
+```bash
+docker container rm 'Container ID' # Remove container / App
+docker image rm -f 'Image ID' # Remove Image ( Remove container trước) '-f' --force 
+
+```
+
+#### Docker Advanced 
+- Step 1: create Dockerfile
+```bash
+# -------- Dockerfile Sample -------------
+
+# Dựa trên image đang có
+FROM node:13-alpine as build-stage
+
+#Khai báo folder source
+WORKDIR /Users/user/Documents/Source_demo/demo
+
+#Copy toàn bộ source vào image
+COPY . .
+
+# thực thi lệnh
+RUN npm install
+RUN npm run build
+```
+
+- Step 2: Build Dockerfile => Image
+```bash
+docker build -t 'name image'  'path folder' 
+```
+
+- Step 2: Build Image => Container
+```bash
+docker run --name 'Name Container' 'Name Image'
 ```
