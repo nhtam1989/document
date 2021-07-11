@@ -10,40 +10,116 @@ docker search 'Image Name' # search image trên hub
 docker pull 'Image Name' # pull image về dùng
 docker images # list image đang có
 docker container ls --all #list all container 
-```
-
-CLI Remove Docker
-```bash
+docker exec -it react-app /bin/sh # truy cập vào folder source Docker
+docker container start react-app # start container
+docker container stop react-app # stop container
 docker container rm 'Container ID' # Remove container / App
 docker image rm -f 'Image ID' # Remove Image ( Remove container trước) '-f' --force 
 
+
+-- CLI run docker-compose --
+docker-compose up -d --build
+docker-compose up -f 'path Dockerfile' -d --build
+```
+
+```bash
+NOTE
+---------------------------------------------------------------
+CHOKIDAR_USEPOLLING=true #sync source local with docker 
+-d : run docker on background
+-e : ENV file
+-v : map folder local => docker
+-p : set port 
+-f : read file
+---------------------------------------------------------------
+
+- Demo -
+docker build -t nhtam/react-app-image .
+docker run -d -p 3001:3000 --name react-app nhtam/react-app-image
+
+docker image rm -f nhtam/react-app-image
+docker container rm -f react-app
 ```
 
 #### Docker Advanced 
 - Step 1: create Dockerfile
 ```bash
 # -------- Dockerfile Sample -------------
+# pull the base image
+FROM node:alpine
 
-# Dựa trên image đang có
-FROM node:13-alpine as build-stage
+# set the working direction on Docker
+WORKDIR /app
 
-#Khai báo folder source
-WORKDIR /Users/user/Documents/Source_demo/demo
+# install app dependencies
+COPY package.json ./
 
-#Copy toàn bộ source vào image
-COPY . .
+RUN npm install
 
-# thực thi lệnh
-RUN npm install # có thể npm install package ...
+# add app
+COPY . ./
+
+#Port
+EXPOSE 3000
+
+# start app
+CMD ["npm", "start"]
+
+# -------- Dockerfile Sample pull multi Images-------------
+
++ React + Nginx
+# pull the base image
+FROM node as build
+
+# set the working direction
+WORKDIR /app
+
+# install app dependencies
+COPY package.json ./
+
+RUN npm install
+
+# add app
+COPY . ./
+
+#Port
+EXPOSE 3000
+
+# start app
 RUN npm run build
+
+# build docker Nginx
+FROM nginx
+COPY --from=build /app/build /usr/share/nginx/html
+
 ```
 
 - Step 2: Build Dockerfile => Image
 ```bash
 docker build -t 'name image'  'path folder' 
+docker build -f ./Dockerfile 'name image' 'path folder' #select Dockerfile
 ```
 
-- Step 2: Build Image => Container
+- Step 3: Build Image => Container
 ```bash
-docker run --name 'Name Container' -p 8888:3000 'Name Image' # 8888 là port của local , 3000 là port cua Docker 
+docker run -d -p 3001:3000 --name react-app nhtam/react-app # 3001 là port của local , 3000 là port cua Docker 
+docker run -e CHOKIDAR_USEPOLLING=true -v /Users/user/Documents/Source_demo/demo/reactdocker/src/:/app/src -d -p 3000:3000 --name react-app nhtam/react-app-image  #map folder local => docker
+docker run --env-file ./.env -v /Users/user/Documents/Source_demo/demo/reactdocker/src/:/app/src -d -p 3000:3000 --name react-app nhtam/react-app-image
+```
+
+- Step 4: Create Docker Compose
+```bash
+# File Name: docker-compose.yml
+version: "3"
+services:
+    react-app:
+        build: .
+        ports: 
+            - "3000:3000"
+        volumes:
+            - ./src:/app/src
+        # enviroment: 
+        #     - demo=true
+        env_file:
+            - ./.env
 ```
