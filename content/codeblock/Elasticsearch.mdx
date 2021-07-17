@@ -1,0 +1,28 @@
+---
+title: 'Elasticsearch'
+description: 'This is the meta description for this page'
+---
+
+### Elasticsearch
+
+```bash
+# Create Index + Document
+http://localhost:9200/ # Port default : 9200
+
+# Dùng curl connect Elasticsearch
+curl -X PUT     "localhost:9200/product?pretty"     # Create Index 
+curl -X GET     "localhost:9200/_cat/indices?v"     # List Index  // ?v show title col
+curl -X DELETE  "localhost:9200/product?pretty"     # Delete Index // ?pretty show dạng json
+
+curl -X PUT "localhost:9200/post/_doc/ 1 ?pretty" -H 'Content-Type: application/json' -d '{"name":"demo","age":33,"job":"pro"}' # Create Document  // 1 là id của Doc
+
+```
+
+
+```bash
+# Query Document
+
+```
+
+
+  

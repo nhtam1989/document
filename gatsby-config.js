@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Document by nhtam@gmail.com`,
     sidebarConfig: {
-      forcedNavOrder: ["/introduction",
-        "/codeblock"
+      forcedNavOrder: [
+        "/introduction",
+        "/codeblock",
       ],
       ignoreIndex: true
     }
