@@ -10,11 +10,34 @@ description: 'This is the meta description for this page'
 http://localhost:9200/ # Port default : 9200
 
 # Dùng curl connect Elasticsearch
-curl -X PUT     "localhost:9200/product?pretty"     # Create Index 
+# Create Index 
+Step 1: curl -X PUT  "localhost:9200/product?pretty"  
+
+# Mapping field cho Index trước insert data
+Step 2: curl -X PUT "localhost:9200/product/_mapping?pretty" -H 'Content-Type: application/json' -d 
+Obj 1 : nhằm phục vụ full-text search
+'{"properties":{"demo":{"type":"long"}}}' 
+Obj 2 : full-text search đồng thời mapping như 1 keyword field để phục vụ cho sorting & aggregations
+'{
+  "properties": {
+    "Name": {
+      "type": "long",
+      "fields": {
+        "keyword": {
+          "ignore_above": 256,
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}'
+
+# Create Document (Insert Data)
+Step 3: curl -X PUT "localhost:9200/post/_doc/ 1 ?pretty" -H 'Content-Type: application/json' -d '{"name":"demo","age":33,"job":"pro"}' # Create Document  // 1 là id của Doc
+
+==================================================
 curl -X GET     "localhost:9200/_cat/indices?v"     # List Index  // ?v show title col
 curl -X DELETE  "localhost:9200/product?pretty"     # Delete Index // ?pretty show dạng json
-
-curl -X PUT "localhost:9200/post/_doc/ 1 ?pretty" -H 'Content-Type: application/json' -d '{"name":"demo","age":33,"job":"pro"}' # Create Document  // 1 là id của Doc
 
 ```
 

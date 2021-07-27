@@ -16,10 +16,9 @@ docker container stop react-app # stop container
 docker container rm 'Container ID' # Remove container / App
 docker image rm -f 'Image ID' # Remove Image ( Remove container trước) '-f' --force 
 
+docker tag nhtam/image-dev:latest nhtam/image-dev:1.1 // add tag cho docker image
+docker push nhtam/image-dev:1.1 // push docker image 
 
--- CLI run docker-compose --
-docker-compose up -d --build
-docker-compose up -f 'path Dockerfile' -d --build
 ```
 
 ```bash
@@ -107,9 +106,15 @@ docker run -e CHOKIDAR_USEPOLLING=true -v /Users/user/Documents/Source_demo/demo
 docker run --env-file ./.env -v /Users/user/Documents/Source_demo/demo/reactdocker/src/:/app/src -d -p 3000:3000 --name react-app nhtam/react-app-image
 ```
 
-- Step 4: Create Docker Compose
+#### Docker Compose
+- CLI docker-compose
 ```bash
-# File Name: docker-compose.yml
+docker-compose up -d --build
+docker-compose up -f 'path Dockerfile' -d --build
+```
+- File docker-compose.yml 
+```bash
+# File Name: docker-compose.yml  -- pull image
 version: "3"
 services:
     react-app:
@@ -118,6 +123,23 @@ services:
             - "3000:3000"
         volumes:
             - ./src:/app/src
+        # enviroment: 
+        #     - demo=true
+        env_file:
+            - ./.env
+```
+
+- File docker-compose.yml 
+```bash
+# File Name: docker-compose.yml -- Tự tạo source
+version: "3"
+services:
+    react-app:
+        build: . //folder đang đứng
+        ports: 
+            - "3000:3000" //map port local vào port docker
+        volumes:
+            - ./src:/app/src // mouse folder local vào folder docker 
         # enviroment: 
         #     - demo=true
         env_file:
