@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/user/Documents/Source_demo/document/node_modules/@reach/router/index.js"), require("fs"), require("/Users/user/Documents/Source_demo/document/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/macos/Documents/Sources/Local/document/node_modules/@reach/router/index.js"), require("fs"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/concat.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/flatten.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/get.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/isObject.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/merge.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/user/Documents/Source_demo/document/node_modules/@reach/router/index.js", "fs", "/Users/user/Documents/Source_demo/document/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/macos/Documents/Sources/Local/document/node_modules/@reach/router/index.js", "fs", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/concat.js", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/flatten.js", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/get.js", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/isObject.js", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/merge.js", "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/uniqBy.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/user/Documents/Source_demo/document/node_modules/@reach/router/index.js"), require("fs"), require("/Users/user/Documents/Source_demo/document/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/macos/Documents/Sources/Local/document/node_modules/@reach/router/index.js"), require("fs"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/concat.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/flatten.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/get.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/isObject.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/merge.js"), require("/Users/macos/Documents/Sources/Local/document/node_modules/lodash/uniqBy.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/Users/user/Documents/Source_demo/document/node_modules/@reach/router/index.js"], root["fs"], root["/Users/user/Documents/Source_demo/document/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
+		root["lib"] = factory(root["/Users/macos/Documents/Sources/Local/document/node_modules/@reach/router/index.js"], root["fs"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/concat.js"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/flatten.js"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/get.js"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/isObject.js"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/merge.js"], root["/Users/macos/Documents/Sources/Local/document/node_modules/lodash/uniqBy.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_concat__, __WEBPACK_EXTERNAL_MODULE_lodash_flatten__, __WEBPACK_EXTERNAL_MODULE_lodash_get__, __WEBPACK_EXTERNAL_MODULE_lodash_isObject__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -91,10 +91,31 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./.cache/develop-static-entry.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./.cache/ssr-develop-static-entry.js");
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./.cache/_this_is_virtual_fs_path_/$virtual/ssr-sync-requires":
+/*!*********************************************************************!*\
+  !*** ./.cache/_this_is_virtual_fs_path_/$virtual/ssr-sync-requires ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const { hot } = __webpack_require__(/*! react-hot-loader/root */ "./node_modules/react-hot-loader/root.js")
+  // prefer default export if available
+  const preferDefault = m => (m && m.default) || m
+  
+
+exports.ssrComponents = {
+  "component---cache-dev-404-page-js": hot(preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"))),
+  "component---node-modules-gatsby-theme-document-src-templates-docs-js": hot(preferDefault(__webpack_require__(/*! ./node_modules/gatsby-theme-document/src/templates/docs.js */ "./node_modules/gatsby-theme-document/src/templates/docs.js")))
+  }
+
+
+
+/***/ }),
 
 /***/ "./.cache/api-runner-ssr.js":
 /*!**********************************!*\
@@ -124,7 +145,7 @@ var plugins = [{
     "remarkPlugins": [],
     "rehypePlugins": [],
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "/Users/user/Documents/Source_demo/document"
+    "root": "/Users/macos/Documents/Sources/Local/document"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
@@ -159,7 +180,8 @@ var plugins = [{
   options: {
     "plugins": []
   }
-}]; // During bootstrap, we write requires at top of this file which looks like:
+}];
+// During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
 //     plugin: require("/path/to/plugin1/gatsby-ssr.js"),
@@ -171,35 +193,32 @@ var plugins = [{
 //   },
 // ]
 
-const apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js"); // Run the specified API in any plugins that have implemented it
+const apis = __webpack_require__(/*! ./api-ssr-docs */ "./.cache/api-ssr-docs.js");
 
-
+// Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
     console.log(`This API doesn't exist`, api);
-  } // Run each plugin in series.
+  }
+
+  // Run each plugin in series.
   // eslint-disable-next-line no-undef
-
-
   let results = plugins.map(plugin => {
     if (!plugin.plugin[api]) {
       return undefined;
     }
-
     const result = plugin.plugin[api](args, plugin.options);
-
     if (result && argTransform) {
       args = argTransform({
         args,
         result
       });
     }
-
     return result;
-  }); // Filter out undefined results.
+  });
 
+  // Filter out undefined results.
   results = results.filter(result => typeof result !== `undefined`);
-
   if (results.length > 0) {
     return results;
   } else {
@@ -260,6 +279,7 @@ module.exports = (api, args, defaultReturn, argTransform) => {
  * }
  */
 exports.replaceRenderer = true;
+
 /**
  * Called after every page Gatsby server renders while building HTML so you can
  * set head and body components to be rendered in your `html.js`.
@@ -322,8 +342,8 @@ exports.replaceRenderer = true;
  *   setBodyAttributes(BodyAttributes)
  * }
  */
-
 exports.onRenderBody = true;
+
 /**
  * Called after every page Gatsby server renders while building HTML so you can
  * replace head components to be rendered in your `html.js`. This is useful if
@@ -361,8 +381,8 @@ exports.onRenderBody = true;
  *   replaceHeadComponents(headComponents)
  * }
  */
-
 exports.onPreRenderHTML = true;
+
 /**
  * Allow a plugin to wrap the page element.
  *
@@ -388,8 +408,8 @@ exports.onPreRenderHTML = true;
  *   return <Layout {...props}>{element}</Layout>
  * }
  */
-
 exports.wrapPageElement = true;
+
 /**
  * Allow a plugin to wrap the root element.
  *
@@ -419,7 +439,6 @@ exports.wrapPageElement = true;
  *   )
  * }
  */
-
 exports.wrapRootElement = true;
 
 /***/ }),
@@ -488,156 +507,130 @@ HTML.propTypes = {
 
 /***/ }),
 
-/***/ "./.cache/develop-static-entry.js":
-/*!****************************************!*\
-  !*** ./.cache/develop-static-entry.js ***!
-  \****************************************/
+/***/ "./.cache/dev-404-page.js":
+/*!********************************!*\
+  !*** ./.cache/dev-404-page.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/merge */ "lodash/merge");
-/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
-/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _api_runner_ssr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./api-runner-ssr */ "./.cache/api-runner-ssr.js");
-/* harmony import */ var _api_runner_ssr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_api_runner_ssr__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
 
 
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
-
- // import testRequireError from "./test-require-error"
-// For some extremely mysterious reason, webpack adds the above module *after*
-// this module so that when this code runs, testRequireError is undefined.
-// So in the meantime, we'll just inline it.
-
-
-
-const testRequireError = (moduleName, err) => {
-  const regex = new RegExp(`Error: Cannot find module\\s.${moduleName}`);
-  const firstLine = err.toString().split(`\n`)[0];
-  return regex.test(firstLine);
-};
-
-let Html;
-
-try {
-  Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-} catch (err) {
-  if (testRequireError(`../src/html`, err)) {
-    Html = __webpack_require__(/*! ./default-html */ "./.cache/default-html.js");
-  } else {
-    console.log(`There was an error requiring "src/html.js"\n\n`, err, `\n\n`);
-    process.exit();
+class Dev404Page extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    const {
+      data,
+      location
+    } = this.props;
+    const pagePaths = data.allSitePage.nodes.map(node => node.path);
+    const urlState = query_string__WEBPACK_IMPORTED_MODULE_3___default.a.parse(location.search);
+    const initialPagePathSearchTerms = urlState.filter ? urlState.filter : ``;
+    this.state = {
+      showCustom404: false,
+      initPagePaths: pagePaths,
+      pagePathSearchTerms: initialPagePathSearchTerms,
+      pagePaths: this.getFilteredPagePaths(pagePaths, initialPagePathSearchTerms)
+    };
+    this.showCustom404 = this.showCustom404.bind(this);
+    this.handlePagePathSearch = this.handlePagePathSearch.bind(this);
+    this.handleSearchTermChange = this.handleSearchTermChange.bind(this);
+  }
+  showCustom404() {
+    this.setState({
+      showCustom404: true
+    });
+  }
+  handleSearchTermChange(event) {
+    const searchValue = event.target.value;
+    this.setSearchUrl(searchValue);
+    this.setState({
+      pagePathSearchTerms: searchValue
+    });
+  }
+  handlePagePathSearch(event) {
+    event.preventDefault();
+    const allPagePaths = [...this.state.initPagePaths];
+    this.setState({
+      pagePaths: this.getFilteredPagePaths(allPagePaths, this.state.pagePathSearchTerms)
+    });
+  }
+  getFilteredPagePaths(allPagePaths, pagePathSearchTerms) {
+    const searchTerm = new RegExp(`${pagePathSearchTerms}`);
+    return allPagePaths.filter(pagePath => searchTerm.test(pagePath));
+  }
+  setSearchUrl(searchValue) {
+    const {
+      location: {
+        pathname,
+        search
+      }
+    } = this.props;
+    const searchMap = query_string__WEBPACK_IMPORTED_MODULE_3___default.a.parse(search);
+    searchMap.filter = searchValue;
+    const newSearch = query_string__WEBPACK_IMPORTED_MODULE_3___default.a.stringify(searchMap);
+    if (search !== `?${newSearch}`) {
+      Object(gatsby__WEBPACK_IMPORTED_MODULE_2__["navigate"])(`${pathname}?${newSearch}`, {
+        replace: true
+      });
+    }
+  }
+  render() {
+    const {
+      pathname
+    } = this.props.location;
+    let newFilePath;
+    if (pathname === `/`) {
+      newFilePath = `src/pages/index.js`;
+    } else if (pathname.slice(-1) === `/`) {
+      newFilePath = `src/pages${pathname.slice(0, -1)}.js`;
+    } else {
+      newFilePath = `src/pages${pathname}.js`;
+    }
+    return this.state.showCustom404 ? this.props.custom404 : Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("div", null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("h1", null, "Gatsby.js development 404 page"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", null, `There's not a page yet at `, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("code", null, pathname)), this.props.custom404 ? Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("button", {
+      onClick: this.showCustom404
+    }, "Preview custom 404 page")) : Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", null, `A custom 404 page wasn't detected - if you would like to add one, create a component in your site directory at `, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("code", null, "src/pages/404.js"), "."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", null, "Create a React.js component in your site directory at", ` `, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("code", null, newFilePath), ` `, "and this page will automatically refresh to show the new page component you created."), this.state.initPagePaths.length > 0 && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("div", null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", null, "If you were trying to reach another page, perhaps you can find it below."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("h2", null, "Pages (", this.state.pagePaths.length != this.state.initPagePaths.length ? `${this.state.pagePaths.length}/${this.state.initPagePaths.length}` : this.state.initPagePaths.length, ")"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("form", {
+      onSubmit: this.handlePagePathSearch
+    }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("label", null, "Search:", Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("input", {
+      type: "text",
+      id: "search",
+      placeholder: "Search pages...",
+      value: this.state.pagePathSearchTerms,
+      onChange: this.handleSearchTermChange
+    })), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("input", {
+      type: "submit",
+      value: "Submit"
+    })), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("ul", null, this.state.pagePaths.map((pagePath, index) => index < 100 && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("li", {
+      key: pagePath
+    }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: pagePath
+    }, pagePath))), this.state.pagePaths.length > 100 && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("p", {
+      style: {
+        fontWeight: `bold`
+      }
+    }, "... and ", this.state.pagePaths.length - 100, " more."))));
   }
 }
-
-Html = Html && Html.__esModule ? Html.default : Html;
-/* harmony default export */ __webpack_exports__["default"] = ((pagePath, callback) => {
-  let headComponents = [Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])("meta", {
-    key: "environment",
-    name: "note",
-    content: "environment=development"
-  })];
-  let htmlAttributes = {};
-  let bodyAttributes = {};
-  let preBodyComponents = [];
-  let postBodyComponents = [];
-  let bodyProps = {};
-  let htmlStr;
-
-  const setHeadComponents = components => {
-    headComponents = headComponents.concat(components);
-  };
-
-  const setHtmlAttributes = attributes => {
-    htmlAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_1___default()(htmlAttributes, attributes);
-  };
-
-  const setBodyAttributes = attributes => {
-    bodyAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_1___default()(bodyAttributes, attributes);
-  };
-
-  const setPreBodyComponents = components => {
-    preBodyComponents = preBodyComponents.concat(components);
-  };
-
-  const setPostBodyComponents = components => {
-    postBodyComponents = postBodyComponents.concat(components);
-  };
-
-  const setBodyProps = props => {
-    bodyProps = lodash_merge__WEBPACK_IMPORTED_MODULE_1___default()({}, bodyProps, props);
-  };
-
-  const getHeadComponents = () => headComponents;
-
-  const replaceHeadComponents = components => {
-    headComponents = components;
-  };
-
-  const getPreBodyComponents = () => preBodyComponents;
-
-  const replacePreBodyComponents = components => {
-    preBodyComponents = components;
-  };
-
-  const getPostBodyComponents = () => postBodyComponents;
-
-  const replacePostBodyComponents = components => {
-    postBodyComponents = components;
-  };
-
-  _api_runner_ssr__WEBPACK_IMPORTED_MODULE_4___default()(`onRenderBody`, {
-    setHeadComponents,
-    setHtmlAttributes,
-    setBodyAttributes,
-    setPreBodyComponents,
-    setPostBodyComponents,
-    setBodyProps,
-    pathname: pagePath
-  });
-  _api_runner_ssr__WEBPACK_IMPORTED_MODULE_4___default()(`onPreRenderHTML`, {
-    getHeadComponents,
-    replaceHeadComponents,
-    getPreBodyComponents,
-    replacePreBodyComponents,
-    getPostBodyComponents,
-    replacePostBodyComponents,
-    pathname: pagePath
-  });
-  const htmlElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Html, _objectSpread(_objectSpread({}, bodyProps), {}, {
-    body: ``,
-    headComponents: headComponents.concat([Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])("script", {
-      key: `io`,
-      src: "/socket.io/socket.io.js"
-    })]),
-    htmlAttributes,
-    bodyAttributes,
-    preBodyComponents,
-    postBodyComponents: postBodyComponents.concat([Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])("script", {
-      key: `polyfill`,
-      src: "/polyfill.js",
-      noModule: true
-    }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])("script", {
-      key: `commons`,
-      src: "/commons.js"
-    })])
-  }));
-  htmlStr = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_3__["renderToStaticMarkup"])(htmlElement);
-  htmlStr = `<!DOCTYPE html>${htmlStr}`;
-  callback(null, htmlStr);
-});
+Dev404Page.propTypes = {
+  data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
+  custom404: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.element,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
+};
+/* harmony default export */ __webpack_exports__["default"] = (Dev404Page);
+const pagesQuery = "713901024";
 
 /***/ }),
 
@@ -680,36 +673,35 @@ __webpack_require__.r(__webpack_exports__);
 
 const pathCache = new Map();
 let matchPaths = [];
-
 const trimPathname = rawPathname => {
-  const pathname = decodeURIComponent(rawPathname); // Remove the pathPrefix from the pathname.
-
-  const trimmedPathname = Object(_strip_prefix__WEBPACK_IMPORTED_MODULE_1__["default"])(pathname, "") // Remove any hashfragment
-  .split(`#`)[0] // Remove search query
+  const pathname = decodeURIComponent(rawPathname);
+  // Remove the pathPrefix from the pathname.
+  const trimmedPathname = Object(_strip_prefix__WEBPACK_IMPORTED_MODULE_1__["default"])(pathname, "")
+  // Remove any hashfragment
+  .split(`#`)[0]
+  // Remove search query
   .split(`?`)[0];
   return trimmedPathname;
 };
-
 function absolutify(path) {
   // If it's already absolute, return as-is
   if (path.startsWith(`/`) || path.startsWith(`https://`) || path.startsWith(`http://`)) {
     return path;
-  } // Calculate path relative to current location, adding a trailing slash to
+  }
+  // Calculate path relative to current location, adding a trailing slash to
   // match behavior of @reach/router
-
-
   return new URL(path, window.location.href + (window.location.href.endsWith(`/`) ? `` : `/`)).pathname;
 }
+
 /**
  * Set list of matchPaths
  *
  * @param {Array<{path: string, matchPath: string}>} value collection of matchPaths
  */
-
-
 const setMatchPaths = value => {
   matchPaths = value;
 };
+
 /**
  * Return a matchpath url
  * if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
@@ -718,7 +710,6 @@ const setMatchPaths = value => {
  * @param {string} rawPathname A raw pathname
  * @return {string|null}
  */
-
 const findMatchPath = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
   const pickPaths = matchPaths.map(({
@@ -731,13 +722,12 @@ const findMatchPath = rawPathname => {
     };
   });
   const path = Object(_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__["pick"])(pickPaths, trimmedPathname);
-
   if (path) {
     return Object(_normalize_page_path__WEBPACK_IMPORTED_MODULE_2__["default"])(path.route.originalPath);
   }
-
   return null;
 };
+
 /**
  * Return a matchpath params from reach/router rules
  * if `match-paths.json` contains `{ ":bar/*foo" }`, and the path is /baz/zaz/zoo
@@ -747,7 +737,6 @@ const findMatchPath = rawPathname => {
  * @param {string} rawPathname A raw pathname
  * @return {object}
  */
-
 const grabMatchParams = rawPathname => {
   const trimmedPathname = cleanPath(rawPathname);
   const pickPaths = matchPaths.map(({
@@ -760,13 +749,13 @@ const grabMatchParams = rawPathname => {
     };
   });
   const path = Object(_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__["pick"])(pickPaths, trimmedPathname);
-
   if (path) {
     return path.params;
   }
-
   return {};
-}; // Given a raw URL path, returns the cleaned version of it (trim off
+};
+
+// Given a raw URL path, returns the cleaned version of it (trim off
 // `#` and query params), or if it matches an entry in
 // `match-paths.json`, its matched path is returned
 //
@@ -774,23 +763,19 @@ const grabMatchParams = rawPathname => {
 //
 // Or if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
 // `/foo?bar=far` => `/page1`
-
 const findPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
-
   if (pathCache.has(trimmedPathname)) {
     return pathCache.get(trimmedPathname);
   }
-
   let foundPath = findMatchPath(trimmedPathname);
-
   if (!foundPath) {
     foundPath = cleanPath(rawPathname);
   }
-
   pathCache.set(trimmedPathname, foundPath);
   return foundPath;
 };
+
 /**
  * Clean a url and converts /index.html => /
  * E.g. `/foo?bar=far` => `/foo`
@@ -798,15 +783,12 @@ const findPath = rawPathname => {
  * @param {string} rawPathname A raw pathname
  * @return {string}
  */
-
 const cleanPath = rawPathname => {
   const trimmedPathname = trimPathname(absolutify(rawPathname));
   let foundPath = trimmedPathname;
-
   if (foundPath === `/index.html`) {
     foundPath = `/`;
   }
-
   foundPath = Object(_normalize_page_path__WEBPACK_IMPORTED_MODULE_2__["default"])(foundPath);
   return foundPath;
 };
@@ -866,7 +848,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const prefetchPathname = _loader__WEBPACK_IMPORTED_MODULE_5__["default"].enqueue;
 const StaticQueryContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext({});
-
 function StaticQueryDataRenderer({
   staticQueryData,
   data,
@@ -876,7 +857,6 @@ function StaticQueryDataRenderer({
   const finalData = data ? data.data : staticQueryData[query] && staticQueryData[query].data;
   return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, finalData && render(finalData), !finalData && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])("div", null, "Loading (StaticQuery)"));
 }
-
 const StaticQuery = props => {
   const {
     data,
@@ -891,18 +871,16 @@ const StaticQuery = props => {
     staticQueryData: staticQueryData
   }));
 };
-
 const useStaticQuery = query => {
   var _context$query;
-
   if (typeof react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext !== `function` && "development" === `development`) {
     throw new Error(`You're likely using a version of React that doesn't support Hooks\n` + `Please update React and ReactDOM to 16.8.0 or later to use the useStaticQuery hook.`);
   }
+  const context = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(StaticQueryContext);
 
-  const context = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(StaticQueryContext); // query is a stringified number like `3303882` when wrapped with graphql, If a user forgets
+  // query is a stringified number like `3303882` when wrapped with graphql, If a user forgets
   // to wrap the query in a grqphql, then casting it to a Number results in `NaN` allowing us to
   // catch the misuse of the API and give proper direction
-
   if (isNaN(Number(query))) {
     throw new Error(`useStaticQuery was called with a string but expects to be called using \`graphql\`. Try this:
 
@@ -911,25 +889,21 @@ import { useStaticQuery, graphql } from 'gatsby';
 useStaticQuery(graphql\`${query}\`);
 `);
   }
-
   if ((_context$query = context[query]) !== null && _context$query !== void 0 && _context$query.data) {
     return context[query].data;
   } else {
     throw new Error(`The result of this StaticQuery could not be fetched.\n\n` + `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` + `please open an issue in https://github.com/gatsbyjs/gatsby/issues`);
   }
 };
-
 StaticQuery.propTypes = {
   data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
   query: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   render: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
   children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
-
 function graphql() {
   throw new Error(`It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` + `are supposed to only be evaluated at compile time, and then compiled away. ` + `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` + `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`);
 }
-
 
 
 /***/ }),
@@ -954,10 +928,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _emitter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./emitter */ "./.cache/emitter.js");
 /* harmony import */ var _find_path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./find-path */ "./.cache/find-path.js");
 
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 
 
@@ -965,61 +937,49 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 /**
  * Available resource loading statuses
  */
-
 const PageResourceStatus = {
   /**
    * At least one of critical resources failed to load
    */
   Error: `error`,
-
   /**
    * Resources loaded successfully
    */
   Success: `success`
 };
-
 const preferDefault = m => m && m.default || m;
-
 const stripSurroundingSlashes = s => {
   s = s[0] === `/` ? s.slice(1) : s;
   s = s.endsWith(`/`) ? s.slice(0, -1) : s;
   return s;
 };
-
 const createPageDataUrl = path => {
   const fixedPath = path === `/` ? `index` : stripSurroundingSlashes(path);
   return `${""}/page-data/${fixedPath}/page-data.json`;
 };
-
 function doFetch(url, method = `GET`) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.open(method, url, true);
-
     req.onreadystatechange = () => {
       if (req.readyState == 4) {
         resolve(req);
       }
     };
-
     req.send(null);
   });
 }
-
 const doesConnectionSupportPrefetch = () => {
   if (`connection` in navigator && typeof navigator.connection !== `undefined`) {
     if ((navigator.connection.effectiveType || ``).includes(`2g`)) {
       return false;
     }
-
     if (navigator.connection.saveData) {
       return false;
     }
   }
-
   return true;
 };
-
 const toPageResources = (pageData, component = null) => {
   const page = {
     componentChunkName: pageData.componentChunkName,
@@ -1034,7 +994,6 @@ const toPageResources = (pageData, component = null) => {
     page
   };
 };
-
 class BaseLoader {
   constructor(loadComponent, matchPaths) {
     this.inFlightNetworkRequests = new Map();
@@ -1062,16 +1021,14 @@ class BaseLoader {
     this.loadComponent = loadComponent;
     Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["setMatchPaths"])(matchPaths);
   }
-
   memoizedGet(url) {
     let inFlightPromise = this.inFlightNetworkRequests.get(url);
-
     if (!inFlightPromise) {
       inFlightPromise = doFetch(url, `GET`);
       this.inFlightNetworkRequests.set(url, inFlightPromise);
-    } // Prefer duplication with then + catch over .finally to prevent problems in ie11 + firefox
+    }
 
-
+    // Prefer duplication with then + catch over .finally to prevent problems in ie11 + firefox
     return inFlightPromise.then(response => {
       this.inFlightNetworkRequests.delete(url);
       return response;
@@ -1080,12 +1037,10 @@ class BaseLoader {
       throw err;
     });
   }
-
   setApiRunner(apiRunner) {
     this.apiRunner = apiRunner;
     this.prefetchDisabled = apiRunner(`disableCorePrefetching`).some(a => a);
   }
-
   fetchPageDataJson(loadObj) {
     const {
       pagePath,
@@ -1096,73 +1051,69 @@ class BaseLoader {
       const {
         status,
         responseText
-      } = req; // Handle 200
+      } = req;
 
+      // Handle 200
       if (status === 200) {
         try {
           const jsonPayload = JSON.parse(responseText);
-
           if (jsonPayload.path === undefined) {
             throw new Error(`not a valid pageData response`);
           }
-
           return Object.assign(loadObj, {
             status: PageResourceStatus.Success,
             payload: jsonPayload
           });
-        } catch (err) {// continue regardless of error
+        } catch (err) {
+          // continue regardless of error
         }
-      } // Handle 404
+      }
 
-
+      // Handle 404
       if (status === 404 || status === 200) {
         // If the request was for a 404 page and it doesn't exist, we're done
         if (pagePath === `/404.html`) {
           return Object.assign(loadObj, {
             status: PageResourceStatus.Error
           });
-        } // Need some code here to cache the 404 request. In case
+        }
+
+        // Need some code here to cache the 404 request. In case
         // multiple loadPageDataJsons result in 404s
-
-
         return this.fetchPageDataJson(Object.assign(loadObj, {
           pagePath: `/404.html`,
           notFound: true
         }));
-      } // handle 500 response (Unrecoverable)
+      }
 
-
+      // handle 500 response (Unrecoverable)
       if (status === 500) {
         return Object.assign(loadObj, {
           status: PageResourceStatus.Error
         });
-      } // Handle everything else, including status === 0, and 503s. Should retry
+      }
 
-
+      // Handle everything else, including status === 0, and 503s. Should retry
       if (retries < 3) {
         return this.fetchPageDataJson(Object.assign(loadObj, {
           retries: retries + 1
         }));
-      } // Retried 3 times already, result is an error.
+      }
 
-
+      // Retried 3 times already, result is an error.
       return Object.assign(loadObj, {
         status: PageResourceStatus.Error
       });
     });
   }
-
   loadPageDataJson(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(rawPath);
-
     if (this.pageDataDb.has(pagePath)) {
       const pageData = this.pageDataDb.get(pagePath);
-
       if (true) {
         return Promise.resolve(pageData);
       }
     }
-
     return this.fetchPageDataJson({
       pagePath
     }).then(pageData => {
@@ -1170,36 +1121,29 @@ class BaseLoader {
       return pageData;
     });
   }
-
   findMatchPath(rawPath) {
     return Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findMatchPath"])(rawPath);
-  } // TODO check all uses of this and whether they use undefined for page resources not exist
+  }
 
-
+  // TODO check all uses of this and whether they use undefined for page resources not exist
   loadPage(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(rawPath);
-
     if (this.pageDb.has(pagePath)) {
       const page = this.pageDb.get(pagePath);
-
       if (true) {
         return Promise.resolve(page.payload);
       }
     }
-
     if (this.inFlightDb.has(pagePath)) {
       return this.inFlightDb.get(pagePath);
     }
-
     const inFlightPromise = Promise.all([this.loadAppData(), this.loadPageDataJson(pagePath)]).then(allData => {
       const result = allData[1];
-
       if (result.status === PageResourceStatus.Error) {
         return {
           status: PageResourceStatus.Error
         };
       }
-
       let pageData = result.payload;
       const {
         componentChunkName,
@@ -1209,23 +1153,19 @@ class BaseLoader {
       const componentChunkPromise = this.loadComponent(componentChunkName).then(component => {
         finalResult.createdAt = new Date();
         let pageResources;
-
         if (!component) {
           finalResult.status = PageResourceStatus.Error;
         } else {
           finalResult.status = PageResourceStatus.Success;
-
           if (result.notFound === true) {
             finalResult.notFound = true;
           }
-
           pageData = Object.assign(pageData, {
             webpackCompilationHash: allData[0] ? allData[0].webpackCompilationHash : ``
           });
           pageResources = toPageResources(pageData, component);
-        } // undefined if final result is an error
-
-
+        }
+        // undefined if final result is an error
         return pageResources;
       });
       const staticQueryBatchPromise = Promise.all(staticQueryHashes.map(staticQueryHash => {
@@ -1237,7 +1177,6 @@ class BaseLoader {
             jsonPayload
           };
         }
-
         return this.memoizedGet(`${""}/page-data/sq/d/${staticQueryHash}.json`).then(req => {
           const jsonPayload = JSON.parse(req.responseText);
           return {
@@ -1258,7 +1197,6 @@ class BaseLoader {
       });
       return Promise.all([componentChunkPromise, staticQueryBatchPromise]).then(([pageResources, staticQueryResults]) => {
         let payload;
-
         if (pageResources) {
           payload = _objectSpread(_objectSpread({}, pageResources), {}, {
             staticQueryResults
@@ -1269,7 +1207,6 @@ class BaseLoader {
             pageResources: payload
           });
         }
-
         this.pageDb.set(pagePath, finalResult);
         return payload;
       });
@@ -1282,56 +1219,50 @@ class BaseLoader {
     });
     this.inFlightDb.set(pagePath, inFlightPromise);
     return inFlightPromise;
-  } // returns undefined if loading page ran into errors
+  }
 
-
+  // returns undefined if loading page ran into errors
   loadPageSync(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(rawPath);
-
     if (this.pageDb.has(pagePath)) {
       const pageData = this.pageDb.get(pagePath).payload;
       return pageData;
     }
-
     return undefined;
   }
-
   shouldPrefetch(pagePath) {
     // Skip prefetching if we know user is on slow or constrained connection
     if (!doesConnectionSupportPrefetch()) {
       return false;
-    } // Check if the page exists.
+    }
 
-
+    // Check if the page exists.
     if (this.pageDb.has(pagePath)) {
       return false;
     }
-
     return true;
   }
-
   prefetch(pagePath) {
     if (!this.shouldPrefetch(pagePath)) {
       return false;
-    } // Tell plugins with custom prefetching logic that they should start
+    }
+
+    // Tell plugins with custom prefetching logic that they should start
     // prefetching this path.
-
-
     if (!this.prefetchTriggered.has(pagePath)) {
       this.apiRunner(`onPrefetchPathname`, {
         pathname: pagePath
       });
       this.prefetchTriggered.add(pagePath);
-    } // If a plugin has disabled core prefetching, stop now.
+    }
 
-
+    // If a plugin has disabled core prefetching, stop now.
     if (this.prefetchDisabled) {
       return false;
     }
-
-    const realPath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(pagePath); // Todo make doPrefetch logic cacheable
+    const realPath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(pagePath);
+    // Todo make doPrefetch logic cacheable
     // eslint-disable-next-line consistent-return
-
     this.doPrefetch(realPath).then(() => {
       if (!this.prefetchCompleted.has(pagePath)) {
         this.apiRunner(`onPostPrefetchPathname`, {
@@ -1342,25 +1273,22 @@ class BaseLoader {
     });
     return true;
   }
-
   doPrefetch(pagePath) {
     const pageDataUrl = createPageDataUrl(pagePath);
     return Object(_prefetch__WEBPACK_IMPORTED_MODULE_1__["default"])(pageDataUrl, {
       crossOrigin: `anonymous`,
       as: `fetch`
-    }).then(() => // This was just prefetched, so will return a response from
+    }).then(() =>
+    // This was just prefetched, so will return a response from
     // the cache instead of making another request to the server
     this.loadPageDataJson(pagePath));
   }
-
   hovering(rawPath) {
     this.loadPage(rawPath);
   }
-
   getResourceURLsForPathname(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(rawPath);
     const page = this.pageDataDb.get(pagePath);
-
     if (page) {
       const pageResources = toPageResources(page.payload);
       return [...createComponentUrls(pageResources.page.componentChunkName), createPageDataUrl(pagePath)];
@@ -1368,13 +1296,11 @@ class BaseLoader {
       return null;
     }
   }
-
   isPageNotFound(rawPath) {
     const pagePath = Object(_find_path__WEBPACK_IMPORTED_MODULE_3__["findPath"])(rawPath);
     const page = this.pageDb.get(pagePath);
     return !page || page.notFound;
   }
-
   loadAppData(retries = 0) {
     return this.memoizedGet(`${""}/page-data/app-data.json`).then(req => {
       const {
@@ -1382,55 +1308,46 @@ class BaseLoader {
         responseText
       } = req;
       let appData;
-
       if (status !== 200 && retries < 3) {
         // Retry 3 times incase of non-200 responses
         return this.loadAppData(retries + 1);
-      } // Handle 200
+      }
 
-
+      // Handle 200
       if (status === 200) {
         try {
           const jsonPayload = JSON.parse(responseText);
-
           if (jsonPayload.webpackCompilationHash === undefined) {
             throw new Error(`not a valid app-data response`);
           }
-
           appData = jsonPayload;
-        } catch (err) {// continue regardless of error
+        } catch (err) {
+          // continue regardless of error
         }
       }
-
       return appData;
     });
   }
-
 }
-
 const createComponentUrls = componentChunkName => (window.___chunkMapping[componentChunkName] || []).map(chunk => "" + chunk);
-
 class ProdLoader extends BaseLoader {
   constructor(asyncRequires, matchPaths) {
-    const loadComponent = chunkName => asyncRequires.components[chunkName] ? asyncRequires.components[chunkName]().then(preferDefault) // loader will handle the case when component is null
+    const loadComponent = chunkName => asyncRequires.components[chunkName] ? asyncRequires.components[chunkName]().then(preferDefault)
+    // loader will handle the case when component is null
     .catch(() => null) : Promise.resolve();
-
     super(loadComponent, matchPaths);
   }
-
   doPrefetch(pagePath) {
     return super.doPrefetch(pagePath).then(result => {
       if (result.status !== PageResourceStatus.Success) {
         return Promise.resolve();
       }
-
       const pageData = result.payload;
       const chunkName = pageData.componentChunkName;
       const componentUrls = createComponentUrls(chunkName);
       return Promise.all(componentUrls.map(_prefetch__WEBPACK_IMPORTED_MODULE_1__["default"])).then(() => pageData);
     });
   }
-
   loadPageDataJson(rawPath) {
     return super.loadPageDataJson(rawPath).then(data => {
       if (data.notFound) {
@@ -1444,18 +1361,16 @@ class ProdLoader extends BaseLoader {
             return {
               status: PageResourceStatus.Error
             };
-          } // if HEAD request wasn't 200, return notFound result
+          }
+
+          // if HEAD request wasn't 200, return notFound result
           // and show 404 page
-
-
           return data;
         });
       }
-
       return data;
     });
   }
-
 }
 let instance;
 const setLoader = _loader => {
@@ -1507,15 +1422,12 @@ __webpack_require__.r(__webpack_exports__);
   if (path === undefined) {
     return path;
   }
-
   if (path === `/`) {
     return `/`;
   }
-
   if (path.charAt(path.length - 1) === `/`) {
     return path.slice(0, -1);
   }
-
   return path;
 });
 
@@ -1534,9 +1446,7 @@ const support = function (feature) {
   if (typeof document === `undefined`) {
     return false;
   }
-
   const fakeLink = document.createElement(`link`);
-
   try {
     if (fakeLink.relList && typeof fakeLink.relList.supports === `function`) {
       return fakeLink.relList.supports(feature);
@@ -1544,17 +1454,14 @@ const support = function (feature) {
   } catch (err) {
     return false;
   }
-
   return false;
 };
-
 const linkPrefetchStrategy = function (url, options) {
   return new Promise((resolve, reject) => {
     if (typeof document === `undefined`) {
       reject();
       return;
     }
-
     const link = document.createElement(`link`);
     link.setAttribute(`rel`, `prefetch`);
     link.setAttribute(`href`, url);
@@ -1567,12 +1474,10 @@ const linkPrefetchStrategy = function (url, options) {
     parentElement.appendChild(link);
   });
 };
-
 const xhrPrefetchStrategy = function (url) {
   return new Promise((resolve, reject) => {
     const req = new XMLHttpRequest();
     req.open(`GET`, url, true);
-
     req.onload = () => {
       if (req.status === 200) {
         resolve();
@@ -1580,21 +1485,17 @@ const xhrPrefetchStrategy = function (url) {
         reject();
       }
     };
-
     req.send(null);
   });
 };
-
 const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : xhrPrefetchStrategy;
 const preFetched = {};
-
 const prefetch = function (url, options) {
   return new Promise(resolve => {
     if (preFetched[url]) {
       resolve();
       return;
     }
-
     supportedPrefetchStrategy(url, options).then(() => {
       resolve();
       preFetched[url] = true;
@@ -1614,10 +1515,349 @@ const prefetch = function (url, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 const preferDefault = m => m && m.default || m;
-
 if (false) {} else if (false) {} else {
   module.exports = () => null;
 }
+
+/***/ }),
+
+/***/ "./.cache/route-announcer-props.js":
+/*!*****************************************!*\
+  !*** ./.cache/route-announcer-props.js ***!
+  \*****************************************/
+/*! exports provided: RouteAnnouncerProps */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouteAnnouncerProps", function() { return RouteAnnouncerProps; });
+// This is extracted to separate module because it's shared
+// between browser and SSR code
+const RouteAnnouncerProps = {
+  id: `gatsby-announcer`,
+  style: {
+    position: `absolute`,
+    top: 0,
+    width: 1,
+    height: 1,
+    padding: 0,
+    overflow: `hidden`,
+    clip: `rect(0, 0, 0, 0)`,
+    whiteSpace: `nowrap`,
+    border: 0
+  },
+  "aria-live": `assertive`,
+  "aria-atomic": `true`
+};
+
+/***/ }),
+
+/***/ "./.cache/ssr-develop-static-entry.js":
+/*!********************************************!*\
+  !*** ./.cache/ssr-develop-static-entry.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var lodash_concat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/concat */ "lodash/concat");
+/* harmony import */ var lodash_concat__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_concat__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash_uniqBy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/uniqBy */ "lodash/uniqBy");
+/* harmony import */ var lodash_uniqBy__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_uniqBy__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/flatten */ "lodash/flatten");
+/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_flatten__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var lodash_isObject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/isObject */ "lodash/isObject");
+/* harmony import */ var lodash_isObject__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_isObject__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/merge */ "lodash/merge");
+/* harmony import */ var lodash_merge__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_merge__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash/get */ "lodash/get");
+/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! fs */ "fs");
+/* harmony import */ var fs__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(fs__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-dom/server */ "react-dom/server");
+/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! path */ "path");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./api-runner-ssr */ "./.cache/api-runner-ssr.js");
+/* harmony import */ var _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_api_runner_ssr__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _find_path__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./find-path */ "./.cache/find-path.js");
+/* harmony import */ var $virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! $virtual/ssr-sync-requires */ "./.cache/_this_is_virtual_fs_path_/$virtual/ssr-sync-requires");
+/* harmony import */ var $virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n($virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _route_announcer_props__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./route-announcer-props */ "./.cache/route-announcer-props.js");
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @reach/router */ "@reach/router");
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+
+
+
+
+
+
+
+
+
+// import testRequireError from "./test-require-error"
+// For some extremely mysterious reason, webpack adds the above module *after*
+// this module so that when this code runs, testRequireError is undefined.
+// So in the meantime, we'll just inline it.
+
+const testRequireError = (moduleName, err) => {
+  const regex = new RegExp(`Error: Cannot find module\\s.${moduleName}`);
+  const firstLine = err.toString().split(`\n`)[0];
+  return regex.test(firstLine);
+};
+const stats = JSON.parse(fs__WEBPACK_IMPORTED_MODULE_8___default.a.readFileSync(`${process.cwd()}/public/webpack.stats.json`, `utf-8`));
+let Html;
+try {
+  Html = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+} catch (err) {
+  if (testRequireError(`../src/html`, err)) {
+    Html = __webpack_require__(/*! ./default-html */ "./.cache/default-html.js");
+  } else {
+    console.log(`There was an error requiring "src/html.js"\n\n`, err, `\n\n`);
+    process.exit();
+  }
+}
+Html = Html && Html.__esModule ? Html.default : Html;
+/* harmony default export */ __webpack_exports__["default"] = ((pagePath, isClientOnlyPage, callback) => {
+  let bodyHtml = ``;
+  let headComponents = [Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("meta", {
+    key: "environment",
+    name: "note",
+    content: "environment=development"
+  })];
+  let htmlAttributes = {};
+  let bodyAttributes = {};
+  let preBodyComponents = [];
+  let postBodyComponents = [];
+  let bodyProps = {};
+  const generateBodyHTML = () => {
+    const setHeadComponents = components => {
+      headComponents = headComponents.concat(components);
+    };
+    const setHtmlAttributes = attributes => {
+      htmlAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_5___default()(htmlAttributes, attributes);
+    };
+    const setBodyAttributes = attributes => {
+      bodyAttributes = lodash_merge__WEBPACK_IMPORTED_MODULE_5___default()(bodyAttributes, attributes);
+    };
+    const setPreBodyComponents = components => {
+      preBodyComponents = preBodyComponents.concat(components);
+    };
+    const setPostBodyComponents = components => {
+      postBodyComponents = postBodyComponents.concat(components);
+    };
+    const setBodyProps = props => {
+      bodyProps = lodash_merge__WEBPACK_IMPORTED_MODULE_5___default()({}, bodyProps, props);
+    };
+    const getHeadComponents = () => headComponents;
+    const replaceHeadComponents = components => {
+      headComponents = components;
+    };
+    const replaceBodyHTMLString = body => {
+      bodyHtml = body;
+    };
+    const getPreBodyComponents = () => preBodyComponents;
+    const replacePreBodyComponents = components => {
+      preBodyComponents = components;
+    };
+    const getPostBodyComponents = () => postBodyComponents;
+    const replacePostBodyComponents = components => {
+      postBodyComponents = components;
+    };
+    const getPageDataPath = path => {
+      const fixedPagePath = path === `/` ? `index` : path;
+      return Object(path__WEBPACK_IMPORTED_MODULE_10__["join"])(`page-data`, fixedPagePath, `page-data.json`);
+    };
+    const getPageData = pagePath => {
+      const pageDataPath = getPageDataPath(pagePath);
+      const absolutePageDataPath = Object(path__WEBPACK_IMPORTED_MODULE_10__["join"])(process.cwd(), `public`, pageDataPath);
+      const pageDataJson = fs__WEBPACK_IMPORTED_MODULE_8___default.a.readFileSync(absolutePageDataPath, `utf8`);
+      try {
+        return JSON.parse(pageDataJson);
+      } catch (err) {
+        return null;
+      }
+    };
+    const pageData = getPageData(pagePath);
+    const {
+      componentChunkName,
+      staticQueryHashes = []
+    } = pageData;
+    let scriptsAndStyles = lodash_flatten__WEBPACK_IMPORTED_MODULE_3___default()([`commons`].map(chunkKey => {
+      const fetchKey = `assetsByChunkName[${chunkKey}]`;
+      let chunks = lodash_get__WEBPACK_IMPORTED_MODULE_6___default()(stats, fetchKey);
+      const namedChunkGroups = lodash_get__WEBPACK_IMPORTED_MODULE_6___default()(stats, `namedChunkGroups`);
+      if (!chunks) {
+        return null;
+      }
+      chunks = chunks.map(chunk => {
+        if (chunk === `/`) {
+          return null;
+        }
+        return {
+          rel: `preload`,
+          name: chunk
+        };
+      });
+      namedChunkGroups[chunkKey].assets.forEach(asset => chunks.push({
+        rel: `preload`,
+        name: asset
+      }));
+      const childAssets = namedChunkGroups[chunkKey].childAssets;
+      for (const rel in childAssets) {
+        chunks = lodash_concat__WEBPACK_IMPORTED_MODULE_1___default()(chunks, childAssets[rel].map(chunk => {
+          return {
+            rel,
+            name: chunk
+          };
+        }));
+      }
+      return chunks;
+    })).filter(s => lodash_isObject__WEBPACK_IMPORTED_MODULE_4___default()(s)).sort((s1, s2) => s1.rel == `preload` ? -1 : 1); // given priority to preload
+
+    scriptsAndStyles = lodash_uniqBy__WEBPACK_IMPORTED_MODULE_2___default()(scriptsAndStyles, item => item.name);
+    const styles = scriptsAndStyles.filter(style => style.name && style.name.endsWith(`.css`));
+    styles.slice(0).reverse().forEach(style => {
+      headComponents.unshift(Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("link", {
+        "data-identity": `gatsby-dev-css`,
+        key: style.name,
+        rel: "stylesheet",
+        type: "text/css",
+        href: `${""}/${style.name}`
+      }));
+    });
+    const createElement = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+    class RouteHandler extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
+      render() {
+        var _pageData$result, _pageData$result$page;
+        const props = _objectSpread(_objectSpread(_objectSpread({}, this.props), pageData.result), {}, {
+          params: _objectSpread(_objectSpread({}, Object(_find_path__WEBPACK_IMPORTED_MODULE_12__["grabMatchParams"])(this.props.location.pathname)), ((_pageData$result = pageData.result) === null || _pageData$result === void 0 ? void 0 : (_pageData$result$page = _pageData$result.pageContext) === null || _pageData$result$page === void 0 ? void 0 : _pageData$result$page.__params) || {}),
+          // pathContext was deprecated in v2. Renamed to pageContext
+          pathContext: pageData.result ? pageData.result.pageContext : undefined
+        });
+        let pageElement;
+        if ($virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_13___default.a.ssrComponents[componentChunkName] && !isClientOnlyPage) {
+          pageElement = createElement($virtual_ssr_sync_requires__WEBPACK_IMPORTED_MODULE_13___default.a.ssrComponents[componentChunkName], props);
+        } else {
+          // If this is a client-only page or the pageComponent didn't finish
+          // compiling yet, just render an empty component.
+          pageElement = () => null;
+        }
+        const wrappedPage = _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default()(`wrapPageElement`, {
+          element: pageElement,
+          props
+        }, pageElement, ({
+          result
+        }) => {
+          return {
+            element: result,
+            props
+          };
+        }).pop();
+        return wrappedPage;
+      }
+    }
+    const routerElement = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])(_reach_router__WEBPACK_IMPORTED_MODULE_15__["ServerLocation"], {
+      url: `${""}${pagePath}`
+    }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])(_reach_router__WEBPACK_IMPORTED_MODULE_15__["Router"], {
+      id: "gatsby-focus-wrapper",
+      baseuri: ""
+    }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])(RouteHandler, {
+      path: "/*"
+    })), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("div", _route_announcer_props__WEBPACK_IMPORTED_MODULE_14__["RouteAnnouncerProps"]));
+    const bodyComponent = _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default()(`wrapRootElement`, {
+      element: routerElement,
+      pathname: pagePath
+    }, routerElement, ({
+      result
+    }) => {
+      return {
+        element: result,
+        pathname: pagePath
+      };
+    }).pop();
+
+    // Let the site or plugin render the page component.
+    _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default()(`replaceRenderer`, {
+      bodyComponent,
+      replaceBodyHTMLString,
+      setHeadComponents,
+      setHtmlAttributes,
+      setBodyAttributes,
+      setPreBodyComponents,
+      setPostBodyComponents,
+      setBodyProps,
+      pathname: pagePath,
+      pathPrefix: ""
+    });
+
+    // If no one stepped up, we'll handle it.
+    if (!bodyHtml) {
+      try {
+        bodyHtml = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_9__["renderToString"])(bodyComponent);
+      } catch (e) {
+        // ignore @reach/router redirect errors
+        if (!Object(_reach_router__WEBPACK_IMPORTED_MODULE_15__["isRedirect"])(e)) throw e;
+      }
+    }
+    _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default()(`onRenderBody`, {
+      setHeadComponents,
+      setHtmlAttributes,
+      setBodyAttributes,
+      setPreBodyComponents,
+      setPostBodyComponents,
+      setBodyProps,
+      pathname: pagePath
+    });
+    _api_runner_ssr__WEBPACK_IMPORTED_MODULE_11___default()(`onPreRenderHTML`, {
+      getHeadComponents,
+      replaceHeadComponents,
+      getPreBodyComponents,
+      replacePreBodyComponents,
+      getPostBodyComponents,
+      replacePostBodyComponents,
+      pathname: pagePath
+    });
+    return bodyHtml;
+  };
+  const bodyStr = generateBodyHTML();
+  const htmlElement = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Html, _objectSpread(_objectSpread({}, bodyProps), {}, {
+    body: bodyStr,
+    headComponents: headComponents.concat([Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("script", {
+      key: `io`,
+      src: "/socket.io/socket.io.js"
+    })]),
+    htmlAttributes,
+    bodyAttributes,
+    preBodyComponents,
+    postBodyComponents: postBodyComponents.concat([Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("script", {
+      key: `polyfill`,
+      src: "/polyfill.js",
+      noModule: true
+    }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_16__["jsx"])("script", {
+      key: `commons`,
+      src: "/commons.js"
+    })])
+  }));
+  let htmlStr = Object(react_dom_server__WEBPACK_IMPORTED_MODULE_9__["renderToStaticMarkup"])(htmlElement);
+  htmlStr = `<!DOCTYPE html>${htmlStr}`;
+  callback(null, htmlStr);
+});
 
 /***/ }),
 
@@ -1635,19 +1875,17 @@ __webpack_require__.r(__webpack_exports__);
  * Remove a prefix from a string. Return the input string if the given prefix
  * isn't found.
  */
+
 function stripPrefix(str, prefix = ``) {
   if (!prefix) {
     return str;
   }
-
   if (str === prefix) {
     return `/`;
   }
-
   if (str.startsWith(`${prefix}/`)) {
     return str.slice(prefix.length);
   }
-
   return str;
 }
 
@@ -1664,12 +1902,9 @@ function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
   }
-
   return self;
 }
-
-module.exports = _assertThisInitialized;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1678,9 +1913,11 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
   !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
   \***************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
+var toPropertyKey = __webpack_require__(/*! ./toPropertyKey.js */ "./node_modules/@babel/runtime/helpers/toPropertyKey.js");
 function _defineProperty(obj, key, value) {
+  key = toPropertyKey(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value: value,
@@ -1691,12 +1928,9 @@ function _defineProperty(obj, key, value) {
   } else {
     obj[key] = value;
   }
-
   return obj;
 }
-
-module.exports = _defineProperty;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1710,7 +1944,10 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _toPropertyKey_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./toPropertyKey.js */ "./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js");
+
 function _defineProperty(obj, key, value) {
+  key = Object(_toPropertyKey_js__WEBPACK_IMPORTED_MODULE_0__["default"])(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value: value,
@@ -1721,8 +1958,34 @@ function _defineProperty(obj, key, value) {
   } else {
     obj[key] = value;
   }
-
   return obj;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  };
+  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -1747,6 +2010,61 @@ function _inheritsLoose(subClass, superClass) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutProperties; });
+/* harmony import */ var _objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = Object(_objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__["default"])(source, excluded);
+  var key, i;
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+  return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectWithoutPropertiesLoose; });
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+  return target;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
@@ -1758,12 +2076,79 @@ function _inheritsLoose(subClass, superClass) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
 function _setPrototypeOf(o, p) {
-  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
     o.__proto__ = p;
     return o;
   };
-
   return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/toPrimitive.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toPrimitive.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toPrimitive; });
+/* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
+
+function _toPrimitive(input, hint) {
+  if (Object(_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(input) !== "object" || input === null) return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== undefined) {
+    var res = prim.call(input, hint || "default");
+    if (Object(_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(res) !== "object") return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toPropertyKey; });
+/* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
+/* harmony import */ var _toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toPrimitive.js */ "./node_modules/@babel/runtime/helpers/esm/toPrimitive.js");
+
+
+function _toPropertyKey(arg) {
+  var key = Object(_toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__["default"])(arg, "string");
+  return Object(_typeof_js__WEBPACK_IMPORTED_MODULE_0__["default"])(key) === "symbol" ? key : String(key);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/typeof.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  }, _typeof(obj);
 }
 
 /***/ }),
@@ -1776,26 +2161,20 @@ function _setPrototypeOf(o, p) {
 /***/ (function(module, exports) {
 
 function _extends() {
-  module.exports = _extends = Object.assign || function (target) {
+  module.exports = _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
-
       for (var key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)) {
           target[key] = source[key];
         }
       }
     }
-
     return target;
-  };
-
-  module.exports["default"] = module.exports, module.exports.__esModule = true;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
   return _extends.apply(this, arguments);
 }
-
-module.exports = _extends;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1807,15 +2186,12 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ (function(module, exports, __webpack_require__) {
 
 var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
   setPrototypeOf(subClass, superClass);
 }
-
-module.exports = _inheritsLoose;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1831,9 +2207,7 @@ function _interopRequireDefault(obj) {
     "default": obj
   };
 }
-
-module.exports = _interopRequireDefault;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1844,8 +2218,7 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
-
+var _typeof = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
 function _getRequireWildcardCache(nodeInterop) {
   if (typeof WeakMap !== "function") return null;
   var cacheBabelInterop = new WeakMap();
@@ -1854,31 +2227,24 @@ function _getRequireWildcardCache(nodeInterop) {
     return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
   })(nodeInterop);
 }
-
 function _interopRequireWildcard(obj, nodeInterop) {
   if (!nodeInterop && obj && obj.__esModule) {
     return obj;
   }
-
   if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
     return {
       "default": obj
     };
   }
-
   var cache = _getRequireWildcardCache(nodeInterop);
-
   if (cache && cache.has(obj)) {
     return cache.get(obj);
   }
-
   var newObj = {};
   var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-
   for (var key in obj) {
     if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
       var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-
       if (desc && (desc.get || desc.set)) {
         Object.defineProperty(newObj, key, desc);
       } else {
@@ -1886,18 +2252,40 @@ function _interopRequireWildcard(obj, nodeInterop) {
       }
     }
   }
-
   newObj["default"] = obj;
-
   if (cache) {
     cache.set(obj, newObj);
   }
-
   return newObj;
 }
+module.exports = _interopRequireWildcard, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
-module.exports = _interopRequireWildcard;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var objectWithoutPropertiesLoose = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = objectWithoutPropertiesLoose(source, excluded);
+  var key, i;
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+  return target;
+}
+module.exports = _objectWithoutProperties, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1913,18 +2301,14 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   var target = {};
   var sourceKeys = Object.keys(source);
   var key, i;
-
   for (i = 0; i < sourceKeys.length; i++) {
     key = sourceKeys[i];
     if (excluded.indexOf(key) >= 0) continue;
     target[key] = source[key];
   }
-
   return target;
 }
-
-module.exports = _objectWithoutPropertiesLoose;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1936,17 +2320,52 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ (function(module, exports) {
 
 function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
     o.__proto__ = p;
     return o;
-  };
-
-  module.exports["default"] = module.exports, module.exports.__esModule = true;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
   return _setPrototypeOf(o, p);
 }
+module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
-module.exports = _setPrototypeOf;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/toPrimitive.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null) return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== undefined) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object") return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+module.exports = _toPrimitive, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/toPropertyKey.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toPropertyKey.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
+var toPrimitive = __webpack_require__(/*! ./toPrimitive.js */ "./node_modules/@babel/runtime/helpers/toPrimitive.js");
+function _toPropertyKey(arg) {
+  var key = toPrimitive(arg, "string");
+  return _typeof(key) === "symbol" ? key : String(key);
+}
+module.exports = _toPropertyKey, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -1960,25 +2379,13 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
-  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return typeof obj;
-    };
-
-    module.exports["default"] = module.exports, module.exports.__esModule = true;
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-
-    module.exports["default"] = module.exports, module.exports.__esModule = true;
-  }
-
-  return _typeof(obj);
+  return (module.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(obj);
 }
-
-module.exports = _typeof;
-module.exports["default"] = module.exports, module.exports.__esModule = true;
+module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -2309,12 +2716,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _emotion_cache__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/cache */ "./node_modules/@emotion/cache/dist/cache.esm.js");
-/* harmony import */ var _emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./emotion-element-cfcfecf4.esm.js */ "./node_modules/@emotion/core/dist/emotion-element-cfcfecf4.esm.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CacheProvider", function() { return _emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["C"]; });
+/* harmony import */ var _emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./emotion-element-39b82f0b.esm.js */ "./node_modules/@emotion/core/dist/emotion-element-39b82f0b.esm.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CacheProvider", function() { return _emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["C"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeContext", function() { return _emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeContext", function() { return _emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withEmotionCache", function() { return _emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withEmotionCache", function() { return _emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"]; });
 
 /* harmony import */ var _emotion_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/utils */ "./node_modules/@emotion/utils/dist/utils.esm.js");
 /* harmony import */ var _emotion_serialize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/serialize */ "./node_modules/@emotion/serialize/dist/serialize.esm.js");
@@ -2336,15 +2743,15 @@ __webpack_require__.r(__webpack_exports__);
 var jsx = function jsx(type, props) {
   var args = arguments;
 
-  if (props == null || !_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["h"].call(props, 'css')) {
+  if (props == null || !_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["h"].call(props, 'css')) {
     // $FlowFixMe
     return react__WEBPACK_IMPORTED_MODULE_1__["createElement"].apply(undefined, args);
   }
 
   var argsLength = args.length;
   var createElementArgArray = new Array(argsLength);
-  createElementArgArray[0] = _emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["E"];
-  createElementArgArray[1] = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["c"])(type, props);
+  createElementArgArray[0] = _emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["E"];
+  createElementArgArray[1] = Object(_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["c"])(type, props);
 
   for (var i = 2; i < argsLength; i++) {
     createElementArgArray[i] = args[i];
@@ -2355,7 +2762,7 @@ var jsx = function jsx(type, props) {
 };
 
 var warnedAboutCssPropForGlobal = false;
-var Global = /* #__PURE__ */Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"])(function (props, cache) {
+var Global = /* #__PURE__ */Object(_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"])(function (props, cache) {
   if ( true && !warnedAboutCssPropForGlobal && ( // check for className as well since the user is
   // probably using the custom createElement which
   // means it will be turned into a className prop
@@ -2368,7 +2775,7 @@ var Global = /* #__PURE__ */Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMP
   var styles = props.styles;
 
   if (typeof styles === 'function') {
-    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"].Consumer, null, function (theme) {
+    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"].Consumer, null, function (theme) {
       var serialized = Object(_emotion_serialize__WEBPACK_IMPORTED_MODULE_5__["serializeStyles"])([styles(theme)]);
       return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(InnerGlobal, {
         serialized: serialized,
@@ -2443,7 +2850,7 @@ var InnerGlobal = /*#__PURE__*/function (_React$Component) {
   };
 
   _proto.render = function render() {
-    if (!_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
+    if (!_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
       var serialized = this.props.serialized;
       var serializedNames = serialized.name;
       var serializedStyles = serialized.styles;
@@ -2548,8 +2955,12 @@ function merge(registered, css, className) {
   return rawClassName + css(registeredStyles);
 }
 
-var ClassNames = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"])(function (props, context) {
-  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"].Consumer, null, function (theme) {
+var Noop = function Noop() {
+  return null;
+};
+
+var ClassNames = Object(_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["w"])(function (props, context) {
+  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["T"].Consumer, null, function (theme) {
     var rules = '';
     var serializedHashes = '';
     var hasRendered = false;
@@ -2565,7 +2976,7 @@ var ClassNames = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODUL
 
       var serialized = Object(_emotion_serialize__WEBPACK_IMPORTED_MODULE_5__["serializeStyles"])(args, context.registered);
 
-      if (_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
+      if (_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
         Object(_emotion_utils__WEBPACK_IMPORTED_MODULE_4__["insertStyles"])(context, serialized, false);
       } else {
         var res = Object(_emotion_utils__WEBPACK_IMPORTED_MODULE_4__["insertStyles"])(context, serialized, false);
@@ -2575,7 +2986,7 @@ var ClassNames = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODUL
         }
       }
 
-      if (!_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
+      if (!_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"]) {
         serializedHashes += " " + serialized.name;
       }
 
@@ -2601,16 +3012,18 @@ var ClassNames = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODUL
     };
     var ele = props.children(content);
     hasRendered = true;
+    var possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(Noop, null);
 
-    if (!_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"] && rules.length !== 0) {
+    if (!_emotion_element_39b82f0b_esm_js__WEBPACK_IMPORTED_MODULE_3__["i"] && rules.length !== 0) {
       var _ref;
 
-      return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + context.key] = serializedHashes.substring(1), _ref.dangerouslySetInnerHTML = {
+      possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + context.key] = serializedHashes.substring(1), _ref.dangerouslySetInnerHTML = {
         __html: rules
-      }, _ref.nonce = context.sheet.nonce, _ref)), ele);
-    }
+      }, _ref.nonce = context.sheet.nonce, _ref));
+    } // Need to return the same number of siblings or else `React.useId` will cause hydration mismatches.
 
-    return ele;
+
+    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, possiblyStyleElement, ele);
   });
 });
 
@@ -2619,9 +3032,9 @@ var ClassNames = Object(_emotion_element_cfcfecf4_esm_js__WEBPACK_IMPORTED_MODUL
 
 /***/ }),
 
-/***/ "./node_modules/@emotion/core/dist/emotion-element-cfcfecf4.esm.js":
+/***/ "./node_modules/@emotion/core/dist/emotion-element-39b82f0b.esm.js":
 /*!*************************************************************************!*\
-  !*** ./node_modules/@emotion/core/dist/emotion-element-cfcfecf4.esm.js ***!
+  !*** ./node_modules/@emotion/core/dist/emotion-element-39b82f0b.esm.js ***!
   \*************************************************************************/
 /*! exports provided: C, E, T, c, h, i, w */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2754,6 +3167,10 @@ var createEmotionProps = function createEmotionProps(type, props) {
   return newProps;
 };
 
+var Noop = function Noop() {
+  return null;
+};
+
 var render = function render(cache, props, theme, ref) {
   var cssProp = theme === null ? props.css : props.css(theme); // so that using `css` from `emotion` and passing the result to the css prop works
   // not passing the registered cache to serializeStyles because it would
@@ -2796,6 +3213,7 @@ var render = function render(cache, props, theme, ref) {
   newProps.ref = ref;
   newProps.className = className;
   var ele = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(type, newProps);
+  var possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(Noop, null);
 
   if (!isBrowser && rules !== undefined) {
     var _ref;
@@ -2808,12 +3226,13 @@ var render = function render(cache, props, theme, ref) {
       next = next.next;
     }
 
-    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + cache.key] = serializedNames, _ref.dangerouslySetInnerHTML = {
+    possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + cache.key] = serializedNames, _ref.dangerouslySetInnerHTML = {
       __html: rules
-    }, _ref.nonce = cache.sheet.nonce, _ref)), ele);
-  }
+    }, _ref.nonce = cache.sheet.nonce, _ref));
+  } // Need to return the same number of siblings or else `React.useId` will cause hydration mismatches.
 
-  return ele;
+
+  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, possiblyStyleElement, ele);
 }; // eslint-disable-next-line no-undef
 
 
@@ -2843,7 +3262,7 @@ if (true) {
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bundleDependencies, dependencies, deprecated, description, devDependencies, files, license, main, module, name, peerDependencies, preconstruct, publishConfig, repository, scripts, types, umd:main, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"@emotion/core@^10.0.28\",\"_id\":\"@emotion/core@10.1.1\",\"_inBundle\":false,\"_integrity\":\"sha512-ZMLG6qpXR8x031NXD8HJqugy/AZSkAuMxxqB46pmAR7ze47MhNJ56cdoX243QPZdGctrdfo+s08yZTiwaUcRKA==\",\"_location\":\"/@emotion/core\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@emotion/core@^10.0.28\",\"name\":\"@emotion/core\",\"escapedName\":\"@emotion%2fcore\",\"scope\":\"@emotion\",\"rawSpec\":\"^10.0.28\",\"saveSpec\":null,\"fetchSpec\":\"^10.0.28\"},\"_requiredBy\":[\"/@theme-ui/color-modes\",\"/@theme-ui/components\",\"/@theme-ui/core\",\"/@theme-ui/mdx\",\"/@theme-ui/theme-provider\",\"/gatsby-theme-document\"],\"_resolved\":\"https://registry.npmjs.org/@emotion/core/-/core-10.1.1.tgz\",\"_shasum\":\"c956c1365f2f2481960064bcb8c4732e5fb612c3\",\"_spec\":\"@emotion/core@^10.0.28\",\"_where\":\"/Users/user/Documents/Source_demo/document/node_modules/gatsby-theme-document\",\"author\":{\"name\":\"mitchellhamilton\",\"email\":\"mitchell@mitchellhamilton.me\"},\"browser\":{\"./dist/core.cjs.js\":\"./dist/core.browser.cjs.js\",\"./dist/core.esm.js\":\"./dist/core.browser.esm.js\"},\"bundleDependencies\":false,\"dependencies\":{\"@babel/runtime\":\"^7.5.5\",\"@emotion/cache\":\"^10.0.27\",\"@emotion/css\":\"^10.0.27\",\"@emotion/serialize\":\"^0.11.15\",\"@emotion/sheet\":\"0.9.4\",\"@emotion/utils\":\"0.11.3\"},\"deprecated\":false,\"description\":\"> Simple styling in React.\",\"devDependencies\":{\"@emotion/styled\":\"^10.0.27\",\"@types/react\":\"^16.8.20\",\"dtslint\":\"^0.3.0\",\"emotion\":\"^10.0.27\",\"emotion-server\":\"^10.0.27\",\"emotion-theming\":\"^10.0.27\",\"html-tag-names\":\"^1.1.2\",\"react\":\"16.14.0\",\"svg-tag-names\":\"^1.1.1\"},\"files\":[\"src\",\"dist\",\"jsx-runtime\",\"jsx-dev-runtime\",\"types\"],\"license\":\"MIT\",\"main\":\"dist/core.cjs.js\",\"module\":\"dist/core.esm.js\",\"name\":\"@emotion/core\",\"peerDependencies\":{\"react\":\">=16.3.0\"},\"preconstruct\":{\"source\":\"src/index.js\",\"entrypoints\":[\".\",\"jsx-runtime\",\"jsx-dev-runtime\"],\"umdName\":\"emotionCore\"},\"publishConfig\":{\"access\":\"public\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/emotion-js/emotion/tree/master/packages/core\"},\"scripts\":{\"test:typescript\":\"dtslint types\"},\"types\":\"types/index.d.ts\",\"umd:main\":\"dist/core.umd.min.js\",\"version\":\"10.1.1\"}");
+module.exports = JSON.parse("{\"_from\":\"@emotion/core@^10.0.28\",\"_id\":\"@emotion/core@10.3.1\",\"_inBundle\":false,\"_integrity\":\"sha512-447aUEjPIm0MnE6QYIaFz9VQOHSXf4Iu6EWOIqq11EAPqinkSZmfymPTmlOE3QjLv846lH4JVZBUOtwGbuQoww==\",\"_location\":\"/@emotion/core\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"@emotion/core@^10.0.28\",\"name\":\"@emotion/core\",\"escapedName\":\"@emotion%2fcore\",\"scope\":\"@emotion\",\"rawSpec\":\"^10.0.28\",\"saveSpec\":null,\"fetchSpec\":\"^10.0.28\"},\"_requiredBy\":[\"/@theme-ui/color-modes\",\"/@theme-ui/components\",\"/@theme-ui/core\",\"/@theme-ui/mdx\",\"/@theme-ui/theme-provider\",\"/gatsby-theme-document\"],\"_resolved\":\"https://registry.npmjs.org/@emotion/core/-/core-10.3.1.tgz\",\"_shasum\":\"4021b6d8b33b3304d48b0bb478485e7d7421c69d\",\"_spec\":\"@emotion/core@^10.0.28\",\"_where\":\"/Users/macos/Documents/Sources/Local/document/node_modules/gatsby-theme-document\",\"author\":{\"name\":\"mitchellhamilton\",\"email\":\"mitchell@mitchellhamilton.me\"},\"browser\":{\"./dist/core.cjs.js\":\"./dist/core.browser.cjs.js\",\"./dist/core.esm.js\":\"./dist/core.browser.esm.js\"},\"bundleDependencies\":false,\"dependencies\":{\"@babel/runtime\":\"^7.5.5\",\"@emotion/cache\":\"^10.0.27\",\"@emotion/css\":\"^10.0.27\",\"@emotion/serialize\":\"^0.11.15\",\"@emotion/sheet\":\"0.9.4\",\"@emotion/utils\":\"0.11.3\"},\"deprecated\":false,\"description\":\"> Simple styling in React.\",\"devDependencies\":{\"@emotion/styled\":\"^10.3.0\",\"@types/react\":\"^16.8.20\",\"dtslint\":\"^0.3.0\",\"emotion\":\"^10.0.27\",\"emotion-server\":\"^10.0.27\",\"emotion-theming\":\"^10.3.0\",\"html-tag-names\":\"^1.1.2\",\"react\":\"16.14.0\",\"svg-tag-names\":\"^1.1.1\"},\"files\":[\"src\",\"dist\",\"jsx-runtime\",\"jsx-dev-runtime\",\"types\"],\"license\":\"MIT\",\"main\":\"dist/core.cjs.js\",\"module\":\"dist/core.esm.js\",\"name\":\"@emotion/core\",\"peerDependencies\":{\"react\":\">=16.3.0\"},\"preconstruct\":{\"source\":\"src/index.js\",\"entrypoints\":[\".\",\"jsx-runtime\",\"jsx-dev-runtime\"],\"umdName\":\"emotionCore\"},\"publishConfig\":{\"access\":\"public\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/emotion-js/emotion/tree/master/packages/core\"},\"scripts\":{\"test:typescript\":\"dtslint types\"},\"types\":\"types/index.d.ts\",\"umd:main\":\"dist/core.umd.min.js\",\"version\":\"10.3.1\"}");
 
 /***/ }),
 
@@ -3488,8 +3907,7 @@ function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/is-prop-valid */ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.esm.js");
@@ -3518,9 +3936,13 @@ var getDefaultShouldForwardProp = function getDefaultShouldForwardProp(tag) {
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 var ILLEGAL_ESCAPE_SEQUENCE_ERROR = "You have illegal escape sequence in your template literal, most likely inside content's property value.\nBecause you write your CSS inside a JavaScript string you actually have to do double escaping, so for example \"content: '\\00d7';\" should become \"content: '\\\\00d7';\".\nYou can read more about this here:\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#ES2018_revision_of_illegal_escape_sequences";
 var isBrowser = typeof document !== 'undefined';
+
+var Noop = function Noop() {
+  return null;
+};
 
 var createStyled = function createStyled(tag, options) {
   if (true) {
@@ -3581,7 +4003,7 @@ var createStyled = function createStyled(tag, options) {
 
 
     var Styled = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["withEmotionCache"])(function (props, context, ref) {
-      return Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["ThemeContext"].Consumer, null, function (theme) {
+      return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["ThemeContext"].Consumer, null, function (theme) {
         var finalTag = shouldUseAs && props.as || baseTag;
         var className = '';
         var classInterpolations = [];
@@ -3630,7 +4052,8 @@ var createStyled = function createStyled(tag, options) {
           console.error('`innerRef` is deprecated and will be removed in a future major version of Emotion, please use the `ref` prop instead' + (identifierName === undefined ? '' : " in the usage of `" + identifierName + "`"));
         }
 
-        var ele = Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(finalTag, newProps);
+        var ele = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(finalTag, newProps);
+        var possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(Noop, null);
 
         if (!isBrowser && rules !== undefined) {
           var _ref;
@@ -3643,12 +4066,13 @@ var createStyled = function createStyled(tag, options) {
             next = next.next;
           }
 
-          return Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + context.key] = serializedNames, _ref.dangerouslySetInnerHTML = {
+          possiblyStyleElement = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("style", (_ref = {}, _ref["data-emotion-" + context.key] = serializedNames, _ref.dangerouslySetInnerHTML = {
             __html: rules
-          }, _ref.nonce = context.sheet.nonce, _ref)), ele);
-        }
+          }, _ref.nonce = context.sheet.nonce, _ref));
+        } // Need to return the same number of siblings or else `React.useId` will cause hydration mismatches.
 
-        return ele;
+
+        return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], null, possiblyStyleElement, ele);
       });
     });
     Styled.displayName = identifierName !== undefined ? identifierName : "Styled(" + (typeof baseTag === 'string' ? baseTag : baseTag.displayName || baseTag.name || 'Component') + ")";
@@ -7742,6 +8166,112 @@ var ThemeProvider$1 = function (ref) {
 
 /***/ }),
 
+/***/ "./node_modules/decode-uri-component/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/decode-uri-component/index.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var token = '%[a-f0-9]{2}';
+var singleMatcher = new RegExp('(' + token + ')|([^%]+?)', 'gi');
+var multiMatcher = new RegExp('(' + token + ')+', 'gi');
+
+function decodeComponents(components, split) {
+	try {
+		// Try to decode the entire string first
+		return [decodeURIComponent(components.join(''))];
+	} catch (err) {
+		// Do nothing
+	}
+
+	if (components.length === 1) {
+		return components;
+	}
+
+	split = split || 1;
+
+	// Split the array in 2 parts
+	var left = components.slice(0, split);
+	var right = components.slice(split);
+
+	return Array.prototype.concat.call([], decodeComponents(left), decodeComponents(right));
+}
+
+function decode(input) {
+	try {
+		return decodeURIComponent(input);
+	} catch (err) {
+		var tokens = input.match(singleMatcher) || [];
+
+		for (var i = 1; i < tokens.length; i++) {
+			input = decodeComponents(tokens, i).join('');
+
+			tokens = input.match(singleMatcher) || [];
+		}
+
+		return input;
+	}
+}
+
+function customDecodeURIComponent(input) {
+	// Keep track of all the replacements and prefill the map with the `BOM`
+	var replaceMap = {
+		'%FE%FF': '\uFFFD\uFFFD',
+		'%FF%FE': '\uFFFD\uFFFD'
+	};
+
+	var match = multiMatcher.exec(input);
+	while (match) {
+		try {
+			// Decode as big chunks as possible
+			replaceMap[match[0]] = decodeURIComponent(match[0]);
+		} catch (err) {
+			var result = decode(match[0]);
+
+			if (result !== match[0]) {
+				replaceMap[match[0]] = result;
+			}
+		}
+
+		match = multiMatcher.exec(input);
+	}
+
+	// Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
+	replaceMap['%C2'] = '\uFFFD';
+
+	var entries = Object.keys(replaceMap);
+
+	for (var i = 0; i < entries.length; i++) {
+		// Replace all decoded components
+		var key = entries[i];
+		input = input.replace(new RegExp(key, 'g'), replaceMap[key]);
+	}
+
+	return input;
+}
+
+module.exports = function (encodedURI) {
+	if (typeof encodedURI !== 'string') {
+		throw new TypeError('Expected `encodedURI` to be of type `string`, got `' + typeof encodedURI + '`');
+	}
+
+	try {
+		encodedURI = encodedURI.replace(/\+/g, ' ');
+
+		// Try the built in decoder first
+		return decodeURIComponent(encodedURI);
+	} catch (err) {
+		// Fallback to a more advanced decoder
+		return customDecodeURIComponent(encodedURI);
+	}
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/deepmerge/dist/cjs.js":
 /*!********************************************!*\
   !*** ./node_modules/deepmerge/dist/cjs.js ***!
@@ -7883,6 +8413,35 @@ deepmerge.all = function deepmergeAll(array, options) {
 var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
+
+
+/***/ }),
+
+/***/ "./node_modules/filter-obj/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/filter-obj/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+module.exports = function (obj, predicate) {
+	var ret = {};
+	var keys = Object.keys(obj);
+	var isArr = Array.isArray(predicate);
+
+	for (var i = 0; i < keys.length; i++) {
+		var key = keys[i];
+		var val = obj[key];
+
+		if (isArr ? predicate.indexOf(key) !== -1 : predicate(key, val, obj)) {
+			ret[key] = val;
+		}
+	}
+
+	return ret;
+};
 
 
 /***/ }),
@@ -8298,11 +8857,8 @@ function parsePath(path) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 var _fs = _interopRequireDefault(__webpack_require__(/*! fs */ "fs"));
-
 var _path = _interopRequireDefault(__webpack_require__(/*! path */ "path"));
-
 exports.favicons = [{
   src: "favicon-32x32.png",
   sizes: "32x32",
@@ -8355,7 +8911,6 @@ exports.doesIconExist = function doesIconExist(srcIcon) {
     if (e.code !== "ENOENT") {
       throw e;
     }
-
     return false;
   }
 };
@@ -8364,18 +8919,14 @@ exports.doesIconExist = function doesIconExist(srcIcon) {
  * @param {string} digest The digest of the icon provided in the plugin's options.
  */
 
-
 exports.addDigestToPath = function (path, digest, method) {
   if (method === "name") {
     var parsedPath = _path.default.parse(path);
-
     return parsedPath.dir + "/" + parsedPath.name + "-" + digest + parsedPath.ext;
   }
-
   if (method === "query") {
     return path + "?v=" + digest;
   }
-
   return path;
 };
 
@@ -8392,36 +8943,30 @@ exports.addDigestToPath = function (path, digest, method) {
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
 var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
-
 var React = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-
 var _gatsby = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
 var _common = __webpack_require__(/*! ./common.js */ "./node_modules/gatsby-plugin-manifest/common.js");
+var _getManifestPathname = _interopRequireDefault(__webpack_require__(/*! ./get-manifest-pathname */ "./node_modules/gatsby-plugin-manifest/get-manifest-pathname.js"));
 
-var _getManifestPathname = _interopRequireDefault(__webpack_require__(/*! ./get-manifest-pathname */ "./node_modules/gatsby-plugin-manifest/get-manifest-pathname.js")); // TODO: remove for v3
-
-
+// TODO: remove for v3
 var withPrefix = _gatsby.withAssetPrefix || _gatsby.withPrefix;
-
 exports.onRenderBody = function (_ref, _ref2) {
   var setHeadComponents = _ref.setHeadComponents,
-      _ref$pathname = _ref.pathname,
-      pathname = _ref$pathname === void 0 ? "/" : _ref$pathname;
+    _ref$pathname = _ref.pathname,
+    pathname = _ref$pathname === void 0 ? "/" : _ref$pathname;
   var localize = _ref2.localize,
-      legacy = _ref2.legacy,
-      cacheBusting = _ref2.cache_busting_mode,
-      cacheDigest = _ref2.cacheDigest,
-      icon = _ref2.icon,
-      pluginIcons = _ref2.icons,
-      insertFaviconLinkTag = _ref2.include_favicon,
-      insertMetaTag = _ref2.theme_color_in_head,
-      theme_color = _ref2.theme_color,
-      _ref2$crossOrigin = _ref2.crossOrigin,
-      crossOrigin = _ref2$crossOrigin === void 0 ? "anonymous" : _ref2$crossOrigin; // We use this to build a final array to pass as the argument to setHeadComponents at the end of onRenderBody.
-
+    legacy = _ref2.legacy,
+    cacheBusting = _ref2.cache_busting_mode,
+    cacheDigest = _ref2.cacheDigest,
+    icon = _ref2.icon,
+    pluginIcons = _ref2.icons,
+    insertFaviconLinkTag = _ref2.include_favicon,
+    insertMetaTag = _ref2.theme_color_in_head,
+    theme_color = _ref2.theme_color,
+    _ref2$crossOrigin = _ref2.crossOrigin,
+    crossOrigin = _ref2$crossOrigin === void 0 ? "anonymous" : _ref2$crossOrigin;
+  // We use this to build a final array to pass as the argument to setHeadComponents at the end of onRenderBody.
   var headComponents = [];
   var srcIconExists = !!icon;
   var icons = pluginIcons || _common.defaultIcons;
@@ -8437,7 +8982,6 @@ exports.onRenderBody = function (_ref, _ref2) {
           type: "image/png"
         }));
       });
-
       if (icon === null || icon === void 0 ? void 0 : icon.endsWith(".svg")) {
         headComponents.push( /*#__PURE__*/React.createElement("link", {
           key: "gatsby-plugin-manifest-icon-link-svg",
@@ -8448,7 +8992,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       }
     }
   } // Add manifest link tag.
-
 
   headComponents.push( /*#__PURE__*/React.createElement("link", {
     key: "gatsby-plugin-manifest-link",
@@ -8464,7 +9007,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       content: theme_color
     }));
   }
-
   if (legacy) {
     icons.forEach(function (icon) {
       headComponents.push( /*#__PURE__*/React.createElement("link", {
@@ -8475,7 +9017,6 @@ exports.onRenderBody = function (_ref, _ref2) {
       }));
     });
   }
-
   setHeadComponents(headComponents);
   return true;
 };
@@ -8494,6 +9035,7 @@ exports.onRenderBody = function (_ref, _ref2) {
 
 exports.__esModule = true;
 exports.default = void 0;
+
 /**
  * Get a manifest filename depending on localized pathname
  *
@@ -8501,25 +9043,19 @@ exports.default = void 0;
  * @param {Array<{start_url: string, lang: string}>} localizedManifests
  * @return string
  */
-
 var _default = function _default(pathname, localizedManifests) {
   var defaultFilename = "manifest.webmanifest";
-
   if (!Array.isArray(localizedManifests)) {
     return defaultFilename;
   }
-
   var localizedManifest = localizedManifests.find(function (app) {
     return pathname.startsWith(app.start_url);
   });
-
   if (!localizedManifest) {
     return defaultFilename;
   }
-
   return "manifest_" + localizedManifest.lang + ".webmanifest";
 };
-
 exports.default = _default;
 
 /***/ }),
@@ -8568,6 +9104,26 @@ const wrapRootElement = _wrap_root_element__WEBPACK_IMPORTED_MODULE_0__["default
 
 /***/ }),
 
+/***/ "./node_modules/gatsby-plugin-mdx/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/gatsby-plugin-mdx/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Welcome to gatsby-plugin-mdx!
+ *
+ * Start reading in gatsby-node.js
+ */
+
+const MDXRenderer = __webpack_require__(/*! ./mdx-renderer */ "./node_modules/gatsby-plugin-mdx/mdx-renderer.js");
+module.exports = {
+  MDXRenderer: MDXRenderer
+};
+
+/***/ }),
+
 /***/ "./node_modules/gatsby-plugin-mdx/loaders/mdx-components.js":
 /*!******************************************************************!*\
   !*** ./node_modules/gatsby-plugin-mdx/loaders/mdx-components.js ***!
@@ -8591,8 +9147,74 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var scope_0 = __webpack_require__(/*! ./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js */ "./.cache/caches/gatsby-plugin-mdx/mdx-scopes-dir/e92f8988d65cf25c087d226e6c0ef06f.js").default;
-
 /* harmony default export */ __webpack_exports__["default"] = (Object.assign({}, scope_0));
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-mdx/mdx-renderer.js":
+/*!********************************************************!*\
+  !*** ./node_modules/gatsby-plugin-mdx/mdx-renderer.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _defineProperty = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+var _objectWithoutProperties = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js");
+const _excluded = ["scope", "children"];
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    enumerableOnly && (symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    })), keys.push.apply(keys, symbols);
+  }
+  return keys;
+}
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = null != arguments[i] ? arguments[i] : {};
+    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+      _defineProperty(target, key, source[key]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+    });
+  }
+  return target;
+}
+const React = __webpack_require__(/*! react */ "react");
+const {
+  mdx
+} = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+const {
+  useMDXScope
+} = __webpack_require__(/*! ./context */ "./node_modules/gatsby-plugin-mdx/context.js");
+module.exports = function MDXRenderer(_ref) {
+  let {
+      scope,
+      children
+    } = _ref,
+    props = _objectWithoutProperties(_ref, _excluded);
+  const mdxScope = useMDXScope(scope);
+
+  // Memoize the compiled component
+  const End = React.useMemo(() => {
+    if (!children) {
+      return null;
+    }
+    const fullScope = _objectSpread({
+      // React is here just in case the user doesn't pass them in
+      // in a manual usage of the renderer
+      React,
+      mdx
+    }, mdxScope);
+    const keys = Object.keys(fullScope);
+    const values = keys.map(key => fullScope[key]);
+    const fn = new Function(`_fn`, ...keys, `${children}`);
+    return fn({}, ...values);
+  }, [children, scope]);
+  return React.createElement(End, _objectSpread({}, props));
+};
 
 /***/ }),
 
@@ -8615,42 +9237,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _loaders_mdx_scopes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loaders/mdx-scopes */ "./node_modules/gatsby-plugin-mdx/loaders/mdx-scopes.js");
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
 
-
 function ownKeys(object, enumerableOnly) {
   var keys = Object.keys(object);
-
   if (Object.getOwnPropertySymbols) {
     var symbols = Object.getOwnPropertySymbols(object);
-
-    if (enumerableOnly) {
-      symbols = symbols.filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-      });
-    }
-
-    keys.push.apply(keys, symbols);
+    enumerableOnly && (symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    })), keys.push.apply(keys, symbols);
   }
-
   return keys;
 }
-
 function _objectSpread(target) {
   for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-
-    if (i % 2) {
-      ownKeys(Object(source), true).forEach(function (key) {
-        Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
-      });
-    } else if (Object.getOwnPropertyDescriptors) {
-      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
-    } else {
-      ownKeys(Object(source)).forEach(function (key) {
-        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
-      });
-    }
+    var source = null != arguments[i] ? arguments[i] : {};
+    i % 2 ? ownKeys(Object(source), !0).forEach(function (key) {
+      Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) {
+      Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+    });
   }
-
   return target;
 }
 
@@ -8681,9 +9286,7 @@ function _objectSpread(target) {
 
 
 
-
 const componentsAndGuards = {};
-
 const componentFromGuards = arr => function GatsbyMDXComponentFinder(props) {
   const {
     Component
@@ -8692,7 +9295,6 @@ const componentFromGuards = arr => function GatsbyMDXComponentFinder(props) {
   }) => guard ? guard(props) : true);
   return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(Component, props);
 };
-
 _loaders_mdx_components__WEBPACK_IMPORTED_MODULE_4__["plugins"].forEach(({
   guards = {},
   components
@@ -8720,8 +9322,9 @@ const components = Object.entries(componentsAndGuards).map(([name, arr]) => {
   };
 }).reduce((acc, obj) => {
   return _objectSpread(_objectSpread({}, acc), obj);
-}, {}); // merge any components in wrapRootElement above this wrapRoot
+}, {});
 
+// merge any components in wrapRootElement above this wrapRoot
 const MDXConsumer = Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["withMDXComponents"])(({
   components: componentsFromContext,
   children
@@ -8730,11 +9333,9 @@ const MDXConsumer = Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["withMDXCo
 }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["MDXProvider"], {
   components: _objectSpread(_objectSpread({}, componentsFromContext), components)
 }, children)));
-
 const WrapRootElement = ({
   element
 }) => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(MDXConsumer, null, element);
-
 /* harmony default export */ __webpack_exports__["default"] = (WrapRootElement);
 
 /***/ }),
@@ -8751,28 +9352,21 @@ const WrapRootElement = ({
 
 exports.__esModule = true;
 exports.onRenderBody = void 0;
-
 var _reactHelmet = __webpack_require__(/*! react-helmet */ "react-helmet");
-
 var onRenderBody = function onRenderBody(_ref) {
   var setHeadComponents = _ref.setHeadComponents,
-      setHtmlAttributes = _ref.setHtmlAttributes,
-      setBodyAttributes = _ref.setBodyAttributes;
-
+    setHtmlAttributes = _ref.setHtmlAttributes,
+    setBodyAttributes = _ref.setBodyAttributes;
   var helmet = _reactHelmet.Helmet.renderStatic(); // These action functions were added partway through the Gatsby 1.x cycle.
-
 
   if (setHtmlAttributes) {
     setHtmlAttributes(helmet.htmlAttributes.toComponent());
   }
-
   if (setBodyAttributes) {
     setBodyAttributes(helmet.bodyAttributes.toComponent());
   }
-
   setHeadComponents([helmet.title.toComponent(), helmet.link.toComponent(), helmet.meta.toComponent(), helmet.noscript.toComponent(), helmet.script.toComponent(), helmet.style.toComponent(), helmet.base.toComponent()]);
 };
-
 exports.onRenderBody = onRenderBody;
 
 /***/ }),
@@ -9227,14 +9821,1176 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "wrapRootElement", function() { return wrapRootElement; });
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
 
-
 const React = __webpack_require__(/*! react */ "react");
-
 const GlobalContextProvider = __webpack_require__(/*! ./src/context/GlobalContextProvider */ "./node_modules/gatsby-theme-document/src/context/GlobalContextProvider.js").default;
-
 const wrapRootElement = ({
   element
 }) => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_0__["jsx"])(GlobalContextProvider, null, element);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/ButtonCollapse.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/ButtonCollapse.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _icons_Add__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/Add */ "./node_modules/gatsby-theme-document/src/components/icons/Add.js");
+/* harmony import */ var _icons_Icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/Icon */ "./node_modules/gatsby-theme-document/src/components/icons/Icon.js");
+/* harmony import */ var _icons_Minimize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/Minimize */ "./node_modules/gatsby-theme-document/src/components/icons/Minimize.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+
+
+
+const ButtonCollapse = ({
+  onClick,
+  isCollapsed
+}) => {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(StyledButtonCollapse, {
+    onClick: onClick,
+    "aria-label": "Toggle Subnavigation",
+    title: "Toggle Subnavigation"
+  }, isCollapsed ? Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Icon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    icon: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Add__WEBPACK_IMPORTED_MODULE_3__["default"], null),
+    size: 24
+  }) : Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Icon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    icon: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Minimize__WEBPACK_IMPORTED_MODULE_5__["default"], null),
+    size: 24
+  }));
+};
+const StyledButtonCollapse = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("button", {
+  target: "e5o9v6e0",
+  label: "StyledButtonCollapse"
+})("position:absolute;top:0;right:0;padding:0 0.8rem;height:37px;background:none;border:0;color:", p => p.theme.colors.text, ";cursor:pointer;font-size:1rem;" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0J1dHRvbkNvbGxhcHNlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CMEMiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvQnV0dG9uQ29sbGFwc2UuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBBZGQgZnJvbSAnLi9pY29ucy9BZGQnO1xuaW1wb3J0IEljb24gZnJvbSAnLi9pY29ucy9JY29uJztcbmltcG9ydCBNaW5pbWl6ZSBmcm9tICcuL2ljb25zL01pbmltaXplJztcblxuY29uc3QgQnV0dG9uQ29sbGFwc2UgPSAoeyBvbkNsaWNrLCBpc0NvbGxhcHNlZCB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPFN0eWxlZEJ1dHRvbkNvbGxhcHNlXG4gICAgICBvbkNsaWNrPXtvbkNsaWNrfVxuICAgICAgYXJpYS1sYWJlbD1cIlRvZ2dsZSBTdWJuYXZpZ2F0aW9uXCJcbiAgICAgIHRpdGxlPVwiVG9nZ2xlIFN1Ym5hdmlnYXRpb25cIlxuICAgID5cbiAgICAgIHtpc0NvbGxhcHNlZCA/IDxJY29uIGljb249ezxBZGQgLz59IHNpemU9ezI0fSAvPiA6IDxJY29uIGljb249ezxNaW5pbWl6ZSAvPn0gc2l6ZT17MjR9IC8+fVxuICAgIDwvU3R5bGVkQnV0dG9uQ29sbGFwc2U+XG4gICk7XG59O1xuXG5jb25zdCBTdHlsZWRCdXR0b25Db2xsYXBzZSA9IHN0eWxlZC5idXR0b25gXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAwO1xuICByaWdodDogMDtcbiAgcGFkZGluZzogMCAwLjhyZW07XG4gIGhlaWdodDogMzdweDtcbiAgYmFja2dyb3VuZDogbm9uZTtcbiAgYm9yZGVyOiAwO1xuICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGZvbnQtc2l6ZTogMXJlbTtcbmA7XG5cbkJ1dHRvbkNvbGxhcHNlLnByb3BUeXBlcyA9IHtcbiAgb25DbGljazogUHJvcFR5cGVzLmZ1bmMuaXNSZXF1aXJlZCxcbiAgaXNDb2xsYXBzZWQ6IFByb3BUeXBlcy5ib29sXG59O1xuXG5leHBvcnQgZGVmYXVsdCBCdXR0b25Db2xsYXBzZTtcbiJdfQ== */"));
+ButtonCollapse.propTypes = {
+  onClick: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  isCollapsed: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool
+};
+/* harmony default export */ __webpack_exports__["default"] = (ButtonCollapse);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/Header.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/Header.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _hooks_useCycleColor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../hooks/useCycleColor */ "./node_modules/gatsby-theme-document/src/hooks/useCycleColor.js");
+/* harmony import */ var _styles_media__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/media */ "./node_modules/gatsby-theme-document/src/styles/media.js");
+/* harmony import */ var _icons_ColorToggle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/ColorToggle */ "./node_modules/gatsby-theme-document/src/components/icons/ColorToggle.js");
+/* harmony import */ var _icons_IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/IconButton */ "./node_modules/gatsby-theme-document/src/components/icons/IconButton.js");
+/* harmony import */ var _icons_Menu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/Menu */ "./node_modules/gatsby-theme-document/src/components/icons/Menu.js");
+/* harmony import */ var _LogoWrapper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./LogoWrapper */ "./node_modules/gatsby-theme-document/src/components/LogoWrapper.js");
+/* harmony import */ var _SocialIcons__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./SocialIcons */ "./node_modules/gatsby-theme-document/src/components/SocialIcons.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+
+
+
+
+
+const Header = ({
+  navOpen,
+  setNavOpen
+}) => {
+  const {
+    cycleColorMode
+  } = Object(_hooks_useCycleColor__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(StyledHeader, {
+    navOpen: navOpen
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(HeaderSection, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(NavIconButton, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_icons_IconButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    label: "Open Navigation",
+    icon: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_icons_Menu__WEBPACK_IMPORTED_MODULE_7__["default"], null),
+    size: 30,
+    onClick: () => {
+      setNavOpen(!navOpen);
+    }
+  })), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_LogoWrapper__WEBPACK_IMPORTED_MODULE_8__["default"], null)), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(HeaderSection, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_SocialIcons__WEBPACK_IMPORTED_MODULE_9__["default"], null), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_icons_IconButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    label: "Change Theme Color",
+    icon: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_10__["jsx"])(_icons_ColorToggle__WEBPACK_IMPORTED_MODULE_5__["default"], null),
+    size: 30,
+    onClick: cycleColorMode
+  })));
+};
+const StyledHeader = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("header", {
+  target: "e1u1f2yw0",
+  label: "StyledHeader"
+})("display:flex;justify-content:space-between;align-items:center;padding:1rem 1rem;z-index:5;background:", p => p.theme.colors.background, ";transition:all 0.25s var(--ease-in-out-quad);border-bottom:1px solid ", p => p.theme.colors.borderColor, ";transform:", p => p.navOpen ? `translateX(16rem)` : null, ";", _styles_media__WEBPACK_IMPORTED_MODULE_4__["default"].desktop_up`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 1.2rem;
+    transform: translateX(0);
+
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF5Q2tDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHVzZUN5Y2xlQ29sb3IgZnJvbSAnLi4vaG9va3MvdXNlQ3ljbGVDb2xvcic7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgQ29sb3JUb2dnbGUgZnJvbSAnLi9pY29ucy9Db2xvclRvZ2dsZSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICcuL2ljb25zL0ljb25CdXR0b24nO1xuaW1wb3J0IE1lbnUgZnJvbSAnLi9pY29ucy9NZW51JztcbmltcG9ydCBMb2dvV3JhcHBlciBmcm9tICcuL0xvZ29XcmFwcGVyJztcbmltcG9ydCBTb2NpYWxJY29ucyBmcm9tICcuL1NvY2lhbEljb25zJztcblxuY29uc3QgSGVhZGVyID0gKHsgbmF2T3Blbiwgc2V0TmF2T3BlbiB9KSA9PiB7XG4gIGNvbnN0IHsgY3ljbGVDb2xvck1vZGUgfSA9IHVzZUN5Y2xlQ29sb3IoKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkSGVhZGVyIG5hdk9wZW49e25hdk9wZW59PlxuICAgICAgPEhlYWRlclNlY3Rpb24+XG4gICAgICAgIDxOYXZJY29uQnV0dG9uPlxuICAgICAgICAgIDxJY29uQnV0dG9uXG4gICAgICAgICAgICBsYWJlbD1cIk9wZW4gTmF2aWdhdGlvblwiXG4gICAgICAgICAgICBpY29uPXs8TWVudSAvPn1cbiAgICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgICAgb25DbGljaz17KCkgPT4ge1xuICAgICAgICAgICAgICBzZXROYXZPcGVuKCFuYXZPcGVuKTtcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9OYXZJY29uQnV0dG9uPlxuICAgICAgICA8TG9nb1dyYXBwZXIgLz5cbiAgICAgIDwvSGVhZGVyU2VjdGlvbj5cbiAgICAgIDxIZWFkZXJTZWN0aW9uPlxuICAgICAgICA8U29jaWFsSWNvbnMgLz5cbiAgICAgICAgPEljb25CdXR0b25cbiAgICAgICAgICBsYWJlbD1cIkNoYW5nZSBUaGVtZSBDb2xvclwiXG4gICAgICAgICAgaWNvbj17PENvbG9yVG9nZ2xlIC8+fVxuICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgIG9uQ2xpY2s9e2N5Y2xlQ29sb3JNb2RlfVxuICAgICAgICAvPlxuICAgICAgPC9IZWFkZXJTZWN0aW9uPlxuICAgIDwvU3R5bGVkSGVhZGVyPlxuICApO1xufTtcblxuY29uc3QgU3R5bGVkSGVhZGVyID0gc3R5bGVkLmhlYWRlcmBcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAxcmVtIDFyZW07XG4gIHotaW5kZXg6IDU7XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYWxsIDAuMjVzIHZhcigtLWVhc2UtaW4tb3V0LXF1YWQpO1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLmJvcmRlckNvbG9yfTtcbiAgdHJhbnNmb3JtOiAke3AgPT4gKHAubmF2T3BlbiA/IGB0cmFuc2xhdGVYKDE2cmVtKWAgOiBudWxsKX07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIHBhZGRpbmc6IDFyZW0gMS4ycmVtO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcblxuICBgfTtcbmA7XG5cbmNvbnN0IE5hdkljb25CdXR0b24gPSBzdHlsZWQuZGl2YFxuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW4tcmlnaHQ6IDFyZW07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgZGlzcGxheTogbm9uZTtcbiAgYH07XG5gO1xuXG5jb25zdCBIZWFkZXJTZWN0aW9uID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbkhlYWRlci5wcm9wVHlwZXMgPSB7XG4gIG5hdk9wZW46IFByb3BUeXBlcy5ib29sLFxuICBzZXROYXZPcGVuOiBQcm9wVHlwZXMuZnVuY1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyO1xuIl19 */"));
+const NavIconButton = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e1u1f2yw1",
+  label: "NavIconButton"
+})("display:flex;margin-right:1rem;", _styles_media__WEBPACK_IMPORTED_MODULE_4__["default"].desktop_up`
+    display: none;
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4RGdDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHVzZUN5Y2xlQ29sb3IgZnJvbSAnLi4vaG9va3MvdXNlQ3ljbGVDb2xvcic7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgQ29sb3JUb2dnbGUgZnJvbSAnLi9pY29ucy9Db2xvclRvZ2dsZSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICcuL2ljb25zL0ljb25CdXR0b24nO1xuaW1wb3J0IE1lbnUgZnJvbSAnLi9pY29ucy9NZW51JztcbmltcG9ydCBMb2dvV3JhcHBlciBmcm9tICcuL0xvZ29XcmFwcGVyJztcbmltcG9ydCBTb2NpYWxJY29ucyBmcm9tICcuL1NvY2lhbEljb25zJztcblxuY29uc3QgSGVhZGVyID0gKHsgbmF2T3Blbiwgc2V0TmF2T3BlbiB9KSA9PiB7XG4gIGNvbnN0IHsgY3ljbGVDb2xvck1vZGUgfSA9IHVzZUN5Y2xlQ29sb3IoKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkSGVhZGVyIG5hdk9wZW49e25hdk9wZW59PlxuICAgICAgPEhlYWRlclNlY3Rpb24+XG4gICAgICAgIDxOYXZJY29uQnV0dG9uPlxuICAgICAgICAgIDxJY29uQnV0dG9uXG4gICAgICAgICAgICBsYWJlbD1cIk9wZW4gTmF2aWdhdGlvblwiXG4gICAgICAgICAgICBpY29uPXs8TWVudSAvPn1cbiAgICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgICAgb25DbGljaz17KCkgPT4ge1xuICAgICAgICAgICAgICBzZXROYXZPcGVuKCFuYXZPcGVuKTtcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9OYXZJY29uQnV0dG9uPlxuICAgICAgICA8TG9nb1dyYXBwZXIgLz5cbiAgICAgIDwvSGVhZGVyU2VjdGlvbj5cbiAgICAgIDxIZWFkZXJTZWN0aW9uPlxuICAgICAgICA8U29jaWFsSWNvbnMgLz5cbiAgICAgICAgPEljb25CdXR0b25cbiAgICAgICAgICBsYWJlbD1cIkNoYW5nZSBUaGVtZSBDb2xvclwiXG4gICAgICAgICAgaWNvbj17PENvbG9yVG9nZ2xlIC8+fVxuICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgIG9uQ2xpY2s9e2N5Y2xlQ29sb3JNb2RlfVxuICAgICAgICAvPlxuICAgICAgPC9IZWFkZXJTZWN0aW9uPlxuICAgIDwvU3R5bGVkSGVhZGVyPlxuICApO1xufTtcblxuY29uc3QgU3R5bGVkSGVhZGVyID0gc3R5bGVkLmhlYWRlcmBcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAxcmVtIDFyZW07XG4gIHotaW5kZXg6IDU7XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYWxsIDAuMjVzIHZhcigtLWVhc2UtaW4tb3V0LXF1YWQpO1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLmJvcmRlckNvbG9yfTtcbiAgdHJhbnNmb3JtOiAke3AgPT4gKHAubmF2T3BlbiA/IGB0cmFuc2xhdGVYKDE2cmVtKWAgOiBudWxsKX07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIHBhZGRpbmc6IDFyZW0gMS4ycmVtO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcblxuICBgfTtcbmA7XG5cbmNvbnN0IE5hdkljb25CdXR0b24gPSBzdHlsZWQuZGl2YFxuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW4tcmlnaHQ6IDFyZW07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgZGlzcGxheTogbm9uZTtcbiAgYH07XG5gO1xuXG5jb25zdCBIZWFkZXJTZWN0aW9uID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbkhlYWRlci5wcm9wVHlwZXMgPSB7XG4gIG5hdk9wZW46IFByb3BUeXBlcy5ib29sLFxuICBzZXROYXZPcGVuOiBQcm9wVHlwZXMuZnVuY1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyO1xuIl19 */"));
+const HeaderSection = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e1u1f2yw2",
+  label: "HeaderSection"
+})( false ? undefined : {
+  name: "70qvj9",
+  styles: "display:flex;align-items:center;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzRWdDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0hlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHVzZUN5Y2xlQ29sb3IgZnJvbSAnLi4vaG9va3MvdXNlQ3ljbGVDb2xvcic7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgQ29sb3JUb2dnbGUgZnJvbSAnLi9pY29ucy9Db2xvclRvZ2dsZSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICcuL2ljb25zL0ljb25CdXR0b24nO1xuaW1wb3J0IE1lbnUgZnJvbSAnLi9pY29ucy9NZW51JztcbmltcG9ydCBMb2dvV3JhcHBlciBmcm9tICcuL0xvZ29XcmFwcGVyJztcbmltcG9ydCBTb2NpYWxJY29ucyBmcm9tICcuL1NvY2lhbEljb25zJztcblxuY29uc3QgSGVhZGVyID0gKHsgbmF2T3Blbiwgc2V0TmF2T3BlbiB9KSA9PiB7XG4gIGNvbnN0IHsgY3ljbGVDb2xvck1vZGUgfSA9IHVzZUN5Y2xlQ29sb3IoKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkSGVhZGVyIG5hdk9wZW49e25hdk9wZW59PlxuICAgICAgPEhlYWRlclNlY3Rpb24+XG4gICAgICAgIDxOYXZJY29uQnV0dG9uPlxuICAgICAgICAgIDxJY29uQnV0dG9uXG4gICAgICAgICAgICBsYWJlbD1cIk9wZW4gTmF2aWdhdGlvblwiXG4gICAgICAgICAgICBpY29uPXs8TWVudSAvPn1cbiAgICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgICAgb25DbGljaz17KCkgPT4ge1xuICAgICAgICAgICAgICBzZXROYXZPcGVuKCFuYXZPcGVuKTtcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9OYXZJY29uQnV0dG9uPlxuICAgICAgICA8TG9nb1dyYXBwZXIgLz5cbiAgICAgIDwvSGVhZGVyU2VjdGlvbj5cbiAgICAgIDxIZWFkZXJTZWN0aW9uPlxuICAgICAgICA8U29jaWFsSWNvbnMgLz5cbiAgICAgICAgPEljb25CdXR0b25cbiAgICAgICAgICBsYWJlbD1cIkNoYW5nZSBUaGVtZSBDb2xvclwiXG4gICAgICAgICAgaWNvbj17PENvbG9yVG9nZ2xlIC8+fVxuICAgICAgICAgIHNpemU9ezMwfVxuICAgICAgICAgIG9uQ2xpY2s9e2N5Y2xlQ29sb3JNb2RlfVxuICAgICAgICAvPlxuICAgICAgPC9IZWFkZXJTZWN0aW9uPlxuICAgIDwvU3R5bGVkSGVhZGVyPlxuICApO1xufTtcblxuY29uc3QgU3R5bGVkSGVhZGVyID0gc3R5bGVkLmhlYWRlcmBcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAxcmVtIDFyZW07XG4gIHotaW5kZXg6IDU7XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYWxsIDAuMjVzIHZhcigtLWVhc2UtaW4tb3V0LXF1YWQpO1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLmJvcmRlckNvbG9yfTtcbiAgdHJhbnNmb3JtOiAke3AgPT4gKHAubmF2T3BlbiA/IGB0cmFuc2xhdGVYKDE2cmVtKWAgOiBudWxsKX07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIHBhZGRpbmc6IDFyZW0gMS4ycmVtO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcblxuICBgfTtcbmA7XG5cbmNvbnN0IE5hdkljb25CdXR0b24gPSBzdHlsZWQuZGl2YFxuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW4tcmlnaHQ6IDFyZW07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgZGlzcGxheTogbm9uZTtcbiAgYH07XG5gO1xuXG5jb25zdCBIZWFkZXJTZWN0aW9uID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbmA7XG5cbkhlYWRlci5wcm9wVHlwZXMgPSB7XG4gIG5hdk9wZW46IFByb3BUeXBlcy5ib29sLFxuICBzZXROYXZPcGVuOiBQcm9wVHlwZXMuZnVuY1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+Header.propTypes = {
+  navOpen: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  setNavOpen: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+};
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/Layout.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/Layout.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var theme_ui__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! theme-ui */ "./node_modules/theme-ui/dist/index.esm.js");
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles */ "./node_modules/gatsby-theme-document/src/styles/index.js");
+/* harmony import */ var _styles_media__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/media */ "./node_modules/gatsby-theme-document/src/styles/media.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Header */ "./node_modules/gatsby-theme-document/src/components/Header.js");
+/* harmony import */ var _LeftSidebar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./LeftSidebar */ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/index.js");
+/* harmony import */ var _RightSidebar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./RightSidebar */ "./node_modules/gatsby-theme-document/src/components/RightSidebar.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+
+
+
+
+
+const Layout = ({
+  children,
+  tableOfContents,
+  location
+}) => {
+  const {
+    0: navOpen,
+    1: setNavOpen
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false);
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(theme_ui__WEBPACK_IMPORTED_MODULE_4__["Styled"].root, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["Global"], {
+    styles: _styles__WEBPACK_IMPORTED_MODULE_5__["globalStyles"]
+  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    navOpen: navOpen,
+    setNavOpen: setNavOpen
+  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(SiteWrapper, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(_LeftSidebar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    navOpen: navOpen
+  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(SiteContentWrapper, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(SiteContent, {
+    navOpen: navOpen
+  }, children)), tableOfContents.items && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["jsx"])(_RightSidebar__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    tableOfContents: tableOfContents,
+    location: location
+  })));
+};
+const SiteWrapper = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e18bsbue0",
+  label: "SiteWrapper"
+})("display:flex;min-height:100vh;overflow-x:hidden;background:", p => p.theme.colors.background, ";transition:background 0.25s var(--ease-in-out-quad);" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4QjhCIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdsb2JhbCB9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcbmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFN0eWxlZCB9IGZyb20gJ3RoZW1lLXVpJztcbmltcG9ydCB7IGdsb2JhbFN0eWxlcyB9IGZyb20gJy4uL3N0eWxlcyc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJztcbmltcG9ydCBMZWZ0U2lkZWJhciBmcm9tICcuL0xlZnRTaWRlYmFyJztcbmltcG9ydCBSaWdodFNpZGViYXIgZnJvbSAnLi9SaWdodFNpZGViYXInO1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiwgdGFibGVPZkNvbnRlbnRzLCBsb2NhdGlvbiB9KSA9PiB7XG4gIGNvbnN0IFtuYXZPcGVuLCBzZXROYXZPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkLnJvb3Q+XG4gICAgICA8R2xvYmFsIHN0eWxlcz17Z2xvYmFsU3R5bGVzfSAvPlxuICAgICAgPEhlYWRlciBuYXZPcGVuPXtuYXZPcGVufSBzZXROYXZPcGVuPXtzZXROYXZPcGVufSAvPlxuICAgICAgPFNpdGVXcmFwcGVyPlxuICAgICAgICA8TGVmdFNpZGViYXIgbmF2T3Blbj17bmF2T3Blbn0gLz5cbiAgICAgICAgPFNpdGVDb250ZW50V3JhcHBlcj5cbiAgICAgICAgICA8U2l0ZUNvbnRlbnQgbmF2T3Blbj17bmF2T3Blbn0+e2NoaWxkcmVufTwvU2l0ZUNvbnRlbnQ+XG4gICAgICAgIDwvU2l0ZUNvbnRlbnRXcmFwcGVyPlxuICAgICAgICB7dGFibGVPZkNvbnRlbnRzLml0ZW1zICYmIChcbiAgICAgICAgICA8UmlnaHRTaWRlYmFyIHRhYmxlT2ZDb250ZW50cz17dGFibGVPZkNvbnRlbnRzfSBsb2NhdGlvbj17bG9jYXRpb259IC8+XG4gICAgICAgICl9XG4gICAgICA8L1NpdGVXcmFwcGVyPlxuICAgIDwvU3R5bGVkLnJvb3Q+XG4gICk7XG59O1xuXG5jb25zdCBTaXRlV3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdy14OiBoaWRkZW47XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZCAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50V3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGZsZXgtZ3JvdzogMTtcbiAgbWluLXdpZHRoOiAyMHJlbTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50ID0gc3R5bGVkLm1haW5gXG4gIHBhZGRpbmc6IDJyZW0gMXJlbSAycmVtO1xuICB0cmFuc2l0aW9uOiAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbiAgb3BhY2l0eTogJHtwID0+IChwLm5hdk9wZW4gPyAwLjMgOiAxKX07XG4gIHRyYW5zZm9ybTogJHtwID0+IChwLm5hdk9wZW4gPyBgdHJhbnNsYXRlWCgxNnJlbSlgIDogbnVsbCl9O1xuICAke21lZGlhcXVlcmllcy5kZXNrdG9wX3VwYFxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHBhZGRpbmc6IDdyZW0gM3JlbSAzcmVtO1xuICAgIG1heC13aWR0aDogNTByZW07XG4gIGB9O1xuYDtcblxuTGF5b3V0LnByb3BUeXBlcyA9IHtcbiAgY2hpbGRyZW46IFByb3BUeXBlcy5ub2RlLmlzUmVxdWlyZWQsXG4gIHRhYmxlT2ZDb250ZW50czogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkLFxuICBsb2NhdGlvbjogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkXG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */"));
+const SiteContentWrapper = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e18bsbue1",
+  label: "SiteContentWrapper"
+})( false ? undefined : {
+  name: "1e4t8oy",
+  styles: "flex-grow:1;min-width:20rem;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzQ3FDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdsb2JhbCB9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcbmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFN0eWxlZCB9IGZyb20gJ3RoZW1lLXVpJztcbmltcG9ydCB7IGdsb2JhbFN0eWxlcyB9IGZyb20gJy4uL3N0eWxlcyc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJztcbmltcG9ydCBMZWZ0U2lkZWJhciBmcm9tICcuL0xlZnRTaWRlYmFyJztcbmltcG9ydCBSaWdodFNpZGViYXIgZnJvbSAnLi9SaWdodFNpZGViYXInO1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiwgdGFibGVPZkNvbnRlbnRzLCBsb2NhdGlvbiB9KSA9PiB7XG4gIGNvbnN0IFtuYXZPcGVuLCBzZXROYXZPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkLnJvb3Q+XG4gICAgICA8R2xvYmFsIHN0eWxlcz17Z2xvYmFsU3R5bGVzfSAvPlxuICAgICAgPEhlYWRlciBuYXZPcGVuPXtuYXZPcGVufSBzZXROYXZPcGVuPXtzZXROYXZPcGVufSAvPlxuICAgICAgPFNpdGVXcmFwcGVyPlxuICAgICAgICA8TGVmdFNpZGViYXIgbmF2T3Blbj17bmF2T3Blbn0gLz5cbiAgICAgICAgPFNpdGVDb250ZW50V3JhcHBlcj5cbiAgICAgICAgICA8U2l0ZUNvbnRlbnQgbmF2T3Blbj17bmF2T3Blbn0+e2NoaWxkcmVufTwvU2l0ZUNvbnRlbnQ+XG4gICAgICAgIDwvU2l0ZUNvbnRlbnRXcmFwcGVyPlxuICAgICAgICB7dGFibGVPZkNvbnRlbnRzLml0ZW1zICYmIChcbiAgICAgICAgICA8UmlnaHRTaWRlYmFyIHRhYmxlT2ZDb250ZW50cz17dGFibGVPZkNvbnRlbnRzfSBsb2NhdGlvbj17bG9jYXRpb259IC8+XG4gICAgICAgICl9XG4gICAgICA8L1NpdGVXcmFwcGVyPlxuICAgIDwvU3R5bGVkLnJvb3Q+XG4gICk7XG59O1xuXG5jb25zdCBTaXRlV3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdy14OiBoaWRkZW47XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZCAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50V3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGZsZXgtZ3JvdzogMTtcbiAgbWluLXdpZHRoOiAyMHJlbTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50ID0gc3R5bGVkLm1haW5gXG4gIHBhZGRpbmc6IDJyZW0gMXJlbSAycmVtO1xuICB0cmFuc2l0aW9uOiAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbiAgb3BhY2l0eTogJHtwID0+IChwLm5hdk9wZW4gPyAwLjMgOiAxKX07XG4gIHRyYW5zZm9ybTogJHtwID0+IChwLm5hdk9wZW4gPyBgdHJhbnNsYXRlWCgxNnJlbSlgIDogbnVsbCl9O1xuICAke21lZGlhcXVlcmllcy5kZXNrdG9wX3VwYFxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHBhZGRpbmc6IDdyZW0gM3JlbSAzcmVtO1xuICAgIG1heC13aWR0aDogNTByZW07XG4gIGB9O1xuYDtcblxuTGF5b3V0LnByb3BUeXBlcyA9IHtcbiAgY2hpbGRyZW46IFByb3BUeXBlcy5ub2RlLmlzUmVxdWlyZWQsXG4gIHRhYmxlT2ZDb250ZW50czogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkLFxuICBsb2NhdGlvbjogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkXG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const SiteContent = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("main", {
+  target: "e18bsbue2",
+  label: "SiteContent"
+})("padding:2rem 1rem 2rem;transition:0.25s var(--ease-in-out-quad);opacity:", p => p.navOpen ? 0.3 : 1, ";transform:", p => p.navOpen ? `translateX(16rem)` : null, ";", _styles_media__WEBPACK_IMPORTED_MODULE_6__["default"].desktop_up`
+    transform: translateX(0);
+    opacity: 1;
+    padding: 7rem 3rem 3rem;
+    max-width: 50rem;
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEyQytCIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdsb2JhbCB9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcbmltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFN0eWxlZCB9IGZyb20gJ3RoZW1lLXVpJztcbmltcG9ydCB7IGdsb2JhbFN0eWxlcyB9IGZyb20gJy4uL3N0eWxlcyc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJztcbmltcG9ydCBMZWZ0U2lkZWJhciBmcm9tICcuL0xlZnRTaWRlYmFyJztcbmltcG9ydCBSaWdodFNpZGViYXIgZnJvbSAnLi9SaWdodFNpZGViYXInO1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiwgdGFibGVPZkNvbnRlbnRzLCBsb2NhdGlvbiB9KSA9PiB7XG4gIGNvbnN0IFtuYXZPcGVuLCBzZXROYXZPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkLnJvb3Q+XG4gICAgICA8R2xvYmFsIHN0eWxlcz17Z2xvYmFsU3R5bGVzfSAvPlxuICAgICAgPEhlYWRlciBuYXZPcGVuPXtuYXZPcGVufSBzZXROYXZPcGVuPXtzZXROYXZPcGVufSAvPlxuICAgICAgPFNpdGVXcmFwcGVyPlxuICAgICAgICA8TGVmdFNpZGViYXIgbmF2T3Blbj17bmF2T3Blbn0gLz5cbiAgICAgICAgPFNpdGVDb250ZW50V3JhcHBlcj5cbiAgICAgICAgICA8U2l0ZUNvbnRlbnQgbmF2T3Blbj17bmF2T3Blbn0+e2NoaWxkcmVufTwvU2l0ZUNvbnRlbnQ+XG4gICAgICAgIDwvU2l0ZUNvbnRlbnRXcmFwcGVyPlxuICAgICAgICB7dGFibGVPZkNvbnRlbnRzLml0ZW1zICYmIChcbiAgICAgICAgICA8UmlnaHRTaWRlYmFyIHRhYmxlT2ZDb250ZW50cz17dGFibGVPZkNvbnRlbnRzfSBsb2NhdGlvbj17bG9jYXRpb259IC8+XG4gICAgICAgICl9XG4gICAgICA8L1NpdGVXcmFwcGVyPlxuICAgIDwvU3R5bGVkLnJvb3Q+XG4gICk7XG59O1xuXG5jb25zdCBTaXRlV3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGRpc3BsYXk6IGZsZXg7XG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdy14OiBoaWRkZW47XG4gIGJhY2tncm91bmQ6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5iYWNrZ3JvdW5kfTtcbiAgdHJhbnNpdGlvbjogYmFja2dyb3VuZCAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50V3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIGZsZXgtZ3JvdzogMTtcbiAgbWluLXdpZHRoOiAyMHJlbTtcbmA7XG5cbmNvbnN0IFNpdGVDb250ZW50ID0gc3R5bGVkLm1haW5gXG4gIHBhZGRpbmc6IDJyZW0gMXJlbSAycmVtO1xuICB0cmFuc2l0aW9uOiAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbiAgb3BhY2l0eTogJHtwID0+IChwLm5hdk9wZW4gPyAwLjMgOiAxKX07XG4gIHRyYW5zZm9ybTogJHtwID0+IChwLm5hdk9wZW4gPyBgdHJhbnNsYXRlWCgxNnJlbSlgIDogbnVsbCl9O1xuICAke21lZGlhcXVlcmllcy5kZXNrdG9wX3VwYFxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHBhZGRpbmc6IDdyZW0gM3JlbSAzcmVtO1xuICAgIG1heC13aWR0aDogNTByZW07XG4gIGB9O1xuYDtcblxuTGF5b3V0LnByb3BUeXBlcyA9IHtcbiAgY2hpbGRyZW46IFByb3BUeXBlcy5ub2RlLmlzUmVxdWlyZWQsXG4gIHRhYmxlT2ZDb250ZW50czogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkLFxuICBsb2NhdGlvbjogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkXG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */"));
+Layout.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node.isRequired,
+  tableOfContents: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/NavItem.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/LeftSidebar/NavItem.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _context_GlobalContextProvider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../context/GlobalContextProvider */ "./node_modules/gatsby-theme-document/src/context/GlobalContextProvider.js");
+/* harmony import */ var _ButtonCollapse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../ButtonCollapse */ "./node_modules/gatsby-theme-document/src/components/ButtonCollapse.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+const NavItem = ({
+  item
+}) => {
+  const state = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_context_GlobalContextProvider__WEBPACK_IMPORTED_MODULE_3__["GlobalStateContext"]);
+  const dispatch = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_context_GlobalContextProvider__WEBPACK_IMPORTED_MODULE_3__["GlobalDispatchContext"]);
+  const isCollapsed = state.collapsed[item.url];
+  const hasChildren = item.items && item.items.length > 0;
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(StyledNavItem, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(NavItemLink, {
+    to: item.url,
+    activeClassName: "is-active"
+  }, item.title), hasChildren && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(_ButtonCollapse__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    onClick: () => {
+      dispatch({
+        type: 'TOGGLE_NAV_COLLAPSED',
+        url: item.url
+      });
+    },
+    isCollapsed: isCollapsed
+  }), hasChildren && !isCollapsed && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(NavItemChild, null, item.items.map(child => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(StyledNavItem, {
+    key: child.url
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(NavItemLink, {
+    to: child.url,
+    activeClassName: "is-active"
+  }, child.title)))));
+};
+const StyledNavItem = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("li", {
+  target: "el5sgso0",
+  label: "StyledNavItem"
+})( false ? undefined : {
+  name: "1qlvlzc",
+  styles: "position:relative;display:block;padding:0;margin:0.2rem 0;width:100%;list-style:none;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL05hdkl0ZW0uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUMrQiIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9MZWZ0U2lkZWJhci9OYXZJdGVtLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IHsgTGluayB9IGZyb20gJ2dhdHNieSc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlQ29udGV4dCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IEdsb2JhbERpc3BhdGNoQ29udGV4dCwgR2xvYmFsU3RhdGVDb250ZXh0IH0gZnJvbSAnLi4vLi4vY29udGV4dC9HbG9iYWxDb250ZXh0UHJvdmlkZXInO1xuaW1wb3J0IEJ1dHRvbkNvbGxhcHNlIGZyb20gJy4uL0J1dHRvbkNvbGxhcHNlJztcblxuY29uc3QgTmF2SXRlbSA9ICh7IGl0ZW0gfSkgPT4ge1xuICBjb25zdCBzdGF0ZSA9IHVzZUNvbnRleHQoR2xvYmFsU3RhdGVDb250ZXh0KTtcbiAgY29uc3QgZGlzcGF0Y2ggPSB1c2VDb250ZXh0KEdsb2JhbERpc3BhdGNoQ29udGV4dCk7XG4gIGNvbnN0IGlzQ29sbGFwc2VkID0gc3RhdGUuY29sbGFwc2VkW2l0ZW0udXJsXTtcbiAgY29uc3QgaGFzQ2hpbGRyZW4gPSBpdGVtLml0ZW1zICYmIGl0ZW0uaXRlbXMubGVuZ3RoID4gMDtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkTmF2SXRlbT5cbiAgICAgIDxOYXZJdGVtTGluayB0bz17aXRlbS51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICB7aXRlbS50aXRsZX1cbiAgICAgIDwvTmF2SXRlbUxpbms+XG4gICAgICB7aGFzQ2hpbGRyZW4gJiYgKFxuICAgICAgICA8QnV0dG9uQ29sbGFwc2VcbiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7XG4gICAgICAgICAgICBkaXNwYXRjaCh7IHR5cGU6ICdUT0dHTEVfTkFWX0NPTExBUFNFRCcsIHVybDogaXRlbS51cmwgfSk7XG4gICAgICAgICAgfX1cbiAgICAgICAgICBpc0NvbGxhcHNlZD17aXNDb2xsYXBzZWR9XG4gICAgICAgIC8+XG4gICAgICApfVxuICAgICAge2hhc0NoaWxkcmVuICYmICFpc0NvbGxhcHNlZCAmJiAoXG4gICAgICAgIDxOYXZJdGVtQ2hpbGQ+XG4gICAgICAgICAge2l0ZW0uaXRlbXMubWFwKGNoaWxkID0+IChcbiAgICAgICAgICAgIDxTdHlsZWROYXZJdGVtIGtleT17Y2hpbGQudXJsfT5cbiAgICAgICAgICAgICAgPE5hdkl0ZW1MaW5rIHRvPXtjaGlsZC51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICAgICAgICAgIHtjaGlsZC50aXRsZX1cbiAgICAgICAgICAgICAgPC9OYXZJdGVtTGluaz5cbiAgICAgICAgICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9OYXZJdGVtQ2hpbGQ+XG4gICAgICApfVxuICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZE5hdkl0ZW0gPSBzdHlsZWQubGlgXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBhZGRpbmc6IDA7XG4gIG1hcmdpbjogMC4ycmVtIDA7XG4gIHdpZHRoOiAxMDAlO1xuICBsaXN0LXN0eWxlOiBub25lO1xuYDtcblxuY29uc3QgTmF2SXRlbUxpbmsgPSBzdHlsZWQoTGluaylgXG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwYWRkaW5nOiAwLjVyZW0gMS44cmVtIDAuNXJlbSAxLjJyZW07XG4gIHdpZHRoOiAxMDAlO1xuICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBmb250LXdlaWdodDogNjAwO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIHRyYW5zaXRpb246IGNvbG9yICR7cCA9PiBwLnRoZW1lLnRyYW5zaXRpb259O1xuICAmOmhvdmVyLFxuICAmOmZvY3VzLFxuICAmLmlzLWFjdGl2ZSB7XG4gICAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuY29uc3QgTmF2SXRlbUNoaWxkID0gc3R5bGVkLnVsYFxuICBtYXJnaW46IDAuNXJlbSAwIDAuNXJlbSAxLjJyZW07XG4gIHBhZGRpbmc6IDA7XG4gIGJvcmRlci1sZWZ0OiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBsaXN0LXN0eWxlOiBub25lO1xuICAmID4gbGkge1xuICAgIG1hcmdpbjogMDtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhOYXZJdGVtKTtcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const NavItemLink = /*#__PURE__*/Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  target: "el5sgso1",
+  label: "NavItemLink"
+})("display:block;padding:0.5rem 1.8rem 0.5rem 1.2rem;width:100%;color:", p => p.theme.colors.text, ";font-weight:600;text-decoration:none;transition:color ", p => p.theme.transition, ";&:hover,&:focus,&.is-active{color:", p => p.theme.colors.primary, ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL05hdkl0ZW0uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZ0RnQyIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9MZWZ0U2lkZWJhci9OYXZJdGVtLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IHsgTGluayB9IGZyb20gJ2dhdHNieSc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlQ29udGV4dCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IEdsb2JhbERpc3BhdGNoQ29udGV4dCwgR2xvYmFsU3RhdGVDb250ZXh0IH0gZnJvbSAnLi4vLi4vY29udGV4dC9HbG9iYWxDb250ZXh0UHJvdmlkZXInO1xuaW1wb3J0IEJ1dHRvbkNvbGxhcHNlIGZyb20gJy4uL0J1dHRvbkNvbGxhcHNlJztcblxuY29uc3QgTmF2SXRlbSA9ICh7IGl0ZW0gfSkgPT4ge1xuICBjb25zdCBzdGF0ZSA9IHVzZUNvbnRleHQoR2xvYmFsU3RhdGVDb250ZXh0KTtcbiAgY29uc3QgZGlzcGF0Y2ggPSB1c2VDb250ZXh0KEdsb2JhbERpc3BhdGNoQ29udGV4dCk7XG4gIGNvbnN0IGlzQ29sbGFwc2VkID0gc3RhdGUuY29sbGFwc2VkW2l0ZW0udXJsXTtcbiAgY29uc3QgaGFzQ2hpbGRyZW4gPSBpdGVtLml0ZW1zICYmIGl0ZW0uaXRlbXMubGVuZ3RoID4gMDtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkTmF2SXRlbT5cbiAgICAgIDxOYXZJdGVtTGluayB0bz17aXRlbS51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICB7aXRlbS50aXRsZX1cbiAgICAgIDwvTmF2SXRlbUxpbms+XG4gICAgICB7aGFzQ2hpbGRyZW4gJiYgKFxuICAgICAgICA8QnV0dG9uQ29sbGFwc2VcbiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7XG4gICAgICAgICAgICBkaXNwYXRjaCh7IHR5cGU6ICdUT0dHTEVfTkFWX0NPTExBUFNFRCcsIHVybDogaXRlbS51cmwgfSk7XG4gICAgICAgICAgfX1cbiAgICAgICAgICBpc0NvbGxhcHNlZD17aXNDb2xsYXBzZWR9XG4gICAgICAgIC8+XG4gICAgICApfVxuICAgICAge2hhc0NoaWxkcmVuICYmICFpc0NvbGxhcHNlZCAmJiAoXG4gICAgICAgIDxOYXZJdGVtQ2hpbGQ+XG4gICAgICAgICAge2l0ZW0uaXRlbXMubWFwKGNoaWxkID0+IChcbiAgICAgICAgICAgIDxTdHlsZWROYXZJdGVtIGtleT17Y2hpbGQudXJsfT5cbiAgICAgICAgICAgICAgPE5hdkl0ZW1MaW5rIHRvPXtjaGlsZC51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICAgICAgICAgIHtjaGlsZC50aXRsZX1cbiAgICAgICAgICAgICAgPC9OYXZJdGVtTGluaz5cbiAgICAgICAgICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9OYXZJdGVtQ2hpbGQ+XG4gICAgICApfVxuICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZE5hdkl0ZW0gPSBzdHlsZWQubGlgXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBhZGRpbmc6IDA7XG4gIG1hcmdpbjogMC4ycmVtIDA7XG4gIHdpZHRoOiAxMDAlO1xuICBsaXN0LXN0eWxlOiBub25lO1xuYDtcblxuY29uc3QgTmF2SXRlbUxpbmsgPSBzdHlsZWQoTGluaylgXG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwYWRkaW5nOiAwLjVyZW0gMS44cmVtIDAuNXJlbSAxLjJyZW07XG4gIHdpZHRoOiAxMDAlO1xuICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBmb250LXdlaWdodDogNjAwO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIHRyYW5zaXRpb246IGNvbG9yICR7cCA9PiBwLnRoZW1lLnRyYW5zaXRpb259O1xuICAmOmhvdmVyLFxuICAmOmZvY3VzLFxuICAmLmlzLWFjdGl2ZSB7XG4gICAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuY29uc3QgTmF2SXRlbUNoaWxkID0gc3R5bGVkLnVsYFxuICBtYXJnaW46IDAuNXJlbSAwIDAuNXJlbSAxLjJyZW07XG4gIHBhZGRpbmc6IDA7XG4gIGJvcmRlci1sZWZ0OiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBsaXN0LXN0eWxlOiBub25lO1xuICAmID4gbGkge1xuICAgIG1hcmdpbjogMDtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhOYXZJdGVtKTtcbiJdfQ== */"));
+const NavItemChild = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("ul", {
+  target: "el5sgso2",
+  label: "NavItemChild"
+})("margin:0.5rem 0 0.5rem 1.2rem;padding:0;border-left:1px solid ", p => p.theme.colors.text, ";list-style:none;& > li{margin:0;}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL05hdkl0ZW0uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBK0Q4QiIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9MZWZ0U2lkZWJhci9OYXZJdGVtLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IHsgTGluayB9IGZyb20gJ2dhdHNieSc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlQ29udGV4dCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IEdsb2JhbERpc3BhdGNoQ29udGV4dCwgR2xvYmFsU3RhdGVDb250ZXh0IH0gZnJvbSAnLi4vLi4vY29udGV4dC9HbG9iYWxDb250ZXh0UHJvdmlkZXInO1xuaW1wb3J0IEJ1dHRvbkNvbGxhcHNlIGZyb20gJy4uL0J1dHRvbkNvbGxhcHNlJztcblxuY29uc3QgTmF2SXRlbSA9ICh7IGl0ZW0gfSkgPT4ge1xuICBjb25zdCBzdGF0ZSA9IHVzZUNvbnRleHQoR2xvYmFsU3RhdGVDb250ZXh0KTtcbiAgY29uc3QgZGlzcGF0Y2ggPSB1c2VDb250ZXh0KEdsb2JhbERpc3BhdGNoQ29udGV4dCk7XG4gIGNvbnN0IGlzQ29sbGFwc2VkID0gc3RhdGUuY29sbGFwc2VkW2l0ZW0udXJsXTtcbiAgY29uc3QgaGFzQ2hpbGRyZW4gPSBpdGVtLml0ZW1zICYmIGl0ZW0uaXRlbXMubGVuZ3RoID4gMDtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkTmF2SXRlbT5cbiAgICAgIDxOYXZJdGVtTGluayB0bz17aXRlbS51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICB7aXRlbS50aXRsZX1cbiAgICAgIDwvTmF2SXRlbUxpbms+XG4gICAgICB7aGFzQ2hpbGRyZW4gJiYgKFxuICAgICAgICA8QnV0dG9uQ29sbGFwc2VcbiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7XG4gICAgICAgICAgICBkaXNwYXRjaCh7IHR5cGU6ICdUT0dHTEVfTkFWX0NPTExBUFNFRCcsIHVybDogaXRlbS51cmwgfSk7XG4gICAgICAgICAgfX1cbiAgICAgICAgICBpc0NvbGxhcHNlZD17aXNDb2xsYXBzZWR9XG4gICAgICAgIC8+XG4gICAgICApfVxuICAgICAge2hhc0NoaWxkcmVuICYmICFpc0NvbGxhcHNlZCAmJiAoXG4gICAgICAgIDxOYXZJdGVtQ2hpbGQ+XG4gICAgICAgICAge2l0ZW0uaXRlbXMubWFwKGNoaWxkID0+IChcbiAgICAgICAgICAgIDxTdHlsZWROYXZJdGVtIGtleT17Y2hpbGQudXJsfT5cbiAgICAgICAgICAgICAgPE5hdkl0ZW1MaW5rIHRvPXtjaGlsZC51cmx9IGFjdGl2ZUNsYXNzTmFtZT1cImlzLWFjdGl2ZVwiPlxuICAgICAgICAgICAgICAgIHtjaGlsZC50aXRsZX1cbiAgICAgICAgICAgICAgPC9OYXZJdGVtTGluaz5cbiAgICAgICAgICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9OYXZJdGVtQ2hpbGQ+XG4gICAgICApfVxuICAgIDwvU3R5bGVkTmF2SXRlbT5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZE5hdkl0ZW0gPSBzdHlsZWQubGlgXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBhZGRpbmc6IDA7XG4gIG1hcmdpbjogMC4ycmVtIDA7XG4gIHdpZHRoOiAxMDAlO1xuICBsaXN0LXN0eWxlOiBub25lO1xuYDtcblxuY29uc3QgTmF2SXRlbUxpbmsgPSBzdHlsZWQoTGluaylgXG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwYWRkaW5nOiAwLjVyZW0gMS44cmVtIDAuNXJlbSAxLjJyZW07XG4gIHdpZHRoOiAxMDAlO1xuICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBmb250LXdlaWdodDogNjAwO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIHRyYW5zaXRpb246IGNvbG9yICR7cCA9PiBwLnRoZW1lLnRyYW5zaXRpb259O1xuICAmOmhvdmVyLFxuICAmOmZvY3VzLFxuICAmLmlzLWFjdGl2ZSB7XG4gICAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuY29uc3QgTmF2SXRlbUNoaWxkID0gc3R5bGVkLnVsYFxuICBtYXJnaW46IDAuNXJlbSAwIDAuNXJlbSAxLjJyZW07XG4gIHBhZGRpbmc6IDA7XG4gIGJvcmRlci1sZWZ0OiAxcHggc29saWQgJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICBsaXN0LXN0eWxlOiBub25lO1xuICAmID4gbGkge1xuICAgIG1hcmdpbjogMDtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhOYXZJdGVtKTtcbiJdfQ== */"));
+/* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.memo(NavItem));
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/Navigation.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/LeftSidebar/Navigation.js ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var _public_page_data_sq_d_2940813629_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../public/page-data/sq/d/2940813629.json */ "./public/page-data/sq/d/2940813629.json");
+var _public_page_data_sq_d_2940813629_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../../public/page-data/sq/d/2940813629.json */ "./public/page-data/sq/d/2940813629.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _NavItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavItem */ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/NavItem.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+/**
+ * This File was inspired by https://github.com/hasura/gatsby-gitbook-starter
+ */
+
+const calculateTreeData = (edges, sidebarConfig) => {
+  const originalData = sidebarConfig.ignoreIndex ? edges.filter(({
+    node: {
+      fields: {
+        slug
+      }
+    }
+  }) => slug !== '/') : edges;
+  if (originalData.length === 0) {
+    return {
+      items: []
+    };
+  }
+  const tree = originalData.reduce((accu, {
+    node: {
+      fields: {
+        slug,
+        title
+      }
+    }
+  }) => {
+    const parts = slug.split('/');
+    let {
+      items: prevItems
+    } = accu;
+    for (const part of parts.slice(1, -1)) {
+      let tmp = prevItems.find(({
+        label
+      }) => label === part);
+      if (tmp) {
+        if (!tmp.items) {
+          tmp.items = [];
+        }
+      } else {
+        tmp = {
+          label: part,
+          items: []
+        };
+        prevItems.push(tmp);
+      }
+      prevItems = tmp.items;
+    }
+    const existingItem = prevItems.find(({
+      label
+    }) => label === parts[parts.length - 1]);
+    if (existingItem) {
+      existingItem.url = slug;
+      existingItem.title = title;
+    } else {
+      prevItems.push({
+        label: parts[parts.length - 1],
+        url: slug,
+        items: [],
+        title
+      });
+    }
+    return accu;
+  }, {
+    items: []
+  });
+  const forcedNavOrder = sidebarConfig.forcedNavOrder || [];
+  const tmp = [...forcedNavOrder];
+  tmp.reverse();
+  return tmp.reduce((accu, slug) => {
+    const parts = slug.split('/');
+    let {
+      items: prevItems
+    } = accu;
+    for (const part of parts.slice(1, -1)) {
+      let tmp = prevItems.find(({
+        label
+      }) => label === part);
+      if (tmp) {
+        if (!tmp.items) {
+          tmp.items = [];
+        }
+      } else {
+        tmp = {
+          label: part,
+          items: []
+        };
+        prevItems.push(tmp);
+      }
+      prevItems = tmp.items;
+    }
+    // sort items alphabetically.
+    prevItems.forEach(item => {
+      item.items = item.items.sort(function (a, b) {
+        if (a.label < b.label) return -1;
+        if (a.label > b.label) return 1;
+        return 0;
+      });
+    });
+    const index = prevItems.findIndex(({
+      label
+    }) => label === parts[parts.length - 1]);
+    accu.items.unshift(prevItems.splice(index, 1)[0]);
+    return accu;
+  }, tree);
+};
+const Navigation = () => {
+  const result = _public_page_data_sq_d_2940813629_json__WEBPACK_IMPORTED_MODULE_1__.data;
+  const {
+    allSite,
+    allMdx
+  } = result;
+  const {
+    sidebarConfig
+  } = allSite.edges[0].node.siteMetadata;
+  const {
+    0: treeData
+  } = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(() => {
+    return calculateTreeData(allMdx.edges, sidebarConfig);
+  });
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(NavList, null, treeData.items.map(item => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(_NavItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    key: item.url,
+    item: item
+  })));
+};
+const NavList = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("ul", {
+  target: "e1je91ra0",
+  label: "NavList"
+})( false ? undefined : {
+  name: "rxgulu",
+  styles: "margin:0;padding:0;list-style:none;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL05hdmlnYXRpb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0l5QiIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9MZWZ0U2lkZWJhci9OYXZpZ2F0aW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IHsgZ3JhcGhxbCwgdXNlU3RhdGljUXVlcnkgfSBmcm9tICdnYXRzYnknO1xuaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IE5hdkl0ZW0gZnJvbSAnLi9OYXZJdGVtJztcblxuLyoqXG4gKiBUaGlzIEZpbGUgd2FzIGluc3BpcmVkIGJ5IGh0dHBzOi8vZ2l0aHViLmNvbS9oYXN1cmEvZ2F0c2J5LWdpdGJvb2stc3RhcnRlclxuICovXG5cbmNvbnN0IGNhbGN1bGF0ZVRyZWVEYXRhID0gKGVkZ2VzLCBzaWRlYmFyQ29uZmlnKSA9PiB7XG4gIGNvbnN0IG9yaWdpbmFsRGF0YSA9IHNpZGViYXJDb25maWcuaWdub3JlSW5kZXhcbiAgICA/IGVkZ2VzLmZpbHRlcihcbiAgICAgICAgKHtcbiAgICAgICAgICBub2RlOiB7XG4gICAgICAgICAgICBmaWVsZHM6IHsgc2x1ZyB9XG4gICAgICAgICAgfVxuICAgICAgICB9KSA9PiBzbHVnICE9PSAnLydcbiAgICAgIClcbiAgICA6IGVkZ2VzO1xuXG4gIGlmIChvcmlnaW5hbERhdGEubGVuZ3RoID09PSAwKSB7XG4gICAgcmV0dXJuIHsgaXRlbXM6IFtdIH07XG4gIH1cblxuICBjb25zdCB0cmVlID0gb3JpZ2luYWxEYXRhLnJlZHVjZShcbiAgICAoXG4gICAgICBhY2N1LFxuICAgICAge1xuICAgICAgICBub2RlOiB7XG4gICAgICAgICAgZmllbGRzOiB7IHNsdWcsIHRpdGxlIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgICkgPT4ge1xuICAgICAgY29uc3QgcGFydHMgPSBzbHVnLnNwbGl0KCcvJyk7XG4gICAgICBsZXQgeyBpdGVtczogcHJldkl0ZW1zIH0gPSBhY2N1O1xuICAgICAgZm9yIChjb25zdCBwYXJ0IG9mIHBhcnRzLnNsaWNlKDEsIC0xKSkge1xuICAgICAgICBsZXQgdG1wID0gcHJldkl0ZW1zLmZpbmQoKHsgbGFiZWwgfSkgPT4gbGFiZWwgPT09IHBhcnQpO1xuICAgICAgICBpZiAodG1wKSB7XG4gICAgICAgICAgaWYgKCF0bXAuaXRlbXMpIHtcbiAgICAgICAgICAgIHRtcC5pdGVtcyA9IFtdO1xuICAgICAgICAgIH1cbiAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICB0bXAgPSB7IGxhYmVsOiBwYXJ0LCBpdGVtczogW10gfTtcbiAgICAgICAgICBwcmV2SXRlbXMucHVzaCh0bXApO1xuICAgICAgICB9XG4gICAgICAgIHByZXZJdGVtcyA9IHRtcC5pdGVtcztcbiAgICAgIH1cbiAgICAgIGNvbnN0IGV4aXN0aW5nSXRlbSA9IHByZXZJdGVtcy5maW5kKCh7IGxhYmVsIH0pID0+IGxhYmVsID09PSBwYXJ0c1twYXJ0cy5sZW5ndGggLSAxXSk7XG4gICAgICBpZiAoZXhpc3RpbmdJdGVtKSB7XG4gICAgICAgIGV4aXN0aW5nSXRlbS51cmwgPSBzbHVnO1xuICAgICAgICBleGlzdGluZ0l0ZW0udGl0bGUgPSB0aXRsZTtcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIHByZXZJdGVtcy5wdXNoKHtcbiAgICAgICAgICBsYWJlbDogcGFydHNbcGFydHMubGVuZ3RoIC0gMV0sXG4gICAgICAgICAgdXJsOiBzbHVnLFxuICAgICAgICAgIGl0ZW1zOiBbXSxcbiAgICAgICAgICB0aXRsZVxuICAgICAgICB9KTtcbiAgICAgIH1cbiAgICAgIHJldHVybiBhY2N1O1xuICAgIH0sXG4gICAgeyBpdGVtczogW10gfVxuICApO1xuICBjb25zdCBmb3JjZWROYXZPcmRlciA9IHNpZGViYXJDb25maWcuZm9yY2VkTmF2T3JkZXIgfHwgW107XG4gIGNvbnN0IHRtcCA9IFsuLi5mb3JjZWROYXZPcmRlcl07XG4gIHRtcC5yZXZlcnNlKCk7XG4gIHJldHVybiB0bXAucmVkdWNlKChhY2N1LCBzbHVnKSA9PiB7XG4gICAgY29uc3QgcGFydHMgPSBzbHVnLnNwbGl0KCcvJyk7XG4gICAgbGV0IHsgaXRlbXM6IHByZXZJdGVtcyB9ID0gYWNjdTtcbiAgICBmb3IgKGNvbnN0IHBhcnQgb2YgcGFydHMuc2xpY2UoMSwgLTEpKSB7XG4gICAgICBsZXQgdG1wID0gcHJldkl0ZW1zLmZpbmQoKHsgbGFiZWwgfSkgPT4gbGFiZWwgPT09IHBhcnQpO1xuICAgICAgaWYgKHRtcCkge1xuICAgICAgICBpZiAoIXRtcC5pdGVtcykge1xuICAgICAgICAgIHRtcC5pdGVtcyA9IFtdO1xuICAgICAgICB9XG4gICAgICB9IGVsc2Uge1xuICAgICAgICB0bXAgPSB7IGxhYmVsOiBwYXJ0LCBpdGVtczogW10gfTtcbiAgICAgICAgcHJldkl0ZW1zLnB1c2godG1wKTtcbiAgICAgIH1cbiAgICAgIHByZXZJdGVtcyA9IHRtcC5pdGVtcztcbiAgICB9XG4gICAgLy8gc29ydCBpdGVtcyBhbHBoYWJldGljYWxseS5cbiAgICBwcmV2SXRlbXMuZm9yRWFjaChpdGVtID0+IHtcbiAgICAgIGl0ZW0uaXRlbXMgPSBpdGVtLml0ZW1zLnNvcnQoZnVuY3Rpb24oYSwgYikge1xuICAgICAgICBpZiAoYS5sYWJlbCA8IGIubGFiZWwpIHJldHVybiAtMTtcbiAgICAgICAgaWYgKGEubGFiZWwgPiBiLmxhYmVsKSByZXR1cm4gMTtcbiAgICAgICAgcmV0dXJuIDA7XG4gICAgICB9KTtcbiAgICB9KTtcbiAgICBjb25zdCBpbmRleCA9IHByZXZJdGVtcy5maW5kSW5kZXgoKHsgbGFiZWwgfSkgPT4gbGFiZWwgPT09IHBhcnRzW3BhcnRzLmxlbmd0aCAtIDFdKTtcbiAgICBhY2N1Lml0ZW1zLnVuc2hpZnQocHJldkl0ZW1zLnNwbGljZShpbmRleCwgMSlbMF0pO1xuICAgIHJldHVybiBhY2N1O1xuICB9LCB0cmVlKTtcbn07XG5cbmNvbnN0IE5hdmlnYXRpb24gPSAoKSA9PiB7XG4gIGNvbnN0IHJlc3VsdCA9IHVzZVN0YXRpY1F1ZXJ5KGdyYXBocWxgXG4gICAgcXVlcnkge1xuICAgICAgYWxsU2l0ZSB7XG4gICAgICAgIGVkZ2VzIHtcbiAgICAgICAgICBub2RlIHtcbiAgICAgICAgICAgIHNpdGVNZXRhZGF0YSB7XG4gICAgICAgICAgICAgIHNpZGViYXJDb25maWcge1xuICAgICAgICAgICAgICAgIGZvcmNlZE5hdk9yZGVyXG4gICAgICAgICAgICAgICAgaWdub3JlSW5kZXhcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgYWxsTWR4IHtcbiAgICAgICAgZWRnZXMge1xuICAgICAgICAgIG5vZGUge1xuICAgICAgICAgICAgZmllbGRzIHtcbiAgICAgICAgICAgICAgc2x1Z1xuICAgICAgICAgICAgICB0aXRsZVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgYCk7XG4gIGNvbnN0IHsgYWxsU2l0ZSwgYWxsTWR4IH0gPSByZXN1bHQ7XG4gIGNvbnN0IHsgc2lkZWJhckNvbmZpZyB9ID0gYWxsU2l0ZS5lZGdlc1swXS5ub2RlLnNpdGVNZXRhZGF0YTtcbiAgY29uc3QgW3RyZWVEYXRhXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICByZXR1cm4gY2FsY3VsYXRlVHJlZURhdGEoYWxsTWR4LmVkZ2VzLCBzaWRlYmFyQ29uZmlnKTtcbiAgfSk7XG4gIHJldHVybiAoXG4gICAgPE5hdkxpc3Q+XG4gICAgICB7dHJlZURhdGEuaXRlbXMubWFwKGl0ZW0gPT4gKFxuICAgICAgICA8TmF2SXRlbSBrZXk9e2l0ZW0udXJsfSBpdGVtPXtpdGVtfSAvPlxuICAgICAgKSl9XG4gICAgPC9OYXZMaXN0PlxuICApO1xufTtcblxuY29uc3QgTmF2TGlzdCA9IHN0eWxlZC51bGBcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICBsaXN0LXN0eWxlOiBub25lO1xuYDtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhOYXZpZ2F0aW9uKTtcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+/* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.memo(Navigation));
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/index.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/LeftSidebar/index.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_media__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/media */ "./node_modules/gatsby-theme-document/src/styles/media.js");
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navigation */ "./node_modules/gatsby-theme-document/src/components/LeftSidebar/Navigation.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+
+
+const LeftSidebar = ({
+  navOpen
+}) => {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(LeftSidebarWrapper, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(LeftSidebarNav, {
+    navOpen: navOpen
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(_Navigation__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
+};
+const LeftSidebarWrapper = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("aside", {
+  target: "es86uk0",
+  label: "LeftSidebarWrapper"
+})("margin-left:-16rem;flex:0 0 16rem;font-size:0.875rem;", _styles_media__WEBPACK_IMPORTED_MODULE_3__["default"].desktop_up`
+    margin-left: 0;
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCdUMiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvTGVmdFNpZGViYXIvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBtZWRpYXF1ZXJpZXMgZnJvbSAnLi4vLi4vc3R5bGVzL21lZGlhJztcbmltcG9ydCBOYXZpZ2F0aW9uIGZyb20gJy4vTmF2aWdhdGlvbic7XG5cbmNvbnN0IExlZnRTaWRlYmFyID0gKHsgbmF2T3BlbiB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPExlZnRTaWRlYmFyV3JhcHBlcj5cbiAgICAgIDxMZWZ0U2lkZWJhck5hdiBuYXZPcGVuPXtuYXZPcGVufT5cbiAgICAgICAgPE5hdmlnYXRpb24gLz5cbiAgICAgIDwvTGVmdFNpZGViYXJOYXY+XG4gICAgPC9MZWZ0U2lkZWJhcldyYXBwZXI+XG4gICk7XG59O1xuXG5jb25zdCBMZWZ0U2lkZWJhcldyYXBwZXIgPSBzdHlsZWQuYXNpZGVgXG4gIG1hcmdpbi1sZWZ0OiAtMTZyZW07XG4gIGZsZXg6IDAgMCAxNnJlbTtcbiAgZm9udC1zaXplOiAwLjg3NXJlbTtcbiAgJHttZWRpYXF1ZXJpZXMuZGVza3RvcF91cGBcbiAgICBtYXJnaW4tbGVmdDogMDtcbiAgYH07XG5gO1xuXG5jb25zdCBMZWZ0U2lkZWJhck5hdiA9IHN0eWxlZC5uYXZgXG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAwO1xuICBib3R0b206IDA7XG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgb3ZlcmZsb3cteTogYXV0bztcbiAgd2lkdGg6IDE2cmVtO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHBhZGRpbmc6IDFyZW0gMDtcbiAgYmFja2dyb3VuZDogJHtwID0+IHAudGhlbWUuY29sb3JzLnNpZGViYXJ9O1xuICB0cmFuc2l0aW9uOiAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbiAgdHJhbnNmb3JtOiAke3AgPT4gKHAubmF2T3BlbiA/IGB0cmFuc2xhdGVYKDE2cmVtKWAgOiBudWxsKX07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDApO1xuICAgIHBhZGRpbmc6IDYuNnJlbSAwIDFyZW07XG4gIGB9O1xuYDtcblxuTGVmdFNpZGViYXIucHJvcFR5cGVzID0ge1xuICBuYXZPcGVuOiBQcm9wVHlwZXMuYm9vbFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhMZWZ0U2lkZWJhcik7XG4iXX0= */"));
+const LeftSidebarNav = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("nav", {
+  target: "es86uk1",
+  label: "LeftSidebarNav"
+})("position:fixed;top:0;bottom:0;overflow-x:hidden;overflow-y:auto;width:16rem;height:100%;padding:1rem 0;background:", p => p.theme.colors.sidebar, ";transition:0.25s var(--ease-in-out-quad);transform:", p => p.navOpen ? `translateX(16rem)` : null, ";", _styles_media__WEBPACK_IMPORTED_MODULE_3__["default"].desktop_up`
+    transform: translateX(0);
+    padding: 6.6rem 0 1rem;
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xlZnRTaWRlYmFyL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXlCaUMiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvTGVmdFNpZGViYXIvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBtZWRpYXF1ZXJpZXMgZnJvbSAnLi4vLi4vc3R5bGVzL21lZGlhJztcbmltcG9ydCBOYXZpZ2F0aW9uIGZyb20gJy4vTmF2aWdhdGlvbic7XG5cbmNvbnN0IExlZnRTaWRlYmFyID0gKHsgbmF2T3BlbiB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPExlZnRTaWRlYmFyV3JhcHBlcj5cbiAgICAgIDxMZWZ0U2lkZWJhck5hdiBuYXZPcGVuPXtuYXZPcGVufT5cbiAgICAgICAgPE5hdmlnYXRpb24gLz5cbiAgICAgIDwvTGVmdFNpZGViYXJOYXY+XG4gICAgPC9MZWZ0U2lkZWJhcldyYXBwZXI+XG4gICk7XG59O1xuXG5jb25zdCBMZWZ0U2lkZWJhcldyYXBwZXIgPSBzdHlsZWQuYXNpZGVgXG4gIG1hcmdpbi1sZWZ0OiAtMTZyZW07XG4gIGZsZXg6IDAgMCAxNnJlbTtcbiAgZm9udC1zaXplOiAwLjg3NXJlbTtcbiAgJHttZWRpYXF1ZXJpZXMuZGVza3RvcF91cGBcbiAgICBtYXJnaW4tbGVmdDogMDtcbiAgYH07XG5gO1xuXG5jb25zdCBMZWZ0U2lkZWJhck5hdiA9IHN0eWxlZC5uYXZgXG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAwO1xuICBib3R0b206IDA7XG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgb3ZlcmZsb3cteTogYXV0bztcbiAgd2lkdGg6IDE2cmVtO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHBhZGRpbmc6IDFyZW0gMDtcbiAgYmFja2dyb3VuZDogJHtwID0+IHAudGhlbWUuY29sb3JzLnNpZGViYXJ9O1xuICB0cmFuc2l0aW9uOiAwLjI1cyB2YXIoLS1lYXNlLWluLW91dC1xdWFkKTtcbiAgdHJhbnNmb3JtOiAke3AgPT4gKHAubmF2T3BlbiA/IGB0cmFuc2xhdGVYKDE2cmVtKWAgOiBudWxsKX07XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfdXBgXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDApO1xuICAgIHBhZGRpbmc6IDYuNnJlbSAwIDFyZW07XG4gIGB9O1xuYDtcblxuTGVmdFNpZGViYXIucHJvcFR5cGVzID0ge1xuICBuYXZPcGVuOiBQcm9wVHlwZXMuYm9vbFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmVhY3QubWVtbyhMZWZ0U2lkZWJhcik7XG4iXX0= */"));
+LeftSidebar.propTypes = {
+  navOpen: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool
+};
+/* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.memo(LeftSidebar));
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/ListItem.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/ListItem.js ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+
+const ListItem = ({
+  location,
+  item
+}) => {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(ListItemLink, {
+    to: location.pathname + item.url
+  }, item.title);
+};
+const ListItemLink = /*#__PURE__*/Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  target: "e1uqnw520",
+  label: "ListItemLink"
+})("display:inline-block;padding:0.2rem 0;width:100%;color:", p => p.theme.colors.text, ";text-decoration:none;transition:color ", p => p.theme.transition, ";&:hover,&:focus{color:", p => p.theme.colors.primary, ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xpc3RJdGVtLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNpQyIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9MaXN0SXRlbS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCB7IExpbmsgfSBmcm9tICdnYXRzYnknO1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmNvbnN0IExpc3RJdGVtID0gKHsgbG9jYXRpb24sIGl0ZW0gfSkgPT4ge1xuICByZXR1cm4gPExpc3RJdGVtTGluayB0bz17bG9jYXRpb24ucGF0aG5hbWUgKyBpdGVtLnVybH0+e2l0ZW0udGl0bGV9PC9MaXN0SXRlbUxpbms+O1xufTtcblxuY29uc3QgTGlzdEl0ZW1MaW5rID0gc3R5bGVkKExpbmspYFxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHBhZGRpbmc6IDAuMnJlbSAwO1xuICB3aWR0aDogMTAwJTtcbiAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy50ZXh0fTtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICB0cmFuc2l0aW9uOiBjb2xvciAke3AgPT4gcC50aGVtZS50cmFuc2l0aW9ufTtcbiAgJjpob3ZlcixcbiAgJjpmb2N1cyB7XG4gICAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuTGlzdEl0ZW0ucHJvcFR5cGVzID0ge1xuICBsb2NhdGlvbjogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkLFxuICBpdGVtOiBQcm9wVHlwZXMub2JqZWN0LmlzUmVxdWlyZWRcbn07XG5cbmV4cG9ydCBkZWZhdWx0IExpc3RJdGVtO1xuIl19 */"));
+ListItem.propTypes = {
+  location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired,
+  item: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (ListItem);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/LogoWrapper.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/LogoWrapper.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _logo_mdx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../logo.mdx */ "./src/gatsby-theme-document/logo.mdx");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+const LogoWrapper = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(StyledLogoWrapper, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(LogoLink, {
+  to: "/"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])(_logo_mdx__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+const StyledLogoWrapper = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e8fem070",
+  label: "StyledLogoWrapper"
+})( false ? undefined : {
+  name: "h5ki70",
+  styles: "p{margin:0;font-size:1.6rem;}",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xvZ29XcmFwcGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWFvQyIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvY29tcG9uZW50cy9Mb2dvV3JhcHBlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCB7IExpbmsgfSBmcm9tICdnYXRzYnknO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBMb2dvIGZyb20gJy4uL2xvZ28ubWR4JztcblxuY29uc3QgTG9nb1dyYXBwZXIgPSAoKSA9PiAoXG4gIDxTdHlsZWRMb2dvV3JhcHBlcj5cbiAgICA8TG9nb0xpbmsgdG89XCIvXCI+XG4gICAgICA8TG9nbyAvPlxuICAgIDwvTG9nb0xpbms+XG4gIDwvU3R5bGVkTG9nb1dyYXBwZXI+XG4pO1xuXG5jb25zdCBTdHlsZWRMb2dvV3JhcHBlciA9IHN0eWxlZC5kaXZgXG4gIHAge1xuICAgIG1hcmdpbjogMDtcbiAgICBmb250LXNpemU6IDEuNnJlbTtcbiAgfVxuYDtcblxuY29uc3QgTG9nb0xpbmsgPSBzdHlsZWQoTGluaylgXG4gIGRpc3BsYXk6IGJsb2NrO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIGNvbG9yOiAke3AgPT4gcC50aGVtZS5jb2xvcnMudGV4dH07XG4gIHRyYW5zaXRpb246IGNvbG9yICR7cCA9PiBwLnRoZW1lLnRyYW5zaXRpb259O1xuICAmOmhvdmVyLFxuICAmOmZvY3VzIHtcbiAgICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnByaW1hcnl9O1xuICB9XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBMb2dvV3JhcHBlcjtcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const LogoLink = /*#__PURE__*/Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  target: "e8fem071",
+  label: "LogoLink"
+})("display:block;text-decoration:none;color:", p => p.theme.colors.text, ";transition:color ", p => p.theme.transition, ";&:hover,&:focus{color:", p => p.theme.colors.primary, ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL0xvZ29XcmFwcGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9CNkIiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvTG9nb1dyYXBwZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgeyBMaW5rIH0gZnJvbSAnZ2F0c2J5JztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgTG9nbyBmcm9tICcuLi9sb2dvLm1keCc7XG5cbmNvbnN0IExvZ29XcmFwcGVyID0gKCkgPT4gKFxuICA8U3R5bGVkTG9nb1dyYXBwZXI+XG4gICAgPExvZ29MaW5rIHRvPVwiL1wiPlxuICAgICAgPExvZ28gLz5cbiAgICA8L0xvZ29MaW5rPlxuICA8L1N0eWxlZExvZ29XcmFwcGVyPlxuKTtcblxuY29uc3QgU3R5bGVkTG9nb1dyYXBwZXIgPSBzdHlsZWQuZGl2YFxuICBwIHtcbiAgICBtYXJnaW46IDA7XG4gICAgZm9udC1zaXplOiAxLjZyZW07XG4gIH1cbmA7XG5cbmNvbnN0IExvZ29MaW5rID0gc3R5bGVkKExpbmspYFxuICBkaXNwbGF5OiBibG9jaztcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBjb2xvcjogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICB0cmFuc2l0aW9uOiBjb2xvciAke3AgPT4gcC50aGVtZS50cmFuc2l0aW9ufTtcbiAgJjpob3ZlcixcbiAgJjpmb2N1cyB7XG4gICAgY29sb3I6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgTG9nb1dyYXBwZXI7XG4iXX0= */"));
+/* harmony default export */ __webpack_exports__["default"] = (LogoWrapper);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/RightSidebar.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/RightSidebar.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_media__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/media */ "./node_modules/gatsby-theme-document/src/styles/media.js");
+/* harmony import */ var _ListItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ListItem */ "./node_modules/gatsby-theme-document/src/components/ListItem.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+const RightSidebar = ({
+  tableOfContents,
+  location
+}) => {
+  const {
+    0: listItems
+  } = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(() => {
+    if (!tableOfContents.items) {
+      return [];
+    }
+    const mappedLinks = [];
+    function mapLinks(items) {
+      items.forEach(item => {
+        mappedLinks.push(item);
+        if (item.items) {
+          mapLinks(item.items);
+        }
+      });
+    }
+    mapLinks(tableOfContents.items);
+    return mappedLinks;
+  });
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(RightSidebarWrapper, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(RightSidebarNav, null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(RightSidebarTitle, null, "Contents"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(RightSidebarList, null, listItems.map(item => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(RightSidebarListItem, {
+    key: location.pathname + item.url
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(_ListItem__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    location: location,
+    item: item
+  }))))));
+};
+const RightSidebarWrapper = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("aside", {
+  target: "e1xfj9m20",
+  label: "RightSidebarWrapper"
+})("display:none;flex:0 0 16rem;font-size:0.75rem;font-weight:600;", _styles_media__WEBPACK_IMPORTED_MODULE_3__["default"].desktop_medium_up`
+    display: block
+  `, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3Q3dDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgTGlzdEl0ZW0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhciA9ICh7IHRhYmxlT2ZDb250ZW50cywgbG9jYXRpb24gfSkgPT4ge1xuICBjb25zdCBbbGlzdEl0ZW1zXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICBpZiAoIXRhYmxlT2ZDb250ZW50cy5pdGVtcykge1xuICAgICAgcmV0dXJuIFtdO1xuICAgIH1cbiAgICBjb25zdCBtYXBwZWRMaW5rcyA9IFtdO1xuICAgIGZ1bmN0aW9uIG1hcExpbmtzKGl0ZW1zKSB7XG4gICAgICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4ge1xuICAgICAgICBtYXBwZWRMaW5rcy5wdXNoKGl0ZW0pO1xuICAgICAgICBpZiAoaXRlbS5pdGVtcykge1xuICAgICAgICAgIG1hcExpbmtzKGl0ZW0uaXRlbXMpO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICB9XG4gICAgbWFwTGlua3ModGFibGVPZkNvbnRlbnRzLml0ZW1zKTtcbiAgICByZXR1cm4gbWFwcGVkTGlua3M7XG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPFJpZ2h0U2lkZWJhcldyYXBwZXI+XG4gICAgICA8UmlnaHRTaWRlYmFyTmF2PlxuICAgICAgICA8UmlnaHRTaWRlYmFyVGl0bGU+Q29udGVudHM8L1JpZ2h0U2lkZWJhclRpdGxlPlxuICAgICAgICA8UmlnaHRTaWRlYmFyTGlzdD5cbiAgICAgICAgICB7bGlzdEl0ZW1zLm1hcChpdGVtID0+IChcbiAgICAgICAgICAgIDxSaWdodFNpZGViYXJMaXN0SXRlbSBrZXk9e2xvY2F0aW9uLnBhdGhuYW1lICsgaXRlbS51cmx9PlxuICAgICAgICAgICAgICA8TGlzdEl0ZW0gbG9jYXRpb249e2xvY2F0aW9ufSBpdGVtPXtpdGVtfSAvPlxuICAgICAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0PlxuICAgICAgPC9SaWdodFNpZGViYXJOYXY+XG4gICAgPC9SaWdodFNpZGViYXJXcmFwcGVyPlxuICApO1xufTtcblxuY29uc3QgUmlnaHRTaWRlYmFyV3JhcHBlciA9IHN0eWxlZC5hc2lkZWBcbiAgZGlzcGxheTogbm9uZTtcbiAgZmxleDogMCAwIDE2cmVtO1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfbWVkaXVtX3VwYFxuICAgIGRpc3BsYXk6IGJsb2NrXG4gIGB9O1xuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTmF2ID0gc3R5bGVkLm5hdmBcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGJvdHRvbTogMDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xuICB3aWR0aDogMTZyZW07XG4gIGhlaWdodDogMTAwJTtcbiAgcGFkZGluZzogN3JlbSAxcmVtIDA7XG5gO1xuXG5jb25zdCBSaWdodFNpZGViYXJUaXRsZSA9IHN0eWxlZC5wYFxuICBtYXJnaW4tdG9wOiAwO1xuICBmb250LXNpemU6IDAuN3JlbTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbmA7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhckxpc3QgPSBzdHlsZWQudWxgXG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgJiB1bCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgfVxuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTGlzdEl0ZW0gPSBzdHlsZWQubGlgXG4gIG1hcmdpbjogMC4zcmVtIDA7XG5gO1xuXG5SaWdodFNpZGViYXIucHJvcFR5cGVzID0ge1xuICB0YWJsZU9mQ29udGVudHM6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcbiAgbG9jYXRpb246IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmlnaHRTaWRlYmFyO1xuIl19 */"));
+const RightSidebarNav = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("nav", {
+  target: "e1xfj9m21",
+  label: "RightSidebarNav"
+})( false ? undefined : {
+  name: "18f8tbf",
+  styles: "position:fixed;top:0;bottom:0;overflow-x:hidden;overflow-y:auto;width:16rem;height:100%;padding:7rem 1rem 0;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrRGtDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgTGlzdEl0ZW0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhciA9ICh7IHRhYmxlT2ZDb250ZW50cywgbG9jYXRpb24gfSkgPT4ge1xuICBjb25zdCBbbGlzdEl0ZW1zXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICBpZiAoIXRhYmxlT2ZDb250ZW50cy5pdGVtcykge1xuICAgICAgcmV0dXJuIFtdO1xuICAgIH1cbiAgICBjb25zdCBtYXBwZWRMaW5rcyA9IFtdO1xuICAgIGZ1bmN0aW9uIG1hcExpbmtzKGl0ZW1zKSB7XG4gICAgICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4ge1xuICAgICAgICBtYXBwZWRMaW5rcy5wdXNoKGl0ZW0pO1xuICAgICAgICBpZiAoaXRlbS5pdGVtcykge1xuICAgICAgICAgIG1hcExpbmtzKGl0ZW0uaXRlbXMpO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICB9XG4gICAgbWFwTGlua3ModGFibGVPZkNvbnRlbnRzLml0ZW1zKTtcbiAgICByZXR1cm4gbWFwcGVkTGlua3M7XG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPFJpZ2h0U2lkZWJhcldyYXBwZXI+XG4gICAgICA8UmlnaHRTaWRlYmFyTmF2PlxuICAgICAgICA8UmlnaHRTaWRlYmFyVGl0bGU+Q29udGVudHM8L1JpZ2h0U2lkZWJhclRpdGxlPlxuICAgICAgICA8UmlnaHRTaWRlYmFyTGlzdD5cbiAgICAgICAgICB7bGlzdEl0ZW1zLm1hcChpdGVtID0+IChcbiAgICAgICAgICAgIDxSaWdodFNpZGViYXJMaXN0SXRlbSBrZXk9e2xvY2F0aW9uLnBhdGhuYW1lICsgaXRlbS51cmx9PlxuICAgICAgICAgICAgICA8TGlzdEl0ZW0gbG9jYXRpb249e2xvY2F0aW9ufSBpdGVtPXtpdGVtfSAvPlxuICAgICAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0PlxuICAgICAgPC9SaWdodFNpZGViYXJOYXY+XG4gICAgPC9SaWdodFNpZGViYXJXcmFwcGVyPlxuICApO1xufTtcblxuY29uc3QgUmlnaHRTaWRlYmFyV3JhcHBlciA9IHN0eWxlZC5hc2lkZWBcbiAgZGlzcGxheTogbm9uZTtcbiAgZmxleDogMCAwIDE2cmVtO1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfbWVkaXVtX3VwYFxuICAgIGRpc3BsYXk6IGJsb2NrXG4gIGB9O1xuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTmF2ID0gc3R5bGVkLm5hdmBcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGJvdHRvbTogMDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xuICB3aWR0aDogMTZyZW07XG4gIGhlaWdodDogMTAwJTtcbiAgcGFkZGluZzogN3JlbSAxcmVtIDA7XG5gO1xuXG5jb25zdCBSaWdodFNpZGViYXJUaXRsZSA9IHN0eWxlZC5wYFxuICBtYXJnaW4tdG9wOiAwO1xuICBmb250LXNpemU6IDAuN3JlbTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbmA7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhckxpc3QgPSBzdHlsZWQudWxgXG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgJiB1bCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgfVxuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTGlzdEl0ZW0gPSBzdHlsZWQubGlgXG4gIG1hcmdpbjogMC4zcmVtIDA7XG5gO1xuXG5SaWdodFNpZGViYXIucHJvcFR5cGVzID0ge1xuICB0YWJsZU9mQ29udGVudHM6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcbiAgbG9jYXRpb246IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmlnaHRTaWRlYmFyO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const RightSidebarTitle = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("p", {
+  target: "e1xfj9m22",
+  label: "RightSidebarTitle"
+})( false ? undefined : {
+  name: "1r5tcfb",
+  styles: "margin-top:0;font-size:0.7rem;font-weight:700;text-transform:uppercase;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2RGtDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgTGlzdEl0ZW0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhciA9ICh7IHRhYmxlT2ZDb250ZW50cywgbG9jYXRpb24gfSkgPT4ge1xuICBjb25zdCBbbGlzdEl0ZW1zXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICBpZiAoIXRhYmxlT2ZDb250ZW50cy5pdGVtcykge1xuICAgICAgcmV0dXJuIFtdO1xuICAgIH1cbiAgICBjb25zdCBtYXBwZWRMaW5rcyA9IFtdO1xuICAgIGZ1bmN0aW9uIG1hcExpbmtzKGl0ZW1zKSB7XG4gICAgICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4ge1xuICAgICAgICBtYXBwZWRMaW5rcy5wdXNoKGl0ZW0pO1xuICAgICAgICBpZiAoaXRlbS5pdGVtcykge1xuICAgICAgICAgIG1hcExpbmtzKGl0ZW0uaXRlbXMpO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICB9XG4gICAgbWFwTGlua3ModGFibGVPZkNvbnRlbnRzLml0ZW1zKTtcbiAgICByZXR1cm4gbWFwcGVkTGlua3M7XG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPFJpZ2h0U2lkZWJhcldyYXBwZXI+XG4gICAgICA8UmlnaHRTaWRlYmFyTmF2PlxuICAgICAgICA8UmlnaHRTaWRlYmFyVGl0bGU+Q29udGVudHM8L1JpZ2h0U2lkZWJhclRpdGxlPlxuICAgICAgICA8UmlnaHRTaWRlYmFyTGlzdD5cbiAgICAgICAgICB7bGlzdEl0ZW1zLm1hcChpdGVtID0+IChcbiAgICAgICAgICAgIDxSaWdodFNpZGViYXJMaXN0SXRlbSBrZXk9e2xvY2F0aW9uLnBhdGhuYW1lICsgaXRlbS51cmx9PlxuICAgICAgICAgICAgICA8TGlzdEl0ZW0gbG9jYXRpb249e2xvY2F0aW9ufSBpdGVtPXtpdGVtfSAvPlxuICAgICAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0PlxuICAgICAgPC9SaWdodFNpZGViYXJOYXY+XG4gICAgPC9SaWdodFNpZGViYXJXcmFwcGVyPlxuICApO1xufTtcblxuY29uc3QgUmlnaHRTaWRlYmFyV3JhcHBlciA9IHN0eWxlZC5hc2lkZWBcbiAgZGlzcGxheTogbm9uZTtcbiAgZmxleDogMCAwIDE2cmVtO1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfbWVkaXVtX3VwYFxuICAgIGRpc3BsYXk6IGJsb2NrXG4gIGB9O1xuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTmF2ID0gc3R5bGVkLm5hdmBcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGJvdHRvbTogMDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xuICB3aWR0aDogMTZyZW07XG4gIGhlaWdodDogMTAwJTtcbiAgcGFkZGluZzogN3JlbSAxcmVtIDA7XG5gO1xuXG5jb25zdCBSaWdodFNpZGViYXJUaXRsZSA9IHN0eWxlZC5wYFxuICBtYXJnaW4tdG9wOiAwO1xuICBmb250LXNpemU6IDAuN3JlbTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbmA7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhckxpc3QgPSBzdHlsZWQudWxgXG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgJiB1bCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgfVxuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTGlzdEl0ZW0gPSBzdHlsZWQubGlgXG4gIG1hcmdpbjogMC4zcmVtIDA7XG5gO1xuXG5SaWdodFNpZGViYXIucHJvcFR5cGVzID0ge1xuICB0YWJsZU9mQ29udGVudHM6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcbiAgbG9jYXRpb246IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmlnaHRTaWRlYmFyO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const RightSidebarList = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("ul", {
+  target: "e1xfj9m23",
+  label: "RightSidebarList"
+})( false ? undefined : {
+  name: "evawql",
+  styles: "margin:0;padding:0;list-style:none;& ul{margin:0;padding:0;list-style:none;}",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRWtDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgTGlzdEl0ZW0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhciA9ICh7IHRhYmxlT2ZDb250ZW50cywgbG9jYXRpb24gfSkgPT4ge1xuICBjb25zdCBbbGlzdEl0ZW1zXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICBpZiAoIXRhYmxlT2ZDb250ZW50cy5pdGVtcykge1xuICAgICAgcmV0dXJuIFtdO1xuICAgIH1cbiAgICBjb25zdCBtYXBwZWRMaW5rcyA9IFtdO1xuICAgIGZ1bmN0aW9uIG1hcExpbmtzKGl0ZW1zKSB7XG4gICAgICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4ge1xuICAgICAgICBtYXBwZWRMaW5rcy5wdXNoKGl0ZW0pO1xuICAgICAgICBpZiAoaXRlbS5pdGVtcykge1xuICAgICAgICAgIG1hcExpbmtzKGl0ZW0uaXRlbXMpO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICB9XG4gICAgbWFwTGlua3ModGFibGVPZkNvbnRlbnRzLml0ZW1zKTtcbiAgICByZXR1cm4gbWFwcGVkTGlua3M7XG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPFJpZ2h0U2lkZWJhcldyYXBwZXI+XG4gICAgICA8UmlnaHRTaWRlYmFyTmF2PlxuICAgICAgICA8UmlnaHRTaWRlYmFyVGl0bGU+Q29udGVudHM8L1JpZ2h0U2lkZWJhclRpdGxlPlxuICAgICAgICA8UmlnaHRTaWRlYmFyTGlzdD5cbiAgICAgICAgICB7bGlzdEl0ZW1zLm1hcChpdGVtID0+IChcbiAgICAgICAgICAgIDxSaWdodFNpZGViYXJMaXN0SXRlbSBrZXk9e2xvY2F0aW9uLnBhdGhuYW1lICsgaXRlbS51cmx9PlxuICAgICAgICAgICAgICA8TGlzdEl0ZW0gbG9jYXRpb249e2xvY2F0aW9ufSBpdGVtPXtpdGVtfSAvPlxuICAgICAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0PlxuICAgICAgPC9SaWdodFNpZGViYXJOYXY+XG4gICAgPC9SaWdodFNpZGViYXJXcmFwcGVyPlxuICApO1xufTtcblxuY29uc3QgUmlnaHRTaWRlYmFyV3JhcHBlciA9IHN0eWxlZC5hc2lkZWBcbiAgZGlzcGxheTogbm9uZTtcbiAgZmxleDogMCAwIDE2cmVtO1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfbWVkaXVtX3VwYFxuICAgIGRpc3BsYXk6IGJsb2NrXG4gIGB9O1xuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTmF2ID0gc3R5bGVkLm5hdmBcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGJvdHRvbTogMDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xuICB3aWR0aDogMTZyZW07XG4gIGhlaWdodDogMTAwJTtcbiAgcGFkZGluZzogN3JlbSAxcmVtIDA7XG5gO1xuXG5jb25zdCBSaWdodFNpZGViYXJUaXRsZSA9IHN0eWxlZC5wYFxuICBtYXJnaW4tdG9wOiAwO1xuICBmb250LXNpemU6IDAuN3JlbTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbmA7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhckxpc3QgPSBzdHlsZWQudWxgXG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgJiB1bCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgfVxuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTGlzdEl0ZW0gPSBzdHlsZWQubGlgXG4gIG1hcmdpbjogMC4zcmVtIDA7XG5gO1xuXG5SaWdodFNpZGViYXIucHJvcFR5cGVzID0ge1xuICB0YWJsZU9mQ29udGVudHM6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcbiAgbG9jYXRpb246IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmlnaHRTaWRlYmFyO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const RightSidebarListItem = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("li", {
+  target: "e1xfj9m24",
+  label: "RightSidebarListItem"
+})( false ? undefined : {
+  name: "vd2349",
+  styles: "margin:0.3rem 0;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErRXNDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1JpZ2h0U2lkZWJhci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5pbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbWVkaWFxdWVyaWVzIGZyb20gJy4uL3N0eWxlcy9tZWRpYSc7XG5pbXBvcnQgTGlzdEl0ZW0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhciA9ICh7IHRhYmxlT2ZDb250ZW50cywgbG9jYXRpb24gfSkgPT4ge1xuICBjb25zdCBbbGlzdEl0ZW1zXSA9IHVzZVN0YXRlKCgpID0+IHtcbiAgICBpZiAoIXRhYmxlT2ZDb250ZW50cy5pdGVtcykge1xuICAgICAgcmV0dXJuIFtdO1xuICAgIH1cbiAgICBjb25zdCBtYXBwZWRMaW5rcyA9IFtdO1xuICAgIGZ1bmN0aW9uIG1hcExpbmtzKGl0ZW1zKSB7XG4gICAgICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4ge1xuICAgICAgICBtYXBwZWRMaW5rcy5wdXNoKGl0ZW0pO1xuICAgICAgICBpZiAoaXRlbS5pdGVtcykge1xuICAgICAgICAgIG1hcExpbmtzKGl0ZW0uaXRlbXMpO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICB9XG4gICAgbWFwTGlua3ModGFibGVPZkNvbnRlbnRzLml0ZW1zKTtcbiAgICByZXR1cm4gbWFwcGVkTGlua3M7XG4gIH0pO1xuXG4gIHJldHVybiAoXG4gICAgPFJpZ2h0U2lkZWJhcldyYXBwZXI+XG4gICAgICA8UmlnaHRTaWRlYmFyTmF2PlxuICAgICAgICA8UmlnaHRTaWRlYmFyVGl0bGU+Q29udGVudHM8L1JpZ2h0U2lkZWJhclRpdGxlPlxuICAgICAgICA8UmlnaHRTaWRlYmFyTGlzdD5cbiAgICAgICAgICB7bGlzdEl0ZW1zLm1hcChpdGVtID0+IChcbiAgICAgICAgICAgIDxSaWdodFNpZGViYXJMaXN0SXRlbSBrZXk9e2xvY2F0aW9uLnBhdGhuYW1lICsgaXRlbS51cmx9PlxuICAgICAgICAgICAgICA8TGlzdEl0ZW0gbG9jYXRpb249e2xvY2F0aW9ufSBpdGVtPXtpdGVtfSAvPlxuICAgICAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0SXRlbT5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9SaWdodFNpZGViYXJMaXN0PlxuICAgICAgPC9SaWdodFNpZGViYXJOYXY+XG4gICAgPC9SaWdodFNpZGViYXJXcmFwcGVyPlxuICApO1xufTtcblxuY29uc3QgUmlnaHRTaWRlYmFyV3JhcHBlciA9IHN0eWxlZC5hc2lkZWBcbiAgZGlzcGxheTogbm9uZTtcbiAgZmxleDogMCAwIDE2cmVtO1xuICBmb250LXNpemU6IDAuNzVyZW07XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICR7bWVkaWFxdWVyaWVzLmRlc2t0b3BfbWVkaXVtX3VwYFxuICAgIGRpc3BsYXk6IGJsb2NrXG4gIGB9O1xuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTmF2ID0gc3R5bGVkLm5hdmBcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGJvdHRvbTogMDtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xuICB3aWR0aDogMTZyZW07XG4gIGhlaWdodDogMTAwJTtcbiAgcGFkZGluZzogN3JlbSAxcmVtIDA7XG5gO1xuXG5jb25zdCBSaWdodFNpZGViYXJUaXRsZSA9IHN0eWxlZC5wYFxuICBtYXJnaW4tdG9wOiAwO1xuICBmb250LXNpemU6IDAuN3JlbTtcbiAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbmA7XG5cbmNvbnN0IFJpZ2h0U2lkZWJhckxpc3QgPSBzdHlsZWQudWxgXG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgJiB1bCB7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgfVxuYDtcblxuY29uc3QgUmlnaHRTaWRlYmFyTGlzdEl0ZW0gPSBzdHlsZWQubGlgXG4gIG1hcmdpbjogMC4zcmVtIDA7XG5gO1xuXG5SaWdodFNpZGViYXIucHJvcFR5cGVzID0ge1xuICB0YWJsZU9mQ29udGVudHM6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcbiAgbG9jYXRpb246IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZFxufTtcblxuZXhwb3J0IGRlZmF1bHQgUmlnaHRTaWRlYmFyO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+RightSidebar.propTypes = {
+  tableOfContents: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object.isRequired,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (RightSidebar);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/SEO.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/SEO.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_page_data_sq_d_2575348879_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../public/page-data/sq/d/2575348879.json */ "./public/page-data/sq/d/2575348879.json");
+var _public_page_data_sq_d_2575348879_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../public/page-data/sq/d/2575348879.json */ "./public/page-data/sq/d/2575348879.json", 1);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "react-helmet");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _site_image_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../site-image.jpg */ "./node_modules/gatsby-theme-document/src/site-image.jpg");
+/* harmony import */ var _site_image_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_site_image_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+
+
+/**
+ * This react helmt code is adapted from
+ * https://themeteorchef.com/tutorials/reusable-seo-with-react-helmet.
+ *
+ * A great tutorial explaining how to setup a robust version of an
+ * SEO friendly react-helmet instance.
+ *
+ *
+ * Use the Helmt on pages to generate SEO and meta content!
+ *
+ * Usage:
+ * <SEO
+ *   title={title}
+ *   description={description}
+ *   image={image}
+ * />
+ *
+ */
+
+const seoQuery = "2575348879";
+const SEO = ({
+  title,
+  description,
+  url,
+  pathname
+}) => {
+  const results = _public_page_data_sq_d_2575348879_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  const site = results.allSite.edges[0].node.siteMetadata;
+  const twitter = site.social.find(option => option.name === 'twitter') || {};
+  const fullURL = path => path ? `${site.siteUrl}${path}` : site.siteUrl;
+
+  // const pageTitle = title ? `${title} | ${site.title}` : site.title;
+  const pageTitle = title || site.title;
+  const pageDescription = description || site.description;
+  const metaTags = [{
+    charset: 'utf-8'
+  }, {
+    'http-equiv': 'X-UA-Compatible',
+    content: 'IE=edge'
+  }, {
+    name: 'viewport',
+    content: 'width=device-width, initial-scale=1'
+  }, {
+    rel: 'canonical',
+    href: fullURL(pathname)
+  }, {
+    itemprop: 'name',
+    content: pageTitle
+  }, {
+    itemprop: 'description',
+    content: pageDescription
+  }, {
+    itemprop: 'image',
+    content: fullURL(_site_image_jpg__WEBPACK_IMPORTED_MODULE_4___default.a)
+  }, {
+    name: 'description',
+    content: pageDescription
+  }, {
+    name: 'twitter:card',
+    content: 'summary_large_image'
+  }, {
+    name: 'twitter:site',
+    content: site.siteName
+  }, {
+    name: 'twitter:title',
+    content: pageTitle
+  }, {
+    name: 'twitter:description',
+    content: pageDescription
+  }, {
+    name: 'twitter:creator',
+    content: twitter.url
+  }, {
+    name: 'twitter:image',
+    content: fullURL(_site_image_jpg__WEBPACK_IMPORTED_MODULE_4___default.a)
+  }, {
+    property: 'og:title',
+    content: pageTitle
+  }, {
+    property: 'og:url',
+    content: url
+  }, {
+    property: 'og:image',
+    content: fullURL(_site_image_jpg__WEBPACK_IMPORTED_MODULE_4___default.a)
+  }, {
+    property: 'og:description',
+    content: pageDescription
+  }, {
+    property: 'og:site_name',
+    content: site.siteName
+  }];
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["jsx"])(react_helmet__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    title: pageTitle,
+    htmlAttributes: {
+      lang: 'en'
+    },
+    meta: metaTags
+  });
+};
+SEO.propTypes = {
+  title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  url: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  pathname: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string
+};
+SEO.defaultProps = {
+  title: '',
+  description: '',
+  url: '',
+  pathname: ''
+};
+/* harmony default export */ __webpack_exports__["default"] = (SEO);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/SocialIcons.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/SocialIcons.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var _public_page_data_sq_d_2936798523_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../public/page-data/sq/d/2936798523.json */ "./public/page-data/sq/d/2936798523.json");
+var _public_page_data_sq_d_2936798523_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../../public/page-data/sq/d/2936798523.json */ "./public/page-data/sq/d/2936798523.json", 1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _icons_Github__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/Github */ "./node_modules/gatsby-theme-document/src/components/icons/Github.js");
+/* harmony import */ var _icons_Icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/Icon */ "./node_modules/gatsby-theme-document/src/components/icons/Icon.js");
+/* harmony import */ var _icons_Twitter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/Twitter */ "./node_modules/gatsby-theme-document/src/components/icons/Twitter.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+
+const socialQuery = "2936798523";
+const icons = {
+  twitter: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Twitter__WEBPACK_IMPORTED_MODULE_5__["default"], null),
+  github: Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Github__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+};
+const SocialIcons = () => {
+  const result = _public_page_data_sq_d_2936798523_json__WEBPACK_IMPORTED_MODULE_1__.data;
+  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(StyledSocialIcons, null, socialOptions.map(option => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(SocialLinks, {
+    key: option.name,
+    href: option.url
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_icons_Icon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    icon: icons[option.name],
+    size: 22
+  }))));
+};
+const StyledSocialIcons = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("div", {
+  target: "e1o2h9z0",
+  label: "StyledSocialIcons"
+})( false ? undefined : {
+  name: "1pvmow1",
+  styles: "display:flex;align-items:center;margin-right:2rem;opacity:0.7;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1NvY2lhbEljb25zLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJDb0MiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvU29jaWFsSWNvbnMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgeyBncmFwaHFsLCB1c2VTdGF0aWNRdWVyeSB9IGZyb20gJ2dhdHNieSc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEdpdGh1YiBmcm9tICcuL2ljb25zL0dpdGh1Yic7XG5pbXBvcnQgSWNvbiBmcm9tICcuL2ljb25zL0ljb24nO1xuaW1wb3J0IFR3aXR0ZXIgZnJvbSAnLi9pY29ucy9Ud2l0dGVyJztcblxuY29uc3Qgc29jaWFsUXVlcnkgPSBncmFwaHFsYFxuICB7XG4gICAgYWxsU2l0ZSB7XG4gICAgICBlZGdlcyB7XG4gICAgICAgIG5vZGUge1xuICAgICAgICAgIHNpdGVNZXRhZGF0YSB7XG4gICAgICAgICAgICBzb2NpYWwge1xuICAgICAgICAgICAgICBuYW1lXG4gICAgICAgICAgICAgIHVybFxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxuYDtcblxuY29uc3QgaWNvbnMgPSB7XG4gIHR3aXR0ZXI6IDxUd2l0dGVyIC8+LFxuICBnaXRodWI6IDxHaXRodWIgLz5cbn07XG5cbmNvbnN0IFNvY2lhbEljb25zID0gKCkgPT4ge1xuICBjb25zdCByZXN1bHQgPSB1c2VTdGF0aWNRdWVyeShzb2NpYWxRdWVyeSk7XG4gIGNvbnN0IHNvY2lhbE9wdGlvbnMgPSByZXN1bHQuYWxsU2l0ZS5lZGdlc1swXS5ub2RlLnNpdGVNZXRhZGF0YS5zb2NpYWw7XG4gIHJldHVybiAoXG4gICAgPFN0eWxlZFNvY2lhbEljb25zPlxuICAgICAge3NvY2lhbE9wdGlvbnMubWFwKG9wdGlvbiA9PiAoXG4gICAgICAgIDxTb2NpYWxMaW5rcyBrZXk9e29wdGlvbi5uYW1lfSBocmVmPXtvcHRpb24udXJsfT5cbiAgICAgICAgICA8SWNvbiBpY29uPXtpY29uc1tvcHRpb24ubmFtZV19IHNpemU9ezIyfSAvPlxuICAgICAgICA8L1NvY2lhbExpbmtzPlxuICAgICAgKSl9XG4gICAgPC9TdHlsZWRTb2NpYWxJY29ucz5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZFNvY2lhbEljb25zID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbWFyZ2luLXJpZ2h0OiAycmVtO1xuICBvcGFjaXR5OiAwLjc7XG5gO1xuXG5jb25zdCBTb2NpYWxMaW5rcyA9IHN0eWxlZC5hYFxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIG1hcmdpbjogMCAwLjVyZW07XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBTb2NpYWxJY29ucztcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+const SocialLinks = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("a", {
+  target: "e1o2h9z1",
+  label: "SocialLinks"
+})( false ? undefined : {
+  name: "s4z02q",
+  styles: "display:inline-block;margin:0 0.5rem;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL1NvY2lhbEljb25zLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWtENEIiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvU29jaWFsSWNvbnMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgeyBncmFwaHFsLCB1c2VTdGF0aWNRdWVyeSB9IGZyb20gJ2dhdHNieSc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEdpdGh1YiBmcm9tICcuL2ljb25zL0dpdGh1Yic7XG5pbXBvcnQgSWNvbiBmcm9tICcuL2ljb25zL0ljb24nO1xuaW1wb3J0IFR3aXR0ZXIgZnJvbSAnLi9pY29ucy9Ud2l0dGVyJztcblxuY29uc3Qgc29jaWFsUXVlcnkgPSBncmFwaHFsYFxuICB7XG4gICAgYWxsU2l0ZSB7XG4gICAgICBlZGdlcyB7XG4gICAgICAgIG5vZGUge1xuICAgICAgICAgIHNpdGVNZXRhZGF0YSB7XG4gICAgICAgICAgICBzb2NpYWwge1xuICAgICAgICAgICAgICBuYW1lXG4gICAgICAgICAgICAgIHVybFxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxuYDtcblxuY29uc3QgaWNvbnMgPSB7XG4gIHR3aXR0ZXI6IDxUd2l0dGVyIC8+LFxuICBnaXRodWI6IDxHaXRodWIgLz5cbn07XG5cbmNvbnN0IFNvY2lhbEljb25zID0gKCkgPT4ge1xuICBjb25zdCByZXN1bHQgPSB1c2VTdGF0aWNRdWVyeShzb2NpYWxRdWVyeSk7XG4gIGNvbnN0IHNvY2lhbE9wdGlvbnMgPSByZXN1bHQuYWxsU2l0ZS5lZGdlc1swXS5ub2RlLnNpdGVNZXRhZGF0YS5zb2NpYWw7XG4gIHJldHVybiAoXG4gICAgPFN0eWxlZFNvY2lhbEljb25zPlxuICAgICAge3NvY2lhbE9wdGlvbnMubWFwKG9wdGlvbiA9PiAoXG4gICAgICAgIDxTb2NpYWxMaW5rcyBrZXk9e29wdGlvbi5uYW1lfSBocmVmPXtvcHRpb24udXJsfT5cbiAgICAgICAgICA8SWNvbiBpY29uPXtpY29uc1tvcHRpb24ubmFtZV19IHNpemU9ezIyfSAvPlxuICAgICAgICA8L1NvY2lhbExpbmtzPlxuICAgICAgKSl9XG4gICAgPC9TdHlsZWRTb2NpYWxJY29ucz5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZFNvY2lhbEljb25zID0gc3R5bGVkLmRpdmBcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgbWFyZ2luLXJpZ2h0OiAycmVtO1xuICBvcGFjaXR5OiAwLjc7XG5gO1xuXG5jb25zdCBTb2NpYWxMaW5rcyA9IHN0eWxlZC5hYFxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIG1hcmdpbjogMCAwLjVyZW07XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBTb2NpYWxJY29ucztcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+/* harmony default export */ __webpack_exports__["default"] = (SocialIcons);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Add.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Add.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Add = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 24 24"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+}), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M0 0h24v24H0z",
+  fill: "none"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Add);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/ColorToggle.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/ColorToggle.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const ColorToggle = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 16 16"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 6.5v-5c1.379 0 2.5 1.122 2.5 2.5S9.379 10.5 8 10.5zM8 13a1 1 0 0 1 1 1v1a1 1 0 0 1-2 0v-1a1 1 0 0 1 1-1zM8 3a1 1 0 0 1-1-1V1a1 1 0 0 1 2 0v1a1 1 0 0 1-1 1zm7 4a1 1 0 0 1 0 2h-1a1 1 0 0 1 0-2h1zM3 8a1 1 0 0 1-1 1H1a1 1 0 0 1 0-2h1a1 1 0 0 1 1 1zm9.95 3.536l.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414zm-9.9-7.072l-.707-.707a.999.999 0 1 1 1.414-1.414l.707.707A.999.999 0 1 1 3.05 4.464zm9.9 0a.999.999 0 1 1-1.414-1.414l.707-.707a.999.999 0 1 1 1.414 1.414l-.707.707zm-9.9 7.072a1 1 0 0 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707z"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (ColorToggle);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Github.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Github.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Github = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 14 14"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  fillRule: "evenodd",
+  clipRule: "evenodd",
+  d: "M7 0C3.1325 0 0 3.21173 0 7.17706C0 10.3529 2.00375 13.0353 4.78625 13.9863C5.13625 14.0491 5.2675 13.8338 5.2675 13.6454C5.2675 13.4749 5.25875 12.9097 5.25875 12.3087C3.5 12.6406 3.045 11.8691 2.905 11.4653C2.82625 11.259 2.485 10.622 2.1875 10.4516C1.9425 10.317 1.5925 9.98508 2.17875 9.97611C2.73 9.96714 3.12375 10.4964 3.255 10.7118C3.885 11.7973 4.89125 11.4923 5.29375 11.3039C5.355 10.8374 5.53875 10.5234 5.74 10.3439C4.1825 10.1645 2.555 9.54549 2.555 6.80026C2.555 6.01976 2.82625 5.37382 3.2725 4.87143C3.2025 4.692 2.9575 3.95635 3.3425 2.96951C3.3425 2.96951 3.92875 2.78111 5.2675 3.70516C5.8275 3.54367 6.4225 3.46293 7.0175 3.46293C7.6125 3.46293 8.2075 3.54367 8.7675 3.70516C10.1063 2.77214 10.6925 2.96951 10.6925 2.96951C11.0775 3.95635 10.8325 4.692 10.7625 4.87143C11.2087 5.37382 11.48 6.01079 11.48 6.80026C11.48 9.55446 9.84375 10.1645 8.28625 10.3439C8.54 10.5682 8.75875 10.9988 8.75875 11.6717C8.75875 12.6316 8.75 13.4032 8.75 13.6454C8.75 13.8338 8.88125 14.0581 9.23125 13.9863C11.9963 13.0353 14 10.3439 14 7.17706C14 3.21173 10.8675 0 7 0Z"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Github);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Icon.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Icon.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Icon = ({
+  icon,
+  size
+}) => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(StyledIcon, {
+  size: size
+}, icon);
+const StyledIcon = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("span", {
+  target: "e1oi6bx00",
+  label: "StyledIcon"
+})("display:inline-block;width:", p => `${p.size}px`, ";height:", p => `${p.size}px`, ";" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL2ljb25zL0ljb24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSzhCIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL2ljb25zL0ljb24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBJY29uID0gKHsgaWNvbiwgc2l6ZSB9KSA9PiA8U3R5bGVkSWNvbiBzaXplPXtzaXplfT57aWNvbn08L1N0eWxlZEljb24+O1xuXG5jb25zdCBTdHlsZWRJY29uID0gc3R5bGVkLnNwYW5gXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6ICR7cCA9PiBgJHtwLnNpemV9cHhgfTtcbiAgaGVpZ2h0OiAke3AgPT4gYCR7cC5zaXplfXB4YH07XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBJY29uO1xuIl19 */"));
+/* harmony default export */ __webpack_exports__["default"] = (Icon);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/IconButton.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/IconButton.js ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icon */ "./node_modules/gatsby-theme-document/src/components/icons/Icon.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+
+const IconButton = ({
+  onClick,
+  label,
+  icon,
+  size
+}) => {
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(StyledIconButton, {
+    type: "button",
+    onClick: onClick,
+    "aria-label": label,
+    title: label
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])(_Icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icon: icon,
+    size: size
+  }));
+};
+const StyledIconButton = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("button", {
+  target: "e1t8wqad0",
+  label: "StyledIconButton"
+})("padding:0;background:none;border:none;color:", p => p.theme.colors.text, ";cursor:pointer;font-size:0.8rem;&:hover{color:", p => p.theme.colors.primary, ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL2ljb25zL0ljb25CdXR0b24uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWXNDIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL2ljb25zL0ljb25CdXR0b24uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEljb24gZnJvbSAnLi9JY29uJztcblxuY29uc3QgSWNvbkJ1dHRvbiA9ICh7IG9uQ2xpY2ssIGxhYmVsLCBpY29uLCBzaXplIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8U3R5bGVkSWNvbkJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgb25DbGljaz17b25DbGlja30gYXJpYS1sYWJlbD17bGFiZWx9IHRpdGxlPXtsYWJlbH0+XG4gICAgICA8SWNvbiBpY29uPXtpY29ufSBzaXplPXtzaXplfSAvPlxuICAgIDwvU3R5bGVkSWNvbkJ1dHRvbj5cbiAgKTtcbn07XG5cbmNvbnN0IFN0eWxlZEljb25CdXR0b24gPSBzdHlsZWQuYnV0dG9uYFxuICBwYWRkaW5nOiAwO1xuICBiYWNrZ3JvdW5kOiBub25lO1xuICBib3JkZXI6IG5vbmU7XG4gIGNvbG9yOiAke3AgPT4gcC50aGVtZS5jb2xvcnMudGV4dH07XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgZm9udC1zaXplOiAwLjhyZW07XG4gICY6aG92ZXIge1xuICAgIGNvbG9yOiAke3AgPT4gcC50aGVtZS5jb2xvcnMucHJpbWFyeX07XG4gIH1cbmA7XG5cbmV4cG9ydCBkZWZhdWx0IEljb25CdXR0b247XG4iXX0= */"));
+/* harmony default export */ __webpack_exports__["default"] = (IconButton);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Menu.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Menu.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Menu = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 24 24"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  fill: "none",
+  d: "M0 0h24v24H0V0z"
+}), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Menu);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Minimize.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Minimize.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Minimize = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 24 24"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M19 13H5v-2h14v2z"
+}), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  d: "M0 0h24v24H0z",
+  fill: "none"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Minimize);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/SVG.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const SVG = ({
+  children,
+  viewBox
+}) => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(StyledSVG, {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: viewBox
+}, children);
+const StyledSVG = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("svg", {
+  target: "eyjdyc60",
+  label: "StyledSVG"
+})("fill:", p => p.theme.colors.text, ";transition:all ", p => p.theme.transition, ";&:hover,&:focus{fill:", p => p.theme.colors.primary, ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9jb21wb25lbnRzL2ljb25zL1NWRy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTNEIiLCJmaWxlIjoiL1VzZXJzL21hY29zL0RvY3VtZW50cy9Tb3VyY2VzL0xvY2FsL2RvY3VtZW50L25vZGVfbW9kdWxlcy9nYXRzYnktdGhlbWUtZG9jdW1lbnQvc3JjL2NvbXBvbmVudHMvaWNvbnMvU1ZHLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuY29uc3QgU1ZHID0gKHsgY2hpbGRyZW4sIHZpZXdCb3ggfSkgPT4gKFxuICA8U3R5bGVkU1ZHIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIiB2aWV3Qm94PXt2aWV3Qm94fT5cbiAgICB7Y2hpbGRyZW59XG4gIDwvU3R5bGVkU1ZHPlxuKTtcblxuY29uc3QgU3R5bGVkU1ZHID0gc3R5bGVkLnN2Z2BcbiAgZmlsbDogJHtwID0+IHAudGhlbWUuY29sb3JzLnRleHR9O1xuICB0cmFuc2l0aW9uOiBhbGwgJHtwID0+IHAudGhlbWUudHJhbnNpdGlvbn07XG4gICY6aG92ZXIsXG4gICY6Zm9jdXMge1xuICAgIGZpbGw6ICR7cCA9PiBwLnRoZW1lLmNvbG9ycy5wcmltYXJ5fTtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgU1ZHO1xuIl19 */"));
+/* harmony default export */ __webpack_exports__["default"] = (SVG);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/components/icons/Twitter.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/components/icons/Twitter.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SVG__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SVG */ "./node_modules/gatsby-theme-document/src/components/icons/SVG.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+
+const Twitter = () => Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])(_SVG__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  viewBox: "0 0 16 13"
+}, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["jsx"])("path", {
+  fillRule: "evenodd",
+  clipRule: "evenodd",
+  d: "M14.0658 2.34438C14.7013 1.96349 15.1892 1.3604 15.419 0.641811C14.8244 0.994439 14.1658 1.25056 13.4648 1.3886C12.9034 0.7905 12.1036 0.416748 11.2185 0.416748C9.51888 0.416748 8.14096 1.79461 8.14096 3.49411C8.14096 3.7353 8.16822 3.97019 8.22068 4.19542C5.66301 4.06708 3.39543 2.84191 1.8776 0.980064C1.6127 1.43458 1.46094 1.96322 1.46094 2.52719C1.46094 3.59485 2.00428 4.5368 2.83003 5.08865C2.32553 5.07268 1.85104 4.93425 1.43608 4.70376C1.43586 4.71659 1.43586 4.72949 1.43586 4.74244C1.43586 6.23349 2.49666 7.47732 3.90448 7.75999C3.64622 7.83033 3.37436 7.86792 3.09366 7.86792C2.89537 7.86792 2.70257 7.84866 2.51471 7.81272C2.90629 9.03537 4.0428 9.92509 5.38945 9.94994C4.33623 10.7753 3.00928 11.2673 1.56749 11.2673C1.31911 11.2673 1.07413 11.2528 0.833374 11.2243C2.19527 12.0975 3.81291 12.6069 5.55081 12.6069C11.2113 12.6069 14.3067 7.91763 14.3067 3.85096C14.3067 3.71753 14.3037 3.5848 14.2978 3.45285C14.899 3.01896 15.4208 2.47694 15.8334 1.8598C15.2815 2.10456 14.6884 2.26998 14.0658 2.34438Z"
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Twitter);
 
 /***/ }),
 
@@ -9254,11 +11010,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
 
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 
 const GlobalStateContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createContext();
@@ -9266,7 +11019,6 @@ const GlobalDispatchContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___de
 const initialState = {
   collapsed: {}
 };
-
 function reducer(state, action) {
   switch (action.type) {
     case 'TOGGLE_NAV_COLLAPSED':
@@ -9275,12 +11027,10 @@ function reducer(state, action) {
           [action.url]: !state.collapsed[action.url]
         })
       });
-
     default:
       return _objectSpread({}, state);
   }
 }
-
 const GlobalContextProvider = ({
   children
 }) => {
@@ -9294,8 +11044,391 @@ const GlobalContextProvider = ({
     value: dispatch
   }, children));
 };
-
 /* harmony default export */ __webpack_exports__["default"] = (GlobalContextProvider);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/colors.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/colors.js ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  text: '#000',
+  background: '#fff',
+  primary: '#e63b19',
+  secondary: '#c70d3a',
+  sidebar: '#eee',
+  borderColor: 'rgba(0, 0, 0, 0.15)',
+  modes: {
+    dark: {
+      text: '#fff',
+      background: '#182952',
+      primary: '#f638dc',
+      secondary: '#ff7976',
+      sidebar: '#101d3c',
+      borderColor: 'rgba(255, 255, 255, 0.15)'
+    },
+    cool: {
+      text: '#fff',
+      background: '#05386b',
+      primary: '#5cdb95',
+      secondary: '#bef992',
+      sidebar: '#052e56',
+      borderColor: 'rgba(255, 255, 255, 0.15)'
+    },
+    deep: {
+      text: '#fff',
+      background: 'hsl(230,25%,18%)',
+      primary: 'hsl(260, 100%, 80%)',
+      secondary: 'hsl(290, 100%, 80%)',
+      sidebar: 'hsla(230, 20%, 0%, 20%)',
+      borderColor: 'rgba(255, 255, 255, 0.15)'
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/headings.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/headings.js ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+const headingBase = {
+  fontFamily: 'heading',
+  lineHeight: 'heading',
+  fontWeight: 'heading',
+  mt: 0,
+  mb: 3,
+  '::before': {
+    content: '" "',
+    display: 'block',
+    paddingTop: 30,
+    marginBottom: 40,
+    borderBottom: '1px solid',
+    borderBottomColor: 'borderColor'
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  h1: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 5
+  }),
+  h2: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 4
+  }),
+  h3: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 3
+  }),
+  h4: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 2
+  }),
+  h5: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 1
+  }),
+  h6: _objectSpread(_objectSpread({}, headingBase), {}, {
+    fontSize: 0
+  })
+});
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/index.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/index.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _theme_ui_prism_presets_night_owl_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @theme-ui/prism/presets/night-owl.json */ "./node_modules/@theme-ui/prism/presets/night-owl.json");
+var _theme_ui_prism_presets_night_owl_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! @theme-ui/prism/presets/night-owl.json */ "./node_modules/@theme-ui/prism/presets/night-owl.json", 1);
+/* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colors */ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/colors.js");
+/* harmony import */ var _headings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./headings */ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/headings.js");
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+
+
+const transition = '0.2s ease-out';
+const systemFonts = '-apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif';
+/* harmony default export */ __webpack_exports__["default"] = ({
+  initialColorMode: `dark`,
+  colors: _colors__WEBPACK_IMPORTED_MODULE_2__["default"],
+  fonts: {
+    body: systemFonts,
+    heading: systemFonts,
+    monospace: 'Menlo, monospace'
+  },
+  fontSizes: [12, 14, 16, 24, 28, 36, 48, 64],
+  fontWeights: {
+    body: 400,
+    heading: 700,
+    bold: 700
+  },
+  lineHeights: {
+    body: 1.5,
+    heading: 1.125
+  },
+  letterSpacings: {
+    body: 'normal',
+    caps: '0.2em'
+  },
+  breakpoints: [['phone_small', 320], ['phone', 376], ['phablet', 540], ['tablet', 735], ['desktop', 1070], ['desktop_medium', 1280], ['desktop_large', 1440]],
+  transition,
+  styles: _objectSpread(_objectSpread({
+    root: _objectSpread({
+      fontFamily: 'body',
+      lineHeight: 'body',
+      fontWeight: 'body'
+    }, _headings__WEBPACK_IMPORTED_MODULE_3__["default"])
+  }, _headings__WEBPACK_IMPORTED_MODULE_3__["default"]), {}, {
+    p: {
+      my: 4
+    },
+    a: {
+      color: 'secondary',
+      transition: `color ${transition}`,
+      ':hover,:focus': {
+        color: 'text'
+      }
+    },
+    pre: _objectSpread(_objectSpread({}, _theme_ui_prism_presets_night_owl_json__WEBPACK_IMPORTED_MODULE_1__), {}, {
+      fontFamily: `"Operator Mono", monospace`,
+      fontSize: '0.9rem',
+      tabSize: 4,
+      hyphens: `none`,
+      overflow: `auto`,
+      borderRadius: 6,
+      p: 3,
+      my: 4
+    }),
+    inlineCode: {
+      color: `primary`,
+      background: `rgba(233, 218, 172, 0.15)`,
+      borderRadius: 3,
+      px: `0.4rem`,
+      py: `0.2rem`
+    },
+    table: {
+      width: '100%',
+      borderCollapse: 'separate',
+      borderSpacing: 0
+    },
+    th: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid'
+    },
+    td: {
+      textAlign: 'left',
+      borderBottomStyle: 'solid'
+    }
+  })
+});
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/hooks/useCycleColor.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/hooks/useCycleColor.js ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var theme_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! theme-ui */ "./node_modules/theme-ui/dist/index.esm.js");
+/* harmony import */ var _gatsby_plugin_theme_ui_colors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../gatsby-plugin-theme-ui/colors */ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/colors.js");
+
+
+const customColors = Object.keys(_gatsby_plugin_theme_ui_colors__WEBPACK_IMPORTED_MODULE_1__["default"].modes);
+const modes = ['light', ...customColors];
+function useCycleColor() {
+  const [colorMode, setColorMode] = Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__["useColorMode"])();
+  const cycleColorMode = () => {
+    const i = modes.indexOf(colorMode);
+    const n = (i + 1) % modes.length;
+    setColorMode(modes[n]);
+  };
+  return {
+    cycleColorMode
+  };
+}
+/* harmony default export */ __webpack_exports__["default"] = (useCycleColor);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/site-image.jpg":
+/*!***************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/site-image.jpg ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/site-image-9d86c3976ce69e1c1ba1b216b6a12db2.jpg";
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/styles/global.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/styles/global.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+const globalStyles =  false ? undefined : {
+  name: "15s23ji-globalStyles",
+  styles: ":root{--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-out-quad:cubic-bezier(0.25,0.46,0.45,0.94);--ease-out-quart:cubic-bezier(0.165,0.84,0.44,1);--ease-in-out-quad:cubic-bezier(0.455,0.03,0.515,0.955);--ease-in-out-quart:cubic-bezier(0.77,0,0.175,1);}*,*:before,*:after{box-sizing:inherit;}:root{box-sizing:border-box;}body{margin:0;}.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;};label:globalStyles;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9zdHlsZXMvZ2xvYmFsLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUV3QiIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvc3R5bGVzL2dsb2JhbC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNzcyB9IGZyb20gJ0BlbW90aW9uL2NvcmUnO1xuXG5jb25zdCBnbG9iYWxTdHlsZXMgPSBjc3NgXG4gIC8qKlxuICAgKiBUaGFua3MgdG8gQmVuamFtaW4gRGUgQ29ja1xuICAgKiBodHRwczovL2dpc3QuZ2l0aHViLmNvbS9iZW5kYy9hYzAzZmFhYzBiZjJhZWUyNWI0OWU1ZmQyNjBhNzI3ZFxuICAgKi9cbiAgOnJvb3Qge1xuICAgIC0tZWFzZS1pbi1xdWFkOiBjdWJpYy1iZXppZXIoMC41NSwgMC4wODUsIDAuNjgsIDAuNTMpO1xuICAgIC0tZWFzZS1pbi1xdWFydDogY3ViaWMtYmV6aWVyKDAuODk1LCAwLjAzLCAwLjY4NSwgMC4yMik7XG4gICAgLS1lYXNlLW91dC1xdWFkOiBjdWJpYy1iZXppZXIoMC4yNSwgMC40NiwgMC40NSwgMC45NCk7XG4gICAgLS1lYXNlLW91dC1xdWFydDogY3ViaWMtYmV6aWVyKDAuMTY1LCAwLjg0LCAwLjQ0LCAxKTtcbiAgICAtLWVhc2UtaW4tb3V0LXF1YWQ6IGN1YmljLWJlemllcigwLjQ1NSwgMC4wMywgMC41MTUsIDAuOTU1KTtcbiAgICAtLWVhc2UtaW4tb3V0LXF1YXJ0OiBjdWJpYy1iZXppZXIoMC43NywgMCwgMC4xNzUsIDEpO1xuICB9XG5cbiAgKixcbiAgKjpiZWZvcmUsXG4gICo6YWZ0ZXIge1xuICAgIGJveC1zaXppbmc6IGluaGVyaXQ7XG4gIH1cblxuICA6cm9vdCB7XG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgfVxuXG4gIGJvZHkge1xuICAgIG1hcmdpbjogMDtcbiAgfVxuXG4gIC8qIGh0dHBzOi8vZ2l0aHViLmNvbS9nYXRzYnlqcy9nYXRzYnkvaXNzdWVzLzE1NDg2ICovXG4gIC5nYXRzYnktcmVzcC1pbWFnZS1pbWFnZSB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIG1hcmdpbjogMDtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgbGVmdDogMDtcbiAgfVxuYDtcblxuZXhwb3J0IGRlZmF1bHQgZ2xvYmFsU3R5bGVzO1xuIl19 */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+};
+/* harmony default export */ __webpack_exports__["default"] = (globalStyles);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/styles/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/styles/index.js ***!
+  \****************************************************************/
+/*! exports provided: globalStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _global__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./global */ "./node_modules/gatsby-theme-document/src/styles/global.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "globalStyles", function() { return _global__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/styles/media.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/styles/media.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+/* harmony import */ var _gatsby_plugin_theme_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../gatsby-plugin-theme-ui */ "./node_modules/gatsby-theme-document/src/gatsby-plugin-theme-ui/index.js");
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+
+
+/**
+ * This file was inspired by https://github.com/narative/gatsby-theme-novela
+ */
+
+const toEm = size => `${size / 16}em`;
+
+/**
+ * All breakpoints can be found inside of theme.breakpoints.
+ * Each is turned in to a min + 1 and max-width version.
+ *
+ * There are also break points to cover coarse and fine pointer devices
+ *
+ * @example
+ *
+ *    ${mediaqueries.phone` width: 100px; `};
+ *    ${mediaqueries.tablet_up` width: 200px; `};
+ */
+
+const mediaqueries = _gatsby_plugin_theme_ui__WEBPACK_IMPORTED_MODULE_2__["default"].breakpoints.reduce((acc, [label, size], i) => _objectSpread(_objectSpread({}, acc), {}, {
+  // max-width media query e.g. mediaqueries.desktop
+  [label]: (...args) => /*#__PURE__*/Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["css"])("@media (max-width:", toEm(size), "){", /*#__PURE__*/Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["css"])(...args), ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9zdHlsZXMvbWVkaWEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBeUI2QiIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvc3R5bGVzL21lZGlhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3NzIH0gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQgdGhlbWUgZnJvbSAnLi4vZ2F0c2J5LXBsdWdpbi10aGVtZS11aSc7XG5cbi8qKlxuICogVGhpcyBmaWxlIHdhcyBpbnNwaXJlZCBieSBodHRwczovL2dpdGh1Yi5jb20vbmFyYXRpdmUvZ2F0c2J5LXRoZW1lLW5vdmVsYVxuICovXG5cbmNvbnN0IHRvRW0gPSBzaXplID0+IGAke3NpemUgLyAxNn1lbWA7XG5cbi8qKlxuICogQWxsIGJyZWFrcG9pbnRzIGNhbiBiZSBmb3VuZCBpbnNpZGUgb2YgdGhlbWUuYnJlYWtwb2ludHMuXG4gKiBFYWNoIGlzIHR1cm5lZCBpbiB0byBhIG1pbiArIDEgYW5kIG1heC13aWR0aCB2ZXJzaW9uLlxuICpcbiAqIFRoZXJlIGFyZSBhbHNvIGJyZWFrIHBvaW50cyB0byBjb3ZlciBjb2Fyc2UgYW5kIGZpbmUgcG9pbnRlciBkZXZpY2VzXG4gKlxuICogQGV4YW1wbGVcbiAqXG4gKiAgICAke21lZGlhcXVlcmllcy5waG9uZWAgd2lkdGg6IDEwMHB4OyBgfTtcbiAqICAgICR7bWVkaWFxdWVyaWVzLnRhYmxldF91cGAgd2lkdGg6IDIwMHB4OyBgfTtcbiAqL1xuXG5jb25zdCBtZWRpYXF1ZXJpZXMgPSB0aGVtZS5icmVha3BvaW50cy5yZWR1Y2UoXG4gIChhY2MsIFtsYWJlbCwgc2l6ZV0sIGkpID0+ICh7XG4gICAgLi4uYWNjLFxuICAgIC8vIG1heC13aWR0aCBtZWRpYSBxdWVyeSBlLmcuIG1lZGlhcXVlcmllcy5kZXNrdG9wXG4gICAgW2xhYmVsXTogKC4uLmFyZ3MpID0+IGNzc2BcbiAgICAgIEBtZWRpYSAobWF4LXdpZHRoOiAke3RvRW0oc2l6ZSl9KSB7XG4gICAgICAgICR7Y3NzKC4uLmFyZ3MpfTtcbiAgICAgIH1cbiAgICBgLFxuICAgIC8vIG1pbi13aWR0aCBtZWRpYSBxdWVyeSBlLmcuIG1lZGlhcXVlcmllcy5kZXNrdG9wX3VwXG4gICAgLy8gVGhpcyBpcyB0aGUgYnJlYWtwb2ludCBwcmlvcidzIHNpemUgKzFcbiAgICBbYCR7bGFiZWx9X3VwYF06ICguLi5hcmdzKSA9PiBjc3NgXG4gICAgICBAbWVkaWEgKG1pbi13aWR0aDogJHt0b0VtKHRoZW1lLmJyZWFrcG9pbnRzW2kgLSAxXVsxXSArIDEpfSkge1xuICAgICAgICAke2NzcyguLi5hcmdzKX07XG4gICAgICB9XG4gICAgYFxuICB9KSxcbiAge31cbik7XG5cbmV4cG9ydCBkZWZhdWx0IG1lZGlhcXVlcmllcztcbiJdfQ== */")),
+  // min-width media query e.g. mediaqueries.desktop_up
+  // This is the breakpoint prior's size +1
+  [`${label}_up`]: (...args) => /*#__PURE__*/Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["css"])("@media (min-width:", toEm(_gatsby_plugin_theme_ui__WEBPACK_IMPORTED_MODULE_2__["default"].breakpoints[i - 1][1] + 1), "){", /*#__PURE__*/Object(_emotion_core__WEBPACK_IMPORTED_MODULE_1__["css"])(...args), ";}" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy9zdHlsZXMvbWVkaWEuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBZ0NxQyIsImZpbGUiOiIvVXNlcnMvbWFjb3MvRG9jdW1lbnRzL1NvdXJjZXMvTG9jYWwvZG9jdW1lbnQvbm9kZV9tb2R1bGVzL2dhdHNieS10aGVtZS1kb2N1bWVudC9zcmMvc3R5bGVzL21lZGlhLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3NzIH0gZnJvbSAnQGVtb3Rpb24vY29yZSc7XG5pbXBvcnQgdGhlbWUgZnJvbSAnLi4vZ2F0c2J5LXBsdWdpbi10aGVtZS11aSc7XG5cbi8qKlxuICogVGhpcyBmaWxlIHdhcyBpbnNwaXJlZCBieSBodHRwczovL2dpdGh1Yi5jb20vbmFyYXRpdmUvZ2F0c2J5LXRoZW1lLW5vdmVsYVxuICovXG5cbmNvbnN0IHRvRW0gPSBzaXplID0+IGAke3NpemUgLyAxNn1lbWA7XG5cbi8qKlxuICogQWxsIGJyZWFrcG9pbnRzIGNhbiBiZSBmb3VuZCBpbnNpZGUgb2YgdGhlbWUuYnJlYWtwb2ludHMuXG4gKiBFYWNoIGlzIHR1cm5lZCBpbiB0byBhIG1pbiArIDEgYW5kIG1heC13aWR0aCB2ZXJzaW9uLlxuICpcbiAqIFRoZXJlIGFyZSBhbHNvIGJyZWFrIHBvaW50cyB0byBjb3ZlciBjb2Fyc2UgYW5kIGZpbmUgcG9pbnRlciBkZXZpY2VzXG4gKlxuICogQGV4YW1wbGVcbiAqXG4gKiAgICAke21lZGlhcXVlcmllcy5waG9uZWAgd2lkdGg6IDEwMHB4OyBgfTtcbiAqICAgICR7bWVkaWFxdWVyaWVzLnRhYmxldF91cGAgd2lkdGg6IDIwMHB4OyBgfTtcbiAqL1xuXG5jb25zdCBtZWRpYXF1ZXJpZXMgPSB0aGVtZS5icmVha3BvaW50cy5yZWR1Y2UoXG4gIChhY2MsIFtsYWJlbCwgc2l6ZV0sIGkpID0+ICh7XG4gICAgLi4uYWNjLFxuICAgIC8vIG1heC13aWR0aCBtZWRpYSBxdWVyeSBlLmcuIG1lZGlhcXVlcmllcy5kZXNrdG9wXG4gICAgW2xhYmVsXTogKC4uLmFyZ3MpID0+IGNzc2BcbiAgICAgIEBtZWRpYSAobWF4LXdpZHRoOiAke3RvRW0oc2l6ZSl9KSB7XG4gICAgICAgICR7Y3NzKC4uLmFyZ3MpfTtcbiAgICAgIH1cbiAgICBgLFxuICAgIC8vIG1pbi13aWR0aCBtZWRpYSBxdWVyeSBlLmcuIG1lZGlhcXVlcmllcy5kZXNrdG9wX3VwXG4gICAgLy8gVGhpcyBpcyB0aGUgYnJlYWtwb2ludCBwcmlvcidzIHNpemUgKzFcbiAgICBbYCR7bGFiZWx9X3VwYF06ICguLi5hcmdzKSA9PiBjc3NgXG4gICAgICBAbWVkaWEgKG1pbi13aWR0aDogJHt0b0VtKHRoZW1lLmJyZWFrcG9pbnRzW2kgLSAxXVsxXSArIDEpfSkge1xuICAgICAgICAke2NzcyguLi5hcmdzKX07XG4gICAgICB9XG4gICAgYFxuICB9KSxcbiAge31cbik7XG5cbmV4cG9ydCBkZWZhdWx0IG1lZGlhcXVlcmllcztcbiJdfQ== */"))
+}), {});
+/* harmony default export */ __webpack_exports__["default"] = (mediaqueries);
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-theme-document/src/templates/docs.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/gatsby-theme-document/src/templates/docs.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "./node_modules/@emotion/styled-base/dist/styled-base.esm.js");
+/* harmony import */ var gatsby_plugin_mdx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby-plugin-mdx */ "./node_modules/gatsby-plugin-mdx/index.js");
+/* harmony import */ var gatsby_plugin_mdx__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(gatsby_plugin_mdx__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./node_modules/gatsby-theme-document/src/components/Layout.js");
+/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/SEO */ "./node_modules/gatsby-theme-document/src/components/SEO.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+
+
+
+
+
+const DocsTemplate = ({
+  data,
+  location
+}) => {
+  const {
+    mdx
+  } = data;
+  return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    tableOfContents: mdx.tableOfContents,
+    location: location
+  }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_components_SEO__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: mdx.frontmatter.title,
+    description: mdx.frontmatter.description
+  }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(Heading, null, mdx.frontmatter.title), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_6__["jsx"])(gatsby_plugin_mdx__WEBPACK_IMPORTED_MODULE_1__["MDXRenderer"], null, mdx.body));
+};
+const Heading = Object(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__["default"])("h1", {
+  target: "eclz9fx0",
+  label: "Heading"
+})( false ? undefined : {
+  name: "16107uo",
+  styles: "padding-top:0;margin-top:0;&::before{display:none !important;}",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy90ZW1wbGF0ZXMvZG9jcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvQnlCIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9Eb2N1bWVudHMvU291cmNlcy9Mb2NhbC9kb2N1bWVudC9ub2RlX21vZHVsZXMvZ2F0c2J5LXRoZW1lLWRvY3VtZW50L3NyYy90ZW1wbGF0ZXMvZG9jcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJztcbmltcG9ydCB7IGdyYXBocWwgfSBmcm9tICdnYXRzYnknO1xuaW1wb3J0IHsgTURYUmVuZGVyZXIgfSBmcm9tICdnYXRzYnktcGx1Z2luLW1keCc7XG5pbXBvcnQgUHJvcFR5cGVzIGZyb20gJ3Byb3AtdHlwZXMnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9MYXlvdXQnO1xuaW1wb3J0IFNFTyBmcm9tICcuLi9jb21wb25lbnRzL1NFTyc7XG5cbmNvbnN0IERvY3NUZW1wbGF0ZSA9ICh7IGRhdGEsIGxvY2F0aW9uIH0pID0+IHtcbiAgY29uc3QgeyBtZHggfSA9IGRhdGE7XG5cbiAgcmV0dXJuIChcbiAgICA8TGF5b3V0IHRhYmxlT2ZDb250ZW50cz17bWR4LnRhYmxlT2ZDb250ZW50c30gbG9jYXRpb249e2xvY2F0aW9ufT5cbiAgICAgIDxTRU8gdGl0bGU9e21keC5mcm9udG1hdHRlci50aXRsZX0gZGVzY3JpcHRpb249e21keC5mcm9udG1hdHRlci5kZXNjcmlwdGlvbn0gLz5cbiAgICAgIDxIZWFkaW5nPnttZHguZnJvbnRtYXR0ZXIudGl0bGV9PC9IZWFkaW5nPlxuICAgICAgPE1EWFJlbmRlcmVyPnttZHguYm9keX08L01EWFJlbmRlcmVyPlxuICAgIDwvTGF5b3V0PlxuICApO1xufTtcblxuY29uc3QgSGVhZGluZyA9IHN0eWxlZC5oMWBcbiAgcGFkZGluZy10b3A6IDA7XG4gIG1hcmdpbi10b3A6IDA7XG4gICY6OmJlZm9yZSB7XG4gICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICB9XG5gO1xuXG5Eb2NzVGVtcGxhdGUucHJvcFR5cGVzID0ge1xuICBkYXRhOiBQcm9wVHlwZXMuc2hhcGUoe1xuICAgIG1keDogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkXG4gIH0pLmlzUmVxdWlyZWQsXG4gIGxvY2F0aW9uOiBQcm9wVHlwZXMub2JqZWN0LmlzUmVxdWlyZWRcbn07XG5cbmV4cG9ydCBjb25zdCBwYWdlUXVlcnkgPSBncmFwaHFsYFxuICBxdWVyeSgkaWQ6IFN0cmluZyEpIHtcbiAgICBtZHgoZmllbGRzOiB7IGlkOiB7IGVxOiAkaWQgfSB9KSB7XG4gICAgICBib2R5XG4gICAgICB0YWJsZU9mQ29udGVudHNcbiAgICAgIGZyb250bWF0dGVyIHtcbiAgICAgICAgdGl0bGVcbiAgICAgICAgZGVzY3JpcHRpb25cbiAgICAgIH1cbiAgICB9XG4gIH1cbmA7XG5cbmV4cG9ydCBkZWZhdWx0IERvY3NUZW1wbGF0ZTtcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+DocsTemplate.propTypes = {
+  data: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
+    mdx: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired
+  }).isRequired,
+  location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired
+};
+const pageQuery = "78534791";
+/* harmony default export */ __webpack_exports__["default"] = (DocsTemplate);
 
 /***/ }),
 
@@ -9907,10 +12040,12 @@ var Highlight = /*@__PURE__*/function (Component) {
 __webpack_require__.r(__webpack_exports__);
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
- * MIT license http://www.opensource.org/licenses/mit-license.php/
- * @author Lea Verou http://lea.verou.me
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
  */
-
 /**
  * prism-react-renderer:
  * This file has been modified to remove:
@@ -9921,373 +12056,917 @@ __webpack_require__.r(__webpack_exports__);
  * - UMD/node-specific hacks
  * It has also been run through prettier
  */
-var Prism = function () {
-  var uniqueId = 0;
-  var _ = {
-    util: {
-      encode: function (tokens) {
-        if (tokens instanceof Token) {
-          return new Token(tokens.type, _.util.encode(tokens.content), tokens.alias);
-        } else if (_.util.type(tokens) === "Array") {
-          return tokens.map(_.util.encode);
-        } else {
-          return tokens.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/\u00a0/g, " ");
-        }
-      },
-      type: function (o) {
-        return Object.prototype.toString.call(o).match(/\[object (\w+)\]/)[1];
-      },
-      objId: function (obj) {
-        if (!obj["__id"]) {
-          Object.defineProperty(obj, "__id", {
-            value: ++uniqueId
-          });
-        }
-
-        return obj["__id"];
-      },
-      // Deep clone a language definition (e.g. to extend it)
-      clone: function (o, visited) {
-        var type = _.util.type(o);
-
-        visited = visited || {};
-
-        switch (type) {
-          case "Object":
-            if (visited[_.util.objId(o)]) {
-              return visited[_.util.objId(o)];
-            }
-
-            var clone = {};
-            visited[_.util.objId(o)] = clone;
-
-            for (var key in o) {
-              if (o.hasOwnProperty(key)) {
-                clone[key] = _.util.clone(o[key], visited);
-              }
-            }
-
-            return clone;
-
-          case "Array":
-            if (visited[_.util.objId(o)]) {
-              return visited[_.util.objId(o)];
-            }
-
-            var clone = [];
-            visited[_.util.objId(o)] = clone;
-            o.forEach(function (v, i) {
-              clone[i] = _.util.clone(v, visited);
-            });
-            return clone;
-        }
-
-        return o;
-      }
-    },
-    languages: {
-      extend: function (id, redef) {
-        var lang = _.util.clone(_.languages[id]);
-
-        for (var key in redef) {
-          lang[key] = redef[key];
-        }
-
-        return lang;
-      },
-
-      /**
-       * Insert a token before another token in a language literal
-       * As this needs to recreate the object (we cannot actually insert before keys in object literals),
-       * we cannot just provide an object, we need anobject and a key.
-       * @param inside The key (or language id) of the parent
-       * @param before The key to insert before. If not provided, the function appends instead.
-       * @param insert Object with the key/value pairs to insert
-       * @param root The object that contains `inside`. If equal to Prism.languages, it can be omitted.
-       */
-      insertBefore: function (inside, before, insert, root) {
-        root = root || _.languages;
-        var grammar = root[inside];
-
-        if (arguments.length == 2) {
-          insert = arguments[1];
-
-          for (var newToken in insert) {
-            if (insert.hasOwnProperty(newToken)) {
-              grammar[newToken] = insert[newToken];
-            }
-          }
-
-          return grammar;
-        }
-
-        var ret = {};
-
-        for (var token in grammar) {
-          if (grammar.hasOwnProperty(token)) {
-            if (token == before) {
-              for (var newToken in insert) {
-                if (insert.hasOwnProperty(newToken)) {
-                  ret[newToken] = insert[newToken];
-                }
-              }
-            }
-
-            ret[token] = grammar[token];
-          }
-        } // Update references in other language definitions
-
-
-        _.languages.DFS(_.languages, function (key, value) {
-          if (value === root[inside] && key != inside) {
-            this[key] = ret;
-          }
-        });
-
-        return root[inside] = ret;
-      },
-      // Traverse a language definition with Depth First Search
-      DFS: function (o, callback, type, visited) {
-        visited = visited || {};
-
-        for (var i in o) {
-          if (o.hasOwnProperty(i)) {
-            callback.call(o, i, o[i], type || i);
-
-            if (_.util.type(o[i]) === "Object" && !visited[_.util.objId(o[i])]) {
-              visited[_.util.objId(o[i])] = true;
-
-              _.languages.DFS(o[i], callback, null, visited);
-            } else if (_.util.type(o[i]) === "Array" && !visited[_.util.objId(o[i])]) {
-              visited[_.util.objId(o[i])] = true;
-
-              _.languages.DFS(o[i], callback, i, visited);
-            }
-          }
-        }
-      }
-    },
-    plugins: {},
-    highlight: function (text, grammar, language) {
-      var env = {
-        code: text,
-        grammar: grammar,
-        language: language
-      };
-
-      _.hooks.run("before-tokenize", env);
-
-      env.tokens = _.tokenize(env.code, env.grammar);
-
-      _.hooks.run("after-tokenize", env);
-
-      return Token.stringify(_.util.encode(env.tokens), env.language);
-    },
-    matchGrammar: function (text, strarr, grammar, index, startPos, oneshot, target) {
-      var Token = _.Token;
-
-      for (var token in grammar) {
-        if (!grammar.hasOwnProperty(token) || !grammar[token]) {
-          continue;
-        }
-
-        if (token == target) {
-          return;
-        }
-
-        var patterns = grammar[token];
-        patterns = _.util.type(patterns) === "Array" ? patterns : [patterns];
-
-        for (var j = 0; j < patterns.length; ++j) {
-          var pattern = patterns[j],
-              inside = pattern.inside,
-              lookbehind = !!pattern.lookbehind,
-              greedy = !!pattern.greedy,
-              lookbehindLength = 0,
-              alias = pattern.alias;
-
-          if (greedy && !pattern.pattern.global) {
-            // Without the global flag, lastIndex won't work
-            var flags = pattern.pattern.toString().match(/[imuy]*$/)[0];
-            pattern.pattern = RegExp(pattern.pattern.source, flags + "g");
-          }
-
-          pattern = pattern.pattern || pattern; // Don’t cache length as it changes during the loop
-
-          for (var i = index, pos = startPos; i < strarr.length; pos += strarr[i].length, ++i) {
-            var str = strarr[i];
-
-            if (strarr.length > text.length) {
-              // Something went terribly wrong, ABORT, ABORT!
-              return;
-            }
-
-            if (str instanceof Token) {
-              continue;
-            }
-
-            if (greedy && i != strarr.length - 1) {
-              pattern.lastIndex = pos;
-              var match = pattern.exec(text);
-
-              if (!match) {
-                break;
-              }
-
-              var from = match.index + (lookbehind ? match[1].length : 0),
-                  to = match.index + match[0].length,
-                  k = i,
-                  p = pos;
-
-              for (var len = strarr.length; k < len && (p < to || !strarr[k].type && !strarr[k - 1].greedy); ++k) {
-                p += strarr[k].length; // Move the index i to the element in strarr that is closest to from
-
-                if (from >= p) {
-                  ++i;
-                  pos = p;
-                }
-              } // If strarr[i] is a Token, then the match starts inside another Token, which is invalid
-
-
-              if (strarr[i] instanceof Token) {
-                continue;
-              } // Number of tokens to delete and replace with the new match
-
-
-              delNum = k - i;
-              str = text.slice(pos, p);
-              match.index -= pos;
-            } else {
-              pattern.lastIndex = 0;
-              var match = pattern.exec(str),
-                  delNum = 1;
-            }
-
-            if (!match) {
-              if (oneshot) {
-                break;
-              }
-
-              continue;
-            }
-
-            if (lookbehind) {
-              lookbehindLength = match[1] ? match[1].length : 0;
-            }
-
-            var from = match.index + lookbehindLength,
-                match = match[0].slice(lookbehindLength),
-                to = from + match.length,
-                before = str.slice(0, from),
-                after = str.slice(to);
-            var args = [i, delNum];
-
-            if (before) {
-              ++i;
-              pos += before.length;
-              args.push(before);
-            }
-
-            var wrapped = new Token(token, inside ? _.tokenize(match, inside) : match, alias, match, greedy);
-            args.push(wrapped);
-
-            if (after) {
-              args.push(after);
-            }
-
-            Array.prototype.splice.apply(strarr, args);
-
-            if (delNum != 1) {
-              _.matchGrammar(text, strarr, grammar, i, pos, true, token);
-            }
-
-            if (oneshot) {
-              break;
-            }
-          }
-        }
-      }
-    },
-    hooks: {
-      add: function () {},
-      run: function (name, env) {}
-    },
-    tokenize: function (text, grammar, language) {
-      var strarr = [text];
-      var rest = grammar.rest;
-
-      if (rest) {
-        for (var token in rest) {
-          grammar[token] = rest[token];
-        }
-
-        delete grammar.rest;
-      }
-
-      _.matchGrammar(text, strarr, grammar, 0, 0, false);
-
-      return strarr;
-    }
-  };
-
-  var Token = _.Token = function (type, content, alias, matchedStr, greedy) {
-    this.type = type;
-    this.content = content;
-    this.alias = alias; // Copy of the full string this token was created from
-
-    this.length = (matchedStr || "").length | 0;
-    this.greedy = !!greedy;
-  };
-
-  Token.stringify = function (o, language, parent) {
-    if (typeof o == "string") {
-      return o;
-    }
-
-    if (_.util.type(o) === "Array") {
-      return o.map(function (element) {
-        return Token.stringify(element, language, o);
-      }).join("");
-    }
-
-    var env = {
-      type: o.type,
-      content: Token.stringify(o.content, language, parent),
-      tag: "span",
-      classes: ["token", o.type],
-      attributes: {},
-      language: language,
-      parent: parent
-    };
-
-    if (o.alias) {
-      var aliases = _.util.type(o.alias) === "Array" ? o.alias : [o.alias];
-      Array.prototype.push.apply(env.classes, aliases);
-    }
-
-    var attributes = Object.keys(env.attributes).map(function (name) {
-      return name + '="' + (env.attributes[name] || "").replace(/"/g, "&quot;") + '"';
-    }).join(" ");
-    return "<" + env.tag + ' class="' + env.classes.join(" ") + '"' + (attributes ? " " + attributes : "") + ">" + env.content + "</" + env.tag + ">";
-  };
-
-  return _;
-}();
+
+ var Prism = (function () {
+
+	// Private helper vars
+	var lang = /(?:^|\s)lang(?:uage)?-([\w-]+)(?=\s|$)/i;
+	var uniqueId = 0;
+
+	// The grammar object for plaintext
+	var plainTextGrammar = {};
+
+
+	var _ = {
+		/**
+		 * A namespace for utility methods.
+		 *
+		 * All function in this namespace that are not explicitly marked as _public_ are for __internal use only__ and may
+		 * change or disappear at any time.
+		 *
+		 * @namespace
+		 * @memberof Prism
+		 */
+		util: {
+			encode: function encode(tokens) {
+				if (tokens instanceof Token) {
+					return new Token(tokens.type, encode(tokens.content), tokens.alias);
+				} else if (Array.isArray(tokens)) {
+					return tokens.map(encode);
+				} else {
+					return tokens.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\u00a0/g, ' ');
+				}
+			},
+
+			/**
+			 * Returns the name of the type of the given value.
+			 *
+			 * @param {any} o
+			 * @returns {string}
+			 * @example
+			 * type(null)      === 'Null'
+			 * type(undefined) === 'Undefined'
+			 * type(123)       === 'Number'
+			 * type('foo')     === 'String'
+			 * type(true)      === 'Boolean'
+			 * type([1, 2])    === 'Array'
+			 * type({})        === 'Object'
+			 * type(String)    === 'Function'
+			 * type(/abc+/)    === 'RegExp'
+			 */
+			type: function (o) {
+				return Object.prototype.toString.call(o).slice(8, -1);
+			},
+
+			/**
+			 * Returns a unique number for the given object. Later calls will still return the same number.
+			 *
+			 * @param {Object} obj
+			 * @returns {number}
+			 */
+			objId: function (obj) {
+				if (!obj['__id']) {
+					Object.defineProperty(obj, '__id', { value: ++uniqueId });
+				}
+				return obj['__id'];
+			},
+
+			/**
+			 * Creates a deep clone of the given object.
+			 *
+			 * The main intended use of this function is to clone language definitions.
+			 *
+			 * @param {T} o
+			 * @param {Record<number, any>} [visited]
+			 * @returns {T}
+			 * @template T
+			 */
+			clone: function deepClone(o, visited) {
+				visited = visited || {};
+
+				var clone; var id;
+				switch (_.util.type(o)) {
+					case 'Object':
+						id = _.util.objId(o);
+						if (visited[id]) {
+							return visited[id];
+						}
+						clone = /** @type {Record<string, any>} */ ({});
+						visited[id] = clone;
+
+						for (var key in o) {
+							if (o.hasOwnProperty(key)) {
+								clone[key] = deepClone(o[key], visited);
+							}
+						}
+
+						return /** @type {any} */ (clone);
+
+					case 'Array':
+						id = _.util.objId(o);
+						if (visited[id]) {
+							return visited[id];
+						}
+						clone = [];
+						visited[id] = clone;
+
+						(/** @type {Array} */(/** @type {any} */(o))).forEach(function (v, i) {
+							clone[i] = deepClone(v, visited);
+						});
+
+						return /** @type {any} */ (clone);
+
+					default:
+						return o;
+				}
+			},
+
+			/**
+			 * Returns the Prism language of the given element set by a `language-xxxx` or `lang-xxxx` class.
+			 *
+			 * If no language is set for the element or the element is `null` or `undefined`, `none` will be returned.
+			 *
+			 * @param {Element} element
+			 * @returns {string}
+			 */
+			getLanguage: function (element) {
+				while (element) {
+					var m = lang.exec(element.className);
+					if (m) {
+						return m[1].toLowerCase();
+					}
+					element = element.parentElement;
+				}
+				return 'none';
+			},
+
+			/**
+			 * Sets the Prism `language-xxxx` class of the given element.
+			 *
+			 * @param {Element} element
+			 * @param {string} language
+			 * @returns {void}
+			 */
+			setLanguage: function (element, language) {
+				// remove all `language-xxxx` classes
+				// (this might leave behind a leading space)
+				element.className = element.className.replace(RegExp(lang, 'gi'), '');
+
+				// add the new `language-xxxx` class
+				// (using `classList` will automatically clean up spaces for us)
+				element.classList.add('language-' + language);
+			},
+
+			/**
+			 * Returns whether a given class is active for `element`.
+			 *
+			 * The class can be activated if `element` or one of its ancestors has the given class and it can be deactivated
+			 * if `element` or one of its ancestors has the negated version of the given class. The _negated version_ of the
+			 * given class is just the given class with a `no-` prefix.
+			 *
+			 * Whether the class is active is determined by the closest ancestor of `element` (where `element` itself is
+			 * closest ancestor) that has the given class or the negated version of it. If neither `element` nor any of its
+			 * ancestors have the given class or the negated version of it, then the default activation will be returned.
+			 *
+			 * In the paradoxical situation where the closest ancestor contains __both__ the given class and the negated
+			 * version of it, the class is considered active.
+			 *
+			 * @param {Element} element
+			 * @param {string} className
+			 * @param {boolean} [defaultActivation=false]
+			 * @returns {boolean}
+			 */
+			isActive: function (element, className, defaultActivation) {
+				var no = 'no-' + className;
+
+				while (element) {
+					var classList = element.classList;
+					if (classList.contains(className)) {
+						return true;
+					}
+					if (classList.contains(no)) {
+						return false;
+					}
+					element = element.parentElement;
+				}
+				return !!defaultActivation;
+			}
+		},
+
+		/**
+		 * This namespace contains all currently loaded languages and the some helper functions to create and modify languages.
+		 *
+		 * @namespace
+		 * @memberof Prism
+		 * @public
+		 */
+		languages: {
+			/**
+			 * The grammar for plain, unformatted text.
+			 */
+			plain: plainTextGrammar,
+			plaintext: plainTextGrammar,
+			text: plainTextGrammar,
+			txt: plainTextGrammar,
+
+			/**
+			 * Creates a deep copy of the language with the given id and appends the given tokens.
+			 *
+			 * If a token in `redef` also appears in the copied language, then the existing token in the copied language
+			 * will be overwritten at its original position.
+			 *
+			 * ## Best practices
+			 *
+			 * Since the position of overwriting tokens (token in `redef` that overwrite tokens in the copied language)
+			 * doesn't matter, they can technically be in any order. However, this can be confusing to others that trying to
+			 * understand the language definition because, normally, the order of tokens matters in Prism grammars.
+			 *
+			 * Therefore, it is encouraged to order overwriting tokens according to the positions of the overwritten tokens.
+			 * Furthermore, all non-overwriting tokens should be placed after the overwriting ones.
+			 *
+			 * @param {string} id The id of the language to extend. This has to be a key in `Prism.languages`.
+			 * @param {Grammar} redef The new tokens to append.
+			 * @returns {Grammar} The new language created.
+			 * @public
+			 * @example
+			 * Prism.languages['css-with-colors'] = Prism.languages.extend('css', {
+			 *     // Prism.languages.css already has a 'comment' token, so this token will overwrite CSS' 'comment' token
+			 *     // at its original position
+			 *     'comment': { ... },
+			 *     // CSS doesn't have a 'color' token, so this token will be appended
+			 *     'color': /\b(?:red|green|blue)\b/
+			 * });
+			 */
+			extend: function (id, redef) {
+				var lang = _.util.clone(_.languages[id]);
+
+				for (var key in redef) {
+					lang[key] = redef[key];
+				}
+
+				return lang;
+			},
+
+			/**
+			 * Inserts tokens _before_ another token in a language definition or any other grammar.
+			 *
+			 * ## Usage
+			 *
+			 * This helper method makes it easy to modify existing languages. For example, the CSS language definition
+			 * not only defines CSS highlighting for CSS documents, but also needs to define highlighting for CSS embedded
+			 * in HTML through `<style>` elements. To do this, it needs to modify `Prism.languages.markup` and add the
+			 * appropriate tokens. However, `Prism.languages.markup` is a regular JavaScript object literal, so if you do
+			 * this:
+			 *
+			 * ```js
+			 * Prism.languages.markup.style = {
+			 *     // token
+			 * };
+			 * ```
+			 *
+			 * then the `style` token will be added (and processed) at the end. `insertBefore` allows you to insert tokens
+			 * before existing tokens. For the CSS example above, you would use it like this:
+			 *
+			 * ```js
+			 * Prism.languages.insertBefore('markup', 'cdata', {
+			 *     'style': {
+			 *         // token
+			 *     }
+			 * });
+			 * ```
+			 *
+			 * ## Special cases
+			 *
+			 * If the grammars of `inside` and `insert` have tokens with the same name, the tokens in `inside`'s grammar
+			 * will be ignored.
+			 *
+			 * This behavior can be used to insert tokens after `before`:
+			 *
+			 * ```js
+			 * Prism.languages.insertBefore('markup', 'comment', {
+			 *     'comment': Prism.languages.markup.comment,
+			 *     // tokens after 'comment'
+			 * });
+			 * ```
+			 *
+			 * ## Limitations
+			 *
+			 * The main problem `insertBefore` has to solve is iteration order. Since ES2015, the iteration order for object
+			 * properties is guaranteed to be the insertion order (except for integer keys) but some browsers behave
+			 * differently when keys are deleted and re-inserted. So `insertBefore` can't be implemented by temporarily
+			 * deleting properties which is necessary to insert at arbitrary positions.
+			 *
+			 * To solve this problem, `insertBefore` doesn't actually insert the given tokens into the target object.
+			 * Instead, it will create a new object and replace all references to the target object with the new one. This
+			 * can be done without temporarily deleting properties, so the iteration order is well-defined.
+			 *
+			 * However, only references that can be reached from `Prism.languages` or `insert` will be replaced. I.e. if
+			 * you hold the target object in a variable, then the value of the variable will not change.
+			 *
+			 * ```js
+			 * var oldMarkup = Prism.languages.markup;
+			 * var newMarkup = Prism.languages.insertBefore('markup', 'comment', { ... });
+			 *
+			 * assert(oldMarkup !== Prism.languages.markup);
+			 * assert(newMarkup === Prism.languages.markup);
+			 * ```
+			 *
+			 * @param {string} inside The property of `root` (e.g. a language id in `Prism.languages`) that contains the
+			 * object to be modified.
+			 * @param {string} before The key to insert before.
+			 * @param {Grammar} insert An object containing the key-value pairs to be inserted.
+			 * @param {Object<string, any>} [root] The object containing `inside`, i.e. the object that contains the
+			 * object to be modified.
+			 *
+			 * Defaults to `Prism.languages`.
+			 * @returns {Grammar} The new grammar object.
+			 * @public
+			 */
+			insertBefore: function (inside, before, insert, root) {
+				root = root || /** @type {any} */ (_.languages);
+				var grammar = root[inside];
+				/** @type {Grammar} */
+				var ret = {};
+
+				for (var token in grammar) {
+					if (grammar.hasOwnProperty(token)) {
+
+						if (token == before) {
+							for (var newToken in insert) {
+								if (insert.hasOwnProperty(newToken)) {
+									ret[newToken] = insert[newToken];
+								}
+							}
+						}
+
+						// Do not insert token which also occur in insert. See #1525
+						if (!insert.hasOwnProperty(token)) {
+							ret[token] = grammar[token];
+						}
+					}
+				}
+
+				var old = root[inside];
+				root[inside] = ret;
+
+				// Update references in other language definitions
+				_.languages.DFS(_.languages, function (key, value) {
+					if (value === old && key != inside) {
+						this[key] = ret;
+					}
+				});
+
+				return ret;
+			},
+
+			// Traverse a language definition with Depth First Search
+			DFS: function DFS(o, callback, type, visited) {
+				visited = visited || {};
+
+				var objId = _.util.objId;
+
+				for (var i in o) {
+					if (o.hasOwnProperty(i)) {
+						callback.call(o, i, o[i], type || i);
+
+						var property = o[i];
+						var propertyType = _.util.type(property);
+
+						if (propertyType === 'Object' && !visited[objId(property)]) {
+							visited[objId(property)] = true;
+							DFS(property, callback, null, visited);
+						} else if (propertyType === 'Array' && !visited[objId(property)]) {
+							visited[objId(property)] = true;
+							DFS(property, callback, i, visited);
+						}
+					}
+				}
+			}
+		},
+
+		plugins: {},
+
+
+		/**
+		 * Low-level function, only use if you know what you’re doing. It accepts a string of text as input
+		 * and the language definitions to use, and returns a string with the HTML produced.
+		 *
+		 * The following hooks will be run:
+		 * 1. `before-tokenize`
+		 * 2. `after-tokenize`
+		 * 3. `wrap`: On each {@link Token}.
+		 *
+		 * @param {string} text A string with the code to be highlighted.
+		 * @param {Grammar} grammar An object containing the tokens to use.
+		 *
+		 * Usually a language definition like `Prism.languages.markup`.
+		 * @param {string} language The name of the language definition passed to `grammar`.
+		 * @returns {string} The highlighted HTML.
+		 * @memberof Prism
+		 * @public
+		 * @example
+		 * Prism.highlight('var foo = true;', Prism.languages.javascript, 'javascript');
+		 */
+		highlight: function (text, grammar, language) {
+			var env = {
+				code: text,
+				grammar: grammar,
+				language: language
+			};
+			_.hooks.run('before-tokenize', env);
+			env.tokens = _.tokenize(env.code, env.grammar);
+			_.hooks.run('after-tokenize', env);
+			return Token.stringify(_.util.encode(env.tokens), env.language);
+		},
+
+		/**
+		 * This is the heart of Prism, and the most low-level function you can use. It accepts a string of text as input
+		 * and the language definitions to use, and returns an array with the tokenized code.
+		 *
+		 * When the language definition includes nested tokens, the function is called recursively on each of these tokens.
+		 *
+		 * This method could be useful in other contexts as well, as a very crude parser.
+		 *
+		 * @param {string} text A string with the code to be highlighted.
+		 * @param {Grammar} grammar An object containing the tokens to use.
+		 *
+		 * Usually a language definition like `Prism.languages.markup`.
+		 * @returns {TokenStream} An array of strings and tokens, a token stream.
+		 * @memberof Prism
+		 * @public
+		 * @example
+		 * let code = `var foo = 0;`;
+		 * let tokens = Prism.tokenize(code, Prism.languages.javascript);
+		 * tokens.forEach(token => {
+		 *     if (token instanceof Prism.Token && token.type === 'number') {
+		 *         console.log(`Found numeric literal: ${token.content}`);
+		 *     }
+		 * });
+		 */
+		tokenize: function (text, grammar) {
+			var rest = grammar.rest;
+			if (rest) {
+				for (var token in rest) {
+					grammar[token] = rest[token];
+				}
+
+				delete grammar.rest;
+			}
+
+			var tokenList = new LinkedList();
+			addAfter(tokenList, tokenList.head, text);
+
+			matchGrammar(text, tokenList, grammar, tokenList.head, 0);
+
+			return toArray(tokenList);
+		},
+
+		/**
+		 * @namespace
+		 * @memberof Prism
+		 * @public
+		 */
+		hooks: {
+			all: {},
+
+			/**
+			 * Adds the given callback to the list of callbacks for the given hook.
+			 *
+			 * The callback will be invoked when the hook it is registered for is run.
+			 * Hooks are usually directly run by a highlight function but you can also run hooks yourself.
+			 *
+			 * One callback function can be registered to multiple hooks and the same hook multiple times.
+			 *
+			 * @param {string} name The name of the hook.
+			 * @param {HookCallback} callback The callback function which is given environment variables.
+			 * @public
+			 */
+			add: function (name, callback) {
+				var hooks = _.hooks.all;
+
+				hooks[name] = hooks[name] || [];
+
+				hooks[name].push(callback);
+			},
+
+			/**
+			 * Runs a hook invoking all registered callbacks with the given environment variables.
+			 *
+			 * Callbacks will be invoked synchronously and in the order in which they were registered.
+			 *
+			 * @param {string} name The name of the hook.
+			 * @param {Object<string, any>} env The environment variables of the hook passed to all callbacks registered.
+			 * @public
+			 */
+			run: function (name, env) {
+				var callbacks = _.hooks.all[name];
+
+				if (!callbacks || !callbacks.length) {
+					return;
+				}
+
+				for (var i = 0, callback; (callback = callbacks[i++]);) {
+					callback(env);
+				}
+			}
+		},
+
+		Token: Token
+	};
+
+
+	// Typescript note:
+	// The following can be used to import the Token type in JSDoc:
+	//
+	//   @typedef {InstanceType<import("./prism-core")["Token"]>} Token
+
+	/**
+	 * Creates a new token.
+	 *
+	 * @param {string} type See {@link Token#type type}
+	 * @param {string | TokenStream} content See {@link Token#content content}
+	 * @param {string|string[]} [alias] The alias(es) of the token.
+	 * @param {string} [matchedStr=""] A copy of the full string this token was created from.
+	 * @class
+	 * @global
+	 * @public
+	 */
+	function Token(type, content, alias, matchedStr) {
+		/**
+		 * The type of the token.
+		 *
+		 * This is usually the key of a pattern in a {@link Grammar}.
+		 *
+		 * @type {string}
+		 * @see GrammarToken
+		 * @public
+		 */
+		this.type = type;
+		/**
+		 * The strings or tokens contained by this token.
+		 *
+		 * This will be a token stream if the pattern matched also defined an `inside` grammar.
+		 *
+		 * @type {string | TokenStream}
+		 * @public
+		 */
+		this.content = content;
+		/**
+		 * The alias(es) of the token.
+		 *
+		 * @type {string|string[]}
+		 * @see GrammarToken
+		 * @public
+		 */
+		this.alias = alias;
+		// Copy of the full string this token was created from
+		this.length = (matchedStr || '').length | 0;
+	}
+
+	/**
+	 * A token stream is an array of strings and {@link Token Token} objects.
+	 *
+	 * Token streams have to fulfill a few properties that are assumed by most functions (mostly internal ones) that process
+	 * them.
+	 *
+	 * 1. No adjacent strings.
+	 * 2. No empty strings.
+	 *
+	 *    The only exception here is the token stream that only contains the empty string and nothing else.
+	 *
+	 * @typedef {Array<string | Token>} TokenStream
+	 * @global
+	 * @public
+	 */
+
+	/**
+	 * Converts the given token or token stream to an HTML representation.
+	 *
+	 * The following hooks will be run:
+	 * 1. `wrap`: On each {@link Token}.
+	 *
+	 * @param {string | Token | TokenStream} o The token or token stream to be converted.
+	 * @param {string} language The name of current language.
+	 * @returns {string} The HTML representation of the token or token stream.
+	 * @memberof Token
+	 * @static
+	 */
+	Token.stringify = function stringify(o, language) {
+		if (typeof o == 'string') {
+			return o;
+		}
+		if (Array.isArray(o)) {
+			var s = '';
+			o.forEach(function (e) {
+				s += stringify(e, language);
+			});
+			return s;
+		}
+
+		var env = {
+			type: o.type,
+			content: stringify(o.content, language),
+			tag: 'span',
+			classes: ['token', o.type],
+			attributes: {},
+			language: language
+		};
+
+		var aliases = o.alias;
+		if (aliases) {
+			if (Array.isArray(aliases)) {
+				Array.prototype.push.apply(env.classes, aliases);
+			} else {
+				env.classes.push(aliases);
+			}
+		}
+
+		_.hooks.run('wrap', env);
+
+		var attributes = '';
+		for (var name in env.attributes) {
+			attributes += ' ' + name + '="' + (env.attributes[name] || '').replace(/"/g, '&quot;') + '"';
+		}
+
+		return '<' + env.tag + ' class="' + env.classes.join(' ') + '"' + attributes + '>' + env.content + '</' + env.tag + '>';
+	};
+
+	/**
+	 * @param {RegExp} pattern
+	 * @param {number} pos
+	 * @param {string} text
+	 * @param {boolean} lookbehind
+	 * @returns {RegExpExecArray | null}
+	 */
+	function matchPattern(pattern, pos, text, lookbehind) {
+		pattern.lastIndex = pos;
+		var match = pattern.exec(text);
+		if (match && lookbehind && match[1]) {
+			// change the match to remove the text matched by the Prism lookbehind group
+			var lookbehindLength = match[1].length;
+			match.index += lookbehindLength;
+			match[0] = match[0].slice(lookbehindLength);
+		}
+		return match;
+	}
+
+	/**
+	 * @param {string} text
+	 * @param {LinkedList<string | Token>} tokenList
+	 * @param {any} grammar
+	 * @param {LinkedListNode<string | Token>} startNode
+	 * @param {number} startPos
+	 * @param {RematchOptions} [rematch]
+	 * @returns {void}
+	 * @private
+	 *
+	 * @typedef RematchOptions
+	 * @property {string} cause
+	 * @property {number} reach
+	 */
+	function matchGrammar(text, tokenList, grammar, startNode, startPos, rematch) {
+		for (var token in grammar) {
+			if (!grammar.hasOwnProperty(token) || !grammar[token]) {
+				continue;
+			}
+
+			var patterns = grammar[token];
+			patterns = Array.isArray(patterns) ? patterns : [patterns];
+
+			for (var j = 0; j < patterns.length; ++j) {
+				if (rematch && rematch.cause == token + ',' + j) {
+					return;
+				}
+
+				var patternObj = patterns[j];
+				var inside = patternObj.inside;
+				var lookbehind = !!patternObj.lookbehind;
+				var greedy = !!patternObj.greedy;
+				var alias = patternObj.alias;
+
+				if (greedy && !patternObj.pattern.global) {
+					// Without the global flag, lastIndex won't work
+					var flags = patternObj.pattern.toString().match(/[imsuy]*$/)[0];
+					patternObj.pattern = RegExp(patternObj.pattern.source, flags + 'g');
+				}
+
+				/** @type {RegExp} */
+				var pattern = patternObj.pattern || patternObj;
+
+				for ( // iterate the token list and keep track of the current token/string position
+					var currentNode = startNode.next, pos = startPos;
+					currentNode !== tokenList.tail;
+					pos += currentNode.value.length, currentNode = currentNode.next
+				) {
+
+					if (rematch && pos >= rematch.reach) {
+						break;
+					}
+
+					var str = currentNode.value;
+
+					if (tokenList.length > text.length) {
+						// Something went terribly wrong, ABORT, ABORT!
+						return;
+					}
+
+					if (str instanceof Token) {
+						continue;
+					}
+
+					var removeCount = 1; // this is the to parameter of removeBetween
+					var match;
+
+					if (greedy) {
+						match = matchPattern(pattern, pos, text, lookbehind);
+						if (!match || match.index >= text.length) {
+							break;
+						}
+
+						var from = match.index;
+						var to = match.index + match[0].length;
+						var p = pos;
+
+						// find the node that contains the match
+						p += currentNode.value.length;
+						while (from >= p) {
+							currentNode = currentNode.next;
+							p += currentNode.value.length;
+						}
+						// adjust pos (and p)
+						p -= currentNode.value.length;
+						pos = p;
+
+						// the current node is a Token, then the match starts inside another Token, which is invalid
+						if (currentNode.value instanceof Token) {
+							continue;
+						}
+
+						// find the last node which is affected by this match
+						for (
+							var k = currentNode;
+							k !== tokenList.tail && (p < to || typeof k.value === 'string');
+							k = k.next
+						) {
+							removeCount++;
+							p += k.value.length;
+						}
+						removeCount--;
+
+						// replace with the new match
+						str = text.slice(pos, p);
+						match.index -= pos;
+					} else {
+						match = matchPattern(pattern, 0, str, lookbehind);
+						if (!match) {
+							continue;
+						}
+					}
+
+					// eslint-disable-next-line no-redeclare
+					var from = match.index;
+					var matchStr = match[0];
+					var before = str.slice(0, from);
+					var after = str.slice(from + matchStr.length);
+
+					var reach = pos + str.length;
+					if (rematch && reach > rematch.reach) {
+						rematch.reach = reach;
+					}
+
+					var removeFrom = currentNode.prev;
+
+					if (before) {
+						removeFrom = addAfter(tokenList, removeFrom, before);
+						pos += before.length;
+					}
+
+					removeRange(tokenList, removeFrom, removeCount);
+
+					var wrapped = new Token(token, inside ? _.tokenize(matchStr, inside) : matchStr, alias, matchStr);
+					currentNode = addAfter(tokenList, removeFrom, wrapped);
+
+					if (after) {
+						addAfter(tokenList, currentNode, after);
+					}
+
+					if (removeCount > 1) {
+						// at least one Token object was removed, so we have to do some rematching
+						// this can only happen if the current pattern is greedy
+
+						/** @type {RematchOptions} */
+						var nestedRematch = {
+							cause: token + ',' + j,
+							reach: reach
+						};
+						matchGrammar(text, tokenList, grammar, currentNode.prev, pos, nestedRematch);
+
+						// the reach might have been extended because of the rematching
+						if (rematch && nestedRematch.reach > rematch.reach) {
+							rematch.reach = nestedRematch.reach;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/**
+	 * @typedef LinkedListNode
+	 * @property {T} value
+	 * @property {LinkedListNode<T> | null} prev The previous node.
+	 * @property {LinkedListNode<T> | null} next The next node.
+	 * @template T
+	 * @private
+	 */
+
+	/**
+	 * @template T
+	 * @private
+	 */
+	function LinkedList() {
+		/** @type {LinkedListNode<T>} */
+		var head = { value: null, prev: null, next: null };
+		/** @type {LinkedListNode<T>} */
+		var tail = { value: null, prev: head, next: null };
+		head.next = tail;
+
+		/** @type {LinkedListNode<T>} */
+		this.head = head;
+		/** @type {LinkedListNode<T>} */
+		this.tail = tail;
+		this.length = 0;
+	}
+
+	/**
+	 * Adds a new node with the given value to the list.
+	 *
+	 * @param {LinkedList<T>} list
+	 * @param {LinkedListNode<T>} node
+	 * @param {T} value
+	 * @returns {LinkedListNode<T>} The added node.
+	 * @template T
+	 */
+	function addAfter(list, node, value) {
+		// assumes that node != list.tail && values.length >= 0
+		var next = node.next;
+
+		var newNode = { value: value, prev: node, next: next };
+		node.next = newNode;
+		next.prev = newNode;
+		list.length++;
+
+		return newNode;
+	}
+	/**
+	 * Removes `count` nodes after the given node. The given node will not be removed.
+	 *
+	 * @param {LinkedList<T>} list
+	 * @param {LinkedListNode<T>} node
+	 * @param {number} count
+	 * @template T
+	 */
+	function removeRange(list, node, count) {
+		var next = node.next;
+		for (var i = 0; i < count && next !== list.tail; i++) {
+			next = next.next;
+		}
+		node.next = next;
+		next.prev = node;
+		list.length -= i;
+	}
+	/**
+	 * @param {LinkedList<T>} list
+	 * @returns {T[]}
+	 * @template T
+	 */
+	function toArray(list) {
+		var array = [];
+		var node = list.head.next;
+		while (node !== list.tail) {
+			array.push(node.value);
+			node = node.next;
+		}
+		return array;
+	}
+
+	return _;
+
+}());
+
+var prism = Prism;
+Prism.default = Prism;
 
 /* This content is auto-generated to include some prismjs language components: */
 
 /* "prismjs/components/prism-markup" */
 
-Prism.languages.markup = {
-  'comment': /<!--[\s\S]*?-->/,
-  'prolog': /<\?[\s\S]+?\?>/,
+prism.languages.markup = {
+  'comment': {
+    pattern: /<!--(?:(?!<!--)[\s\S])*?-->/,
+    greedy: true
+  },
+  'prolog': {
+    pattern: /<\?[\s\S]+?\?>/,
+    greedy: true
+  },
   'doctype': {
     // https://www.w3.org/TR/xml/#NT-doctypedecl
     pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i,
     greedy: true,
     inside: {
       'internal-subset': {
-        pattern: /(\[)[\s\S]+(?=\]>$)/,
+        pattern: /(^[^\[]*\[)[\s\S]+(?=\]>$)/,
         lookbehind: true,
         greedy: true,
         inside: null // see below
@@ -10298,11 +12977,14 @@ Prism.languages.markup = {
         greedy: true
       },
       'punctuation': /^<!|>$|[[\]]/,
-      'doctype-tag': /^DOCTYPE/,
+      'doctype-tag': /^DOCTYPE/i,
       'name': /[^\s<>'"]+/
     }
   },
-  'cdata': /<!\[CDATA\[[\s\S]*?]]>/i,
+  'cdata': {
+    pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i,
+    greedy: true
+  },
   'tag': {
     pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/,
     greedy: true,
@@ -10314,6 +12996,7 @@ Prism.languages.markup = {
           'namespace': /^[^\s>\/:]+:/
         }
       },
+      'special-attr': [],
       'attr-value': {
         pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,
         inside: {
@@ -10337,15 +13020,15 @@ Prism.languages.markup = {
     alias: 'named-entity'
   }, /&#x?[\da-f]{1,8};/i]
 };
-Prism.languages.markup['tag'].inside['attr-value'].inside['entity'] = Prism.languages.markup['entity'];
-Prism.languages.markup['doctype'].inside['internal-subset'].inside = Prism.languages.markup; // Plugin to make entity title show the real entity, idea by Roman Komarov
+prism.languages.markup['tag'].inside['attr-value'].inside['entity'] = prism.languages.markup['entity'];
+prism.languages.markup['doctype'].inside['internal-subset'].inside = prism.languages.markup; // Plugin to make entity title show the real entity, idea by Roman Komarov
 
-Prism.hooks.add('wrap', function (env) {
+prism.hooks.add('wrap', function (env) {
   if (env.type === 'entity') {
     env.attributes['title'] = env.content.replace(/&amp;/, '&');
   }
 });
-Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
+Object.defineProperty(prism.languages.markup.tag, 'addInlined', {
   /**
    * Adds an inlined language to markup.
    *
@@ -10362,7 +13045,7 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
     includedCdataInside['language-' + lang] = {
       pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,
       lookbehind: true,
-      inside: Prism.languages[lang]
+      inside: prism.languages[lang]
     };
     includedCdataInside['cdata'] = /^<!\[CDATA\[|\]\]>$/i;
     var inside = {
@@ -10373,7 +13056,7 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
     };
     inside['language-' + lang] = {
       pattern: /[\s\S]+/,
-      inside: Prism.languages[lang]
+      inside: prism.languages[lang]
     };
     var def = {};
     def[tagName] = {
@@ -10384,16 +13067,53 @@ Object.defineProperty(Prism.languages.markup.tag, 'addInlined', {
       greedy: true,
       inside: inside
     };
-    Prism.languages.insertBefore('markup', 'cdata', def);
+    prism.languages.insertBefore('markup', 'cdata', def);
   }
 });
-Prism.languages.html = Prism.languages.markup;
-Prism.languages.mathml = Prism.languages.markup;
-Prism.languages.svg = Prism.languages.markup;
-Prism.languages.xml = Prism.languages.extend('markup', {});
-Prism.languages.ssml = Prism.languages.xml;
-Prism.languages.atom = Prism.languages.xml;
-Prism.languages.rss = Prism.languages.xml;
+Object.defineProperty(prism.languages.markup.tag, 'addAttribute', {
+  /**
+   * Adds an pattern to highlight languages embedded in HTML attributes.
+   *
+   * An example of an inlined language is CSS with `style` attributes.
+   *
+   * @param {string} attrName The name of the tag that contains the inlined language. This name will be treated as
+   * case insensitive.
+   * @param {string} lang The language key.
+   * @example
+   * addAttribute('style', 'css');
+   */
+  value: function (attrName, lang) {
+    prism.languages.markup.tag.inside['special-attr'].push({
+      pattern: RegExp(/(^|["'\s])/.source + '(?:' + attrName + ')' + /\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))/.source, 'i'),
+      lookbehind: true,
+      inside: {
+        'attr-name': /^[^\s=]+/,
+        'attr-value': {
+          pattern: /=[\s\S]+/,
+          inside: {
+            'value': {
+              pattern: /(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/,
+              lookbehind: true,
+              alias: [lang, 'language-' + lang],
+              inside: prism.languages[lang]
+            },
+            'punctuation': [{
+              pattern: /^=/,
+              alias: 'attr-equals'
+            }, /"|'/]
+          }
+        }
+      }
+    });
+  }
+});
+prism.languages.html = prism.languages.markup;
+prism.languages.mathml = prism.languages.markup;
+prism.languages.svg = prism.languages.markup;
+prism.languages.xml = prism.languages.extend('markup', {});
+prism.languages.ssml = prism.languages.xml;
+prism.languages.atom = prism.languages.xml;
+prism.languages.rss = prism.languages.xml;
 /* "prismjs/components/prism-bash" */
 
 (function (Prism) {
@@ -10413,7 +13133,7 @@ Prism.languages.rss = Prism.languages.xml;
   var insideString = {
     'bash': commandAfterHeredoc,
     'environment': {
-      pattern: RegExp("\\$" + envVars),
+      pattern: RegExp('\\$' + envVars),
       alias: 'constant'
     },
     'variable': [// [0]: Arithmetic Environment
@@ -10428,7 +13148,7 @@ Prism.languages.rss = Prism.languages.xml;
         }, /^\$\(\(/],
         'number': /\b0x[\dA-Fa-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:[Ee]-?\d+)?/,
         // Operators according to https://www.gnu.org/software/bash/manual/bashref.html#Shell-Arithmetic
-        'operator': /--?|-=|\+\+?|\+=|!=?|~|\*\*?|\*=|\/=?|%=?|<<=?|>>=?|<=?|>=?|==?|&&?|&=|\^=?|\|\|?|\|=|\?|:/,
+        'operator': /--|\+\+|\*\*=?|<<=?|>>=?|&&|\|\||[=!+\-*/%<>^&|]=?|[?~:]/,
         // If there is no $ sign at the beginning highlight (( and )) as punctuation
         'punctuation': /\(\(?|\)\)?|,|;/
       }
@@ -10447,14 +13167,14 @@ Prism.languages.rss = Prism.languages.xml;
         'operator': /:[-=?+]?|[!\/]|##?|%%?|\^\^?|,,?/,
         'punctuation': /[\[\]]/,
         'environment': {
-          pattern: RegExp("(\\{)" + envVars),
+          pattern: RegExp('(\\{)' + envVars),
           lookbehind: true,
           alias: 'constant'
         }
       }
     }, /\$(?:\w+|[#?*!@$])/],
     // Escape sequences from echo and printf's manuals, and escaped quotes.
-    'entity': /\\(?:[abceEfnrtv\\"]|O?[0-7]{1,3}|x[0-9a-fA-F]{1,2}|u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8})/
+    'entity': /\\(?:[abceEfnrtv\\"]|O?[0-7]{1,3}|U[0-9a-fA-F]{8}|u[0-9a-fA-F]{4}|x[0-9a-fA-F]{1,2})/
   };
   Prism.languages.bash = {
     'shebang': {
@@ -10471,12 +13191,12 @@ Prism.languages.rss = Prism.languages.xml;
     // but not “foo {”
     {
       // a) and c)
-      pattern: /(\bfunction\s+)\w+(?=(?:\s*\(?:\s*\))?\s*\{)/,
+      pattern: /(\bfunction\s+)[\w-]+(?=(?:\s*\(?:\s*\))?\s*\{)/,
       lookbehind: true,
       alias: 'function'
     }, {
       // b)
-      pattern: /\b\w+(?=\s*\(\s*\)\s*\{)/,
+      pattern: /\b[\w-]+(?=\s*\(\s*\)\s*\{)/,
       alias: 'function'
     }],
     // Highlight variable names as variables in for and select beginnings.
@@ -10491,7 +13211,7 @@ Prism.languages.rss = Prism.languages.xml;
       pattern: /(^|[\s;|&]|[<>]\()\w+(?=\+?=)/,
       inside: {
         'environment': {
-          pattern: RegExp("(^|[\\s;|&]|[<>]\\()" + envVars),
+          pattern: RegExp('(^|[\\s;|&]|[<>]\\()' + envVars),
           lookbehind: true,
           alias: 'constant'
         }
@@ -10501,7 +13221,7 @@ Prism.languages.rss = Prism.languages.xml;
     },
     'string': [// Support for Here-documents https://en.wikipedia.org/wiki/Here_document
     {
-      pattern: /((?:^|[^<])<<-?\s*)(\w+?)\s[\s\S]*?(?:\r?\n|\r)\2/,
+      pattern: /((?:^|[^<])<<-?\s*)(\w+)\s[\s\S]*?(?:\r?\n|\r)\2/,
       lookbehind: true,
       greedy: true,
       inside: insideString
@@ -10516,33 +13236,46 @@ Prism.languages.rss = Prism.languages.xml;
       }
     }, // “Normal” string
     {
-      pattern: /(^|[^\\](?:\\\\)*)(["'])(?:\\[\s\S]|\$\([^)]+\)|\$(?!\()|`[^`]+`|(?!\2)[^\\`$])*\2/,
+      // https://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html
+      pattern: /(^|[^\\](?:\\\\)*)"(?:\\[\s\S]|\$\([^)]+\)|\$(?!\()|`[^`]+`|[^"\\`$])*"/,
       lookbehind: true,
       greedy: true,
       inside: insideString
+    }, {
+      // https://www.gnu.org/software/bash/manual/html_node/Single-Quotes.html
+      pattern: /(^|[^$\\])'[^']*'/,
+      lookbehind: true,
+      greedy: true
+    }, {
+      // https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html
+      pattern: /\$'(?:[^'\\]|\\[\s\S])*'/,
+      greedy: true,
+      inside: {
+        'entity': insideString.entity
+      }
     }],
     'environment': {
-      pattern: RegExp("\\$?" + envVars),
+      pattern: RegExp('\\$?' + envVars),
       alias: 'constant'
     },
     'variable': insideString.variable,
     'function': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:add|apropos|apt|aptitude|apt-cache|apt-get|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|composer|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:add|apropos|apt|apt-cache|apt-get|aptitude|aspell|automysqlbackup|awk|basename|bash|bc|bconsole|bg|bzip2|cal|cat|cfdisk|chgrp|chkconfig|chmod|chown|chroot|cksum|clear|cmp|column|comm|composer|cp|cron|crontab|csplit|curl|cut|date|dc|dd|ddrescue|debootstrap|df|diff|diff3|dig|dir|dircolors|dirname|dirs|dmesg|docker|docker-compose|du|egrep|eject|env|ethtool|expand|expect|expr|fdformat|fdisk|fg|fgrep|file|find|fmt|fold|format|free|fsck|ftp|fuser|gawk|git|gparted|grep|groupadd|groupdel|groupmod|groups|grub-mkconfig|gzip|halt|head|hg|history|host|hostname|htop|iconv|id|ifconfig|ifdown|ifup|import|install|ip|jobs|join|kill|killall|less|link|ln|locate|logname|logrotate|look|lpc|lpr|lprint|lprintd|lprintq|lprm|ls|lsof|lynx|make|man|mc|mdadm|mkconfig|mkdir|mke2fs|mkfifo|mkfs|mkisofs|mknod|mkswap|mmv|more|most|mount|mtools|mtr|mutt|mv|nano|nc|netstat|nice|nl|node|nohup|notify-send|npm|nslookup|op|open|parted|passwd|paste|pathchk|ping|pkill|pnpm|podman|podman-compose|popd|pr|printcap|printenv|ps|pushd|pv|quota|quotacheck|quotactl|ram|rar|rcp|reboot|remsync|rename|renice|rev|rm|rmdir|rpm|rsync|scp|screen|sdiff|sed|sendmail|seq|service|sftp|sh|shellcheck|shuf|shutdown|sleep|slocate|sort|split|ssh|stat|strace|su|sudo|sum|suspend|swapon|sync|tac|tail|tar|tee|time|timeout|top|touch|tr|traceroute|tsort|tty|umount|uname|unexpand|uniq|units|unrar|unshar|unzip|update-grub|uptime|useradd|userdel|usermod|users|uudecode|uuencode|v|vcpkg|vdir|vi|vim|virsh|vmstat|wait|watch|wc|wget|whereis|which|who|whoami|write|xargs|xdg-open|yarn|yes|zenity|zip|zsh|zypper)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     'keyword': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:if|then|else|elif|fi|for|while|in|case|esac|function|select|do|done|until)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:case|do|done|elif|else|esac|fi|for|function|if|in|select|then|until|while)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     // https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html
     'builtin': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:\.|:|break|cd|continue|eval|exec|exit|export|getopts|hash|pwd|readonly|return|shift|test|times|trap|umask|unset|alias|bind|builtin|caller|command|declare|echo|enable|help|let|local|logout|mapfile|printf|read|readarray|source|type|typeset|ulimit|unalias|set|shopt)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:\.|:|alias|bind|break|builtin|caller|cd|command|continue|declare|echo|enable|eval|exec|exit|export|getopts|hash|help|let|local|logout|mapfile|printf|pwd|read|readarray|readonly|return|set|shift|shopt|source|test|times|trap|type|typeset|ulimit|umask|unalias|unset)(?=$|[)\s;|&])/,
       lookbehind: true,
       // Alias added to make those easier to distinguish from strings.
       alias: 'class-name'
     },
     'boolean': {
-      pattern: /(^|[\s;|&]|[<>]\()(?:true|false)(?=$|[)\s;|&])/,
+      pattern: /(^|[\s;|&]|[<>]\()(?:false|true)(?=$|[)\s;|&])/,
       lookbehind: true
     },
     'file-descriptor': {
@@ -10551,7 +13284,7 @@ Prism.languages.rss = Prism.languages.xml;
     },
     'operator': {
       // Lots of redirections here, but not just that.
-      pattern: /\d?<>|>\||\+=|==?|!=?|=~|<<[<-]?|[&\d]?>>|\d?[<>]&?|&[>&]?|\|[&|]?|<=?|>=?/,
+      pattern: /\d?<>|>\||\+=|=[=~]?|!=?|<<[<-]?|[&\d]?>>|\d[<>]&?|[<>][&=]?|&[>&]?|\|[&|]?/,
       inside: {
         'file-descriptor': {
           pattern: /^\d/,
@@ -10576,11 +13309,11 @@ Prism.languages.rss = Prism.languages.xml;
   }
 
   Prism.languages.shell = Prism.languages.bash;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-clike" */
 
 
-Prism.languages.clike = {
+prism.languages.clike = {
   'comment': [{
     pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,
     lookbehind: true,
@@ -10595,40 +13328,52 @@ Prism.languages.clike = {
     greedy: true
   },
   'class-name': {
-    pattern: /(\b(?:class|interface|extends|implements|trait|instanceof|new)\s+|\bcatch\s+\()[\w.\\]+/i,
+    pattern: /(\b(?:class|extends|implements|instanceof|interface|new|trait)\s+|\bcatch\s+\()[\w.\\]+/i,
     lookbehind: true,
     inside: {
       'punctuation': /[.\\]/
     }
   },
-  'keyword': /\b(?:if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,
-  'boolean': /\b(?:true|false)\b/,
-  'function': /\w+(?=\()/,
+  'keyword': /\b(?:break|catch|continue|do|else|finally|for|function|if|in|instanceof|new|null|return|throw|try|while)\b/,
+  'boolean': /\b(?:false|true)\b/,
+  'function': /\b\w+(?=\()/,
   'number': /\b0x[\da-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?/i,
   'operator': /[<>]=?|[!=]=?=?|--?|\+\+?|&&?|\|\|?|[?*/~^%]/,
   'punctuation': /[{}[\];(),.:]/
 };
 /* "prismjs/components/prism-c" */
 
-Prism.languages.c = Prism.languages.extend('clike', {
+prism.languages.c = prism.languages.extend('clike', {
   'comment': {
     pattern: /\/\/(?:[^\r\n\\]|\\(?:\r\n?|\n|(?![\r\n])))*|\/\*[\s\S]*?(?:\*\/|$)/,
+    greedy: true
+  },
+  'string': {
+    // https://en.cppreference.com/w/c/language/string_literal
+    pattern: /"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
     greedy: true
   },
   'class-name': {
     pattern: /(\b(?:enum|struct)\s+(?:__attribute__\s*\(\([\s\S]*?\)\)\s*)?)\w+|\b[a-z]\w*_t\b/,
     lookbehind: true
   },
-  'keyword': /\b(?:__attribute__|_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local|asm|typeof|inline|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b/,
-  'function': /[a-z_]\w*(?=\s*\()/i,
+  'keyword': /\b(?:_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local|__attribute__|asm|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|inline|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|typeof|union|unsigned|void|volatile|while)\b/,
+  'function': /\b[a-z_]\w*(?=\s*\()/i,
   'number': /(?:\b0x(?:[\da-f]+(?:\.[\da-f]*)?|\.[\da-f]+)(?:p[+-]?\d+)?|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?)[ful]{0,4}/i,
   'operator': />>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*/%&|^!=<>]=?/
 });
-Prism.languages.insertBefore('c', 'string', {
+prism.languages.insertBefore('c', 'string', {
+  'char': {
+    // https://en.cppreference.com/w/c/language/character_constant
+    pattern: /'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n]){0,32}'/,
+    greedy: true
+  }
+});
+prism.languages.insertBefore('c', 'string', {
   'macro': {
     // allow for multiline macro definitions
     // spaces after the # character compile fine with gcc
-    pattern: /(^\s*)#\s*[a-z](?:[^\r\n\\/]|\/(?!\*)|\/\*(?:[^*]|\*(?!\/))*\*\/|\\(?:\r\n|[\s\S]))*/im,
+    pattern: /(^[\t ]*)#\s*[a-z](?:[^\r\n\\/]|\/(?!\*)|\/\*(?:[^*]|\*(?!\/))*\*\/|\\(?:\r\n|[\s\S]))*/im,
     lookbehind: true,
     greedy: true,
     alias: 'property',
@@ -10637,8 +13382,9 @@ Prism.languages.insertBefore('c', 'string', {
         // highlight the path of the include statement as a string
         pattern: /^(#\s*include\s*)<[^>]+>/,
         lookbehind: true
-      }, Prism.languages.c['string']],
-      'comment': Prism.languages.c['comment'],
+      }, prism.languages.c['string']],
+      'char': prism.languages.c['char'],
+      'comment': prism.languages.c['comment'],
       'macro-name': [{
         pattern: /(^#\s*define\s+)\w+\b(?!\()/i,
         lookbehind: true
@@ -10657,18 +13403,23 @@ Prism.languages.insertBefore('c', 'string', {
       'punctuation': /##|\\(?=[\r\n])/,
       'expression': {
         pattern: /\S[\s\S]*/,
-        inside: Prism.languages.c
+        inside: prism.languages.c
       }
     }
-  },
-  // highlight predefined macros as constants
-  'constant': /\b(?:__FILE__|__LINE__|__DATE__|__TIME__|__TIMESTAMP__|__func__|EOF|NULL|SEEK_CUR|SEEK_END|SEEK_SET|stdin|stdout|stderr)\b/
+  }
 });
-delete Prism.languages.c['boolean'];
+prism.languages.insertBefore('c', 'function', {
+  // highlight predefined macros as constants
+  'constant': /\b(?:EOF|NULL|SEEK_CUR|SEEK_END|SEEK_SET|__DATE__|__FILE__|__LINE__|__TIMESTAMP__|__TIME__|__func__|stderr|stdin|stdout)\b/
+});
+delete prism.languages.c['boolean'];
 /* "prismjs/components/prism-cpp" */
 
 (function (Prism) {
-  var keyword = /\b(?:alignas|alignof|asm|auto|bool|break|case|catch|char|char8_t|char16_t|char32_t|class|compl|concept|const|consteval|constexpr|constinit|const_cast|continue|co_await|co_return|co_yield|decltype|default|delete|do|double|dynamic_cast|else|enum|explicit|export|extern|float|for|friend|goto|if|inline|int|int8_t|int16_t|int32_t|int64_t|uint8_t|uint16_t|uint32_t|uint64_t|long|mutable|namespace|new|noexcept|nullptr|operator|private|protected|public|register|reinterpret_cast|requires|return|short|signed|sizeof|static|static_assert|static_cast|struct|switch|template|this|thread_local|throw|try|typedef|typeid|typename|union|unsigned|using|virtual|void|volatile|wchar_t|while)\b/;
+  var keyword = /\b(?:alignas|alignof|asm|auto|bool|break|case|catch|char|char16_t|char32_t|char8_t|class|co_await|co_return|co_yield|compl|concept|const|const_cast|consteval|constexpr|constinit|continue|decltype|default|delete|do|double|dynamic_cast|else|enum|explicit|export|extern|final|float|for|friend|goto|if|import|inline|int|int16_t|int32_t|int64_t|int8_t|long|module|mutable|namespace|new|noexcept|nullptr|operator|override|private|protected|public|register|reinterpret_cast|requires|return|short|signed|sizeof|static|static_assert|static_cast|struct|switch|template|this|thread_local|throw|try|typedef|typeid|typename|uint16_t|uint32_t|uint64_t|uint8_t|union|unsigned|using|virtual|void|volatile|wchar_t|while)\b/;
+  var modName = /\b(?!<keyword>)\w+(?:\s*\.\s*\w+)*\b/.source.replace(/<keyword>/g, function () {
+    return keyword.source;
+  });
   Prism.languages.cpp = Prism.languages.extend('c', {
     'class-name': [{
       pattern: RegExp(/(\b(?:class|concept|enum|struct|typename)\s+)(?!<keyword>)\w+/.source.replace(/<keyword>/g, function () {
@@ -10683,20 +13434,54 @@ delete Prism.languages.c['boolean'];
     //   Foo::~Foo() {}
     /\b[A-Z_]\w*(?=\s*::\s*~\w+\s*\()/i, // This also intends to capture the class name of method implementations but here the class has template
     // parameters, so it can't be a namespace (until C++ adds generic namespaces).
-    /\w+(?=\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>\s*::\s*\w+\s*\()/],
+    /\b\w+(?=\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>\s*::\s*\w+\s*\()/],
     'keyword': keyword,
     'number': {
       pattern: /(?:\b0b[01']+|\b0x(?:[\da-f']+(?:\.[\da-f']*)?|\.[\da-f']+)(?:p[+-]?[\d']+)?|(?:\b[\d']+(?:\.[\d']*)?|\B\.[\d']+)(?:e[+-]?[\d']+)?)[ful]{0,4}/i,
       greedy: true
     },
-    'operator': />>=?|<<=?|->|([-+&|:])\1|[?:~]|<=>|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b/,
-    'boolean': /\b(?:true|false)\b/
+    'operator': />>=?|<<=?|->|--|\+\+|&&|\|\||[?:~]|<=>|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b/,
+    'boolean': /\b(?:false|true)\b/
   });
   Prism.languages.insertBefore('cpp', 'string', {
+    'module': {
+      // https://en.cppreference.com/w/cpp/language/modules
+      pattern: RegExp(/(\b(?:import|module)\s+)/.source + '(?:' + // header-name
+      /"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|<[^<>\r\n]*>/.source + '|' + // module name or partition or both
+      /<mod-name>(?:\s*:\s*<mod-name>)?|:\s*<mod-name>/.source.replace(/<mod-name>/g, function () {
+        return modName;
+      }) + ')'),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'string': /^[<"][\s\S]+/,
+        'operator': /:/,
+        'punctuation': /\./
+      }
+    },
     'raw-string': {
       pattern: /R"([^()\\ ]{0,16})\([\s\S]*?\)\1"/,
       alias: 'string',
       greedy: true
+    }
+  });
+  Prism.languages.insertBefore('cpp', 'keyword', {
+    'generic-function': {
+      pattern: /\b(?!operator\b)[a-z_]\w*\s*<(?:[^<>]|<[^<>]*>)*>(?=\s*\()/i,
+      inside: {
+        'function': /^\w+/,
+        'generic': {
+          pattern: /<[\s\S]+/,
+          alias: 'class-name',
+          inside: Prism.languages.cpp
+        }
+      }
+    }
+  });
+  Prism.languages.insertBefore('cpp', 'operator', {
+    'double-colon': {
+      pattern: /::/,
+      alias: 'punctuation'
     }
   });
   Prism.languages.insertBefore('cpp', 'class-name', {
@@ -10709,16 +13494,16 @@ delete Prism.languages.c['boolean'];
       inside: Prism.languages.extend('cpp', {})
     }
   });
-  Prism.languages.insertBefore('inside', 'operator', {
+  Prism.languages.insertBefore('inside', 'double-colon', {
     // All untokenized words that are not namespaces should be class names
     'class-name': /\b[a-z_]\w*\b(?!\s*::)/i
   }, Prism.languages.cpp['base-clause']);
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-css" */
 
 
 (function (Prism) {
-  var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
+  var string = /(?:"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|'(?:\\(?:\r\n|[\s\S])|[^'\\\r\n])*')/;
   Prism.languages.css = {
     'comment': /\/\*[\s\S]*?\*\//,
     'atrule': {
@@ -10750,14 +13535,23 @@ delete Prism.languages.c['boolean'];
         }
       }
     },
-    'selector': RegExp('[^{}\\s](?:[^{};"\'\\s]|\\s+(?![\\s{])|' + string.source + ')*(?=\\s*\\{)'),
+    'selector': {
+      pattern: RegExp('(^|[{}\\s])[^{}\\s](?:[^{};"\'\\s]|\\s+(?![\\s{])|' + string.source + ')*(?=\\s*\\{)'),
+      lookbehind: true
+    },
     'string': {
       pattern: string,
       greedy: true
     },
-    'property': /(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,
+    'property': {
+      pattern: /(^|[^-\w\xA0-\uFFFF])(?!\s)[-_a-z\xA0-\uFFFF](?:(?!\s)[-\w\xA0-\uFFFF])*(?=\s*:)/i,
+      lookbehind: true
+    },
     'important': /!important\b/i,
-    'function': /[-a-z0-9]+(?=\()/i,
+    'function': {
+      pattern: /(^|[^-a-z0-9])[-a-z0-9]+(?=\()/i,
+      lookbehind: true
+    },
     'punctuation': /[(){};:,]/
   };
   Prism.languages.css['atrule'].inside.rest = Prism.languages.css;
@@ -10765,32 +13559,9 @@ delete Prism.languages.c['boolean'];
 
   if (markup) {
     markup.tag.addInlined('style', 'css');
-    Prism.languages.insertBefore('inside', 'attr-value', {
-      'style-attr': {
-        pattern: /(^|["'\s])style\s*=\s*(?:"[^"]*"|'[^']*')/i,
-        lookbehind: true,
-        inside: {
-          'attr-value': {
-            pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/,
-            inside: {
-              'style': {
-                pattern: /(["'])[\s\S]+(?=["']$)/,
-                lookbehind: true,
-                alias: 'language-css',
-                inside: Prism.languages.css
-              },
-              'punctuation': [{
-                pattern: /^=/,
-                alias: 'attr-equals'
-              }, /"|'/]
-            }
-          },
-          'attr-name': /^style/i
-        }
-      }
-    }, markup.tag);
+    markup.tag.addAttribute('style', 'css');
   }
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-css-extras" */
 
 
@@ -10798,7 +13569,8 @@ delete Prism.languages.c['boolean'];
   var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
   var selectorInside;
   Prism.languages.css.selector = {
-    pattern: Prism.languages.css.selector,
+    pattern: Prism.languages.css.selector.pattern,
+    lookbehind: true,
     inside: selectorInside = {
       'pseudo-element': /:(?:after|before|first-letter|first-line|selection)|::[-\w]+/,
       'pseudo-class': /:[-\w]+/,
@@ -10858,7 +13630,7 @@ delete Prism.languages.c['boolean'];
     }
   });
   var unit = {
-    pattern: /(\b\d+)(?:%|[a-z]+\b)/,
+    pattern: /(\b\d+)(?:%|[a-z]+(?![\w-]))/,
     lookbehind: true
   }; // 123 -123 .123 -.123 12.3 -12.3
 
@@ -10874,11 +13646,14 @@ delete Prism.languages.c['boolean'];
     // CAREFUL!
     // Previewers and Inline color use hexcode and color.
     'hexcode': {
-      pattern: /\B#(?:[\da-f]{1,2}){3,4}\b/i,
+      pattern: /\B#[\da-f]{3,8}\b/i,
       alias: 'color'
     },
-    'color': [/\b(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)\b/i, {
-      pattern: /\b(?:rgb|hsl)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:rgb|hsl)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
+    'color': [{
+      pattern: /(^|[^\w-])(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)(?![\w-])/i,
+      lookbehind: true
+    }, {
+      pattern: /\b(?:hsl|rgb)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:hsl|rgb)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
       inside: {
         'unit': unit,
         'number': number,
@@ -10891,31 +13666,41 @@ delete Prism.languages.c['boolean'];
     'unit': unit,
     'number': number
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-javascript" */
 
 
-Prism.languages.javascript = Prism.languages.extend('clike', {
-  'class-name': [Prism.languages.clike['class-name'], {
-    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$A-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\.(?:prototype|constructor))/,
+prism.languages.javascript = prism.languages.extend('clike', {
+  'class-name': [prism.languages.clike['class-name'], {
+    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$A-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\.(?:constructor|prototype))/,
     lookbehind: true
   }],
   'keyword': [{
-    pattern: /((?:^|})\s*)(?:catch|finally)\b/,
+    pattern: /((?:^|\})\s*)catch\b/,
     lookbehind: true
   }, {
-    pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|(?:get|set)(?=\s*[\[$\w\xA0-\uFFFF])|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
+    pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|assert(?=\s*\{)|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally(?=\s*(?:\{|$))|for|from(?=\s*(?:['"]|$))|function|(?:get|set)(?=\s*(?:[#\[$\w\xA0-\uFFFF]|$))|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,
     lookbehind: true
   }],
   // Allow for all non-ASCII characters (See http://stackoverflow.com/a/2008444)
   'function': /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,
-  'number': /\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,
+  'number': {
+    pattern: RegExp(/(^|[^\w$])/.source + '(?:' + ( // constant
+    /NaN|Infinity/.source + '|' + // binary integer
+    /0[bB][01]+(?:_[01]+)*n?/.source + '|' + // octal integer
+    /0[oO][0-7]+(?:_[0-7]+)*n?/.source + '|' + // hexadecimal integer
+    /0[xX][\dA-Fa-f]+(?:_[\dA-Fa-f]+)*n?/.source + '|' + // decimal bigint
+    /\d+(?:_\d+)*n/.source + '|' + // decimal number (integer or float) but no bigint
+    /(?:\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\.\d+(?:_\d+)*)(?:[Ee][+-]?\d+(?:_\d+)*)?/.source) + ')' + /(?![\w$])/.source),
+    lookbehind: true
+  },
   'operator': /--|\+\+|\*\*=?|=>|&&=?|\|\|=?|[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?\?=?|\?\.?|[~:]/
 });
-Prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/;
-Prism.languages.insertBefore('javascript', 'keyword', {
+prism.languages.javascript['class-name'][0].pattern = /(\b(?:class|extends|implements|instanceof|interface|new)\s+)[\w.\\]+/;
+prism.languages.insertBefore('javascript', 'keyword', {
   'regex': {
-    pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^/\\\[\r\n])+\/[gimyus]{0,6}(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
+    // eslint-disable-next-line regexp/no-dupe-characters-character-class
+    pattern: /((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)\/(?:\[(?:[^\]\\\r\n]|\\.)*\]|\\.|[^/\\\[\r\n])+\/[dgimyus]{0,7}(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/,
     lookbehind: true,
     greedy: true,
     inside: {
@@ -10923,10 +13708,10 @@ Prism.languages.insertBefore('javascript', 'keyword', {
         pattern: /^(\/)[\s\S]+(?=\/[a-z]*$)/,
         lookbehind: true,
         alias: 'language-regex',
-        inside: Prism.languages.regex
+        inside: prism.languages.regex
       },
-      'regex-flags': /[a-z]+$/,
-      'regex-delimiter': /^\/|\/$/
+      'regex-delimiter': /^\/|\/$/,
+      'regex-flags': /^[a-z]+$/
     }
   },
   // This must be declared before keyword because we use "function" inside the look-forward
@@ -10937,24 +13722,30 @@ Prism.languages.insertBefore('javascript', 'keyword', {
   'parameter': [{
     pattern: /(function(?:\s+(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*)?\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\))/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }, {
-    pattern: /(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*=>)/i,
-    inside: Prism.languages.javascript
+    pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$a-z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*=>)/i,
+    lookbehind: true,
+    inside: prism.languages.javascript
   }, {
     pattern: /(\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*=>)/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }, {
     pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*)\(\s*|\]\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*\{)/,
     lookbehind: true,
-    inside: Prism.languages.javascript
+    inside: prism.languages.javascript
   }],
   'constant': /\b[A-Z](?:[A-Z_]|\dx?)*\b/
 });
-Prism.languages.insertBefore('javascript', 'string', {
+prism.languages.insertBefore('javascript', 'string', {
+  'hashbang': {
+    pattern: /^#!.*/,
+    greedy: true,
+    alias: 'comment'
+  },
   'template-string': {
-    pattern: /`(?:\\[\s\S]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,
+    pattern: /`(?:\\[\s\S]|\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}|(?!\$\{)[^\\`])*`/,
     greedy: true,
     inside: {
       'template-punctuation': {
@@ -10962,56 +13753,1431 @@ Prism.languages.insertBefore('javascript', 'string', {
         alias: 'string'
       },
       'interpolation': {
-        pattern: /((?:^|[^\\])(?:\\{2})*)\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}/,
+        pattern: /((?:^|[^\\])(?:\\{2})*)\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}/,
         lookbehind: true,
         inside: {
           'interpolation-punctuation': {
-            pattern: /^\${|}$/,
+            pattern: /^\$\{|\}$/,
             alias: 'punctuation'
           },
-          rest: Prism.languages.javascript
+          rest: prism.languages.javascript
         }
       },
       'string': /[\s\S]+/
     }
+  },
+  'string-property': {
+    pattern: /((?:^|[,{])[ \t]*)(["'])(?:\\(?:\r\n|[\s\S])|(?!\2)[^\\\r\n])*\2(?=\s*:)/m,
+    lookbehind: true,
+    greedy: true,
+    alias: 'property'
+  }
+});
+prism.languages.insertBefore('javascript', 'operator', {
+  'literal-property': {
+    pattern: /((?:^|[,{])[ \t]*)(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*:)/m,
+    lookbehind: true,
+    alias: 'property'
   }
 });
 
-if (Prism.languages.markup) {
-  Prism.languages.markup.tag.addInlined('script', 'javascript');
+if (prism.languages.markup) {
+  prism.languages.markup.tag.addInlined('script', 'javascript'); // add attribute support for all DOM events.
+  // https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events
+
+  prism.languages.markup.tag.addAttribute(/on(?:abort|blur|change|click|composition(?:end|start|update)|dblclick|error|focus(?:in|out)?|key(?:down|up)|load|mouse(?:down|enter|leave|move|out|over|up)|reset|resize|scroll|select|slotchange|submit|unload|wheel)/.source, 'javascript');
 }
 
-Prism.languages.js = Prism.languages.javascript;
+prism.languages.js = prism.languages.javascript;
+/* "prismjs/components/prism-coffeescript" */
+
+(function (Prism) {
+  // Ignore comments starting with { to privilege string interpolation highlighting
+  var comment = /#(?!\{).+/;
+  var interpolation = {
+    pattern: /#\{[^}]+\}/,
+    alias: 'variable'
+  };
+  Prism.languages.coffeescript = Prism.languages.extend('javascript', {
+    'comment': comment,
+    'string': [// Strings are multiline
+    {
+      pattern: /'(?:\\[\s\S]|[^\\'])*'/,
+      greedy: true
+    }, {
+      // Strings are multiline
+      pattern: /"(?:\\[\s\S]|[^\\"])*"/,
+      greedy: true,
+      inside: {
+        'interpolation': interpolation
+      }
+    }],
+    'keyword': /\b(?:and|break|by|catch|class|continue|debugger|delete|do|each|else|extend|extends|false|finally|for|if|in|instanceof|is|isnt|let|loop|namespace|new|no|not|null|of|off|on|or|own|return|super|switch|then|this|throw|true|try|typeof|undefined|unless|until|when|while|window|with|yes|yield)\b/,
+    'class-member': {
+      pattern: /@(?!\d)\w+/,
+      alias: 'variable'
+    }
+  });
+  Prism.languages.insertBefore('coffeescript', 'comment', {
+    'multiline-comment': {
+      pattern: /###[\s\S]+?###/,
+      alias: 'comment'
+    },
+    // Block regexp can contain comments and interpolation
+    'block-regex': {
+      pattern: /\/{3}[\s\S]*?\/{3}/,
+      alias: 'regex',
+      inside: {
+        'comment': comment,
+        'interpolation': interpolation
+      }
+    }
+  });
+  Prism.languages.insertBefore('coffeescript', 'string', {
+    'inline-javascript': {
+      pattern: /`(?:\\[\s\S]|[^\\`])*`/,
+      inside: {
+        'delimiter': {
+          pattern: /^`|`$/,
+          alias: 'punctuation'
+        },
+        'script': {
+          pattern: /[\s\S]+/,
+          alias: 'language-javascript',
+          inside: Prism.languages.javascript
+        }
+      }
+    },
+    // Block strings
+    'multiline-string': [{
+      pattern: /'''[\s\S]*?'''/,
+      greedy: true,
+      alias: 'string'
+    }, {
+      pattern: /"""[\s\S]*?"""/,
+      greedy: true,
+      alias: 'string',
+      inside: {
+        interpolation: interpolation
+      }
+    }]
+  });
+  Prism.languages.insertBefore('coffeescript', 'keyword', {
+    // Object property
+    'property': /(?!\d)\w+(?=\s*:(?!:))/
+  });
+  delete Prism.languages.coffeescript['template-string'];
+  Prism.languages.coffee = Prism.languages.coffeescript;
+})(prism);
+/* "prismjs/components/prism-yaml" */
+
+
+(function (Prism) {
+  // https://yaml.org/spec/1.2/spec.html#c-ns-anchor-property
+  // https://yaml.org/spec/1.2/spec.html#c-ns-alias-node
+  var anchorOrAlias = /[*&][^\s[\]{},]+/; // https://yaml.org/spec/1.2/spec.html#c-ns-tag-property
+
+  var tag = /!(?:<[\w\-%#;/?:@&=+$,.!~*'()[\]]+>|(?:[a-zA-Z\d-]*!)?[\w\-%#;/?:@&=+$.~*'()]+)?/; // https://yaml.org/spec/1.2/spec.html#c-ns-properties(n,c)
+
+  var properties = '(?:' + tag.source + '(?:[ \t]+' + anchorOrAlias.source + ')?|' + anchorOrAlias.source + '(?:[ \t]+' + tag.source + ')?)'; // https://yaml.org/spec/1.2/spec.html#ns-plain(n,c)
+  // This is a simplified version that doesn't support "#" and multiline keys
+  // All these long scarry character classes are simplified versions of YAML's characters
+
+  var plainKey = /(?:[^\s\x00-\x08\x0e-\x1f!"#%&'*,\-:>?@[\]`{|}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]|[?:-]<PLAIN>)(?:[ \t]*(?:(?![#:])<PLAIN>|:<PLAIN>))*/.source.replace(/<PLAIN>/g, function () {
+    return /[^\s\x00-\x08\x0e-\x1f,[\]{}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]/.source;
+  });
+  var string = /"(?:[^"\\\r\n]|\\.)*"|'(?:[^'\\\r\n]|\\.)*'/.source;
+  /**
+   *
+   * @param {string} value
+   * @param {string} [flags]
+   * @returns {RegExp}
+   */
+
+  function createValuePattern(value, flags) {
+    flags = (flags || '').replace(/m/g, '') + 'm'; // add m flag
+
+    var pattern = /([:\-,[{]\s*(?:\s<<prop>>[ \t]+)?)(?:<<value>>)(?=[ \t]*(?:$|,|\]|\}|(?:[\r\n]\s*)?#))/.source.replace(/<<prop>>/g, function () {
+      return properties;
+    }).replace(/<<value>>/g, function () {
+      return value;
+    });
+    return RegExp(pattern, flags);
+  }
+
+  Prism.languages.yaml = {
+    'scalar': {
+      pattern: RegExp(/([\-:]\s*(?:\s<<prop>>[ \t]+)?[|>])[ \t]*(?:((?:\r?\n|\r)[ \t]+)\S[^\r\n]*(?:\2[^\r\n]+)*)/.source.replace(/<<prop>>/g, function () {
+        return properties;
+      })),
+      lookbehind: true,
+      alias: 'string'
+    },
+    'comment': /#.*/,
+    'key': {
+      pattern: RegExp(/((?:^|[:\-,[{\r\n?])[ \t]*(?:<<prop>>[ \t]+)?)<<key>>(?=\s*:\s)/.source.replace(/<<prop>>/g, function () {
+        return properties;
+      }).replace(/<<key>>/g, function () {
+        return '(?:' + plainKey + '|' + string + ')';
+      })),
+      lookbehind: true,
+      greedy: true,
+      alias: 'atrule'
+    },
+    'directive': {
+      pattern: /(^[ \t]*)%.+/m,
+      lookbehind: true,
+      alias: 'important'
+    },
+    'datetime': {
+      pattern: createValuePattern(/\d{4}-\d\d?-\d\d?(?:[tT]|[ \t]+)\d\d?:\d{2}:\d{2}(?:\.\d*)?(?:[ \t]*(?:Z|[-+]\d\d?(?::\d{2})?))?|\d{4}-\d{2}-\d{2}|\d\d?:\d{2}(?::\d{2}(?:\.\d*)?)?/.source),
+      lookbehind: true,
+      alias: 'number'
+    },
+    'boolean': {
+      pattern: createValuePattern(/false|true/.source, 'i'),
+      lookbehind: true,
+      alias: 'important'
+    },
+    'null': {
+      pattern: createValuePattern(/null|~/.source, 'i'),
+      lookbehind: true,
+      alias: 'important'
+    },
+    'string': {
+      pattern: createValuePattern(string),
+      lookbehind: true,
+      greedy: true
+    },
+    'number': {
+      pattern: createValuePattern(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, 'i'),
+      lookbehind: true
+    },
+    'tag': tag,
+    'important': anchorOrAlias,
+    'punctuation': /---|[:[\]{}\-,|>?]|\.\.\./
+  };
+  Prism.languages.yml = Prism.languages.yaml;
+})(prism);
+/* "prismjs/components/prism-markdown" */
+
+
+(function (Prism) {
+  // Allow only one line break
+  var inner = /(?:\\.|[^\\\n\r]|(?:\n|\r\n?)(?![\r\n]))/.source;
+  /**
+   * This function is intended for the creation of the bold or italic pattern.
+   *
+   * This also adds a lookbehind group to the given pattern to ensure that the pattern is not backslash-escaped.
+   *
+   * _Note:_ Keep in mind that this adds a capturing group.
+   *
+   * @param {string} pattern
+   * @returns {RegExp}
+   */
+
+  function createInline(pattern) {
+    pattern = pattern.replace(/<inner>/g, function () {
+      return inner;
+    });
+    return RegExp(/((?:^|[^\\])(?:\\{2})*)/.source + '(?:' + pattern + ')');
+  }
+
+  var tableCell = /(?:\\.|``(?:[^`\r\n]|`(?!`))+``|`[^`\r\n]+`|[^\\|\r\n`])+/.source;
+  var tableRow = /\|?__(?:\|__)+\|?(?:(?:\n|\r\n?)|(?![\s\S]))/.source.replace(/__/g, function () {
+    return tableCell;
+  });
+  var tableLine = /\|?[ \t]*:?-{3,}:?[ \t]*(?:\|[ \t]*:?-{3,}:?[ \t]*)+\|?(?:\n|\r\n?)/.source;
+  Prism.languages.markdown = Prism.languages.extend('markup', {});
+  Prism.languages.insertBefore('markdown', 'prolog', {
+    'front-matter-block': {
+      pattern: /(^(?:\s*[\r\n])?)---(?!.)[\s\S]*?[\r\n]---(?!.)/,
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'punctuation': /^---|---$/,
+        'front-matter': {
+          pattern: /\S+(?:\s+\S+)*/,
+          alias: ['yaml', 'language-yaml'],
+          inside: Prism.languages.yaml
+        }
+      }
+    },
+    'blockquote': {
+      // > ...
+      pattern: /^>(?:[\t ]*>)*/m,
+      alias: 'punctuation'
+    },
+    'table': {
+      pattern: RegExp('^' + tableRow + tableLine + '(?:' + tableRow + ')*', 'm'),
+      inside: {
+        'table-data-rows': {
+          pattern: RegExp('^(' + tableRow + tableLine + ')(?:' + tableRow + ')*$'),
+          lookbehind: true,
+          inside: {
+            'table-data': {
+              pattern: RegExp(tableCell),
+              inside: Prism.languages.markdown
+            },
+            'punctuation': /\|/
+          }
+        },
+        'table-line': {
+          pattern: RegExp('^(' + tableRow + ')' + tableLine + '$'),
+          lookbehind: true,
+          inside: {
+            'punctuation': /\||:?-{3,}:?/
+          }
+        },
+        'table-header-row': {
+          pattern: RegExp('^' + tableRow + '$'),
+          inside: {
+            'table-header': {
+              pattern: RegExp(tableCell),
+              alias: 'important',
+              inside: Prism.languages.markdown
+            },
+            'punctuation': /\|/
+          }
+        }
+      }
+    },
+    'code': [{
+      // Prefixed by 4 spaces or 1 tab and preceded by an empty line
+      pattern: /((?:^|\n)[ \t]*\n|(?:^|\r\n?)[ \t]*\r\n?)(?: {4}|\t).+(?:(?:\n|\r\n?)(?: {4}|\t).+)*/,
+      lookbehind: true,
+      alias: 'keyword'
+    }, {
+      // ```optional language
+      // code block
+      // ```
+      pattern: /^```[\s\S]*?^```$/m,
+      greedy: true,
+      inside: {
+        'code-block': {
+          pattern: /^(```.*(?:\n|\r\n?))[\s\S]+?(?=(?:\n|\r\n?)^```$)/m,
+          lookbehind: true
+        },
+        'code-language': {
+          pattern: /^(```).+/,
+          lookbehind: true
+        },
+        'punctuation': /```/
+      }
+    }],
+    'title': [{
+      // title 1
+      // =======
+      // title 2
+      // -------
+      pattern: /\S.*(?:\n|\r\n?)(?:==+|--+)(?=[ \t]*$)/m,
+      alias: 'important',
+      inside: {
+        punctuation: /==+$|--+$/
+      }
+    }, {
+      // # title 1
+      // ###### title 6
+      pattern: /(^\s*)#.+/m,
+      lookbehind: true,
+      alias: 'important',
+      inside: {
+        punctuation: /^#+|#+$/
+      }
+    }],
+    'hr': {
+      // ***
+      // ---
+      // * * *
+      // -----------
+      pattern: /(^\s*)([*-])(?:[\t ]*\2){2,}(?=\s*$)/m,
+      lookbehind: true,
+      alias: 'punctuation'
+    },
+    'list': {
+      // * item
+      // + item
+      // - item
+      // 1. item
+      pattern: /(^\s*)(?:[*+-]|\d+\.)(?=[\t ].)/m,
+      lookbehind: true,
+      alias: 'punctuation'
+    },
+    'url-reference': {
+      // [id]: http://example.com "Optional title"
+      // [id]: http://example.com 'Optional title'
+      // [id]: http://example.com (Optional title)
+      // [id]: <http://example.com> "Optional title"
+      pattern: /!?\[[^\]]+\]:[\t ]+(?:\S+|<(?:\\.|[^>\\])+>)(?:[\t ]+(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\)))?/,
+      inside: {
+        'variable': {
+          pattern: /^(!?\[)[^\]]+/,
+          lookbehind: true
+        },
+        'string': /(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\))$/,
+        'punctuation': /^[\[\]!:]|[<>]/
+      },
+      alias: 'url'
+    },
+    'bold': {
+      // **strong**
+      // __strong__
+      // allow one nested instance of italic text using the same delimiter
+      pattern: createInline(/\b__(?:(?!_)<inner>|_(?:(?!_)<inner>)+_)+__\b|\*\*(?:(?!\*)<inner>|\*(?:(?!\*)<inner>)+\*)+\*\*/.source),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'content': {
+          pattern: /(^..)[\s\S]+(?=..$)/,
+          lookbehind: true,
+          inside: {} // see below
+
+        },
+        'punctuation': /\*\*|__/
+      }
+    },
+    'italic': {
+      // *em*
+      // _em_
+      // allow one nested instance of bold text using the same delimiter
+      pattern: createInline(/\b_(?:(?!_)<inner>|__(?:(?!_)<inner>)+__)+_\b|\*(?:(?!\*)<inner>|\*\*(?:(?!\*)<inner>)+\*\*)+\*/.source),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'content': {
+          pattern: /(^.)[\s\S]+(?=.$)/,
+          lookbehind: true,
+          inside: {} // see below
+
+        },
+        'punctuation': /[*_]/
+      }
+    },
+    'strike': {
+      // ~~strike through~~
+      // ~strike~
+      // eslint-disable-next-line regexp/strict
+      pattern: createInline(/(~~?)(?:(?!~)<inner>)+\2/.source),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'content': {
+          pattern: /(^~~?)[\s\S]+(?=\1$)/,
+          lookbehind: true,
+          inside: {} // see below
+
+        },
+        'punctuation': /~~?/
+      }
+    },
+    'code-snippet': {
+      // `code`
+      // ``code``
+      pattern: /(^|[^\\`])(?:``[^`\r\n]+(?:`[^`\r\n]+)*``(?!`)|`[^`\r\n]+`(?!`))/,
+      lookbehind: true,
+      greedy: true,
+      alias: ['code', 'keyword']
+    },
+    'url': {
+      // [example](http://example.com "Optional title")
+      // [example][id]
+      // [example] [id]
+      pattern: createInline(/!?\[(?:(?!\])<inner>)+\](?:\([^\s)]+(?:[\t ]+"(?:\\.|[^"\\])*")?\)|[ \t]?\[(?:(?!\])<inner>)+\])/.source),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'operator': /^!/,
+        'content': {
+          pattern: /(^\[)[^\]]+(?=\])/,
+          lookbehind: true,
+          inside: {} // see below
+
+        },
+        'variable': {
+          pattern: /(^\][ \t]?\[)[^\]]+(?=\]$)/,
+          lookbehind: true
+        },
+        'url': {
+          pattern: /(^\]\()[^\s)]+/,
+          lookbehind: true
+        },
+        'string': {
+          pattern: /(^[ \t]+)"(?:\\.|[^"\\])*"(?=\)$)/,
+          lookbehind: true
+        }
+      }
+    }
+  });
+  ['url', 'bold', 'italic', 'strike'].forEach(function (token) {
+    ['url', 'bold', 'italic', 'strike', 'code-snippet'].forEach(function (inside) {
+      if (token !== inside) {
+        Prism.languages.markdown[token].inside.content.inside[inside] = Prism.languages.markdown[inside];
+      }
+    });
+  });
+  Prism.hooks.add('after-tokenize', function (env) {
+    if (env.language !== 'markdown' && env.language !== 'md') {
+      return;
+    }
+
+    function walkTokens(tokens) {
+      if (!tokens || typeof tokens === 'string') {
+        return;
+      }
+
+      for (var i = 0, l = tokens.length; i < l; i++) {
+        var token = tokens[i];
+
+        if (token.type !== 'code') {
+          walkTokens(token.content);
+          continue;
+        }
+        /*
+         * Add the correct `language-xxxx` class to this code block. Keep in mind that the `code-language` token
+         * is optional. But the grammar is defined so that there is only one case we have to handle:
+         *
+         * token.content = [
+         *     <span class="punctuation">```</span>,
+         *     <span class="code-language">xxxx</span>,
+         *     '\n', // exactly one new lines (\r or \n or \r\n)
+         *     <span class="code-block">...</span>,
+         *     '\n', // exactly one new lines again
+         *     <span class="punctuation">```</span>
+         * ];
+         */
+
+
+        var codeLang = token.content[1];
+        var codeBlock = token.content[3];
+
+        if (codeLang && codeBlock && codeLang.type === 'code-language' && codeBlock.type === 'code-block' && typeof codeLang.content === 'string') {
+          // this might be a language that Prism does not support
+          // do some replacements to support C++, C#, and F#
+          var lang = codeLang.content.replace(/\b#/g, 'sharp').replace(/\b\+\+/g, 'pp'); // only use the first word
+
+          lang = (/[a-z][\w-]*/i.exec(lang) || [''])[0].toLowerCase();
+          var alias = 'language-' + lang; // add alias
+
+          if (!codeBlock.alias) {
+            codeBlock.alias = [alias];
+          } else if (typeof codeBlock.alias === 'string') {
+            codeBlock.alias = [codeBlock.alias, alias];
+          } else {
+            codeBlock.alias.push(alias);
+          }
+        }
+      }
+    }
+
+    walkTokens(env.tokens);
+  });
+  Prism.hooks.add('wrap', function (env) {
+    if (env.type !== 'code-block') {
+      return;
+    }
+
+    var codeLang = '';
+
+    for (var i = 0, l = env.classes.length; i < l; i++) {
+      var cls = env.classes[i];
+      var match = /language-(.+)/.exec(cls);
+
+      if (match) {
+        codeLang = match[1];
+        break;
+      }
+    }
+
+    var grammar = Prism.languages[codeLang];
+
+    if (!grammar) {
+      if (codeLang && codeLang !== 'none' && Prism.plugins.autoloader) {
+        var id = 'md-' + new Date().valueOf() + '-' + Math.floor(Math.random() * 1e16);
+        env.attributes['id'] = id;
+        Prism.plugins.autoloader.loadLanguages(codeLang, function () {
+          var ele = document.getElementById(id);
+
+          if (ele) {
+            ele.innerHTML = Prism.highlight(ele.textContent, Prism.languages[codeLang], codeLang);
+          }
+        });
+      }
+    } else {
+      env.content = Prism.highlight(textContent(env.content), grammar, codeLang);
+    }
+  });
+  var tagPattern = RegExp(Prism.languages.markup.tag.pattern.source, 'gi');
+  /**
+   * A list of known entity names.
+   *
+   * This will always be incomplete to save space. The current list is the one used by lowdash's unescape function.
+   *
+   * @see {@link https://github.com/lodash/lodash/blob/2da024c3b4f9947a48517639de7560457cd4ec6c/unescape.js#L2}
+   */
+
+  var KNOWN_ENTITY_NAMES = {
+    'amp': '&',
+    'lt': '<',
+    'gt': '>',
+    'quot': '"'
+  }; // IE 11 doesn't support `String.fromCodePoint`
+
+  var fromCodePoint = String.fromCodePoint || String.fromCharCode;
+  /**
+   * Returns the text content of a given HTML source code string.
+   *
+   * @param {string} html
+   * @returns {string}
+   */
+
+  function textContent(html) {
+    // remove all tags
+    var text = html.replace(tagPattern, ''); // decode known entities
+
+    text = text.replace(/&(\w{1,8}|#x?[\da-f]{1,8});/gi, function (m, code) {
+      code = code.toLowerCase();
+
+      if (code[0] === '#') {
+        var value;
+
+        if (code[1] === 'x') {
+          value = parseInt(code.slice(2), 16);
+        } else {
+          value = Number(code.slice(1));
+        }
+
+        return fromCodePoint(value);
+      } else {
+        var known = KNOWN_ENTITY_NAMES[code];
+
+        if (known) {
+          return known;
+        } // unable to decode
+
+
+        return m;
+      }
+    });
+    return text;
+  }
+
+  Prism.languages.md = Prism.languages.markdown;
+})(prism);
+/* "prismjs/components/prism-graphql" */
+
+
+prism.languages.graphql = {
+  'comment': /#.*/,
+  'description': {
+    pattern: /(?:"""(?:[^"]|(?!""")")*"""|"(?:\\.|[^\\"\r\n])*")(?=\s*[a-z_])/i,
+    greedy: true,
+    alias: 'string',
+    inside: {
+      'language-markdown': {
+        pattern: /(^"(?:"")?)(?!\1)[\s\S]+(?=\1$)/,
+        lookbehind: true,
+        inside: prism.languages.markdown
+      }
+    }
+  },
+  'string': {
+    pattern: /"""(?:[^"]|(?!""")")*"""|"(?:\\.|[^\\"\r\n])*"/,
+    greedy: true
+  },
+  'number': /(?:\B-|\b)\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
+  'boolean': /\b(?:false|true)\b/,
+  'variable': /\$[a-z_]\w*/i,
+  'directive': {
+    pattern: /@[a-z_]\w*/i,
+    alias: 'function'
+  },
+  'attr-name': {
+    pattern: /\b[a-z_]\w*(?=\s*(?:\((?:[^()"]|"(?:\\.|[^\\"\r\n])*")*\))?:)/i,
+    greedy: true
+  },
+  'atom-input': {
+    pattern: /\b[A-Z]\w*Input\b/,
+    alias: 'class-name'
+  },
+  'scalar': /\b(?:Boolean|Float|ID|Int|String)\b/,
+  'constant': /\b[A-Z][A-Z_\d]*\b/,
+  'class-name': {
+    pattern: /(\b(?:enum|implements|interface|on|scalar|type|union)\s+|&\s*|:\s*|\[)[A-Z_]\w*/,
+    lookbehind: true
+  },
+  'fragment': {
+    pattern: /(\bfragment\s+|\.{3}\s*(?!on\b))[a-zA-Z_]\w*/,
+    lookbehind: true,
+    alias: 'function'
+  },
+  'definition-mutation': {
+    pattern: /(\bmutation\s+)[a-zA-Z_]\w*/,
+    lookbehind: true,
+    alias: 'function'
+  },
+  'definition-query': {
+    pattern: /(\bquery\s+)[a-zA-Z_]\w*/,
+    lookbehind: true,
+    alias: 'function'
+  },
+  'keyword': /\b(?:directive|enum|extend|fragment|implements|input|interface|mutation|on|query|repeatable|scalar|schema|subscription|type|union)\b/,
+  'operator': /[!=|&]|\.{3}/,
+  'property-query': /\w+(?=\s*\()/,
+  'object': /\w+(?=\s*\{)/,
+  'punctuation': /[!(){}\[\]:=,]/,
+  'property': /\w+/
+};
+prism.hooks.add('after-tokenize', function afterTokenizeGraphql(env) {
+  if (env.language !== 'graphql') {
+    return;
+  }
+  /**
+   * get the graphql token stream that we want to customize
+   *
+   * @typedef {InstanceType<import("./prism-core")["Token"]>} Token
+   * @type {Token[]}
+   */
+
+
+  var validTokens = env.tokens.filter(function (token) {
+    return typeof token !== 'string' && token.type !== 'comment' && token.type !== 'scalar';
+  });
+  var currentIndex = 0;
+  /**
+   * Returns whether the token relative to the current index has the given type.
+   *
+   * @param {number} offset
+   * @returns {Token | undefined}
+   */
+
+  function getToken(offset) {
+    return validTokens[currentIndex + offset];
+  }
+  /**
+   * Returns whether the token relative to the current index has the given type.
+   *
+   * @param {readonly string[]} types
+   * @param {number} [offset=0]
+   * @returns {boolean}
+   */
+
+
+  function isTokenType(types, offset) {
+    offset = offset || 0;
+
+    for (var i = 0; i < types.length; i++) {
+      var token = getToken(i + offset);
+
+      if (!token || token.type !== types[i]) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+  /**
+   * Returns the index of the closing bracket to an opening bracket.
+   *
+   * It is assumed that `token[currentIndex - 1]` is an opening bracket.
+   *
+   * If no closing bracket could be found, `-1` will be returned.
+   *
+   * @param {RegExp} open
+   * @param {RegExp} close
+   * @returns {number}
+   */
+
+
+  function findClosingBracket(open, close) {
+    var stackHeight = 1;
+
+    for (var i = currentIndex; i < validTokens.length; i++) {
+      var token = validTokens[i];
+      var content = token.content;
+
+      if (token.type === 'punctuation' && typeof content === 'string') {
+        if (open.test(content)) {
+          stackHeight++;
+        } else if (close.test(content)) {
+          stackHeight--;
+
+          if (stackHeight === 0) {
+            return i;
+          }
+        }
+      }
+    }
+
+    return -1;
+  }
+  /**
+   * Adds an alias to the given token.
+   *
+   * @param {Token} token
+   * @param {string} alias
+   * @returns {void}
+   */
+
+
+  function addAlias(token, alias) {
+    var aliases = token.alias;
+
+    if (!aliases) {
+      token.alias = aliases = [];
+    } else if (!Array.isArray(aliases)) {
+      token.alias = aliases = [aliases];
+    }
+
+    aliases.push(alias);
+  }
+
+  for (; currentIndex < validTokens.length;) {
+    var startToken = validTokens[currentIndex++]; // add special aliases for mutation tokens
+
+    if (startToken.type === 'keyword' && startToken.content === 'mutation') {
+      // any array of the names of all input variables (if any)
+      var inputVariables = [];
+
+      if (isTokenType(['definition-mutation', 'punctuation']) && getToken(1).content === '(') {
+        // definition
+        currentIndex += 2; // skip 'definition-mutation' and 'punctuation'
+
+        var definitionEnd = findClosingBracket(/^\($/, /^\)$/);
+
+        if (definitionEnd === -1) {
+          continue;
+        } // find all input variables
+
+
+        for (; currentIndex < definitionEnd; currentIndex++) {
+          var t = getToken(0);
+
+          if (t.type === 'variable') {
+            addAlias(t, 'variable-input');
+            inputVariables.push(t.content);
+          }
+        }
+
+        currentIndex = definitionEnd + 1;
+      }
+
+      if (isTokenType(['punctuation', 'property-query']) && getToken(0).content === '{') {
+        currentIndex++; // skip opening bracket
+
+        addAlias(getToken(0), 'property-mutation');
+
+        if (inputVariables.length > 0) {
+          var mutationEnd = findClosingBracket(/^\{$/, /^\}$/);
+
+          if (mutationEnd === -1) {
+            continue;
+          } // give references to input variables a special alias
+
+
+          for (var i = currentIndex; i < mutationEnd; i++) {
+            var varToken = validTokens[i];
+
+            if (varToken.type === 'variable' && inputVariables.indexOf(varToken.content) >= 0) {
+              addAlias(varToken, 'variable-input');
+            }
+          }
+        }
+      }
+    }
+  }
+});
+/* "prismjs/components/prism-sql" */
+
+prism.languages.sql = {
+  'comment': {
+    pattern: /(^|[^\\])(?:\/\*[\s\S]*?\*\/|(?:--|\/\/|#).*)/,
+    lookbehind: true
+  },
+  'variable': [{
+    pattern: /@(["'`])(?:\\[\s\S]|(?!\1)[^\\])+\1/,
+    greedy: true
+  }, /@[\w.$]+/],
+  'string': {
+    pattern: /(^|[^@\\])("|')(?:\\[\s\S]|(?!\2)[^\\]|\2\2)*\2/,
+    greedy: true,
+    lookbehind: true
+  },
+  'identifier': {
+    pattern: /(^|[^@\\])`(?:\\[\s\S]|[^`\\]|``)*`/,
+    greedy: true,
+    lookbehind: true,
+    inside: {
+      'punctuation': /^`|`$/
+    }
+  },
+  'function': /\b(?:AVG|COUNT|FIRST|FORMAT|LAST|LCASE|LEN|MAX|MID|MIN|MOD|NOW|ROUND|SUM|UCASE)(?=\s*\()/i,
+  // Should we highlight user defined functions too?
+  'keyword': /\b(?:ACTION|ADD|AFTER|ALGORITHM|ALL|ALTER|ANALYZE|ANY|APPLY|AS|ASC|AUTHORIZATION|AUTO_INCREMENT|BACKUP|BDB|BEGIN|BERKELEYDB|BIGINT|BINARY|BIT|BLOB|BOOL|BOOLEAN|BREAK|BROWSE|BTREE|BULK|BY|CALL|CASCADED?|CASE|CHAIN|CHAR(?:ACTER|SET)?|CHECK(?:POINT)?|CLOSE|CLUSTERED|COALESCE|COLLATE|COLUMNS?|COMMENT|COMMIT(?:TED)?|COMPUTE|CONNECT|CONSISTENT|CONSTRAINT|CONTAINS(?:TABLE)?|CONTINUE|CONVERT|CREATE|CROSS|CURRENT(?:_DATE|_TIME|_TIMESTAMP|_USER)?|CURSOR|CYCLE|DATA(?:BASES?)?|DATE(?:TIME)?|DAY|DBCC|DEALLOCATE|DEC|DECIMAL|DECLARE|DEFAULT|DEFINER|DELAYED|DELETE|DELIMITERS?|DENY|DESC|DESCRIBE|DETERMINISTIC|DISABLE|DISCARD|DISK|DISTINCT|DISTINCTROW|DISTRIBUTED|DO|DOUBLE|DROP|DUMMY|DUMP(?:FILE)?|DUPLICATE|ELSE(?:IF)?|ENABLE|ENCLOSED|END|ENGINE|ENUM|ERRLVL|ERRORS|ESCAPED?|EXCEPT|EXEC(?:UTE)?|EXISTS|EXIT|EXPLAIN|EXTENDED|FETCH|FIELDS|FILE|FILLFACTOR|FIRST|FIXED|FLOAT|FOLLOWING|FOR(?: EACH ROW)?|FORCE|FOREIGN|FREETEXT(?:TABLE)?|FROM|FULL|FUNCTION|GEOMETRY(?:COLLECTION)?|GLOBAL|GOTO|GRANT|GROUP|HANDLER|HASH|HAVING|HOLDLOCK|HOUR|IDENTITY(?:COL|_INSERT)?|IF|IGNORE|IMPORT|INDEX|INFILE|INNER|INNODB|INOUT|INSERT|INT|INTEGER|INTERSECT|INTERVAL|INTO|INVOKER|ISOLATION|ITERATE|JOIN|KEYS?|KILL|LANGUAGE|LAST|LEAVE|LEFT|LEVEL|LIMIT|LINENO|LINES|LINESTRING|LOAD|LOCAL|LOCK|LONG(?:BLOB|TEXT)|LOOP|MATCH(?:ED)?|MEDIUM(?:BLOB|INT|TEXT)|MERGE|MIDDLEINT|MINUTE|MODE|MODIFIES|MODIFY|MONTH|MULTI(?:LINESTRING|POINT|POLYGON)|NATIONAL|NATURAL|NCHAR|NEXT|NO|NONCLUSTERED|NULLIF|NUMERIC|OFF?|OFFSETS?|ON|OPEN(?:DATASOURCE|QUERY|ROWSET)?|OPTIMIZE|OPTION(?:ALLY)?|ORDER|OUT(?:ER|FILE)?|OVER|PARTIAL|PARTITION|PERCENT|PIVOT|PLAN|POINT|POLYGON|PRECEDING|PRECISION|PREPARE|PREV|PRIMARY|PRINT|PRIVILEGES|PROC(?:EDURE)?|PUBLIC|PURGE|QUICK|RAISERROR|READS?|REAL|RECONFIGURE|REFERENCES|RELEASE|RENAME|REPEAT(?:ABLE)?|REPLACE|REPLICATION|REQUIRE|RESIGNAL|RESTORE|RESTRICT|RETURN(?:ING|S)?|REVOKE|RIGHT|ROLLBACK|ROUTINE|ROW(?:COUNT|GUIDCOL|S)?|RTREE|RULE|SAVE(?:POINT)?|SCHEMA|SECOND|SELECT|SERIAL(?:IZABLE)?|SESSION(?:_USER)?|SET(?:USER)?|SHARE|SHOW|SHUTDOWN|SIMPLE|SMALLINT|SNAPSHOT|SOME|SONAME|SQL|START(?:ING)?|STATISTICS|STATUS|STRIPED|SYSTEM_USER|TABLES?|TABLESPACE|TEMP(?:ORARY|TABLE)?|TERMINATED|TEXT(?:SIZE)?|THEN|TIME(?:STAMP)?|TINY(?:BLOB|INT|TEXT)|TOP?|TRAN(?:SACTIONS?)?|TRIGGER|TRUNCATE|TSEQUAL|TYPES?|UNBOUNDED|UNCOMMITTED|UNDEFINED|UNION|UNIQUE|UNLOCK|UNPIVOT|UNSIGNED|UPDATE(?:TEXT)?|USAGE|USE|USER|USING|VALUES?|VAR(?:BINARY|CHAR|CHARACTER|YING)|VIEW|WAITFOR|WARNINGS|WHEN|WHERE|WHILE|WITH(?: ROLLUP|IN)?|WORK|WRITE(?:TEXT)?|YEAR)\b/i,
+  'boolean': /\b(?:FALSE|NULL|TRUE)\b/i,
+  'number': /\b0x[\da-f]+\b|\b\d+(?:\.\d*)?|\B\.\d+\b/i,
+  'operator': /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|BETWEEN|DIV|ILIKE|IN|IS|LIKE|NOT|OR|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
+  'punctuation': /[;[\]()`,.]/
+};
+/* "prismjs/components/prism-js-templates" */
+
+(function (Prism) {
+  var templateString = Prism.languages.javascript['template-string']; // see the pattern in prism-javascript.js
+
+  var templateLiteralPattern = templateString.pattern.source;
+  var interpolationObject = templateString.inside['interpolation'];
+  var interpolationPunctuationObject = interpolationObject.inside['interpolation-punctuation'];
+  var interpolationPattern = interpolationObject.pattern.source;
+  /**
+   * Creates a new pattern to match a template string with a special tag.
+   *
+   * This will return `undefined` if there is no grammar with the given language id.
+   *
+   * @param {string} language The language id of the embedded language. E.g. `markdown`.
+   * @param {string} tag The regex pattern to match the tag.
+   * @returns {object | undefined}
+   * @example
+   * createTemplate('css', /\bcss/.source);
+   */
+
+  function createTemplate(language, tag) {
+    if (!Prism.languages[language]) {
+      return undefined;
+    }
+
+    return {
+      pattern: RegExp('((?:' + tag + ')\\s*)' + templateLiteralPattern),
+      lookbehind: true,
+      greedy: true,
+      inside: {
+        'template-punctuation': {
+          pattern: /^`|`$/,
+          alias: 'string'
+        },
+        'embedded-code': {
+          pattern: /[\s\S]+/,
+          alias: language
+        }
+      }
+    };
+  }
+
+  Prism.languages.javascript['template-string'] = [// styled-jsx:
+  //   css`a { color: #25F; }`
+  // styled-components:
+  //   styled.h1`color: red;`
+  createTemplate('css', /\b(?:styled(?:\([^)]*\))?(?:\s*\.\s*\w+(?:\([^)]*\))*)*|css(?:\s*\.\s*(?:global|resolve))?|createGlobalStyle|keyframes)/.source), // html`<p></p>`
+  // div.innerHTML = `<p></p>`
+  createTemplate('html', /\bhtml|\.\s*(?:inner|outer)HTML\s*\+?=/.source), // svg`<path fill="#fff" d="M55.37 ..."/>`
+  createTemplate('svg', /\bsvg/.source), // md`# h1`, markdown`## h2`
+  createTemplate('markdown', /\b(?:markdown|md)/.source), // gql`...`, graphql`...`, graphql.experimental`...`
+  createTemplate('graphql', /\b(?:gql|graphql(?:\s*\.\s*experimental)?)/.source), // sql`...`
+  createTemplate('sql', /\bsql/.source), // vanilla template string
+  templateString].filter(Boolean);
+  /**
+   * Returns a specific placeholder literal for the given language.
+   *
+   * @param {number} counter
+   * @param {string} language
+   * @returns {string}
+   */
+
+  function getPlaceholder(counter, language) {
+    return '___' + language.toUpperCase() + '_' + counter + '___';
+  }
+  /**
+   * Returns the tokens of `Prism.tokenize` but also runs the `before-tokenize` and `after-tokenize` hooks.
+   *
+   * @param {string} code
+   * @param {any} grammar
+   * @param {string} language
+   * @returns {(string|Token)[]}
+   */
+
+
+  function tokenizeWithHooks(code, grammar, language) {
+    var env = {
+      code: code,
+      grammar: grammar,
+      language: language
+    };
+    Prism.hooks.run('before-tokenize', env);
+    env.tokens = Prism.tokenize(env.code, env.grammar);
+    Prism.hooks.run('after-tokenize', env);
+    return env.tokens;
+  }
+  /**
+   * Returns the token of the given JavaScript interpolation expression.
+   *
+   * @param {string} expression The code of the expression. E.g. `"${42}"`
+   * @returns {Token}
+   */
+
+
+  function tokenizeInterpolationExpression(expression) {
+    var tempGrammar = {};
+    tempGrammar['interpolation-punctuation'] = interpolationPunctuationObject;
+    /** @type {Array} */
+
+    var tokens = Prism.tokenize(expression, tempGrammar);
+
+    if (tokens.length === 3) {
+      /**
+       * The token array will look like this
+       * [
+       *     ["interpolation-punctuation", "${"]
+       *     "..." // JavaScript expression of the interpolation
+       *     ["interpolation-punctuation", "}"]
+       * ]
+       */
+      var args = [1, 1];
+      args.push.apply(args, tokenizeWithHooks(tokens[1], Prism.languages.javascript, 'javascript'));
+      tokens.splice.apply(tokens, args);
+    }
+
+    return new Prism.Token('interpolation', tokens, interpolationObject.alias, expression);
+  }
+  /**
+   * Tokenizes the given code with support for JavaScript interpolation expressions mixed in.
+   *
+   * This function has 3 phases:
+   *
+   * 1. Replace all JavaScript interpolation expression with a placeholder.
+   *    The placeholder will have the syntax of a identify of the target language.
+   * 2. Tokenize the code with placeholders.
+   * 3. Tokenize the interpolation expressions and re-insert them into the tokenize code.
+   *    The insertion only works if a placeholder hasn't been "ripped apart" meaning that the placeholder has been
+   *    tokenized as two tokens by the grammar of the embedded language.
+   *
+   * @param {string} code
+   * @param {object} grammar
+   * @param {string} language
+   * @returns {Token}
+   */
+
+
+  function tokenizeEmbedded(code, grammar, language) {
+    // 1. First filter out all interpolations
+    // because they might be escaped, we need a lookbehind, so we use Prism
+
+    /** @type {(Token|string)[]} */
+    var _tokens = Prism.tokenize(code, {
+      'interpolation': {
+        pattern: RegExp(interpolationPattern),
+        lookbehind: true
+      }
+    }); // replace all interpolations with a placeholder which is not in the code already
+
+
+    var placeholderCounter = 0;
+    /** @type {Object<string, string>} */
+
+    var placeholderMap = {};
+
+    var embeddedCode = _tokens.map(function (token) {
+      if (typeof token === 'string') {
+        return token;
+      } else {
+        var interpolationExpression = token.content;
+        var placeholder;
+
+        while (code.indexOf(placeholder = getPlaceholder(placeholderCounter++, language)) !== -1) {
+          /* noop */
+        }
+
+        placeholderMap[placeholder] = interpolationExpression;
+        return placeholder;
+      }
+    }).join(''); // 2. Tokenize the embedded code
+
+
+    var embeddedTokens = tokenizeWithHooks(embeddedCode, grammar, language); // 3. Re-insert the interpolation
+
+    var placeholders = Object.keys(placeholderMap);
+    placeholderCounter = 0;
+    /**
+     *
+     * @param {(Token|string)[]} tokens
+     * @returns {void}
+     */
+
+    function walkTokens(tokens) {
+      for (var i = 0; i < tokens.length; i++) {
+        if (placeholderCounter >= placeholders.length) {
+          return;
+        }
+
+        var token = tokens[i];
+
+        if (typeof token === 'string' || typeof token.content === 'string') {
+          var placeholder = placeholders[placeholderCounter];
+          var s = typeof token === 'string' ? token :
+          /** @type {string} */
+          token.content;
+          var index = s.indexOf(placeholder);
+
+          if (index !== -1) {
+            ++placeholderCounter;
+            var before = s.substring(0, index);
+            var middle = tokenizeInterpolationExpression(placeholderMap[placeholder]);
+            var after = s.substring(index + placeholder.length);
+            var replacement = [];
+
+            if (before) {
+              replacement.push(before);
+            }
+
+            replacement.push(middle);
+
+            if (after) {
+              var afterTokens = [after];
+              walkTokens(afterTokens);
+              replacement.push.apply(replacement, afterTokens);
+            }
+
+            if (typeof token === 'string') {
+              tokens.splice.apply(tokens, [i, 1].concat(replacement));
+              i += replacement.length - 1;
+            } else {
+              token.content = replacement;
+            }
+          }
+        } else {
+          var content = token.content;
+
+          if (Array.isArray(content)) {
+            walkTokens(content);
+          } else {
+            walkTokens([content]);
+          }
+        }
+      }
+    }
+
+    walkTokens(embeddedTokens);
+    return new Prism.Token(language, embeddedTokens, 'language-' + language, code);
+  }
+  /**
+   * The languages for which JS templating will handle tagged template literals.
+   *
+   * JS templating isn't active for only JavaScript but also related languages like TypeScript, JSX, and TSX.
+   */
+
+
+  var supportedLanguages = {
+    'javascript': true,
+    'js': true,
+    'typescript': true,
+    'ts': true,
+    'jsx': true,
+    'tsx': true
+  };
+  Prism.hooks.add('after-tokenize', function (env) {
+    if (!(env.language in supportedLanguages)) {
+      return;
+    }
+    /**
+     * Finds and tokenizes all template strings with an embedded languages.
+     *
+     * @param {(Token | string)[]} tokens
+     * @returns {void}
+     */
+
+
+    function findTemplateStrings(tokens) {
+      for (var i = 0, l = tokens.length; i < l; i++) {
+        var token = tokens[i];
+
+        if (typeof token === 'string') {
+          continue;
+        }
+
+        var content = token.content;
+
+        if (!Array.isArray(content)) {
+          if (typeof content !== 'string') {
+            findTemplateStrings([content]);
+          }
+
+          continue;
+        }
+
+        if (token.type === 'template-string') {
+          /**
+           * A JavaScript template-string token will look like this:
+           *
+           * ["template-string", [
+           *     ["template-punctuation", "`"],
+           *     (
+           *         An array of "string" and "interpolation" tokens. This is the simple string case.
+           *         or
+           *         ["embedded-code", "..."] This is the token containing the embedded code.
+           *                                  It also has an alias which is the language of the embedded code.
+           *     ),
+           *     ["template-punctuation", "`"]
+           * ]]
+           */
+          var embedded = content[1];
+
+          if (content.length === 3 && typeof embedded !== 'string' && embedded.type === 'embedded-code') {
+            // get string content
+            var code = stringContent(embedded);
+            var alias = embedded.alias;
+            var language = Array.isArray(alias) ? alias[0] : alias;
+            var grammar = Prism.languages[language];
+
+            if (!grammar) {
+              // the embedded language isn't registered.
+              continue;
+            }
+
+            content[1] = tokenizeEmbedded(code, grammar, language);
+          }
+        } else {
+          findTemplateStrings(content);
+        }
+      }
+    }
+
+    findTemplateStrings(env.tokens);
+  });
+  /**
+   * Returns the string content of a token or token stream.
+   *
+   * @param {string | Token | (string | Token)[]} value
+   * @returns {string}
+   */
+
+  function stringContent(value) {
+    if (typeof value === 'string') {
+      return value;
+    } else if (Array.isArray(value)) {
+      return value.map(stringContent).join('');
+    } else {
+      return stringContent(value.content);
+    }
+  }
+})(prism);
+/* "prismjs/components/prism-typescript" */
+
+
+(function (Prism) {
+  Prism.languages.typescript = Prism.languages.extend('javascript', {
+    'class-name': {
+      pattern: /(\b(?:class|extends|implements|instanceof|interface|new|type)\s+)(?!keyof\b)(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?:\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>)?/,
+      lookbehind: true,
+      greedy: true,
+      inside: null // see below
+
+    },
+    'builtin': /\b(?:Array|Function|Promise|any|boolean|console|never|number|string|symbol|unknown)\b/
+  }); // The keywords TypeScript adds to JavaScript
+
+  Prism.languages.typescript.keyword.push(/\b(?:abstract|declare|is|keyof|readonly|require)\b/, // keywords that have to be followed by an identifier
+  /\b(?:asserts|infer|interface|module|namespace|type)\b(?=\s*(?:[{_$a-zA-Z\xA0-\uFFFF]|$))/, // This is for `import type *, {}`
+  /\btype\b(?=\s*(?:[\{*]|$))/); // doesn't work with TS because TS is too complex
+
+  delete Prism.languages.typescript['parameter'];
+  delete Prism.languages.typescript['literal-property']; // a version of typescript specifically for highlighting types
+
+  var typeInside = Prism.languages.extend('typescript', {});
+  delete typeInside['class-name'];
+  Prism.languages.typescript['class-name'].inside = typeInside;
+  Prism.languages.insertBefore('typescript', 'function', {
+    'decorator': {
+      pattern: /@[$\w\xA0-\uFFFF]+/,
+      inside: {
+        'at': {
+          pattern: /^@/,
+          alias: 'operator'
+        },
+        'function': /^[\s\S]+/
+      }
+    },
+    'generic-function': {
+      // e.g. foo<T extends "bar" | "baz">( ...
+      pattern: /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>(?=\s*\()/,
+      greedy: true,
+      inside: {
+        'function': /^#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*/,
+        'generic': {
+          pattern: /<[\s\S]+/,
+          // everything after the first <
+          alias: 'class-name',
+          inside: typeInside
+        }
+      }
+    }
+  });
+  Prism.languages.ts = Prism.languages.typescript;
+})(prism);
+/* "prismjs/components/prism-js-extras" */
+
+
+(function (Prism) {
+  Prism.languages.insertBefore('javascript', 'function-variable', {
+    'method-variable': {
+      pattern: RegExp('(\\.\\s*)' + Prism.languages.javascript['function-variable'].pattern.source),
+      lookbehind: true,
+      alias: ['function-variable', 'method', 'function', 'property-access']
+    }
+  });
+  Prism.languages.insertBefore('javascript', 'function', {
+    'method': {
+      pattern: RegExp('(\\.\\s*)' + Prism.languages.javascript['function'].source),
+      lookbehind: true,
+      alias: ['function', 'property-access']
+    }
+  });
+  Prism.languages.insertBefore('javascript', 'constant', {
+    'known-class-name': [{
+      // standard built-ins
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+      pattern: /\b(?:(?:Float(?:32|64)|(?:Int|Uint)(?:8|16|32)|Uint8Clamped)?Array|ArrayBuffer|BigInt|Boolean|DataView|Date|Error|Function|Intl|JSON|(?:Weak)?(?:Map|Set)|Math|Number|Object|Promise|Proxy|Reflect|RegExp|String|Symbol|WebAssembly)\b/,
+      alias: 'class-name'
+    }, {
+      // errors
+      pattern: /\b(?:[A-Z]\w*)Error\b/,
+      alias: 'class-name'
+    }]
+  });
+  /**
+   * Replaces the `<ID>` placeholder in the given pattern with a pattern for general JS identifiers.
+   *
+   * @param {string} source
+   * @param {string} [flags]
+   * @returns {RegExp}
+   */
+
+  function withId(source, flags) {
+    return RegExp(source.replace(/<ID>/g, function () {
+      return /(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*/.source;
+    }), flags);
+  }
+
+  Prism.languages.insertBefore('javascript', 'keyword', {
+    'imports': {
+      // https://tc39.es/ecma262/#sec-imports
+      pattern: withId(/(\bimport\b\s*)(?:<ID>(?:\s*,\s*(?:\*\s*as\s+<ID>|\{[^{}]*\}))?|\*\s*as\s+<ID>|\{[^{}]*\})(?=\s*\bfrom\b)/.source),
+      lookbehind: true,
+      inside: Prism.languages.javascript
+    },
+    'exports': {
+      // https://tc39.es/ecma262/#sec-exports
+      pattern: withId(/(\bexport\b\s*)(?:\*(?:\s*as\s+<ID>)?(?=\s*\bfrom\b)|\{[^{}]*\})/.source),
+      lookbehind: true,
+      inside: Prism.languages.javascript
+    }
+  });
+  Prism.languages.javascript['keyword'].unshift({
+    pattern: /\b(?:as|default|export|from|import)\b/,
+    alias: 'module'
+  }, {
+    pattern: /\b(?:await|break|catch|continue|do|else|finally|for|if|return|switch|throw|try|while|yield)\b/,
+    alias: 'control-flow'
+  }, {
+    pattern: /\bnull\b/,
+    alias: ['null', 'nil']
+  }, {
+    pattern: /\bundefined\b/,
+    alias: 'nil'
+  });
+  Prism.languages.insertBefore('javascript', 'operator', {
+    'spread': {
+      pattern: /\.{3}/,
+      alias: 'operator'
+    },
+    'arrow': {
+      pattern: /=>/,
+      alias: 'operator'
+    }
+  });
+  Prism.languages.insertBefore('javascript', 'punctuation', {
+    'property-access': {
+      pattern: withId(/(\.\s*)#?<ID>/.source),
+      lookbehind: true
+    },
+    'maybe-class-name': {
+      pattern: /(^|[^$\w\xA0-\uFFFF])[A-Z][$\w\xA0-\uFFFF]+/,
+      lookbehind: true
+    },
+    'dom': {
+      // this contains only a few commonly used DOM variables
+      pattern: /\b(?:document|(?:local|session)Storage|location|navigator|performance|window)\b/,
+      alias: 'variable'
+    },
+    'console': {
+      pattern: /\bconsole(?=\s*\.)/,
+      alias: 'class-name'
+    }
+  }); // add 'maybe-class-name' to tokens which might be a class name
+
+  var maybeClassNameTokens = ['function', 'function-variable', 'method', 'method-variable', 'property-access'];
+
+  for (var i = 0; i < maybeClassNameTokens.length; i++) {
+    var token = maybeClassNameTokens[i];
+    var value = Prism.languages.javascript[token]; // convert regex to object
+
+    if (Prism.util.type(value) === 'RegExp') {
+      value = Prism.languages.javascript[token] = {
+        pattern: value
+      };
+    } // keep in mind that we don't support arrays
+
+
+    var inside = value.inside || {};
+    value.inside = inside;
+    inside['maybe-class-name'] = /^[A-Z][\s\S]*/;
+  }
+})(prism);
 /* "prismjs/components/prism-jsx" */
+
 
 (function (Prism) {
   var javascript = Prism.util.clone(Prism.languages.javascript);
+  var space = /(?:\s|\/\/.*(?!.)|\/\*(?:[^*]|\*(?!\/))\*\/)/.source;
+  var braces = /(?:\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])*\})/.source;
+  var spread = /(?:\{<S>*\.{3}(?:[^{}]|<BRACES>)*\})/.source;
+  /**
+   * @param {string} source
+   * @param {string} [flags]
+   */
+
+  function re(source, flags) {
+    source = source.replace(/<S>/g, function () {
+      return space;
+    }).replace(/<BRACES>/g, function () {
+      return braces;
+    }).replace(/<SPREAD>/g, function () {
+      return spread;
+    });
+    return RegExp(source, flags);
+  }
+
+  spread = re(spread).source;
   Prism.languages.jsx = Prism.languages.extend('markup', javascript);
-  Prism.languages.jsx.tag.pattern = /<\/?(?:[\w.:-]+(?:\s+(?:[\w.:$-]+(?:=(?:"(?:\\[^]|[^\\"])*"|'(?:\\[^]|[^\\'])*'|[^\s{'">=]+|\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])+\}))?|\{\s*\.{3}\s*[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\s*\}))*\s*\/?)?>/i;
-  Prism.languages.jsx.tag.inside['tag'].pattern = /^<\/?[^\s>\/]*/i;
-  Prism.languages.jsx.tag.inside['attr-value'].pattern = /=(?!\{)(?:"(?:\\[^]|[^\\"])*"|'(?:\\[^]|[^\\'])*'|[^\s'">]+)/i;
+  Prism.languages.jsx.tag.pattern = re(/<\/?(?:[\w.:-]+(?:<S>+(?:[\w.:$-]+(?:=(?:"(?:\\[\s\S]|[^\\"])*"|'(?:\\[\s\S]|[^\\'])*'|[^\s{'"/>=]+|<BRACES>))?|<SPREAD>))*<S>*\/?)?>/.source);
+  Prism.languages.jsx.tag.inside['tag'].pattern = /^<\/?[^\s>\/]*/;
+  Prism.languages.jsx.tag.inside['attr-value'].pattern = /=(?!\{)(?:"(?:\\[\s\S]|[^\\"])*"|'(?:\\[\s\S]|[^\\'])*'|[^\s'">]+)/;
   Prism.languages.jsx.tag.inside['tag'].inside['class-name'] = /^[A-Z]\w*(?:\.[A-Z]\w*)*$/;
+  Prism.languages.jsx.tag.inside['comment'] = javascript['comment'];
   Prism.languages.insertBefore('inside', 'attr-name', {
     'spread': {
-      pattern: /\{\s*\.{3}\s*[a-z_$][\w$]*(?:\.[a-z_$][\w$]*)*\s*\}/,
-      inside: {
-        'punctuation': /\.{3}|[{}.]/,
-        'attr-value': /\w+/
-      }
+      pattern: re(/<SPREAD>/.source),
+      inside: Prism.languages.jsx
     }
   }, Prism.languages.jsx.tag);
-  Prism.languages.insertBefore('inside', 'attr-value', {
+  Prism.languages.insertBefore('inside', 'special-attr', {
     'script': {
       // Allow for two levels of nesting
-      pattern: /=(?:\{(?:\{(?:\{[^{}]*\}|[^{}])*\}|[^{}])+\})/i,
+      pattern: re(/=<BRACES>/.source),
+      alias: 'language-javascript',
       inside: {
         'script-punctuation': {
-          pattern: /^=(?={)/,
+          pattern: /^=(?=\{)/,
           alias: 'punctuation'
         },
         rest: Prism.languages.jsx
-      },
-      'alias': 'language-javascript'
+      }
     }
   }, Prism.languages.jsx.tag); // The following will handle plain text inside tags
 
@@ -11101,207 +15267,7 @@ Prism.languages.js = Prism.languages.javascript;
 
     walkTokens(env.tokens);
   });
-})(Prism);
-/* "prismjs/components/prism-js-extras" */
-
-
-(function (Prism) {
-  Prism.languages.insertBefore('javascript', 'function-variable', {
-    'method-variable': {
-      pattern: RegExp('(\\.\\s*)' + Prism.languages.javascript['function-variable'].pattern.source),
-      lookbehind: true,
-      alias: ['function-variable', 'method', 'function', 'property-access']
-    }
-  });
-  Prism.languages.insertBefore('javascript', 'function', {
-    'method': {
-      pattern: RegExp('(\\.\\s*)' + Prism.languages.javascript['function'].source),
-      lookbehind: true,
-      alias: ['function', 'property-access']
-    }
-  });
-  Prism.languages.insertBefore('javascript', 'constant', {
-    'known-class-name': [{
-      // standard built-ins
-      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
-      pattern: /\b(?:(?:(?:Uint|Int)(?:8|16|32)|Uint8Clamped|Float(?:32|64))?Array|ArrayBuffer|BigInt|Boolean|DataView|Date|Error|Function|Intl|JSON|Math|Number|Object|Promise|Proxy|Reflect|RegExp|String|Symbol|(?:Weak)?(?:Set|Map)|WebAssembly)\b/,
-      alias: 'class-name'
-    }, {
-      // errors
-      pattern: /\b(?:[A-Z]\w*)Error\b/,
-      alias: 'class-name'
-    }]
-  });
-  /**
-   * Replaces the `<ID>` placeholder in the given pattern with a pattern for general JS identifiers.
-   *
-   * @param {string} source
-   * @param {string} [flags]
-   * @returns {RegExp}
-   */
-
-  function withId(source, flags) {
-    return RegExp(source.replace(/<ID>/g, function () {
-      return /(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*/.source;
-    }), flags);
-  }
-
-  Prism.languages.insertBefore('javascript', 'keyword', {
-    'imports': {
-      // https://tc39.es/ecma262/#sec-imports
-      pattern: withId(/(\bimport\b\s*)(?:<ID>(?:\s*,\s*(?:\*\s*as\s+<ID>|\{[^{}]*\}))?|\*\s*as\s+<ID>|\{[^{}]*\})(?=\s*\bfrom\b)/.source),
-      lookbehind: true,
-      inside: Prism.languages.javascript
-    },
-    'exports': {
-      // https://tc39.es/ecma262/#sec-exports
-      pattern: withId(/(\bexport\b\s*)(?:\*(?:\s*as\s+<ID>)?(?=\s*\bfrom\b)|\{[^{}]*\})/.source),
-      lookbehind: true,
-      inside: Prism.languages.javascript
-    }
-  });
-  Prism.languages.javascript['keyword'].unshift({
-    pattern: /\b(?:as|default|export|from|import)\b/,
-    alias: 'module'
-  }, {
-    pattern: /\b(?:await|break|catch|continue|do|else|for|finally|if|return|switch|throw|try|while|yield)\b/,
-    alias: 'control-flow'
-  }, {
-    pattern: /\bnull\b/,
-    alias: ['null', 'nil']
-  }, {
-    pattern: /\bundefined\b/,
-    alias: 'nil'
-  });
-  Prism.languages.insertBefore('javascript', 'operator', {
-    'spread': {
-      pattern: /\.{3}/,
-      alias: 'operator'
-    },
-    'arrow': {
-      pattern: /=>/,
-      alias: 'operator'
-    }
-  });
-  Prism.languages.insertBefore('javascript', 'punctuation', {
-    'property-access': {
-      pattern: withId(/(\.\s*)#?<ID>/.source),
-      lookbehind: true
-    },
-    'maybe-class-name': {
-      pattern: /(^|[^$\w\xA0-\uFFFF])[A-Z][$\w\xA0-\uFFFF]+/,
-      lookbehind: true
-    },
-    'dom': {
-      // this contains only a few commonly used DOM variables
-      pattern: /\b(?:document|location|navigator|performance|(?:local|session)Storage|window)\b/,
-      alias: 'variable'
-    },
-    'console': {
-      pattern: /\bconsole(?=\s*\.)/,
-      alias: 'class-name'
-    }
-  }); // add 'maybe-class-name' to tokens which might be a class name
-
-  var maybeClassNameTokens = ['function', 'function-variable', 'method', 'method-variable', 'property-access'];
-
-  for (var i = 0; i < maybeClassNameTokens.length; i++) {
-    var token = maybeClassNameTokens[i];
-    var value = Prism.languages.javascript[token]; // convert regex to object
-
-    if (Prism.util.type(value) === 'RegExp') {
-      value = Prism.languages.javascript[token] = {
-        pattern: value
-      };
-    } // keep in mind that we don't support arrays
-
-
-    var inside = value.inside || {};
-    value.inside = inside;
-    inside['maybe-class-name'] = /^[A-Z][\s\S]*/;
-  }
-})(Prism);
-/* "prismjs/components/prism-coffeescript" */
-
-
-(function (Prism) {
-  // Ignore comments starting with { to privilege string interpolation highlighting
-  var comment = /#(?!\{).+/,
-      interpolation = {
-    pattern: /#\{[^}]+\}/,
-    alias: 'variable'
-  };
-  Prism.languages.coffeescript = Prism.languages.extend('javascript', {
-    'comment': comment,
-    'string': [// Strings are multiline
-    {
-      pattern: /'(?:\\[\s\S]|[^\\'])*'/,
-      greedy: true
-    }, {
-      // Strings are multiline
-      pattern: /"(?:\\[\s\S]|[^\\"])*"/,
-      greedy: true,
-      inside: {
-        'interpolation': interpolation
-      }
-    }],
-    'keyword': /\b(?:and|break|by|catch|class|continue|debugger|delete|do|each|else|extend|extends|false|finally|for|if|in|instanceof|is|isnt|let|loop|namespace|new|no|not|null|of|off|on|or|own|return|super|switch|then|this|throw|true|try|typeof|undefined|unless|until|when|while|window|with|yes|yield)\b/,
-    'class-member': {
-      pattern: /@(?!\d)\w+/,
-      alias: 'variable'
-    }
-  });
-  Prism.languages.insertBefore('coffeescript', 'comment', {
-    'multiline-comment': {
-      pattern: /###[\s\S]+?###/,
-      alias: 'comment'
-    },
-    // Block regexp can contain comments and interpolation
-    'block-regex': {
-      pattern: /\/{3}[\s\S]*?\/{3}/,
-      alias: 'regex',
-      inside: {
-        'comment': comment,
-        'interpolation': interpolation
-      }
-    }
-  });
-  Prism.languages.insertBefore('coffeescript', 'string', {
-    'inline-javascript': {
-      pattern: /`(?:\\[\s\S]|[^\\`])*`/,
-      inside: {
-        'delimiter': {
-          pattern: /^`|`$/,
-          alias: 'punctuation'
-        },
-        'script': {
-          pattern: /[\s\S]+/,
-          alias: 'language-javascript',
-          inside: Prism.languages.javascript
-        }
-      }
-    },
-    // Block strings
-    'multiline-string': [{
-      pattern: /'''[\s\S]*?'''/,
-      greedy: true,
-      alias: 'string'
-    }, {
-      pattern: /"""[\s\S]*?"""/,
-      greedy: true,
-      alias: 'string',
-      inside: {
-        interpolation: interpolation
-      }
-    }]
-  });
-  Prism.languages.insertBefore('coffeescript', 'keyword', {
-    // Object property
-    'property': /(?!\d)\w+(?=\s*:(?!:))/
-  });
-  delete Prism.languages.coffeescript['template-string'];
-  Prism.languages.coffee = Prism.languages.coffeescript;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-diff" */
 
 
@@ -11337,8 +15303,8 @@ Prism.languages.js = Prism.languages.javascript;
       alias.push(/\w+/.exec(name)[0]);
     }
 
-    if (name === "diff") {
-      alias.push("bold");
+    if (name === 'diff') {
+      alias.push('bold');
     }
 
     Prism.languages.diff[name] = {
@@ -11360,11 +15326,11 @@ Prism.languages.js = Prism.languages.javascript;
   Object.defineProperty(Prism.languages.diff, 'PREFIXES', {
     value: PREFIXES
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-git" */
 
 
-Prism.languages.git = {
+prism.languages.git = {
   /*
    * A simple one line comment like in a git status command
    * For instance:
@@ -11385,7 +15351,7 @@ Prism.languages.git = {
   /*
    * a string (double and simple quote)
    */
-  'string': /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,
+  'string': /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/,
 
   /*
    * a git command. It starts with a random prompt finishing by a $, then "git" then some other parameters
@@ -11401,7 +15367,7 @@ Prism.languages.git = {
        * $ git diff --cached
        * $ git log -p
        */
-      'parameter': /\s--?\w+/m
+      'parameter': /\s--?\w+/
     }
   },
 
@@ -11434,63 +15400,28 @@ Prism.languages.git = {
 };
 /* "prismjs/components/prism-go" */
 
-Prism.languages.go = Prism.languages.extend('clike', {
+prism.languages.go = prism.languages.extend('clike', {
   'string': {
-    pattern: /(["'`])(?:\\[\s\S]|(?!\1)[^\\])*\1/,
+    pattern: /(^|[^\\])"(?:\\.|[^"\\\r\n])*"|`[^`]*`/,
+    lookbehind: true,
     greedy: true
   },
   'keyword': /\b(?:break|case|chan|const|continue|default|defer|else|fallthrough|for|func|go(?:to)?|if|import|interface|map|package|range|return|select|struct|switch|type|var)\b/,
-  'boolean': /\b(?:_|iota|nil|true|false)\b/,
-  'number': /(?:\b0x[a-f\d]+|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[-+]?\d+)?)i?/i,
+  'boolean': /\b(?:_|false|iota|nil|true)\b/,
+  'number': [// binary and octal integers
+  /\b0(?:b[01_]+|o[0-7_]+)i?\b/i, // hexadecimal integers and floats
+  /\b0x(?:[a-f\d_]+(?:\.[a-f\d_]*)?|\.[a-f\d_]+)(?:p[+-]?\d+(?:_\d+)*)?i?(?!\w)/i, // decimal integers and floats
+  /(?:\b\d[\d_]*(?:\.[\d_]*)?|\B\.\d[\d_]*)(?:e[+-]?[\d_]+)?i?(?!\w)/i],
   'operator': /[*\/%^!=]=?|\+[=+]?|-[=-]?|\|[=|]?|&(?:=|&|\^=?)?|>(?:>=?|=)?|<(?:<=?|=|-)?|:=|\.\.\./,
-  'builtin': /\b(?:bool|byte|complex(?:64|128)|error|float(?:32|64)|rune|string|u?int(?:8|16|32|64)?|uintptr|append|cap|close|complex|copy|delete|imag|len|make|new|panic|print(?:ln)?|real|recover)\b/
+  'builtin': /\b(?:append|bool|byte|cap|close|complex|complex(?:64|128)|copy|delete|error|float(?:32|64)|u?int(?:8|16|32|64)?|imag|len|make|new|panic|print(?:ln)?|real|recover|rune|string|uintptr)\b/
 });
-delete Prism.languages.go['class-name'];
-/* "prismjs/components/prism-graphql" */
-
-Prism.languages.graphql = {
-  'comment': /#.*/,
-  'description': {
-    pattern: /(?:"""(?:[^"]|(?!""")")*"""|"(?:\\.|[^\\"\r\n])*")(?=\s*[a-z_])/i,
-    greedy: true,
-    alias: 'string',
-    inside: {
-      'language-markdown': {
-        pattern: /(^"(?:"")?)(?!\1)[\s\S]+(?=\1$)/,
-        lookbehind: true,
-        inside: Prism.languages.markdown
-      }
-    }
-  },
-  'string': {
-    pattern: /"""(?:[^"]|(?!""")")*"""|"(?:\\.|[^\\"\r\n])*"/,
+prism.languages.insertBefore('go', 'string', {
+  'char': {
+    pattern: /'(?:\\.|[^'\\\r\n]){0,10}'/,
     greedy: true
-  },
-  'number': /(?:\B-|\b)\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
-  'boolean': /\b(?:true|false)\b/,
-  'variable': /\$[a-z_]\w*/i,
-  'directive': {
-    pattern: /@[a-z_]\w*/i,
-    alias: 'function'
-  },
-  'attr-name': {
-    pattern: /[a-z_]\w*(?=\s*(?:\((?:[^()"]|"(?:\\.|[^\\"\r\n])*")*\))?:)/i,
-    greedy: true
-  },
-  'class-name': {
-    pattern: /(\b(?:enum|implements|interface|on|scalar|type|union)\s+|&\s*)[a-zA-Z_]\w*/,
-    lookbehind: true
-  },
-  'fragment': {
-    pattern: /(\bfragment\s+|\.{3}\s*(?!on\b))[a-zA-Z_]\w*/,
-    lookbehind: true,
-    alias: 'function'
-  },
-  'keyword': /\b(?:directive|enum|extend|fragment|implements|input|interface|mutation|on|query|repeatable|scalar|schema|subscription|type|union)\b/,
-  'operator': /[!=|&]|\.{3}/,
-  'punctuation': /[!(){}\[\]:=,]/,
-  'constant': /\b(?!ID\b)[A-Z][A-Z_\d]*\b/
-};
+  }
+});
+delete prism.languages.go['class-name'];
 /* "prismjs/components/prism-markup-templating" */
 
 (function (Prism) {
@@ -11614,7 +15545,7 @@ Prism.languages.graphql = {
       }
     }
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-handlebars" */
 
 
@@ -11622,14 +15553,14 @@ Prism.languages.graphql = {
   Prism.languages.handlebars = {
     'comment': /\{\{![\s\S]*?\}\}/,
     'delimiter': {
-      pattern: /^\{\{\{?|\}\}\}?$/i,
+      pattern: /^\{\{\{?|\}\}\}?$/,
       alias: 'punctuation'
     },
     'string': /(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,
     'number': /\b0x[\dA-Fa-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:[Ee][+-]?\d+)?/,
-    'boolean': /\b(?:true|false)\b/,
+    'boolean': /\b(?:false|true)\b/,
     'block': {
-      pattern: /^(\s*(?:~\s*)?)[#\/]\S+?(?=\s*(?:~\s*)?$|\s)/i,
+      pattern: /^(\s*(?:~\s*)?)[#\/]\S+?(?=\s*(?:~\s*)?$|\s)/,
       lookbehind: true,
       alias: 'keyword'
     },
@@ -11650,18 +15581,21 @@ Prism.languages.graphql = {
   Prism.hooks.add('after-tokenize', function (env) {
     Prism.languages['markup-templating'].tokenizePlaceholders(env, 'handlebars');
   });
-})(Prism);
+  Prism.languages.hbs = Prism.languages.handlebars;
+})(prism);
 /* "prismjs/components/prism-json" */
 // https://www.json.org/json-en.html
 
 
-Prism.languages.json = {
+prism.languages.json = {
   'property': {
-    pattern: /"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
+    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
+    lookbehind: true,
     greedy: true
   },
   'string': {
-    pattern: /"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+    lookbehind: true,
     greedy: true
   },
   'comment': {
@@ -11671,13 +15605,13 @@ Prism.languages.json = {
   'number': /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
   'punctuation': /[{}[\],]/,
   'operator': /:/,
-  'boolean': /\b(?:true|false)\b/,
+  'boolean': /\b(?:false|true)\b/,
   'null': {
     pattern: /\bnull\b/,
     alias: 'keyword'
   }
 };
-Prism.languages.webmanifest = Prism.languages.json;
+prism.languages.webmanifest = prism.languages.json;
 /* "prismjs/components/prism-less" */
 
 /* FIXME :
@@ -11688,7 +15622,7 @@ Prism.languages.webmanifest = Prism.languages.json;
  A comment before a mixin usage prevents the latter to be properly highlighted.
  */
 
-Prism.languages.less = Prism.languages.extend('css', {
+prism.languages.less = prism.languages.extend('css', {
   'comment': [/\/\*[\s\S]*?\*\//, {
     pattern: /(^|[^\\])\/\/.*/,
     lookbehind: true
@@ -11707,15 +15641,15 @@ Prism.languages.less = Prism.languages.extend('css', {
       'variable': /@+[\w-]+/
     }
   },
-  'property': /(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/i,
+  'property': /(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/,
   'operator': /[+\-*\/]/
 });
-Prism.languages.insertBefore('less', 'property', {
+prism.languages.insertBefore('less', 'property', {
   'variable': [// Variable declaration (the colon must be consumed!)
   {
     pattern: /@[\w-]+\s*:/,
     inside: {
-      "punctuation": /:/
+      'punctuation': /:/
     }
   }, // Variable usage
   /@@?[\w-]+/],
@@ -11727,7 +15661,7 @@ Prism.languages.insertBefore('less', 'property', {
 });
 /* "prismjs/components/prism-makefile" */
 
-Prism.languages.makefile = {
+prism.languages.makefile = {
   'comment': {
     pattern: /(^|[^\\])#(?:\\(?:\r\n|[\s\S])|[^\\\r\n])*/,
     lookbehind: true
@@ -11736,400 +15670,69 @@ Prism.languages.makefile = {
     pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,
     greedy: true
   },
-  // Built-in target names
-  'builtin': /\.[A-Z][^:#=\s]+(?=\s*:(?!=))/,
-  // Targets
-  'symbol': {
+  'builtin-target': {
+    pattern: /\.[A-Z][^:#=\s]+(?=\s*:(?!=))/,
+    alias: 'builtin'
+  },
+  'target': {
     pattern: /^(?:[^:=\s]|[ \t]+(?![\s:]))+(?=\s*:(?!=))/m,
+    alias: 'symbol',
     inside: {
       'variable': /\$+(?:(?!\$)[^(){}:#=\s]+|(?=[({]))/
     }
   },
   'variable': /\$+(?:(?!\$)[^(){}:#=\s]+|\([@*%<^+?][DF]\)|(?=[({]))/,
-  'keyword': [// Directives
-  /-include\b|\b(?:define|else|endef|endif|export|ifn?def|ifn?eq|include|override|private|sinclude|undefine|unexport|vpath)\b/, // Functions
-  {
-    pattern: /(\()(?:addsuffix|abspath|and|basename|call|dir|error|eval|file|filter(?:-out)?|findstring|firstword|flavor|foreach|guile|if|info|join|lastword|load|notdir|or|origin|patsubst|realpath|shell|sort|strip|subst|suffix|value|warning|wildcard|word(?:s|list)?)(?=[ \t])/,
+  // Directives
+  'keyword': /-include\b|\b(?:define|else|endef|endif|export|ifn?def|ifn?eq|include|override|private|sinclude|undefine|unexport|vpath)\b/,
+  'function': {
+    pattern: /(\()(?:abspath|addsuffix|and|basename|call|dir|error|eval|file|filter(?:-out)?|findstring|firstword|flavor|foreach|guile|if|info|join|lastword|load|notdir|or|origin|patsubst|realpath|shell|sort|strip|subst|suffix|value|warning|wildcard|word(?:list|s)?)(?=[ \t])/,
     lookbehind: true
-  }],
+  },
   'operator': /(?:::|[?:+!])?=|[|@]/,
   'punctuation': /[:;(){}]/
 };
-/* "prismjs/components/prism-markdown" */
-
-(function (Prism) {
-  // Allow only one line break
-  var inner = /(?:\\.|[^\\\n\r]|(?:\n|\r\n?)(?!\n|\r\n?))/.source;
-  /**
-   * This function is intended for the creation of the bold or italic pattern.
-   *
-   * This also adds a lookbehind group to the given pattern to ensure that the pattern is not backslash-escaped.
-   *
-   * _Note:_ Keep in mind that this adds a capturing group.
-   *
-   * @param {string} pattern
-   * @returns {RegExp}
-   */
-
-  function createInline(pattern) {
-    pattern = pattern.replace(/<inner>/g, function () {
-      return inner;
-    });
-    return RegExp(/((?:^|[^\\])(?:\\{2})*)/.source + '(?:' + pattern + ')');
-  }
-
-  var tableCell = /(?:\\.|``(?:[^`\r\n]|`(?!`))+``|`[^`\r\n]+`|[^\\|\r\n`])+/.source;
-  var tableRow = /\|?__(?:\|__)+\|?(?:(?:\n|\r\n?)|(?![\s\S]))/.source.replace(/__/g, function () {
-    return tableCell;
-  });
-  var tableLine = /\|?[ \t]*:?-{3,}:?[ \t]*(?:\|[ \t]*:?-{3,}:?[ \t]*)+\|?(?:\n|\r\n?)/.source;
-  Prism.languages.markdown = Prism.languages.extend('markup', {});
-  Prism.languages.insertBefore('markdown', 'prolog', {
-    'front-matter-block': {
-      pattern: /(^(?:\s*[\r\n])?)---(?!.)[\s\S]*?[\r\n]---(?!.)/,
-      lookbehind: true,
-      greedy: true,
-      inside: {
-        'punctuation': /^---|---$/,
-        'font-matter': {
-          pattern: /\S+(?:\s+\S+)*/,
-          alias: ['yaml', 'language-yaml'],
-          inside: Prism.languages.yaml
-        }
-      }
-    },
-    'blockquote': {
-      // > ...
-      pattern: /^>(?:[\t ]*>)*/m,
-      alias: 'punctuation'
-    },
-    'table': {
-      pattern: RegExp('^' + tableRow + tableLine + '(?:' + tableRow + ')*', 'm'),
-      inside: {
-        'table-data-rows': {
-          pattern: RegExp('^(' + tableRow + tableLine + ')(?:' + tableRow + ')*$'),
-          lookbehind: true,
-          inside: {
-            'table-data': {
-              pattern: RegExp(tableCell),
-              inside: Prism.languages.markdown
-            },
-            'punctuation': /\|/
-          }
-        },
-        'table-line': {
-          pattern: RegExp('^(' + tableRow + ')' + tableLine + '$'),
-          lookbehind: true,
-          inside: {
-            'punctuation': /\||:?-{3,}:?/
-          }
-        },
-        'table-header-row': {
-          pattern: RegExp('^' + tableRow + '$'),
-          inside: {
-            'table-header': {
-              pattern: RegExp(tableCell),
-              alias: 'important',
-              inside: Prism.languages.markdown
-            },
-            'punctuation': /\|/
-          }
-        }
-      }
-    },
-    'code': [{
-      // Prefixed by 4 spaces or 1 tab and preceded by an empty line
-      pattern: /((?:^|\n)[ \t]*\n|(?:^|\r\n?)[ \t]*\r\n?)(?: {4}|\t).+(?:(?:\n|\r\n?)(?: {4}|\t).+)*/,
-      lookbehind: true,
-      alias: 'keyword'
-    }, {
-      // `code`
-      // ``code``
-      pattern: /``.+?``|`[^`\r\n]+`/,
-      alias: 'keyword'
-    }, {
-      // ```optional language
-      // code block
-      // ```
-      pattern: /^```[\s\S]*?^```$/m,
-      greedy: true,
-      inside: {
-        'code-block': {
-          pattern: /^(```.*(?:\n|\r\n?))[\s\S]+?(?=(?:\n|\r\n?)^```$)/m,
-          lookbehind: true
-        },
-        'code-language': {
-          pattern: /^(```).+/,
-          lookbehind: true
-        },
-        'punctuation': /```/
-      }
-    }],
-    'title': [{
-      // title 1
-      // =======
-      // title 2
-      // -------
-      pattern: /\S.*(?:\n|\r\n?)(?:==+|--+)(?=[ \t]*$)/m,
-      alias: 'important',
-      inside: {
-        punctuation: /==+$|--+$/
-      }
-    }, {
-      // # title 1
-      // ###### title 6
-      pattern: /(^\s*)#.+/m,
-      lookbehind: true,
-      alias: 'important',
-      inside: {
-        punctuation: /^#+|#+$/
-      }
-    }],
-    'hr': {
-      // ***
-      // ---
-      // * * *
-      // -----------
-      pattern: /(^\s*)([*-])(?:[\t ]*\2){2,}(?=\s*$)/m,
-      lookbehind: true,
-      alias: 'punctuation'
-    },
-    'list': {
-      // * item
-      // + item
-      // - item
-      // 1. item
-      pattern: /(^\s*)(?:[*+-]|\d+\.)(?=[\t ].)/m,
-      lookbehind: true,
-      alias: 'punctuation'
-    },
-    'url-reference': {
-      // [id]: http://example.com "Optional title"
-      // [id]: http://example.com 'Optional title'
-      // [id]: http://example.com (Optional title)
-      // [id]: <http://example.com> "Optional title"
-      pattern: /!?\[[^\]]+\]:[\t ]+(?:\S+|<(?:\\.|[^>\\])+>)(?:[\t ]+(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\)))?/,
-      inside: {
-        'variable': {
-          pattern: /^(!?\[)[^\]]+/,
-          lookbehind: true
-        },
-        'string': /(?:"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\((?:\\.|[^)\\])*\))$/,
-        'punctuation': /^[\[\]!:]|[<>]/
-      },
-      alias: 'url'
-    },
-    'bold': {
-      // **strong**
-      // __strong__
-      // allow one nested instance of italic text using the same delimiter
-      pattern: createInline(/\b__(?:(?!_)<inner>|_(?:(?!_)<inner>)+_)+__\b|\*\*(?:(?!\*)<inner>|\*(?:(?!\*)<inner>)+\*)+\*\*/.source),
-      lookbehind: true,
-      greedy: true,
-      inside: {
-        'content': {
-          pattern: /(^..)[\s\S]+(?=..$)/,
-          lookbehind: true,
-          inside: {} // see below
-
-        },
-        'punctuation': /\*\*|__/
-      }
-    },
-    'italic': {
-      // *em*
-      // _em_
-      // allow one nested instance of bold text using the same delimiter
-      pattern: createInline(/\b_(?:(?!_)<inner>|__(?:(?!_)<inner>)+__)+_\b|\*(?:(?!\*)<inner>|\*\*(?:(?!\*)<inner>)+\*\*)+\*/.source),
-      lookbehind: true,
-      greedy: true,
-      inside: {
-        'content': {
-          pattern: /(^.)[\s\S]+(?=.$)/,
-          lookbehind: true,
-          inside: {} // see below
-
-        },
-        'punctuation': /[*_]/
-      }
-    },
-    'strike': {
-      // ~~strike through~~
-      // ~strike~
-      pattern: createInline(/(~~?)(?:(?!~)<inner>)+?\2/.source),
-      lookbehind: true,
-      greedy: true,
-      inside: {
-        'content': {
-          pattern: /(^~~?)[\s\S]+(?=\1$)/,
-          lookbehind: true,
-          inside: {} // see below
-
-        },
-        'punctuation': /~~?/
-      }
-    },
-    'url': {
-      // [example](http://example.com "Optional title")
-      // [example][id]
-      // [example] [id]
-      pattern: createInline(/!?\[(?:(?!\])<inner>)+\](?:\([^\s)]+(?:[\t ]+"(?:\\.|[^"\\])*")?\)|[ \t]?\[(?:(?!\])<inner>)+\])/.source),
-      lookbehind: true,
-      greedy: true,
-      inside: {
-        'operator': /^!/,
-        'content': {
-          pattern: /(^\[)[^\]]+(?=\])/,
-          lookbehind: true,
-          inside: {} // see below
-
-        },
-        'variable': {
-          pattern: /(^\][ \t]?\[)[^\]]+(?=\]$)/,
-          lookbehind: true
-        },
-        'url': {
-          pattern: /(^\]\()[^\s)]+/,
-          lookbehind: true
-        },
-        'string': {
-          pattern: /(^[ \t]+)"(?:\\.|[^"\\])*"(?=\)$)/,
-          lookbehind: true
-        }
-      }
-    }
-  });
-  ['url', 'bold', 'italic', 'strike'].forEach(function (token) {
-    ['url', 'bold', 'italic', 'strike'].forEach(function (inside) {
-      if (token !== inside) {
-        Prism.languages.markdown[token].inside.content.inside[inside] = Prism.languages.markdown[inside];
-      }
-    });
-  });
-  Prism.hooks.add('after-tokenize', function (env) {
-    if (env.language !== 'markdown' && env.language !== 'md') {
-      return;
-    }
-
-    function walkTokens(tokens) {
-      if (!tokens || typeof tokens === 'string') {
-        return;
-      }
-
-      for (var i = 0, l = tokens.length; i < l; i++) {
-        var token = tokens[i];
-
-        if (token.type !== 'code') {
-          walkTokens(token.content);
-          continue;
-        }
-        /*
-         * Add the correct `language-xxxx` class to this code block. Keep in mind that the `code-language` token
-         * is optional. But the grammar is defined so that there is only one case we have to handle:
-         *
-         * token.content = [
-         *     <span class="punctuation">```</span>,
-         *     <span class="code-language">xxxx</span>,
-         *     '\n', // exactly one new lines (\r or \n or \r\n)
-         *     <span class="code-block">...</span>,
-         *     '\n', // exactly one new lines again
-         *     <span class="punctuation">```</span>
-         * ];
-         */
-
-
-        var codeLang = token.content[1];
-        var codeBlock = token.content[3];
-
-        if (codeLang && codeBlock && codeLang.type === 'code-language' && codeBlock.type === 'code-block' && typeof codeLang.content === 'string') {
-          // this might be a language that Prism does not support
-          // do some replacements to support C++, C#, and F#
-          var lang = codeLang.content.replace(/\b#/g, 'sharp').replace(/\b\+\+/g, 'pp'); // only use the first word
-
-          lang = (/[a-z][\w-]*/i.exec(lang) || [''])[0].toLowerCase();
-          var alias = 'language-' + lang; // add alias
-
-          if (!codeBlock.alias) {
-            codeBlock.alias = [alias];
-          } else if (typeof codeBlock.alias === 'string') {
-            codeBlock.alias = [codeBlock.alias, alias];
-          } else {
-            codeBlock.alias.push(alias);
-          }
-        }
-      }
-    }
-
-    walkTokens(env.tokens);
-  });
-  Prism.hooks.add('wrap', function (env) {
-    if (env.type !== 'code-block') {
-      return;
-    }
-
-    var codeLang = '';
-
-    for (var i = 0, l = env.classes.length; i < l; i++) {
-      var cls = env.classes[i];
-      var match = /language-(.+)/.exec(cls);
-
-      if (match) {
-        codeLang = match[1];
-        break;
-      }
-    }
-
-    var grammar = Prism.languages[codeLang];
-
-    if (!grammar) {
-      if (codeLang && codeLang !== 'none' && Prism.plugins.autoloader) {
-        var id = 'md-' + new Date().valueOf() + '-' + Math.floor(Math.random() * 1e16);
-        env.attributes['id'] = id;
-        Prism.plugins.autoloader.loadLanguages(codeLang, function () {
-          var ele = document.getElementById(id);
-
-          if (ele) {
-            ele.innerHTML = Prism.highlight(ele.textContent, Prism.languages[codeLang], codeLang);
-          }
-        });
-      }
-    } else {
-      // reverse Prism.util.encode
-      var code = env.content.replace(/&lt;/g, '<').replace(/&amp;/g, '&');
-      env.content = Prism.highlight(code, grammar, codeLang);
-    }
-  });
-  Prism.languages.md = Prism.languages.markdown;
-})(Prism);
 /* "prismjs/components/prism-objectivec" */
 
-
-Prism.languages.objectivec = Prism.languages.extend('c', {
-  'string': /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1|@"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
-  'keyword': /\b(?:asm|typeof|inline|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while|in|self|super)\b|(?:@interface|@end|@implementation|@protocol|@class|@public|@protected|@private|@property|@try|@catch|@finally|@throw|@synthesize|@dynamic|@selector)\b/,
+prism.languages.objectivec = prism.languages.extend('c', {
+  'string': {
+    pattern: /@?"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"/,
+    greedy: true
+  },
+  'keyword': /\b(?:asm|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|in|inline|int|long|register|return|self|short|signed|sizeof|static|struct|super|switch|typedef|typeof|union|unsigned|void|volatile|while)\b|(?:@interface|@end|@implementation|@protocol|@class|@public|@protected|@private|@property|@try|@catch|@finally|@throw|@synthesize|@dynamic|@selector)\b/,
   'operator': /-[->]?|\+\+?|!=?|<<?=?|>>?=?|==?|&&?|\|\|?|[~^%?*\/@]/
 });
-delete Prism.languages.objectivec['class-name'];
-Prism.languages.objc = Prism.languages.objectivec;
+delete prism.languages.objectivec['class-name'];
+prism.languages.objc = prism.languages.objectivec;
 /* "prismjs/components/prism-ocaml" */
+// https://ocaml.org/manual/lex.html
 
-Prism.languages.ocaml = {
-  'comment': /\(\*[\s\S]*?\*\)/,
+prism.languages.ocaml = {
+  'comment': {
+    pattern: /\(\*[\s\S]*?\*\)/,
+    greedy: true
+  },
+  'char': {
+    pattern: /'(?:[^\\\r\n']|\\(?:.|[ox]?[0-9a-f]{1,3}))'/i,
+    greedy: true
+  },
   'string': [{
-    pattern: /"(?:\\.|[^\\\r\n"])*"/,
+    pattern: /"(?:\\(?:[\s\S]|\r\n)|[^\\\r\n"])*"/,
     greedy: true
   }, {
-    pattern: /(['`])(?:\\(?:\d+|x[\da-f]+|.)|(?!\1)[^\\\r\n])\1/i,
+    pattern: /\{([a-z_]*)\|[\s\S]*?\|\1\}/,
     greedy: true
   }],
-  'number': /\b(?:0x[\da-f][\da-f_]+|(?:0[bo])?\d[\d_]*(?:\.[\d_]*)?(?:e[+-]?[\d_]+)?)/i,
+  'number': [// binary and octal
+  /\b(?:0b[01][01_]*|0o[0-7][0-7_]*)\b/i, // hexadecimal
+  /\b0x[a-f0-9][a-f0-9_]*(?:\.[a-f0-9_]*)?(?:p[+-]?\d[\d_]*)?(?!\w)/i, // decimal
+  /\b\d[\d_]*(?:\.[\d_]*)?(?:e[+-]?\d[\d_]*)?(?!\w)/i],
   'directive': {
     pattern: /\B#\w+/,
-    alias: 'important'
+    alias: 'property'
   },
   'label': {
     pattern: /\B~\w+/,
-    alias: 'function'
+    alias: 'property'
   },
   'type-variable': {
     pattern: /\B'\w+/,
@@ -12137,38 +15740,39 @@ Prism.languages.ocaml = {
   },
   'variant': {
     pattern: /`\w+/,
-    alias: 'variable'
-  },
-  'module': {
-    pattern: /\b[A-Z]\w+/,
-    alias: 'variable'
+    alias: 'symbol'
   },
   // For the list of keywords and operators,
   // see: http://caml.inria.fr/pub/docs/manual-ocaml/lex.html#sec84
   'keyword': /\b(?:as|assert|begin|class|constraint|do|done|downto|else|end|exception|external|for|fun|function|functor|if|in|include|inherit|initializer|lazy|let|match|method|module|mutable|new|nonrec|object|of|open|private|rec|sig|struct|then|to|try|type|val|value|virtual|when|where|while|with)\b/,
   'boolean': /\b(?:false|true)\b/,
+  'operator-like-punctuation': {
+    pattern: /\[[<>|]|[>|]\]|\{<|>\}/,
+    alias: 'punctuation'
+  },
   // Custom operators are allowed
-  'operator': /:=|[=<>@^|&+\-*\/$%!?~][!$%&*+\-.\/:<=>?@^|~]*|\b(?:and|asr|land|lor|lsl|lsr|lxor|mod|or)\b/,
-  'punctuation': /[(){}\[\]|.,:;]|\b_\b/
+  'operator': /\.[.~]|:[=>]|[=<>@^|&+\-*\/$%!?~][!$%&*+\-.\/:<=>?@^|~]*|\b(?:and|asr|land|lor|lsl|lsr|lxor|mod|or)\b/,
+  'punctuation': /;;|::|[(){}\[\].,:;#]|\b_\b/
 };
 /* "prismjs/components/prism-python" */
 
-Prism.languages.python = {
+prism.languages.python = {
   'comment': {
     pattern: /(^|[^\\])#.*/,
-    lookbehind: true
+    lookbehind: true,
+    greedy: true
   },
   'string-interpolation': {
-    pattern: /(?:f|rf|fr)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
+    pattern: /(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i,
     greedy: true,
     inside: {
       'interpolation': {
         // "{" <expression> <optional "!s", "!r", or "!a"> <optional ":" format specifier> "}"
-        pattern: /((?:^|[^{])(?:{{)*){(?!{)(?:[^{}]|{(?!{)(?:[^{}]|{(?!{)(?:[^{}])+})+})+}/,
+        pattern: /((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/,
         lookbehind: true,
         inside: {
           'format-spec': {
-            pattern: /(:)[^:(){}]+(?=}$)/,
+            pattern: /(:)[^:(){}]+(?=\}$)/,
             lookbehind: true
           },
           'conversion-option': {
@@ -12182,12 +15786,12 @@ Prism.languages.python = {
     }
   },
   'triple-quoted-string': {
-    pattern: /(?:[rub]|rb|br)?("""|''')[\s\S]*?\1/i,
+    pattern: /(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i,
     greedy: true,
     alias: 'string'
   },
   'string': {
-    pattern: /(?:[rub]|rb|br)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,
+    pattern: /(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i,
     greedy: true
   },
   'function': {
@@ -12199,25 +15803,25 @@ Prism.languages.python = {
     lookbehind: true
   },
   'decorator': {
-    pattern: /(^\s*)@\w+(?:\.\w+)*/im,
+    pattern: /(^[\t ]*)@\w+(?:\.\w+)*/m,
     lookbehind: true,
     alias: ['annotation', 'punctuation'],
     inside: {
       'punctuation': /\./
     }
   },
-  'keyword': /\b(?:and|as|assert|async|await|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,
+  'keyword': /\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/,
   'builtin': /\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/,
-  'boolean': /\b(?:True|False|None)\b/,
-  'number': /(?:\b(?=\d)|\B(?=\.))(?:0[bo])?(?:(?:\d|0x[\da-f])[\da-f]*(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?j?\b/i,
-  'operator': /[-+%=]=?|!=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,
+  'boolean': /\b(?:False|None|True)\b/,
+  'number': /\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i,
+  'operator': /[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/,
   'punctuation': /[{}[\];(),.:]/
 };
-Prism.languages.python['string-interpolation'].inside['interpolation'].inside.rest = Prism.languages.python;
-Prism.languages.py = Prism.languages.python;
+prism.languages.python['string-interpolation'].inside['interpolation'].inside.rest = prism.languages.python;
+prism.languages.py = prism.languages.python;
 /* "prismjs/components/prism-reason" */
 
-Prism.languages.reason = Prism.languages.extend('clike', {
+prism.languages.reason = prism.languages.extend('clike', {
   'string': {
     pattern: /"(?:\\(?:\r\n|[\s\S])|[^\\\r\n"])*"/,
     greedy: true
@@ -12225,25 +15829,22 @@ Prism.languages.reason = Prism.languages.extend('clike', {
   // 'class-name' must be matched *after* 'constructor' defined below
   'class-name': /\b[A-Z]\w*/,
   'keyword': /\b(?:and|as|assert|begin|class|constraint|do|done|downto|else|end|exception|external|for|fun|function|functor|if|in|include|inherit|initializer|lazy|let|method|module|mutable|new|nonrec|object|of|open|or|private|rec|sig|struct|switch|then|to|try|type|val|virtual|when|while|with)\b/,
-  'operator': /\.{3}|:[:=]|\|>|->|=(?:==?|>)?|<=?|>=?|[|^?'#!~`]|[+\-*\/]\.?|\b(?:mod|land|lor|lxor|lsl|lsr|asr)\b/
+  'operator': /\.{3}|:[:=]|\|>|->|=(?:==?|>)?|<=?|>=?|[|^?'#!~`]|[+\-*\/]\.?|\b(?:asr|land|lor|lsl|lsr|lxor|mod)\b/
 });
-Prism.languages.insertBefore('reason', 'class-name', {
-  'character': {
+prism.languages.insertBefore('reason', 'class-name', {
+  'char': {
     pattern: /'(?:\\x[\da-f]{2}|\\o[0-3][0-7][0-7]|\\\d{3}|\\.|[^'\\\r\n])'/,
-    alias: 'string'
+    greedy: true
   },
-  'constructor': {
-    // Negative look-ahead prevents from matching things like String.capitalize
-    pattern: /\b[A-Z]\w*\b(?!\s*\.)/,
-    alias: 'variable'
-  },
+  // Negative look-ahead prevents from matching things like String.capitalize
+  'constructor': /\b[A-Z]\w*\b(?!\s*\.)/,
   'label': {
     pattern: /\b[a-z]\w*(?=::)/,
     alias: 'symbol'
   }
 }); // We can't match functions property, so let's not even try.
 
-delete Prism.languages.reason.function;
+delete prism.languages.reason.function;
 /* "prismjs/components/prism-sass" */
 
 (function (Prism) {
@@ -12251,7 +15852,8 @@ delete Prism.languages.reason.function;
     // Sass comments don't need to be closed, only indented
     'comment': {
       pattern: /^([ \t]*)\/[\/*].*(?:(?:\r?\n|\r)\1[ \t].+)*/m,
-      lookbehind: true
+      lookbehind: true,
+      greedy: true
     }
   });
   Prism.languages.insertBefore('sass', 'atrule', {
@@ -12259,21 +15861,23 @@ delete Prism.languages.reason.function;
     'atrule-line': {
       // Includes support for = and + shortcuts
       pattern: /^(?:[ \t]*)[@+=].+/m,
+      greedy: true,
       inside: {
-        'atrule': /(?:@[\w-]+|[+=])/m
+        'atrule': /(?:@[\w-]+|[+=])/
       }
     }
   });
   delete Prism.languages.sass.atrule;
   var variable = /\$[-\w]+|#\{\$[-\w]+\}/;
-  var operator = [/[+*\/%]|[=!]=|<=?|>=?|\b(?:and|or|not)\b/, {
-    pattern: /(\s+)-(?=\s)/,
+  var operator = [/[+*\/%]|[=!]=|<=?|>=?|\b(?:and|not|or)\b/, {
+    pattern: /(\s)-(?=\s)/,
     lookbehind: true
   }];
   Prism.languages.insertBefore('sass', 'property', {
     // We want to consume the whole line
     'variable-line': {
       pattern: /^[ \t]*\$.+/m,
+      greedy: true,
       inside: {
         'punctuation': /:/,
         'variable': variable,
@@ -12283,6 +15887,7 @@ delete Prism.languages.reason.function;
     // We want to consume the whole line
     'property-line': {
       pattern: /^[ \t]*(?:[^:\s]+ *:.*|:[^:\s].*)/m,
+      greedy: true,
       inside: {
         'property': [/[^:\s]+(?=\s*:)/, {
           pattern: /(:)[^:\s]+/,
@@ -12301,15 +15906,16 @@ delete Prism.languages.reason.function;
 
   Prism.languages.insertBefore('sass', 'punctuation', {
     'selector': {
-      pattern: /([ \t]*)\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*(?:,(?:\r?\n|\r)\1[ \t]+\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*)*/,
-      lookbehind: true
+      pattern: /^([ \t]*)\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*(?:,(?:\r?\n|\r)\1[ \t]+\S(?:,[^,\r\n]+|[^,\r\n]*)(?:,[^,\r\n]+)*)*/m,
+      lookbehind: true,
+      greedy: true
     }
   });
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-scss" */
 
 
-Prism.languages.scss = Prism.languages.extend('css', {
+prism.languages.scss = prism.languages.extend('css', {
   'comment': {
     pattern: /(^|[^\\])(?:\/\*[\s\S]*?\*\/|\/\/.*)/,
     lookbehind: true
@@ -12332,7 +15938,7 @@ Prism.languages.scss = Prism.languages.extend('css', {
   // this one was hard to do, so please be careful if you edit this one :)
   'selector': {
     // Initial look-ahead is used to prevent matching of blank selectors
-    pattern: /(?=\S)[^@;{}()]?(?:[^@;{}()\s]|\s+(?!\s)|#\{\$[-\w]+\})+(?=\s*\{(?:\}|\s|[^}][^:{}]*[:{][^}]+))/m,
+    pattern: /(?=\S)[^@;{}()]?(?:[^@;{}()\s]|\s+(?!\s)|#\{\$[-\w]+\})+(?=\s*\{(?:\}|\s|[^}][^:{}]*[:{][^}]))/,
     inside: {
       'parent': {
         pattern: /&/,
@@ -12349,19 +15955,19 @@ Prism.languages.scss = Prism.languages.extend('css', {
     }
   }
 });
-Prism.languages.insertBefore('scss', 'atrule', {
-  'keyword': [/@(?:if|else(?: if)?|forward|for|each|while|import|use|extend|debug|warn|mixin|include|function|return|content)\b/i, {
-    pattern: /( +)(?:from|through)(?= )/,
+prism.languages.insertBefore('scss', 'atrule', {
+  'keyword': [/@(?:content|debug|each|else(?: if)?|extend|for|forward|function|if|import|include|mixin|return|use|warn|while)\b/i, {
+    pattern: /( )(?:from|through)(?= )/,
     lookbehind: true
   }]
 });
-Prism.languages.insertBefore('scss', 'important', {
+prism.languages.insertBefore('scss', 'important', {
   // var and interpolated vars
   'variable': /\$[-\w]+|#\{\$[-\w]+\}/
 });
-Prism.languages.insertBefore('scss', 'function', {
+prism.languages.insertBefore('scss', 'function', {
   'module-modifier': {
-    pattern: /\b(?:as|with|show|hide)\b/i,
+    pattern: /\b(?:as|hide|show|with)\b/i,
     alias: 'keyword'
   },
   'placeholder': {
@@ -12372,41 +15978,17 @@ Prism.languages.insertBefore('scss', 'function', {
     pattern: /\B!(?:default|optional)\b/i,
     alias: 'keyword'
   },
-  'boolean': /\b(?:true|false)\b/,
+  'boolean': /\b(?:false|true)\b/,
   'null': {
     pattern: /\bnull\b/,
     alias: 'keyword'
   },
   'operator': {
-    pattern: /(\s)(?:[-+*\/%]|[=!]=|<=?|>=?|and|or|not)(?=\s)/,
+    pattern: /(\s)(?:[-+*\/%]|[=!]=|<=?|>=?|and|not|or)(?=\s)/,
     lookbehind: true
   }
 });
-Prism.languages.scss['atrule'].inside.rest = Prism.languages.scss;
-/* "prismjs/components/prism-sql" */
-
-Prism.languages.sql = {
-  'comment': {
-    pattern: /(^|[^\\])(?:\/\*[\s\S]*?\*\/|(?:--|\/\/|#).*)/,
-    lookbehind: true
-  },
-  'variable': [{
-    pattern: /@(["'`])(?:\\[\s\S]|(?!\1)[^\\])+\1/,
-    greedy: true
-  }, /@[\w.$]+/],
-  'string': {
-    pattern: /(^|[^@\\])("|')(?:\\[\s\S]|(?!\2)[^\\]|\2\2)*\2/,
-    greedy: true,
-    lookbehind: true
-  },
-  'function': /\b(?:AVG|COUNT|FIRST|FORMAT|LAST|LCASE|LEN|MAX|MID|MIN|MOD|NOW|ROUND|SUM|UCASE)(?=\s*\()/i,
-  // Should we highlight user defined functions too?
-  'keyword': /\b(?:ACTION|ADD|AFTER|ALGORITHM|ALL|ALTER|ANALYZE|ANY|APPLY|AS|ASC|AUTHORIZATION|AUTO_INCREMENT|BACKUP|BDB|BEGIN|BERKELEYDB|BIGINT|BINARY|BIT|BLOB|BOOL|BOOLEAN|BREAK|BROWSE|BTREE|BULK|BY|CALL|CASCADED?|CASE|CHAIN|CHAR(?:ACTER|SET)?|CHECK(?:POINT)?|CLOSE|CLUSTERED|COALESCE|COLLATE|COLUMNS?|COMMENT|COMMIT(?:TED)?|COMPUTE|CONNECT|CONSISTENT|CONSTRAINT|CONTAINS(?:TABLE)?|CONTINUE|CONVERT|CREATE|CROSS|CURRENT(?:_DATE|_TIME|_TIMESTAMP|_USER)?|CURSOR|CYCLE|DATA(?:BASES?)?|DATE(?:TIME)?|DAY|DBCC|DEALLOCATE|DEC|DECIMAL|DECLARE|DEFAULT|DEFINER|DELAYED|DELETE|DELIMITERS?|DENY|DESC|DESCRIBE|DETERMINISTIC|DISABLE|DISCARD|DISK|DISTINCT|DISTINCTROW|DISTRIBUTED|DO|DOUBLE|DROP|DUMMY|DUMP(?:FILE)?|DUPLICATE|ELSE(?:IF)?|ENABLE|ENCLOSED|END|ENGINE|ENUM|ERRLVL|ERRORS|ESCAPED?|EXCEPT|EXEC(?:UTE)?|EXISTS|EXIT|EXPLAIN|EXTENDED|FETCH|FIELDS|FILE|FILLFACTOR|FIRST|FIXED|FLOAT|FOLLOWING|FOR(?: EACH ROW)?|FORCE|FOREIGN|FREETEXT(?:TABLE)?|FROM|FULL|FUNCTION|GEOMETRY(?:COLLECTION)?|GLOBAL|GOTO|GRANT|GROUP|HANDLER|HASH|HAVING|HOLDLOCK|HOUR|IDENTITY(?:_INSERT|COL)?|IF|IGNORE|IMPORT|INDEX|INFILE|INNER|INNODB|INOUT|INSERT|INT|INTEGER|INTERSECT|INTERVAL|INTO|INVOKER|ISOLATION|ITERATE|JOIN|KEYS?|KILL|LANGUAGE|LAST|LEAVE|LEFT|LEVEL|LIMIT|LINENO|LINES|LINESTRING|LOAD|LOCAL|LOCK|LONG(?:BLOB|TEXT)|LOOP|MATCH(?:ED)?|MEDIUM(?:BLOB|INT|TEXT)|MERGE|MIDDLEINT|MINUTE|MODE|MODIFIES|MODIFY|MONTH|MULTI(?:LINESTRING|POINT|POLYGON)|NATIONAL|NATURAL|NCHAR|NEXT|NO|NONCLUSTERED|NULLIF|NUMERIC|OFF?|OFFSETS?|ON|OPEN(?:DATASOURCE|QUERY|ROWSET)?|OPTIMIZE|OPTION(?:ALLY)?|ORDER|OUT(?:ER|FILE)?|OVER|PARTIAL|PARTITION|PERCENT|PIVOT|PLAN|POINT|POLYGON|PRECEDING|PRECISION|PREPARE|PREV|PRIMARY|PRINT|PRIVILEGES|PROC(?:EDURE)?|PUBLIC|PURGE|QUICK|RAISERROR|READS?|REAL|RECONFIGURE|REFERENCES|RELEASE|RENAME|REPEAT(?:ABLE)?|REPLACE|REPLICATION|REQUIRE|RESIGNAL|RESTORE|RESTRICT|RETURN(?:S|ING)?|REVOKE|RIGHT|ROLLBACK|ROUTINE|ROW(?:COUNT|GUIDCOL|S)?|RTREE|RULE|SAVE(?:POINT)?|SCHEMA|SECOND|SELECT|SERIAL(?:IZABLE)?|SESSION(?:_USER)?|SET(?:USER)?|SHARE|SHOW|SHUTDOWN|SIMPLE|SMALLINT|SNAPSHOT|SOME|SONAME|SQL|START(?:ING)?|STATISTICS|STATUS|STRIPED|SYSTEM_USER|TABLES?|TABLESPACE|TEMP(?:ORARY|TABLE)?|TERMINATED|TEXT(?:SIZE)?|THEN|TIME(?:STAMP)?|TINY(?:BLOB|INT|TEXT)|TOP?|TRAN(?:SACTIONS?)?|TRIGGER|TRUNCATE|TSEQUAL|TYPES?|UNBOUNDED|UNCOMMITTED|UNDEFINED|UNION|UNIQUE|UNLOCK|UNPIVOT|UNSIGNED|UPDATE(?:TEXT)?|USAGE|USE|USER|USING|VALUES?|VAR(?:BINARY|CHAR|CHARACTER|YING)|VIEW|WAITFOR|WARNINGS|WHEN|WHERE|WHILE|WITH(?: ROLLUP|IN)?|WORK|WRITE(?:TEXT)?|YEAR)\b/i,
-  'boolean': /\b(?:TRUE|FALSE|NULL)\b/i,
-  'number': /\b0x[\da-f]+\b|\b\d+(?:\.\d*)?|\B\.\d+\b/i,
-  'operator': /[-+*\/=%^~]|&&?|\|\|?|!=?|<(?:=>?|<|>)?|>[>=]?|\b(?:AND|BETWEEN|IN|LIKE|NOT|OR|IS|DIV|REGEXP|RLIKE|SOUNDS LIKE|XOR)\b/i,
-  'punctuation': /[;[\]()`,.]/
-};
+prism.languages.scss['atrule'].inside.rest = prism.languages.scss;
 /* "prismjs/components/prism-stylus" */
 
 (function (Prism) {
@@ -12425,7 +16007,7 @@ Prism.languages.sql = {
       lookbehind: true
     },
     'url': {
-      pattern: /url\((["']?).*?\1\)/i,
+      pattern: /\burl\((["']?).*?\1\)/i,
       greedy: true
     },
     'string': {
@@ -12438,12 +16020,12 @@ Prism.languages.sql = {
     // See below
     'important': /\B!(?:important|optional)\b/i,
     'keyword': {
-      pattern: /(^|\s+)(?:(?:if|else|for|return|unless)(?=\s+|$)|@[\w-]+)/,
+      pattern: /(^|\s+)(?:(?:else|for|if|return|unless)(?=\s|$)|@[\w-]+)/,
       lookbehind: true
     },
     'hexcode': /#[\da-f]{3,6}/i,
     'color': [/\b(?:AliceBlue|AntiqueWhite|Aqua|Aquamarine|Azure|Beige|Bisque|Black|BlanchedAlmond|Blue|BlueViolet|Brown|BurlyWood|CadetBlue|Chartreuse|Chocolate|Coral|CornflowerBlue|Cornsilk|Crimson|Cyan|DarkBlue|DarkCyan|DarkGoldenRod|DarkGr[ae]y|DarkGreen|DarkKhaki|DarkMagenta|DarkOliveGreen|DarkOrange|DarkOrchid|DarkRed|DarkSalmon|DarkSeaGreen|DarkSlateBlue|DarkSlateGr[ae]y|DarkTurquoise|DarkViolet|DeepPink|DeepSkyBlue|DimGr[ae]y|DodgerBlue|FireBrick|FloralWhite|ForestGreen|Fuchsia|Gainsboro|GhostWhite|Gold|GoldenRod|Gr[ae]y|Green|GreenYellow|HoneyDew|HotPink|IndianRed|Indigo|Ivory|Khaki|Lavender|LavenderBlush|LawnGreen|LemonChiffon|LightBlue|LightCoral|LightCyan|LightGoldenRodYellow|LightGr[ae]y|LightGreen|LightPink|LightSalmon|LightSeaGreen|LightSkyBlue|LightSlateGr[ae]y|LightSteelBlue|LightYellow|Lime|LimeGreen|Linen|Magenta|Maroon|MediumAquaMarine|MediumBlue|MediumOrchid|MediumPurple|MediumSeaGreen|MediumSlateBlue|MediumSpringGreen|MediumTurquoise|MediumVioletRed|MidnightBlue|MintCream|MistyRose|Moccasin|NavajoWhite|Navy|OldLace|Olive|OliveDrab|Orange|OrangeRed|Orchid|PaleGoldenRod|PaleGreen|PaleTurquoise|PaleVioletRed|PapayaWhip|PeachPuff|Peru|Pink|Plum|PowderBlue|Purple|Red|RosyBrown|RoyalBlue|SaddleBrown|Salmon|SandyBrown|SeaGreen|SeaShell|Sienna|Silver|SkyBlue|SlateBlue|SlateGr[ae]y|Snow|SpringGreen|SteelBlue|Tan|Teal|Thistle|Tomato|Transparent|Turquoise|Violet|Wheat|White|WhiteSmoke|Yellow|YellowGreen)\b/i, {
-      pattern: /\b(?:rgb|hsl)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:rgb|hsl)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
+      pattern: /\b(?:hsl|rgb)\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*\)\B|\b(?:hsl|rgb)a\(\s*\d{1,3}\s*,\s*\d{1,3}%?\s*,\s*\d{1,3}%?\s*,\s*(?:0|0?\.\d+|1)\s*\)\B/i,
       inside: {
         'unit': unit,
         'number': number,
@@ -12453,7 +16035,7 @@ Prism.languages.sql = {
     }],
     'entity': /\\[\da-f]{1,8}/i,
     'unit': unit,
-    'boolean': /\b(?:true|false)\b/,
+    'boolean': /\b(?:false|true)\b/,
     'operator': [// We want non-word chars around "-" because it is
     // accepted in property names.
     /~|[+!\/%<>?=]=?|[-:]=|\*[*=]?|\.{2,3}|&&|\|\||\B-\B|\b(?:and|in|is(?: a| defined| not|nt)?|not|or)\b/],
@@ -12465,7 +16047,7 @@ Prism.languages.sql = {
     alias: 'variable',
     inside: {
       'delimiter': {
-        pattern: /^{|}$/,
+        pattern: /^\{|\}$/,
         alias: 'punctuation'
       },
       rest: inside
@@ -12480,7 +16062,7 @@ Prism.languages.sql = {
   };
   Prism.languages.stylus = {
     'atrule-declaration': {
-      pattern: /(^\s*)@.+/m,
+      pattern: /(^[ \t]*)@.+/m,
       lookbehind: true,
       inside: {
         'atrule': /^@[\w-]+/,
@@ -12496,7 +16078,7 @@ Prism.languages.sql = {
       }
     },
     'statement': {
-      pattern: /(^[ \t]*)(?:if|else|for|return|unless)[ \t].+/m,
+      pattern: /(^[ \t]*)(?:else|for|if|return|unless)[ \t].+/m,
       lookbehind: true,
       inside: {
         'keyword': /^\S+/,
@@ -12506,7 +16088,7 @@ Prism.languages.sql = {
     // A property/value pair cannot end with a comma or a brace
     // It cannot have indented content unless it ended with a semicolon
     'property-declaration': {
-      pattern: /((?:^|\{)([ \t]*))(?:[\w-]|\{[^}\r\n]+\})+(?:\s*:\s*|[ \t]+)(?!\s)[^{\r\n]*(?:;|[^{\r\n,](?=$)(?!(?:\r?\n|\r)(?:\{|\2[ \t]+)))/m,
+      pattern: /((?:^|\{)([ \t]*))(?:[\w-]|\{[^}\r\n]+\})+(?:\s*:\s*|[ \t]+)(?!\s)[^{\r\n]*(?:;|[^{\r\n,]$(?!(?:\r?\n|\r)(?:\{|\2[ \t])))/m,
       lookbehind: true,
       inside: {
         'property': {
@@ -12522,7 +16104,7 @@ Prism.languages.sql = {
     // It can span multiple lines.
     // It must end with a comma or an accolade or have indented content.
     'selector': {
-      pattern: /(^[ \t]*)(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)(?:(?:\r?\n|\r)(?:\1(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)))*(?:,$|\{|(?=(?:\r?\n|\r)(?:\{|\1[ \t]+)))/m,
+      pattern: /(^[ \t]*)(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)(?:(?:\r?\n|\r)(?:\1(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\)|(?![\w-]))|\{[^}\r\n]+\})+)))*(?:,$|\{|(?=(?:\r?\n|\r)(?:\{|\1[ \t])))/m,
       lookbehind: true,
       inside: {
         'interpolation': inside.interpolation,
@@ -12540,64 +16122,27 @@ Prism.languages.sql = {
     'interpolation': inside.interpolation,
     'punctuation': /[{}()\[\];:.]/
   };
-})(Prism);
-/* "prismjs/components/prism-typescript" */
-
-
-(function (Prism) {
-  Prism.languages.typescript = Prism.languages.extend('javascript', {
-    'class-name': {
-      pattern: /(\b(?:class|extends|implements|instanceof|interface|new|type)\s+)(?!keyof\b)(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?:\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>)?/,
-      lookbehind: true,
-      greedy: true,
-      inside: null // see below
-
-    },
-    // From JavaScript Prism keyword list and TypeScript language spec: https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#221-reserved-words
-    'keyword': /\b(?:abstract|as|asserts|async|await|break|case|catch|class|const|constructor|continue|debugger|declare|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|is|keyof|let|module|namespace|new|null|of|package|private|protected|public|readonly|return|require|set|static|super|switch|this|throw|try|type|typeof|undefined|var|void|while|with|yield)\b/,
-    'builtin': /\b(?:string|Function|any|number|boolean|Array|symbol|console|Promise|unknown|never)\b/
-  }); // doesn't work with TS because TS is too complex
-
-  delete Prism.languages.typescript['parameter']; // a version of typescript specifically for highlighting types
-
-  var typeInside = Prism.languages.extend('typescript', {});
-  delete typeInside['class-name'];
-  Prism.languages.typescript['class-name'].inside = typeInside;
-  Prism.languages.insertBefore('typescript', 'function', {
-    'generic-function': {
-      // e.g. foo<T extends "bar" | "baz">( ...
-      pattern: /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>(?=\s*\()/,
-      greedy: true,
-      inside: {
-        'function': /^#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*/,
-        'generic': {
-          pattern: /<[\s\S]+/,
-          // everything after the first <
-          alias: 'class-name',
-          inside: typeInside
-        }
-      }
-    }
-  });
-  Prism.languages.ts = Prism.languages.typescript;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-tsx" */
 
 
 (function (Prism) {
   var typescript = Prism.util.clone(Prism.languages.typescript);
-  Prism.languages.tsx = Prism.languages.extend('jsx', typescript); // This will prevent collisions between TSX tags and TS generic types.
+  Prism.languages.tsx = Prism.languages.extend('jsx', typescript); // doesn't work with TS because TS is too complex
+
+  delete Prism.languages.tsx['parameter'];
+  delete Prism.languages.tsx['literal-property']; // This will prevent collisions between TSX tags and TS generic types.
   // Idea by https://github.com/karlhorky
   // Discussion: https://github.com/PrismJS/prism/issues/2594#issuecomment-710666928
 
   var tag = Prism.languages.tsx.tag;
   tag.pattern = RegExp(/(^|[^\w$]|(?=<\/))/.source + '(?:' + tag.pattern.source + ')', tag.pattern.flags);
   tag.lookbehind = true;
-})(Prism);
+})(prism);
 /* "prismjs/components/prism-wasm" */
 
 
-Prism.languages.wasm = {
+prism.languages.wasm = {
   'comment': [/\(;[\s\S]*?;\)/, {
     pattern: /;;.*/,
     greedy: true
@@ -12612,106 +16157,17 @@ Prism.languages.wasm = {
       'operator': /=/
     }
   }, {
-    pattern: /\b(?:(?:f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))?|memory\.(?:grow|size))\b/,
+    pattern: /\b(?:(?:f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|neg?|nearest|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|sqrt|store(?:8|16|32)?|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))?|memory\.(?:grow|size))\b/,
     inside: {
       'punctuation': /\./
     }
   }, /\b(?:anyfunc|block|br(?:_if|_table)?|call(?:_indirect)?|data|drop|elem|else|end|export|func|get_(?:global|local)|global|if|import|local|loop|memory|module|mut|nop|offset|param|result|return|select|set_(?:global|local)|start|table|tee_local|then|type|unreachable)\b/],
-  'variable': /\$[\w!#$%&'*+\-./:<=>?@\\^_`|~]+/i,
+  'variable': /\$[\w!#$%&'*+\-./:<=>?@\\^`|~]+/,
   'number': /[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/,
   'punctuation': /[()]/
 };
-/* "prismjs/components/prism-yaml" */
 
-(function (Prism) {
-  // https://yaml.org/spec/1.2/spec.html#c-ns-anchor-property
-  // https://yaml.org/spec/1.2/spec.html#c-ns-alias-node
-  var anchorOrAlias = /[*&][^\s[\]{},]+/; // https://yaml.org/spec/1.2/spec.html#c-ns-tag-property
-
-  var tag = /!(?:<[\w\-%#;/?:@&=+$,.!~*'()[\]]+>|(?:[a-zA-Z\d-]*!)?[\w\-%#;/?:@&=+$.~*'()]+)?/; // https://yaml.org/spec/1.2/spec.html#c-ns-properties(n,c)
-
-  var properties = '(?:' + tag.source + '(?:[ \t]+' + anchorOrAlias.source + ')?|' + anchorOrAlias.source + '(?:[ \t]+' + tag.source + ')?)'; // https://yaml.org/spec/1.2/spec.html#ns-plain(n,c)
-  // This is a simplified version that doesn't support "#" and multiline keys
-  // All these long scarry character classes are simplified versions of YAML's characters
-
-  var plainKey = /(?:[^\s\x00-\x08\x0e-\x1f!"#%&'*,\-:>?@[\]`{|}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]|[?:-]<PLAIN>)(?:[ \t]*(?:(?![#:])<PLAIN>|:<PLAIN>))*/.source.replace(/<PLAIN>/g, function () {
-    return /[^\s\x00-\x08\x0e-\x1f,[\]{}\x7f-\x84\x86-\x9f\ud800-\udfff\ufffe\uffff]/.source;
-  });
-  var string = /"(?:[^"\\\r\n]|\\.)*"|'(?:[^'\\\r\n]|\\.)*'/.source;
-  /**
-   *
-   * @param {string} value
-   * @param {string} [flags]
-   * @returns {RegExp}
-   */
-
-  function createValuePattern(value, flags) {
-    flags = (flags || '').replace(/m/g, '') + 'm'; // add m flag
-
-    var pattern = /([:\-,[{]\s*(?:\s<<prop>>[ \t]+)?)(?:<<value>>)(?=[ \t]*(?:$|,|]|}|(?:[\r\n]\s*)?#))/.source.replace(/<<prop>>/g, function () {
-      return properties;
-    }).replace(/<<value>>/g, function () {
-      return value;
-    });
-    return RegExp(pattern, flags);
-  }
-
-  Prism.languages.yaml = {
-    'scalar': {
-      pattern: RegExp(/([\-:]\s*(?:\s<<prop>>[ \t]+)?[|>])[ \t]*(?:((?:\r?\n|\r)[ \t]+)\S[^\r\n]*(?:\2[^\r\n]+)*)/.source.replace(/<<prop>>/g, function () {
-        return properties;
-      })),
-      lookbehind: true,
-      alias: 'string'
-    },
-    'comment': /#.*/,
-    'key': {
-      pattern: RegExp(/((?:^|[:\-,[{\r\n?])[ \t]*(?:<<prop>>[ \t]+)?)<<key>>(?=\s*:\s)/.source.replace(/<<prop>>/g, function () {
-        return properties;
-      }).replace(/<<key>>/g, function () {
-        return '(?:' + plainKey + '|' + string + ')';
-      })),
-      lookbehind: true,
-      greedy: true,
-      alias: 'atrule'
-    },
-    'directive': {
-      pattern: /(^[ \t]*)%.+/m,
-      lookbehind: true,
-      alias: 'important'
-    },
-    'datetime': {
-      pattern: createValuePattern(/\d{4}-\d\d?-\d\d?(?:[tT]|[ \t]+)\d\d?:\d{2}:\d{2}(?:\.\d*)?(?:[ \t]*(?:Z|[-+]\d\d?(?::\d{2})?))?|\d{4}-\d{2}-\d{2}|\d\d?:\d{2}(?::\d{2}(?:\.\d*)?)?/.source),
-      lookbehind: true,
-      alias: 'number'
-    },
-    'boolean': {
-      pattern: createValuePattern(/true|false/.source, 'i'),
-      lookbehind: true,
-      alias: 'important'
-    },
-    'null': {
-      pattern: createValuePattern(/null|~/.source, 'i'),
-      lookbehind: true,
-      alias: 'important'
-    },
-    'string': {
-      pattern: createValuePattern(string),
-      lookbehind: true,
-      greedy: true
-    },
-    'number': {
-      pattern: createValuePattern(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.?\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, 'i'),
-      lookbehind: true
-    },
-    'tag': tag,
-    'important': anchorOrAlias,
-    'punctuation': /---|[:[\]{}\-,|>?]|\.\.\./
-  };
-  Prism.languages.yml = Prism.languages.yaml;
-})(Prism);
-
-/* harmony default export */ __webpack_exports__["default"] = (Prism);
+/* harmony default export */ __webpack_exports__["default"] = (prism);
 
 
 /***/ }),
@@ -12765,7 +16221,7 @@ var theme = {
       color: "#c4b9fe"
     }
   }, {
-    types: ["boolean", "string", "entity", "url", "attr-value", "keyword", "control", "directive", "unit", "statement", "regex", "at-rule", "placeholder", "variable"],
+    types: ["boolean", "string", "entity", "url", "attr-value", "keyword", "control", "directive", "unit", "statement", "regex", "atrule", "placeholder", "variable"],
     style: {
       color: "#ffcc99"
     }
@@ -12824,7 +16280,7 @@ var printWarning = function() {};
 if (true) {
   var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
-  var has = Function.call.bind(Object.prototype.hasOwnProperty);
+  var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 
   printWarning = function(text) {
     var message = 'Warning: ' + text;
@@ -12836,7 +16292,7 @@ if (true) {
       // This error was thrown as a convenience so that you can use this stack
       // to find the callsite that caused this warning to fire.
       throw new Error(message);
-    } catch (x) {}
+    } catch (x) { /**/ }
   };
 }
 
@@ -12865,7 +16321,8 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
           if (typeof typeSpecs[typeSpecName] !== 'function') {
             var err = Error(
               (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
-              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
+              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.' +
+              'This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.'
             );
             err.name = 'Invariant Violation';
             throw err;
@@ -12937,9 +16394,9 @@ var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
 
-var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
 
 if (true) {
@@ -13040,6 +16497,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
   var ReactPropTypes = {
     array: createPrimitiveTypeChecker('array'),
+    bigint: createPrimitiveTypeChecker('bigint'),
     bool: createPrimitiveTypeChecker('boolean'),
     func: createPrimitiveTypeChecker('function'),
     number: createPrimitiveTypeChecker('number'),
@@ -13085,8 +16543,9 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    * is prohibitively expensive if they are created too often, such as what
    * happens in oneOfType() for any type before the one that matched.
    */
-  function PropTypeError(message) {
+  function PropTypeError(message, data) {
     this.message = message;
+    this.data = data && typeof data === 'object' ? data: {};
     this.stack = '';
   }
   // Make `instanceof Error` still work for returned errors.
@@ -13121,7 +16580,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           ) {
             printWarning(
               'You are manually calling a React.PropTypes validation ' +
-              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'function for the `' + propFullName + '` prop on `' + componentName + '`. This is deprecated ' +
               'and will throw in the standalone `prop-types` package. ' +
               'You may be seeing this warning due to a third-party PropTypes ' +
               'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
@@ -13160,7 +16619,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
         // 'of type `object`'.
         var preciseType = getPreciseType(propValue);
 
-        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+        return new PropTypeError(
+          'Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'),
+          {expectedType: expectedType}
+        );
       }
       return null;
     }
@@ -13304,14 +16766,19 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     }
 
     function validate(props, propName, componentName, location, propFullName) {
+      var expectedTypes = [];
       for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
         var checker = arrayOfTypeCheckers[i];
-        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+        var checkerResult = checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret);
+        if (checkerResult == null) {
           return null;
         }
+        if (checkerResult.data && has(checkerResult.data, 'expectedType')) {
+          expectedTypes.push(checkerResult.data.expectedType);
+        }
       }
-
-      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+      var expectedTypesMessage = (expectedTypes.length > 0) ? ', expected one of type [' + expectedTypes.join(', ') + ']': '';
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`' + expectedTypesMessage + '.'));
     }
     return createChainableTypeChecker(validate);
   }
@@ -13326,6 +16793,13 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return createChainableTypeChecker(validate);
   }
 
+  function invalidValidatorError(componentName, location, propFullName, key, type) {
+    return new PropTypeError(
+      (componentName || 'React class') + ': ' + location + ' type `' + propFullName + '.' + key + '` is invalid; ' +
+      'it must be a function, usually from the `prop-types` package, but received `' + type + '`.'
+    );
+  }
+
   function createShapeTypeChecker(shapeTypes) {
     function validate(props, propName, componentName, location, propFullName) {
       var propValue = props[propName];
@@ -13335,8 +16809,8 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       }
       for (var key in shapeTypes) {
         var checker = shapeTypes[key];
-        if (!checker) {
-          continue;
+        if (typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
         if (error) {
@@ -13355,16 +16829,18 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       if (propType !== 'object') {
         return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
       }
-      // We need to check all keys in case some are required but missing from
-      // props.
+      // We need to check all keys in case some are required but missing from props.
       var allKeys = assign({}, props[propName], shapeTypes);
       for (var key in allKeys) {
         var checker = shapeTypes[key];
+        if (has(shapeTypes, key) && typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
+        }
         if (!checker) {
           return new PropTypeError(
             'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
             '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
-            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+            '\nValid keys: ' + JSON.stringify(Object.keys(shapeTypes), null, '  ')
           );
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
@@ -13565,6 +17041,434 @@ if (true) {
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/lib/has.js":
+/*!********************************************!*\
+  !*** ./node_modules/prop-types/lib/has.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
+/***/ "./node_modules/query-string/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/query-string/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+const strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
+const decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
+const splitOnFirst = __webpack_require__(/*! split-on-first */ "./node_modules/split-on-first/index.js");
+const filterObject = __webpack_require__(/*! filter-obj */ "./node_modules/filter-obj/index.js");
+
+const isNullOrUndefined = value => value === null || value === undefined;
+
+function encoderForArrayFormat(options) {
+	switch (options.arrayFormat) {
+		case 'index':
+			return key => (result, value) => {
+				const index = result.length;
+
+				if (
+					value === undefined ||
+					(options.skipNull && value === null) ||
+					(options.skipEmptyString && value === '')
+				) {
+					return result;
+				}
+
+				if (value === null) {
+					return [...result, [encode(key, options), '[', index, ']'].join('')];
+				}
+
+				return [
+					...result,
+					[encode(key, options), '[', encode(index, options), ']=', encode(value, options)].join('')
+				];
+			};
+
+		case 'bracket':
+			return key => (result, value) => {
+				if (
+					value === undefined ||
+					(options.skipNull && value === null) ||
+					(options.skipEmptyString && value === '')
+				) {
+					return result;
+				}
+
+				if (value === null) {
+					return [...result, [encode(key, options), '[]'].join('')];
+				}
+
+				return [...result, [encode(key, options), '[]=', encode(value, options)].join('')];
+			};
+
+		case 'comma':
+		case 'separator':
+			return key => (result, value) => {
+				if (value === null || value === undefined || value.length === 0) {
+					return result;
+				}
+
+				if (result.length === 0) {
+					return [[encode(key, options), '=', encode(value, options)].join('')];
+				}
+
+				return [[result, encode(value, options)].join(options.arrayFormatSeparator)];
+			};
+
+		default:
+			return key => (result, value) => {
+				if (
+					value === undefined ||
+					(options.skipNull && value === null) ||
+					(options.skipEmptyString && value === '')
+				) {
+					return result;
+				}
+
+				if (value === null) {
+					return [...result, encode(key, options)];
+				}
+
+				return [...result, [encode(key, options), '=', encode(value, options)].join('')];
+			};
+	}
+}
+
+function parserForArrayFormat(options) {
+	let result;
+
+	switch (options.arrayFormat) {
+		case 'index':
+			return (key, value, accumulator) => {
+				result = /\[(\d*)\]$/.exec(key);
+
+				key = key.replace(/\[\d*\]$/, '');
+
+				if (!result) {
+					accumulator[key] = value;
+					return;
+				}
+
+				if (accumulator[key] === undefined) {
+					accumulator[key] = {};
+				}
+
+				accumulator[key][result[1]] = value;
+			};
+
+		case 'bracket':
+			return (key, value, accumulator) => {
+				result = /(\[\])$/.exec(key);
+				key = key.replace(/\[\]$/, '');
+
+				if (!result) {
+					accumulator[key] = value;
+					return;
+				}
+
+				if (accumulator[key] === undefined) {
+					accumulator[key] = [value];
+					return;
+				}
+
+				accumulator[key] = [].concat(accumulator[key], value);
+			};
+
+		case 'comma':
+		case 'separator':
+			return (key, value, accumulator) => {
+				const isArray = typeof value === 'string' && value.includes(options.arrayFormatSeparator);
+				const isEncodedArray = (typeof value === 'string' && !isArray && decode(value, options).includes(options.arrayFormatSeparator));
+				value = isEncodedArray ? decode(value, options) : value;
+				const newValue = isArray || isEncodedArray ? value.split(options.arrayFormatSeparator).map(item => decode(item, options)) : value === null ? value : decode(value, options);
+				accumulator[key] = newValue;
+			};
+
+		default:
+			return (key, value, accumulator) => {
+				if (accumulator[key] === undefined) {
+					accumulator[key] = value;
+					return;
+				}
+
+				accumulator[key] = [].concat(accumulator[key], value);
+			};
+	}
+}
+
+function validateArrayFormatSeparator(value) {
+	if (typeof value !== 'string' || value.length !== 1) {
+		throw new TypeError('arrayFormatSeparator must be single character string');
+	}
+}
+
+function encode(value, options) {
+	if (options.encode) {
+		return options.strict ? strictUriEncode(value) : encodeURIComponent(value);
+	}
+
+	return value;
+}
+
+function decode(value, options) {
+	if (options.decode) {
+		return decodeComponent(value);
+	}
+
+	return value;
+}
+
+function keysSorter(input) {
+	if (Array.isArray(input)) {
+		return input.sort();
+	}
+
+	if (typeof input === 'object') {
+		return keysSorter(Object.keys(input))
+			.sort((a, b) => Number(a) - Number(b))
+			.map(key => input[key]);
+	}
+
+	return input;
+}
+
+function removeHash(input) {
+	const hashStart = input.indexOf('#');
+	if (hashStart !== -1) {
+		input = input.slice(0, hashStart);
+	}
+
+	return input;
+}
+
+function getHash(url) {
+	let hash = '';
+	const hashStart = url.indexOf('#');
+	if (hashStart !== -1) {
+		hash = url.slice(hashStart);
+	}
+
+	return hash;
+}
+
+function extract(input) {
+	input = removeHash(input);
+	const queryStart = input.indexOf('?');
+	if (queryStart === -1) {
+		return '';
+	}
+
+	return input.slice(queryStart + 1);
+}
+
+function parseValue(value, options) {
+	if (options.parseNumbers && !Number.isNaN(Number(value)) && (typeof value === 'string' && value.trim() !== '')) {
+		value = Number(value);
+	} else if (options.parseBooleans && value !== null && (value.toLowerCase() === 'true' || value.toLowerCase() === 'false')) {
+		value = value.toLowerCase() === 'true';
+	}
+
+	return value;
+}
+
+function parse(query, options) {
+	options = Object.assign({
+		decode: true,
+		sort: true,
+		arrayFormat: 'none',
+		arrayFormatSeparator: ',',
+		parseNumbers: false,
+		parseBooleans: false
+	}, options);
+
+	validateArrayFormatSeparator(options.arrayFormatSeparator);
+
+	const formatter = parserForArrayFormat(options);
+
+	// Create an object with no prototype
+	const ret = Object.create(null);
+
+	if (typeof query !== 'string') {
+		return ret;
+	}
+
+	query = query.trim().replace(/^[?#&]/, '');
+
+	if (!query) {
+		return ret;
+	}
+
+	for (const param of query.split('&')) {
+		if (param === '') {
+			continue;
+		}
+
+		let [key, value] = splitOnFirst(options.decode ? param.replace(/\+/g, ' ') : param, '=');
+
+		// Missing `=` should be `null`:
+		// http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+		value = value === undefined ? null : ['comma', 'separator'].includes(options.arrayFormat) ? value : decode(value, options);
+		formatter(decode(key, options), value, ret);
+	}
+
+	for (const key of Object.keys(ret)) {
+		const value = ret[key];
+		if (typeof value === 'object' && value !== null) {
+			for (const k of Object.keys(value)) {
+				value[k] = parseValue(value[k], options);
+			}
+		} else {
+			ret[key] = parseValue(value, options);
+		}
+	}
+
+	if (options.sort === false) {
+		return ret;
+	}
+
+	return (options.sort === true ? Object.keys(ret).sort() : Object.keys(ret).sort(options.sort)).reduce((result, key) => {
+		const value = ret[key];
+		if (Boolean(value) && typeof value === 'object' && !Array.isArray(value)) {
+			// Sort object keys, not values
+			result[key] = keysSorter(value);
+		} else {
+			result[key] = value;
+		}
+
+		return result;
+	}, Object.create(null));
+}
+
+exports.extract = extract;
+exports.parse = parse;
+
+exports.stringify = (object, options) => {
+	if (!object) {
+		return '';
+	}
+
+	options = Object.assign({
+		encode: true,
+		strict: true,
+		arrayFormat: 'none',
+		arrayFormatSeparator: ','
+	}, options);
+
+	validateArrayFormatSeparator(options.arrayFormatSeparator);
+
+	const shouldFilter = key => (
+		(options.skipNull && isNullOrUndefined(object[key])) ||
+		(options.skipEmptyString && object[key] === '')
+	);
+
+	const formatter = encoderForArrayFormat(options);
+
+	const objectCopy = {};
+
+	for (const key of Object.keys(object)) {
+		if (!shouldFilter(key)) {
+			objectCopy[key] = object[key];
+		}
+	}
+
+	const keys = Object.keys(objectCopy);
+
+	if (options.sort !== false) {
+		keys.sort(options.sort);
+	}
+
+	return keys.map(key => {
+		const value = object[key];
+
+		if (value === undefined) {
+			return '';
+		}
+
+		if (value === null) {
+			return encode(key, options);
+		}
+
+		if (Array.isArray(value)) {
+			return value
+				.reduce(formatter(key), [])
+				.join('&');
+		}
+
+		return encode(key, options) + '=' + encode(value, options);
+	}).filter(x => x.length > 0).join('&');
+};
+
+exports.parseUrl = (url, options) => {
+	options = Object.assign({
+		decode: true
+	}, options);
+
+	const [url_, hash] = splitOnFirst(url, '#');
+
+	return Object.assign(
+		{
+			url: url_.split('?')[0] || '',
+			query: parse(extract(url), options)
+		},
+		options && options.parseFragmentIdentifier && hash ? {fragmentIdentifier: decode(hash, options)} : {}
+	);
+};
+
+exports.stringifyUrl = (object, options) => {
+	options = Object.assign({
+		encode: true,
+		strict: true
+	}, options);
+
+	const url = removeHash(object.url).split('?')[0] || '';
+	const queryFromUrl = exports.extract(object.url);
+	const parsedQueryFromUrl = exports.parse(queryFromUrl, {sort: false});
+
+	const query = Object.assign(parsedQueryFromUrl, object.query);
+	let queryString = exports.stringify(query, options);
+	if (queryString) {
+		queryString = `?${queryString}`;
+	}
+
+	let hash = getHash(object.url);
+	if (object.fragmentIdentifier) {
+		hash = `#${encode(object.fragmentIdentifier, options)}`;
+	}
+
+	return `${url}${queryString}${hash}`;
+};
+
+exports.pick = (input, filter, options) => {
+	options = Object.assign({
+		parseFragmentIdentifier: true
+	}, options);
+
+	const {url, query, fragmentIdentifier} = exports.parseUrl(input, options);
+	return exports.stringifyUrl({
+		url,
+		query: filterObject(query, filter),
+		fragmentIdentifier
+	}, options);
+};
+
+exports.exclude = (input, filter, options) => {
+	const exclusionFilter = Array.isArray(filter) ? key => !filter.includes(key) : (key, value) => !filter(key, value);
+
+	return exports.pick(input, exclusionFilter, options);
+};
 
 
 /***/ }),
@@ -38638,6 +42542,64 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopDefault(e){return e&&"object"==typeof e&&"default"in e?e.default:e}Object.defineProperty(exports,"__esModule",{value:!0});var React=_interopDefault(__webpack_require__(/*! react */ "react"));function AppContainer(e){return AppContainer.warnAboutHMRDisabled&&(AppContainer.warnAboutHMRDisabled=!0,console.error("React-Hot-Loader: misconfiguration detected, using production version in non-production environment."),console.error("React-Hot-Loader: Hot Module Replacement is not enabled.")),React.Children.only(e.children)}AppContainer.warnAboutHMRDisabled=!1;var hot=function e(){return e.shouldWrapWithAppContainer?function(e){return function(n){return React.createElement(AppContainer,null,React.createElement(e,n))}}:function(e){return e}};hot.shouldWrapWithAppContainer=!1;var areComponentsEqual=function(e,n){return e===n},setConfig=function(){},cold=function(e){return e},configureComponent=function(){};exports.AppContainer=AppContainer,exports.hot=hot,exports.areComponentsEqual=areComponentsEqual,exports.setConfig=setConfig,exports.cold=cold,exports.configureComponent=configureComponent;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-hot-loader/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-hot-loader/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else if (false) {} else if (typeof window === 'undefined') {
+  // this is just server environment
+  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
+} else if (true) {
+  module.exports = __webpack_require__(/*! ./dist/react-hot-loader.production.min.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
+  module.exports.AppContainer.warnAboutHMRDisabled = true;
+  module.exports.hot.shouldWrapWithAppContainer = true;
+} else { var jsFeaturesPresent, evalError, evalAllowed; }
+
+
+/***/ }),
+
+/***/ "./node_modules/react-hot-loader/root.js":
+/*!***********************************************!*\
+  !*** ./node_modules/react-hot-loader/root.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+if (true) {
+  var hot = __webpack_require__(/*! ./index */ "./node_modules/react-hot-loader/index.js").hot;
+  if (false) { var parent, cache; } else {
+    fallbackHot();
+  }
+} else {}
+
+function fallbackHot() {
+  exports.hot = function (a) {
+    return a;
+  };
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -40113,6 +44075,54 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/split-on-first/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/split-on-first/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = (string, separator) => {
+	if (!(typeof string === 'string' && typeof separator === 'string')) {
+		throw new TypeError('Expected the arguments to be of type `string`');
+	}
+
+	if (separator === '') {
+		return [string];
+	}
+
+	const separatorIndex = string.indexOf(separator);
+
+	if (separatorIndex === -1) {
+		return [string];
+	}
+
+	return [
+		string.slice(0, separatorIndex),
+		string.slice(separatorIndex + separator.length)
+	];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/strict-uri-encode/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/strict-uri-encode/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.charCodeAt(0).toString(16).toUpperCase()}`);
+
+
+/***/ }),
+
 /***/ "./node_modules/styled-system/dist/index.esm.js":
 /*!******************************************************!*\
   !*** ./node_modules/styled-system/dist/index.esm.js ***!
@@ -40535,6 +44545,39 @@ var BaseStyles = function BaseStyles(props) {
 
 /***/ }),
 
+/***/ "./public/page-data/sq/d/2575348879.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/2575348879.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"allSite\":{\"edges\":[{\"node\":{\"siteMetadata\":{\"title\":\"Document by nhtam@gmail.com\",\"name\":\"Code Bushi\",\"siteUrl\":\"https://codebushi.com\",\"description\":\"This is my description that will be used in the meta tags and important for search results\",\"social\":[{\"name\":\"github\",\"url\":\"https://github.com/codebushi\"},{\"name\":\"twitter\",\"url\":\"https://twitter.com/HuntaroSan\"}]}}}]}}}");
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/2936798523.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/2936798523.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"allSite\":{\"edges\":[{\"node\":{\"siteMetadata\":{\"social\":[{\"name\":\"github\",\"url\":\"https://github.com/codebushi\"},{\"name\":\"twitter\",\"url\":\"https://twitter.com/HuntaroSan\"}]}}}]}}}");
+
+/***/ }),
+
+/***/ "./public/page-data/sq/d/2940813629.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/2940813629.json ***!
+  \***********************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":{\"allSite\":{\"edges\":[{\"node\":{\"siteMetadata\":{\"sidebarConfig\":{\"forcedNavOrder\":[\"/introduction\",\"/document\",\"/codeblock\"],\"ignoreIndex\":true}}}}]},\"allMdx\":{\"edges\":[{\"node\":{\"fields\":{\"slug\":\"/codeblock\",\"title\":\"Codeblock\"}}},{\"node\":{\"fields\":{\"slug\":\"/command\",\"title\":\"Command\"}}},{\"node\":{\"fields\":{\"slug\":\"/\",\"title\":\"Document by Code Bushi\"}}},{\"node\":{\"fields\":{\"slug\":\"/command/mac\",\"title\":\"Mac\"}}},{\"node\":{\"fields\":{\"slug\":\"/introduction\",\"title\":\"Introduction\"}}},{\"node\":{\"fields\":{\"slug\":\"/command/windown\",\"title\":\"Windown\"}}},{\"node\":{\"fields\":{\"slug\":\"/document\",\"title\":\"Document\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/\\bmysql\",\"title\":\"Mysql\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/Elasticsearch\",\"title\":\"Elasticsearch\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/docker\",\"title\":\"Docker\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/heroku\",\"title\":\"Heroku\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/react\",\"title\":\"React\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/redis\",\"title\":\"Redis\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/subpage-2\",\"title\":\"Sub Page 2\"}}},{\"node\":{\"fields\":{\"slug\":\"/codeblock/python\",\"title\":\"Python\"}}}]}}}");
+
+/***/ }),
+
 /***/ "./src/gatsby-plugin-theme-ui/colors.js":
 /*!**********************************************!*\
   !*** ./src/gatsby-plugin-theme-ui/colors.js ***!
@@ -40610,11 +44653,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 const headingBase = {
   fontFamily: 'heading',
   lineHeight: 'heading',
@@ -40668,11 +44708,8 @@ var _theme_ui_prism_presets_night_owl_json__WEBPACK_IMPORTED_MODULE_1___namespac
 /* harmony import */ var _colors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./colors */ "./src/gatsby-plugin-theme-ui/colors.js");
 /* harmony import */ var _headings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./headings */ "./src/gatsby-plugin-theme-ui/headings.js");
 
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 
 
@@ -40757,10 +44794,56 @@ const systemFonts = "-apple-system, BlinkMacSystemFont, San Francisco, Helvetica
 
 /***/ }),
 
+/***/ "./src/gatsby-theme-document/logo.mdx":
+/*!********************************************!*\
+  !*** ./src/gatsby-theme-document/logo.mdx ***!
+  \********************************************/
+/*! exports provided: _frontmatter, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_frontmatter", function() { return _frontmatter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "./node_modules/@mdx-js/react/dist/esm.js");
+/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/core */ "./node_modules/@emotion/core/dist/core.esm.js");
+
+
+const _excluded = ["components"];
+
+/* @jsx mdx */
+
+/* @jsxRuntime classic */
+/* @jsx mdx */
+
+const _frontmatter = {};
+const layoutProps = {
+  _frontmatter
+};
+const MDXLayout = "wrapper";
+function MDXContent(_ref) {
+  let {
+      components
+    } = _ref,
+    props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", null, `Document`));
+}
+;
+MDXContent.isMDXComponent = true;
+
+/***/ }),
+
 /***/ "@reach/router":
-/*!*************************************************************************************************!*\
-  !*** external "/Users/user/Documents/Source_demo/document/node_modules/@reach/router/index.js" ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/@reach/router/index.js" ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -40779,14 +44862,69 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 
 /***/ }),
 
+/***/ "lodash/concat":
+/*!**********************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/concat.js" ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_concat__;
+
+/***/ }),
+
+/***/ "lodash/flatten":
+/*!***********************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/flatten.js" ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_flatten__;
+
+/***/ }),
+
+/***/ "lodash/get":
+/*!*******************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/get.js" ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_get__;
+
+/***/ }),
+
+/***/ "lodash/isObject":
+/*!************************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/isObject.js" ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_isObject__;
+
+/***/ }),
+
 /***/ "lodash/merge":
-/*!******************************************************************************************!*\
-  !*** external "/Users/user/Documents/Source_demo/document/node_modules/lodash/merge.js" ***!
-  \******************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/merge.js" ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_merge__;
+
+/***/ }),
+
+/***/ "lodash/uniqBy":
+/*!**********************************************************************************************!*\
+  !*** external "/Users/macos/Documents/Sources/Local/document/node_modules/lodash/uniqBy.js" ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_lodash_uniqBy__;
 
 /***/ }),
 

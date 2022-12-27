@@ -5,3 +5,5 @@ package-lock.json
 
 .cache/
 yarn.lock
+
+.public

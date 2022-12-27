@@ -4,6 +4,7 @@ module.exports = {
     sidebarConfig: {
       forcedNavOrder: [
         "/introduction",
+        "/document",
         "/codeblock",
       ],
       ignoreIndex: true
