@@ -7,3 +7,16 @@ description: 'This is the meta description for this page'
 CREATE SCHEMA `laravel-api` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci; // Create new DB 
 
 ```
+
+### Mysql Check duplicate Data
+```
+select   userId, announcementId, 
+         count(*)
+from     webtt_new.UserReadAnnouncement
+
+group by userId, announcementId
+having   count(*) > 1
+
+
+```
+
