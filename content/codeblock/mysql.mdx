@@ -6,6 +6,14 @@ description: 'This is the meta description for this page'
 ```bash
 CREATE SCHEMA `laravel-api` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci; // Create new DB 
 
+CREATE DATABASE `nodeExpress` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; // set pass cho user
+flush privileges;
+
+show processlist;
+show variables like "max_connections";
+
 ```
 
 ### Mysql Check duplicate Data
@@ -29,3 +37,5 @@ const pool = mysql.createPoll({
 
 
 ```
+
+
