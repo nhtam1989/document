@@ -7,3 +7,16 @@ CLI Redis
 ```bash
 redis-cli flushall # clear cache redis
 ```
+
+
+
+
+RabbitMQ
+
+```
+rabbitmqadmin list queues // list queues
+
+rabbitmqadmin -f tsv -q list queues name > q.txt // ghi queue ra file q.txt
+
+while read -r name; do rabbitmqadmin -q delete queue name="${name}"; done < q.txt 
+```
