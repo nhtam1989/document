@@ -17,6 +17,18 @@ useContext
 
 ```
 func callBack dùng để xử lý bất đồng bộ ( nếu dùng callBack func dễ bị callBack hell ())
+nếu dùng callback trong callBack sẽ gọi là callback hell ( callBack vô tận )
 
-cách khác là dùng promise để xử lý về bất đồng bộ 
+cách khác là dùng promise và async-await để xử lý bất đồng bộ.
+
+
+
+
+Do NodeJs chạy đơn luồng nên các xử lý liên quan tới CPU sẽ làm ảnh hưởng tới tốc độ xử lý của NodeJs
+Các xử lý đó bao gồm:
+- Mã hóa dữ liệu
+- Nén dữ liệu
+- Xử lý json dung lượng lớn
+- Vòng lặp lồng nhau
+
 ```
