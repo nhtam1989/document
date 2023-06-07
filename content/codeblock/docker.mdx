@@ -146,3 +146,12 @@ services:
         env_file:
             - ./.env
 ```
+
+### Setup Elasticsearch 
+```bash
+
+-e "discovery.type=single-node" -e "xpack.security.enabled=false" // remove set password
+    
+docker run --name es-for-tap -d -p 9201:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.8.0
+```
+
