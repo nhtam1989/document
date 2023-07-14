@@ -155,3 +155,66 @@ services:
 docker run --name es-for-tap -d -p 9201:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.8.0
 ```
 
+
+### Create file docker-compose.yml
+```
+version: '3.3'
+
+services:
+  redis:
+    image: redis:alpine
+    restart: always
+    container_name: TAP_Redis
+    ports:
+      - "6379:6379"
+    volumes:
+     - ./config/redis.conf:/usr/local/etc/redis/redis.conf
+  db:
+    container_name: TAP_DB
+    image: mysql:5.7@sha256:8662f14f7b7cb7ab1fd45595d6057278f9405bec0de7b494b14157ed5f6c3038
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+  wp:
+    container_name: TAP_Wordpress
+    depends_on:
+      - db
+      - redis
+    build: 
+      context: .
+      dockerfile: Dockerfile-local
+      args:
+        - WORDPRESS_VERSION=6.2.2
+    ports:
+      - "80:80"
+    volumes:
+      - ./wp-app:/var/www/html/wp-content
+      - ./config/ssl:/etc/apache2/ssl
+      - ./config/wp-config.php:/var/www/html/wp-config.php
+      - ./config/local.env:/var/www/html/.env
+      - ./uploads:/var/www/html/wp-content/uploads
+      - ./data:/var/www/html/data
+      - ./import_db.sh:/var/www/html/import_db.sh
+    restart: always
+  phpmyadmin:
+    container_name: TAP_PHPMyAdmin
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - "8081:80"
+    links:
+      - db:db
+volumes:
+    db_data: {}
+```
+
+
+
+
+
+
+
