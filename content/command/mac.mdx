@@ -31,3 +31,46 @@ cp -f "$pcre2_h" "$(brew --cellar php@8.0)"/*/include/php/ext/pcre
 
 
 
+lệnh steup software cho Mac
+```
+#!/bin/bash
+
+# Cài đặt Visual Studio Code
+echo "Cài đặt Visual Studio Code..."
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install -y code
+
+# Cài đặt Docker
+echo "Cài đặt Docker..."
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get update
+sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
+sudo usermod -aG docker $USER
+
+# Cài đặt Google Chrome
+echo "Cài đặt Google Chrome..."
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt-get install -f
+
+# Cài đặt Skype
+echo "Cài đặt Skype..."
+wget https://go.skype.com/skypeforlinux-64.deb
+sudo dpkg -i skypeforlinux-64.deb
+sudo apt-get install -f
+
+# Cài đặt MySQL Workbench
+echo "Cài đặt MySQL Workbench..."
+sudo apt-get install -y mysql-workbench
+
+echo "Cài đặt hoàn tất."
+```
+
+
+
