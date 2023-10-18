@@ -214,7 +214,131 @@ volumes:
 
 
 
+### Create file for PHP ( laravel )
 
 
+### Create Dockerfile
+```
+#Dockerfile
+FROM php:8.2.0-fpm-alpine
+LABEL Description="Lightweight container with Nginx 1.20 & PHP 8.2 based on Alpine Linux."
+
+# Install packages and remove default server definition
+
+RUN apk update
+RUN apk add bash
+RUN apk add curl
+
+RUN apk add --no-cache mysql-client msmtp perl wget procps shadow libzip libpng libjpeg-turbo libwebp freetype icu imagemagick imagemagick-dev
+
+RUN apk add --no-cache --virtual .build-deps \
+    g++ make autoconf
+
+RUN apk add --no-cache --virtual build-essentials \
+    icu-dev icu-libs zlib-dev g++ make automake autoconf libzip-dev \
+    libpng-dev libwebp-dev libjpeg-turbo-dev freetype-dev && \
+    docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg --with-webp && \
+    docker-php-ext-install gd && \
+    docker-php-ext-install mysqli && \
+    docker-php-ext-install pdo_mysql && \
+    docker-php-ext-install intl && \
+    docker-php-ext-install opcache && \
+    docker-php-ext-install exif && \
+    docker-php-ext-install zip && \
+    pecl install imagick && \
+    docker-php-ext-enable imagick && \
+    apk del build-essentials && rm -rf /usr/src/php* && \
+    apk add openssl openssl-dev && \
+    # apk add libressl libressl-dev && \
+    pecl install mongodb && \
+    docker-php-ext-enable mongodb && \
+    pecl install redis && \
+    docker-php-ext-enable redis && \
+    pecl config-set php_ini /etc/php.ini
+
+# INSTALL COMPOSER
+RUN curl -s https://getcomposer.org/installer | php
+RUN alias composer='php composer.phar'
+RUN mv composer.phar /usr/local/bin/composer
+
+RUN apk add nginx supervisor
+```
+
+
+
+
+
+### Create docker-compose.yaml file
+```
+# docker-compose.yaml
+# Please Stop the corresponding services working on your system
+# sudo apt-get install docker-compose
+# docker-compose --version
+version: "3.7"
+services:
+    otp-prod:
+        build:
+            context: ./
+            dockerfile: Dockerfile-local
+        restart: unless-stopped
+        environment:
+            SERVICE_NAME: otp-prod
+            SERVICE_TAGS: dev
+        ports:
+            - 8089:8080
+        volumes:
+            - ./:/var/www/html
+            - ./vendor:/var/www/html/vendor
+        links:
+            - mysql
+        networks:
+            - otp-network
+    mysql:
+        image: mysql:5.7
+        cap_add:
+            - SYS_NICE
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: 'password'
+            MYSQL_DATABASE: 'ms_otp_service_db'
+            #MYSQL_USER: 'root'
+            MYSQL_PASSWORD: 'password'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+        volumes:
+          - type: volume
+            source: mysql-data
+            target: /var/lib/mysql
+        networks:
+            - otp-network
+    phpmyadmin:
+        image: phpmyadmin
+        links:
+            - mysql
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: 3306
+            PMA_ARBITRARY: 1
+        restart: always
+        ports:
+            - 8084:80
+        networks:
+            - otp-network
+    redis:
+        image: 'redis:alpine'
+        ports:
+            - '6379:6379'
+        networks:
+            - otp-network
+            
+volumes:
+    mysql-data:
+
+networks:
+    otp-network:
+        driver: bridge
+```
 
 
